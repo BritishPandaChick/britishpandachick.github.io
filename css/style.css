@@ -34,9 +34,9 @@ header {
 
 header h1 {
   font-family: 'Over the Rainbow', cursive;
-  font-size: 35px;
-  padding: 30px 0;
-  color: #385001;
+  font-size: 52px;
+  padding: 10px 0;
+  color: #558976;
 }
 
 nav {
@@ -52,7 +52,7 @@ nav ul li {
 nav ul li a {
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 32px;
   color: #558976;
   padding: 15px
 }
@@ -65,37 +65,38 @@ header h2 {
   width: 1000px;
   clear: both;
   font-family: 'Over the Rainbow', cursive;
-  font-size: 72px;
+  font-size: 42px;
   padding: 60px 0px;
-  color: #558976;
+  color: #385001;
   line-height: 80px;
-  margin-left: 255px;
+  margin-left: 285px;
 }
 
 header h2 span {
-  color: #9dac38;
+  color: #558976;
 }
 
 /* About Sarah*/
 
 #about {
   background-color: #558976;
+  height: 660px;
 }
 
 #about .full-width {
-  padding: 40px 0;
+  padding: 10px 0;
 }
 
 #about h2 {
   font-family: 'Over the Rainbow';
-  font-size: 36px;
+  font-size: 42px;
   color: #fdfcfb;
 }
 
 #about p {
   font-size: 20px;
   line-height: 42px;
-  padding-right: 50px;
+  padding-left: 30px;
   color: #fdfcfb;
 }
 
@@ -105,30 +106,25 @@ header h2 span {
 
 /* Portfolio */
 #portfolio {
-  background-color: #f6f2ea;
-  height: 900px;
+    background-color: #fdfcfb;
 }
-
 #portfolio .full-width {
-  padding: 75px 0;
+  padding: 35px 0;
 }
 
 #portfolio img {
   padding-bottom: 30px;
+  width: 300px;
 }
 
 #portfolio h2 {
   font-family: 'Over the Rainbow';
-  font-size: 36px;
+  font-size: 42px;
   color: #558976;
 }
 
 #portfolio h3 {
   font-size: 30px;
-}
-
-#portfolio img {
-  width: 300px;
 }
 
 /* Contact */
@@ -137,12 +133,12 @@ header h2 span {
 }
 
 #contact h2, h3, p, ul {
-    padding-left: 55px;
+    padding-left: 15px;
 }
 
 #contact h2 {
   font-family: 'Over the Rainbow';
-  font-size: 36px;
+  font-size: 42px;
   color: #558976;
 }
 
@@ -163,19 +159,6 @@ header h2 span {
   margin-left: 125px;
 }
 
-#contact ul {
-  list-style: none;
-}
-
-#contact ul li {
-  display: inline-block;
-}
-
-#contact ul li img {
-  text-decoration: none;
-  padding-left: 5px;
-}
-
 /* Footer */
 footer {
     padding-top: 5px;
@@ -183,6 +166,20 @@ footer {
 }
 
 footer p {
-	font-size: 15px;
-    color: #558976;
+    font-size: 15px;
+  color: #558976;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+footer ul li i {
+  text-decoration: none;
+  padding-left: 5px;
+  color: #558976;
 }
