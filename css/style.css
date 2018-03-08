@@ -4,10 +4,6 @@ body {
   background-color: #fdfcfb;
 }
 
-#about, #contact {
-  height: 500px;
-}
-
 /* Grid System */
 .full-width {
   width: 1200px;
@@ -25,7 +21,6 @@ body {
 }
 
 /* Header */
-
 header {
   height: 800px;
   background: url("../img/computer.jpg");
@@ -35,8 +30,7 @@ header {
 header h1 {
   font-family: 'Over the Rainbow', cursive;
   font-size: 52px;
-  padding: 10px 0;
-  color: #558976;
+  color: #385001;
 }
 
 nav {
@@ -53,7 +47,7 @@ nav ul li a {
   text-transform: uppercase;
   text-decoration: none;
   font-size: 32px;
-  color: #558976;
+  color: #385001;
   padding: 15px
 }
 
@@ -62,7 +56,7 @@ nav ul li a:hover {
 }
 
 header h2 {
-  width: 1000px;
+  width: 900px;
   clear: both;
   font-family: 'Over the Rainbow', cursive;
   font-size: 42px;
@@ -72,15 +66,10 @@ header h2 {
   margin-left: 285px;
 }
 
-header h2 span {
-  color: #558976;
-}
-
 /* About Sarah*/
-
 #about {
   background-color: #558976;
-  height: 660px;
+  height: 700px;
 }
 
 #about .full-width {
@@ -93,21 +82,32 @@ header h2 span {
   color: #fdfcfb;
 }
 
+#about img {
+  height: 400px;
+  padding-left: 70px;
+}
+
 #about p {
   font-size: 20px;
   line-height: 42px;
-  padding-left: 30px;
   color: #fdfcfb;
+  padding-top: 5px;
 }
 
 #about a {
-    color: #f6f2ea;
+  color: #f6f2ea;
+}
+
+#about a:hover {
+  color: #9dac38;
 }
 
 /* Portfolio */
 #portfolio {
-    background-color: #fdfcfb;
+  background-color: #fdfcfb;
+  height: 600px;
 }
+
 #portfolio .full-width {
   padding: 35px 0;
 }
@@ -120,14 +120,26 @@ header h2 span {
 #portfolio h2 {
   font-family: 'Over the Rainbow';
   font-size: 42px;
-  color: #558976;
+  color: #385001;
 }
 
 #portfolio h3 {
   font-size: 30px;
 }
 
+#portfolio ul {
+  padding-left: 25px;
+}
+
+#portfolio ul li {
+  font-size: 20px;
+}
+
 /* Contact */
+#contact {
+  height: 500px;
+}
+
 #contact .full-width {
   padding: 100px 0;
 }
@@ -151,7 +163,11 @@ header h2 span {
 }
 
 #contact a {
-   color: #558976;
+   color: #385001;
+}
+
+#contact a:hover {
+  color: #9dac38;
 }
 
 #contact #phone {
@@ -161,13 +177,13 @@ header h2 span {
 
 /* Footer */
 footer {
-    padding-top: 5px;
-    height: 10px;
+  height: 50px;
+  background: #558976;
 }
 
 footer p {
-    font-size: 15px;
-  color: #558976;
+  font-size: 15px;
+  color: #f6f2ea;
 }
 
 footer ul {
@@ -180,6 +196,10 @@ footer ul li {
 
 footer ul li i {
   text-decoration: none;
-  padding-left: 5px;
-  color: #558976;
+  padding-left: 15px;
+  color: #f6f2ea;
+}
+
+footer ul li i:hover {
+  color: #9dac38;
 }
