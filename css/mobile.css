@@ -1,0 +1,152 @@
+/* http://colorpalettes.net/color-palette-2151/
+/* Basic Styles */
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: #fdfcfb;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+header {
+  background: url("../img/computer.jpg");
+  background-size: cover;
+  height: 500px;
+}
+
+header h1 {
+  font-size: 42px;
+  font-family: 'Over the Rainbow', cursive;
+  color: #385001;
+}
+
+header nav ul li {
+  display: inline-block;
+  font-weight: bold;
+}
+
+header nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 22px;
+  color: #f6f2ea;
+  padding: 10px;
+}
+
+header nav ul li a:hover {
+  color: #fdfcfb;
+}
+
+header h2 {
+  font-size: 32px;
+  color: #9dac38;
+  font-family: 'Over the Rainbow', cursive;
+}
+
+/* About Sarah */
+#about {
+  background-color: #558976;
+  height: 900px;
+}
+
+#about h2 {
+  font-size: 32px;
+  font-family: 'Over the Rainbow', cursive;
+  color: #fdfcfb;
+}
+
+#about img {
+  height: 330px;
+}
+
+#about p {
+  font-size: 20px;
+  color: #fdfcfb;
+}
+
+#about a {
+  color: #f6f2ea;
+}
+
+#about a:hover {
+  color: #9dac38;
+}
+
+/* Portfolio */
+#portfolio {
+  height: 900px;
+}
+
+#portfolio img {
+  width: 375px;
+}
+
+#portfolio h2 {
+  font-size: 32px;
+  color: #385001;
+  font-family: 'Over the Rainbow', cursive;
+}
+
+#portfolio h3 {
+  font-size: 22px;
+}
+
+#portfolio ul li {
+  font-size: 20px;
+}
+
+/* Contact */
+#contact {
+  height: 500px;
+  color: #558976;
+}
+
+#contact h2 {
+  font-family: 'Over the Rainbow', cursive;
+  font-size: 32px;
+  color: #385001;
+}
+
+#contact p {
+  font-size: 20px;
+}
+
+#contact a {
+  color: #385001;
+}
+
+#contact a:hover {
+  color: #9dac38;
+}
+
+#contact img {
+  height: 300px;
+}
+
+/* Footer */
+footer {
+  height: 100px;
+  background: #558976;
+}
+
+footer p {
+  font-size: 15px;
+  color: #f6f2ea;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+footer ul li i {
+  text-decoration: none;
+  color: #f6f2ea;
+  padding-left: 15px;
+}
+
+footer ul li i:hover {
+  color: #9dac38;
+}
