@@ -1,1 +1,70 @@
-ÿþ
+/* Base Styles */
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: #fdfcfb;
+}
+
+.container {
+  display: flex;
+}
+
+/* Grid System */
+.full-width {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 50%;
+  float: left;
+}
+
+.third-width {
+  width: 40%;
+  float: left;
+}
+
+/* Header */
+header {
+  background: url("../img/computer.jpg");
+  background-size: cover;
+  height: 600px;
+}
+
+header h1 {
+  font-size: 42px;
+  font-family: 'Over the Rainbow', cursive;
+  color: #385001;
+}
+
+header nav {
+  float: right;
+  padding: 30px 0;
+}
+
+header nav ul li {
+  font-weight: bold;
+  display: inline-block;
+}
+
+header nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 20px;
+  color: #385001;
+  padding-left: 15px;
+}
+
+header nav ul li a:hover {
+  color: #9dac38;
+}
+
+header h2 {
+  clear: both;
+  width: 600px;
+  font-size: 22px;
+  line-height: 80px;
+  margin-left: 285px;
+  color: #9dac38;
+  font-family: 'Over the Rainbow', cursive;
+}

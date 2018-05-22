@@ -14,7 +14,7 @@ body {
 header {
   background: url("../img/computer.jpg");
   background-size: cover;
-  height: 500px;
+  height: 550px;
 }
 
 header h1 {
@@ -24,20 +24,19 @@ header h1 {
 }
 
 header nav ul li {
-  display: inline-block;
   font-weight: bold;
+  list-style: none;
 }
 
 header nav ul li a {
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 22px;
-  color: #f6f2ea;
-  padding: 10px;
+  font-size: 20px;
+  color: #fdfcfb;
 }
 
 header nav ul li a:hover {
-  color: #fdfcfb;
+  color: #f6f2ea;
 }
 
 header h2 {
@@ -49,7 +48,7 @@ header h2 {
 /* About Sarah */
 #about {
   background-color: #558976;
-  height: 900px;
+  height: 100%;
 }
 
 #about h2 {
@@ -60,11 +59,13 @@ header h2 {
 
 #about img {
   height: 330px;
+  padding-left: 65px;
 }
 
 #about p {
   font-size: 20px;
   color: #fdfcfb;
+  line-height: 32px;
 }
 
 #about a {
@@ -77,7 +78,7 @@ header h2 {
 
 /* Portfolio */
 #portfolio {
-  height: 900px;
+  height: 100%;
 }
 
 #portfolio img {
@@ -96,11 +97,12 @@ header h2 {
 
 #portfolio ul li {
   font-size: 20px;
+  padding-bottom: 15px;
 }
 
 /* Contact */
 #contact {
-  height: 500px;
+  height: 100%;
   color: #558976;
 }
 
@@ -124,29 +126,30 @@ header h2 {
 
 #contact img {
   height: 300px;
+  padding-left: 65px;
 }
 
 /* Footer */
 footer {
-  height: 100px;
+  height: 30%;
   background: #558976;
 }
 
 footer p {
-  font-size: 15px;
+  font-size: 16px;
   color: #f6f2ea;
 }
 
-footer ul li {
+footer nav ul li {
   display: inline-block;
 }
 
-footer ul li i {
+footer nav ul li i {
   text-decoration: none;
   color: #f6f2ea;
-  padding-left: 15px;
+  padding-left: 10px;
 }
 
-footer ul li i:hover {
+footer nav ul li i:hover {
   color: #9dac38;
 }
