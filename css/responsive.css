@@ -4,6 +4,10 @@ body {
   background-color: #fdfcfb;
 }
 
+img {
+  max-width: 100%;
+}
+
 /* Grid System */
 .full-width {
   width: 100%;
@@ -16,15 +20,15 @@ body {
 }
 
 .third-width {
-  width: 33.3%;
+  width: 30%;
   float: left;
 }
 
 /* Header */
 header {
-  height: 600px;
   background: url("../img/computer.jpg");
   background-size: cover;
+  height: 800px;
 }
 
 header h1 {
@@ -33,30 +37,29 @@ header h1 {
   color: #385001;
 }
 
-nav {
+header nav {
   float: right;
   padding: 40px 0;
 }
 
-nav ul li {
+header nav ul li {
   display: inline-block;
   font-weight: bold;
 }
 
-nav ul li a {
+header nav ul li a {
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 22px;
+  font-size: 20px;
   color: #385001;
-  padding: 15px
+  padding: 15px;
 }
 
-nav ul li a:hover {
+header nav ul li a:hover {
   color: #9dac38;
 }
 
 header h2 {
-  width: 70%;
   clear: both;
   font-family: 'Over the Rainbow', cursive;
   font-size: 32px;
@@ -69,11 +72,8 @@ header h2 {
 /* About */
 #about {
   background-color: #558976;
-  height: 720px;
-}
-
-#about .full-width {
-  padding: 15px 0;
+  height: 800px;
+  padding-top: 25px;
 }
 
 #about h2 {
@@ -84,7 +84,7 @@ header h2 {
 
 #about img {
   height: 400px;
-  padding: 30px 0px 0px 50px;
+  padding: 25px;
 }
 
 #about p {
@@ -105,15 +105,18 @@ header h2 {
 /* Portfolio */
 #portfolio {
   background-color: #fdfcfb;
-  height: 600px;
+  height: 500px;
 }
 
 #portfolio .full-width {
-  padding: 30px 0;
+  padding: 15px 0;
+}
+
+#portfolio .third-width {
+  padding-right: 25px;
 }
 
 #portfolio img {
-  width: 250px;
   padding-bottom: 30px;
 }
 
@@ -124,12 +127,12 @@ header h2 {
 }
 
 #portfolio h3 {
-  font-size: 30px;
+  font-size: 22px;
   margin: 0 auto;
 }
 
 #portfolio ul {
-  padding-left: 25px;
+  padding-left: 15px;
 }
 
 #portfolio ul li {
@@ -138,11 +141,11 @@ header h2 {
 
 /* Contact */
 #contact {
-  height: 550px;
+  height: 500px;
 }
 
 #contact .full-width {
-  padding: 40px 0;
+  padding: 50px 0;
 }
 
 #contact h2 {
@@ -170,18 +173,22 @@ header h2 {
 
 #contact #phone {
   border: 12px solid #f6f2ea;
-  margin-left: 25px;
+  margin-top: 25px;
 }
 
 /* Footer */
 footer {
   background: #558976;
-  height: 100px;
+  height: 50px;
 }
 
 footer p {
   font-size: 15px;
   color: #f6f2ea;
+}
+
+footer nav {
+  float: left;
 }
 
 footer nav ul li {
@@ -190,10 +197,10 @@ footer nav ul li {
 
 footer nav ul li i {
   text-decoration: none;
-  padding-left: 15px;
   color: #f6f2ea;
+  padding-left: 15px;
 }
 
-footer ul li i:hover {
+footer nav ul li i:hover {
   color: #9dac38;
 }
