@@ -37,17 +37,17 @@ header h1 {
   color: #385001;
 }
 
-nav {
+header nav {
   float: right;
   padding: 50px 0;
 }
 
-nav ul li {
+header nav ul li {
   display: inline-block;
   font-weight: bold;
 }
 
-nav ul li a {
+header nav ul li a {
   text-transform: uppercase;
   text-decoration: none;
   font-size: 32px;
@@ -55,7 +55,7 @@ nav ul li a {
   padding: 15px;
 }
 
-nav ul li a:hover {
+header nav ul li a:hover {
   color: #9dac38;
 }
 
@@ -64,7 +64,7 @@ header h2 {
   clear: both;
   font-family: 'Over the Rainbow', cursive;
   font-size: 42px;
-  padding: 60px 0px;
+  padding: 85px 0px;
   color: #385001;
   line-height: 80px;
   margin-left: 285px;
@@ -73,7 +73,7 @@ header h2 {
 /* About Sarah*/
 #about {
   background-color: #558976;
-  height: 700px;
+  height: 650px;
 }
 
 #about .full-width {
@@ -88,14 +88,14 @@ header h2 {
 
 #about img {
   height: 400px;
-  padding-left: 70px;
+  margin-left: 150px;
 }
 
 #about p {
   font-size: 20px;
   line-height: 42px;
   color: #fdfcfb;
-  padding-top: 5px;
+  padding-right: 55px;
 }
 
 #about a {
@@ -109,16 +109,16 @@ header h2 {
 /* Portfolio */
 #portfolio {
   background-color: #fdfcfb;
-  height: 600px;
+  height: 550px;
 }
 
 #portfolio .full-width {
-  padding: 35px 0;
+  padding: 25px 0;
 }
 
 #portfolio img {
   padding-bottom: 30px;
-  width: 300px;
+  width: 330px;
 }
 
 #portfolio h2 {
@@ -128,11 +128,11 @@ header h2 {
 }
 
 #portfolio h3 {
-  font-size: 30px;
+  font-size: 32px;
 }
 
 #portfolio ul {
-  padding-left: 25px;
+  padding-left: 55px;
 }
 
 #portfolio ul li {
@@ -141,14 +141,14 @@ header h2 {
 
 /* Contact */
 #contact {
-  height: 500px;
+  height: 550px;
 }
 
 #contact .full-width {
   padding: 100px 0;
 }
 
-#contact h2, h3, p, ul {
+#contact h2, h3, p {
     padding-left: 15px;
 }
 
@@ -181,7 +181,7 @@ header h2 {
 
 /* Footer */
 footer {
-  height: 70px;
+  height: 50px;
   background: #558976;
 }
 
@@ -190,20 +190,20 @@ footer p {
   color: #f6f2ea;
 }
 
-footer ul {
+footer nav ul {
   list-style: none;
 }
 
-footer ul li {
+footer nav ul li {
   display: inline-block;
 }
 
-footer ul li i {
+footer nav ul li i {
   text-decoration: none;
   padding-left: 15px;
   color: #f6f2ea;
 }
 
-footer ul li i:hover {
+footer nav ul li i:hover {
   color: #9dac38;
 }
