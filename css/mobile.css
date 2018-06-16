@@ -12,19 +12,15 @@ body {
   flex-wrap: wrap;
 }
 
-/* Grid System */
-.full-width {
-  width: 60%;
-}
-
 /* Header */
 header {
   background-color: #558976;
   height: 80%;
+  width: 100%;
 }
 
 header h1 {
-  font-size: 22px;
+  font-size: 42px;
   font-family: 'Over the Rainbow', cursive;
   color: #fdfcfb;
 }
@@ -37,7 +33,7 @@ header nav ul li {
 header nav ul li a {
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 22px;
   color: #f6f2ea;
 }
 
@@ -46,33 +42,33 @@ header nav ul li a:hover {
 }
 
 header h2 {
-  font-size: 20px;
+  font-size: 32px;
   color: #f6f2ea;
   font-family: 'Over the Rainbow', cursive;
-  width: 50%;
-  padding: 30px 0;
+  width: 80%;
+  padding: 30px 0px;
 }
 
 /* About Sarah */
 #about {
   height: 80%;
+  width: 100%;
 }
 
 #about h2 {
-  font-size: 20px;
+  font-size: 32px;
   font-family: 'Over the Rainbow', cursive;
   color: #558976;
 }
 
 #about img {
-  height: 275px;
+  height: 300px;
 }
 
 #about p {
   font-size: 20px;
   color: #333;
   line-height: 32px;
-  width: 55%;
 }
 
 #about a {
@@ -86,24 +82,24 @@ header h2 {
 /* Portfolio */
 #portfolio {
   height: 80%;
+  width: 100%;
 }
 
 #portfolio img {
-  width: 200px;
+  width: 335px;
 }
 
 #portfolio h2 {
-  font-size: 20px;
+  font-size: 32px;
   color: #558976;
   font-family: 'Over the Rainbow', cursive;
 }
 
 #portfolio h3 {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 #portfolio ul {
-  width: 47%;
   padding-bottom: 20px;
 }
 
@@ -115,17 +111,17 @@ header h2 {
 /* Contact */
 #contact {
   height: 80%;
+  width: 100%;
 }
 
 #contact h2 {
   font-family: 'Over the Rainbow', cursive;
-  font-size: 20px;
+  font-size: 32px;
   color: #558976;
 }
 
 #contact p {
   font-size: 20px;
-  width: 50%;
   color: #333;
 }
 
@@ -138,13 +134,15 @@ header h2 {
 }
 
 #contact img {
-  height: 237px;
-  padding-bottom: 10px;
+  height: 300px;
+  padding-bottom: 25px;
 }
 
 /* Footer */
 footer {
   background: #558976;
+  height: 10%;
+  width: 100%;
 }
 
 footer p {
@@ -164,6 +162,7 @@ footer nav ul li {
 footer nav ul li i {
   text-decoration: none;
   color: #f6f2ea;
+  padding-left: 15px;
 }
 
 footer nav ul li i:hover {
