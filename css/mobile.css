@@ -9,7 +9,10 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+}
+
+img {
+  max-width: 100%;
 }
 
 /* Header */
