@@ -11,7 +11,7 @@ body {
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
 }
 
 /* Grid System */
@@ -77,11 +77,7 @@ header h2 {
 
 /* About Sarah */
 #about {
-  height: 500px;
-}
-
-#about .full-width {
-  padding: 25px 0;
+  height: 650px;
 }
 
 #about h2 {
@@ -110,11 +106,7 @@ header h2 {
 
 /* Portfolio */
 #portfolio {
-  height: 500px;
-}
-
-#portfolio .full-width {
-  padding: 50px 0;
+  height: 600px;
 }
 
 #portfolio .third-width {
@@ -142,19 +134,19 @@ header h2 {
 
 /* Contact */
 #contact {
-  height: 80%;
-  width: 100%;
+  height: 600px;
 }
 
 #contact h2 {
   font-family: 'Over the Rainbow', cursive;
-  font-size: 32px;
+  font-size: 42px;
   color: #558976;
 }
 
 #contact p {
   font-size: 20px;
   color: #333;
+  line-height: 42px;
 }
 
 #contact a {
@@ -166,6 +158,31 @@ header h2 {
 }
 
 #contact img {
-  height: 300px;
-  padding-bottom: 25px;
+  height: 500px;
+  margin-top: 55px;
+}
+
+/* Footer */
+footer {
+  background: #558976;
+  height: 75px;
+}
+
+footer p {
+  font-size: 16px;
+  color: #f6f2ea;
+}
+
+footer nav ul li {
+  display: inline-block;
+}
+
+footer nav ul li i {
+  text-decoration: none;
+  color: #f6f2ea;
+  padding-left: 15px;
+}
+
+footer nav ul li i:hover {
+  color: #9dac38;
 }
