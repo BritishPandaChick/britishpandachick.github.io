@@ -1,5 +1,5 @@
 /* http://colorpalettes.net/color-palette-2151/ */
-/* Body */
+/* Basic Styles */
 body {
   font-family: 'Open Sans Condensed', sans-serif;
   background-color: #fdfcfb;
@@ -40,11 +40,12 @@ header h1 {
   font-size: 42px;
   font-family: 'Over the Rainbow', cursive;
   color: #fdfcfb;
+  padding: 30px;
 }
 
 header nav {
   float: right;
-  padding: 50px 0;
+  padding: 65px 15px;
 }
 
 header nav ul li {

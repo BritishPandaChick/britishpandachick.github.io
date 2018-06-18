@@ -1,0 +1,145 @@
+/* http://colorpalettes.net/color-palette-2151/ */
+/* Basic Styles */
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: #fdfcfb;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  max-width: 50%;
+}
+
+/* Grid System */
+.full-width {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 50%;
+  float: left;
+}
+
+.third-width {
+  width: 30%;
+  float: left;
+}
+
+/* Header */
+header {
+  background-color: #558976;
+  height: 800px;
+}
+
+header h1 {
+  font-size: 32px;
+  font-family: 'Over the Rainbow', cursive;
+  color: #fdfcfb;
+  padding: 50px 0;
+}
+
+header nav {
+  float: right;
+  padding: 85px 55px;
+}
+
+header nav ul li {
+  font-weight: bold;
+  list-style: none;
+  display: inline-block;
+}
+
+header nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 22px;
+  color: #f6f2ea;
+  padding-left: 80px;
+}
+
+header nav ul li a:hover {
+  color: #fdfcfb;
+}
+
+header h2 {
+  font-size: 42px;
+  color: #f6f2ea;
+  font-family: 'Over the Rainbow', cursive;
+  padding: 80px 85px;
+  line-height: 80px;
+  clear: both;
+  width: 90%;
+}
+
+/* About Sarah */
+#about {
+  height: 500px;
+}
+
+#about .full-width {
+  padding: 20px 0;
+}
+
+#about h2 {
+  font-size: 42px;
+  font-family: 'Over the Rainbow', cursive;
+  color: #558976;
+}
+
+#about img {
+  height: 350px;
+  padding-left: 95px;
+}
+
+#about p {
+  font-size: 20px;
+  color: #333;
+  line-height: 32px;
+  padding-right: 50px;
+}
+
+#about a {
+  color: #558976;
+}
+
+#about a:hover {
+  color: #9dac38;
+}
+
+/* Portfolio */
+#portfolio {
+  height: 500px;
+}
+
+#portfolio .full-width {
+  padding: 115px 0;
+}
+
+#portfolio img {
+  padding-bottom: 30px;
+  width: 70%;
+}
+
+#portfolio h2 {
+  font-size: 42px;
+  color: #558976;
+  font-family: 'Over the Rainbow', cursive;
+}
+
+#portfolio h3 {
+  font-size: 32px;
+}
+
+#portfolio ul {
+  padding-bottom: 20px;
+}
+
+#portfolio ul li {
+  font-size: 20px;
+  color: #333;
+}
