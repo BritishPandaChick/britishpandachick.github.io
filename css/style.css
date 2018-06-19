@@ -10,10 +10,6 @@ body {
   flex-direction: column;
 }
 
-img {
-  max-width: 50%;
-}
-
 /* Grid System */
 .full-width {
   width: 100%;
@@ -70,7 +66,7 @@ header h2 {
   font-size: 42px;
   color: #f6f2ea;
   font-family: 'Over the Rainbow', cursive;
-  padding: 80px 85px;
+  padding: 80px 95px;
   line-height: 80px;
   clear: both;
   width: 90%;
@@ -78,7 +74,7 @@ header h2 {
 
 /* About Sarah */
 #about {
-  height: 500px;
+  height: 550px;
 }
 
 #about .full-width {
@@ -100,7 +96,7 @@ header h2 {
   font-size: 20px;
   color: #333;
   line-height: 32px;
-  padding-right: 50px;
+  padding-right: 25px;
 }
 
 #about a {
@@ -113,16 +109,20 @@ header h2 {
 
 /* Portfolio */
 #portfolio {
-  height: 500px;
+  height: 650px;
 }
 
 #portfolio .full-width {
-  padding: 115px 0;
+  padding: 20px 0;
+}
+
+#portfolio .third-width {
+  padding-left: 25px;
 }
 
 #portfolio img {
   padding-bottom: 30px;
-  width: 70%;
+  width: 400px;
 }
 
 #portfolio h2 {
@@ -133,13 +133,77 @@ header h2 {
 
 #portfolio h3 {
   font-size: 32px;
+  padding-left: 25px;
 }
 
 #portfolio ul {
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 }
 
 #portfolio ul li {
   font-size: 20px;
   color: #333;
+}
+
+/* Contact */
+#contact {
+  height: 550px;
+}
+
+#contact .full-width {
+  padding: 50px 0;
+}
+
+#contact .half-width {
+  padding-bottom: 25px;
+}
+
+#contact h2 {
+  font-family: 'Over the Rainbow', cursive;
+  font-size: 42px;
+  color: #558976;
+}
+
+#contact p {
+  font-size: 20px;
+  color: #333;
+  line-height: 42px;
+}
+
+#contact a {
+  color: #558976;
+}
+
+#contact a:hover {
+  color: #9dac38;
+}
+
+#contact img {
+  height: 400px;
+  padding-top: 55px;
+}
+
+/* Footer */
+footer {
+  background: #558976;
+  height: 55px;
+}
+
+footer p {
+  font-size: 16px;
+  color: #f6f2ea;
+}
+
+footer nav ul li {
+  display: inline-block;
+}
+
+footer nav ul li i {
+  text-decoration: none;
+  color: #f6f2ea;
+  padding-left: 15px;
+}
+
+footer nav ul li i:hover {
+  color: #9dac38;
 }
