@@ -1,4 +1,8 @@
-# britishpandachick.github.io
+# Sarah Bartley Portfolio Website
+My personal portfolio website.
 
+## Instructions
+Go to britishpandachick.github.io [http://britishpandachick.github.io] to see my full portfolio.
 
-GitHub User Profile Page Challenge for Skillcrush 104
+## Contributing
+I will not be accepting any pull requests.
