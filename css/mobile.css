@@ -19,8 +19,7 @@ img {
 header {
   background-color: #558976;
   background-size: cover;
-  width: 100%;
-  margin: 0 auto;
+  width: 85%;
 }
 
 header h1 {
@@ -68,6 +67,7 @@ header nav ul li a:hover {
   font-size: 18px;
   color: #333;
   line-height: 32px;
+  width: 85%;
 }
 
 #about a {
@@ -82,6 +82,10 @@ header nav ul li a:hover {
 #portfolio {
   width: 100%;
   margin: 0 auto;
+}
+
+#portfolio .third-width {
+  width: 85%;
 }
 
 #portfolio img {
@@ -109,8 +113,7 @@ header nav ul li a:hover {
 
 /* Contact */
 #contact {
-  width: 100%;
-  margin: 0 auto;
+  width: 80%;
 }
 
 #contact h2 {
@@ -164,7 +167,7 @@ header nav ul li a:hover {
 /* Footer */
 footer {
   background: #558976;
-  width: 100%;
+  width: 85%;
 }
 
 footer p {
