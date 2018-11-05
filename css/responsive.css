@@ -17,7 +17,7 @@ img {
 /* Header */
 header {
   background-color: #558976;
-  width: 80%;
+  height: 35%;
 }
 
 header h1 {
@@ -47,7 +47,7 @@ header nav ul li a:hover {
 
 /* About Sarah */
 #about {
-  width: 80%;
+  width: 100%;
 }
 
 #about h2 {
@@ -78,14 +78,14 @@ header nav ul li a:hover {
 
 /* Portfolio */
 #portfolio {
-  width: 80%;
+  width: 100%;
 }
 
 #portfolio h2 {
   font-size: 32px;
   color: #558976;
   font-family: 'Over the Rainbow', cursive;
-  padding-left: 20px;
+  padding-left: 15px;
 }
 
 #portfolio h3 {
@@ -104,39 +104,61 @@ header nav ul li a:hover {
 
 /* Contact */
 #contact {
-  width: 80%;
+  width: 100%;
 }
 
 #contact h2 {
   font-family: 'Over the Rainbow', cursive;
   font-size: 32px;
   color: #558976;
-  padding-left: 20px;
+  padding-left: 15px;
+}
+
+#contact h3 {
+  font-size: 22px;
 }
 
 #contact p {
   font-size: 20px;
   color: #333;
-  line-height: 42px;
 }
 
-#contact a {
-  color: #558976;
+#contact button {
+  background: #558976;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 10px;
+}
+
+#contact button a {
+  color: #fdfcfb;
 }
 
 #contact a:hover {
   color: #9dac38;
 }
 
-#contact img {
-  height: 500px;
-  margin-top: 55px;
+#contact ul li {
+  display: inline-block;
+}
+
+#contact ul li i {
+  padding-left: 15px;
+  color: #558976;
+}
+
+#contact ul li i:hover {
+  color: #9dac38;
+}
+
+#signup {
+  padding-bottom: 25px;
 }
 
 /* Footer */
 footer {
   background: #558976;
-  height: 75px;
+  height: 35%;
 }
 
 footer p {
