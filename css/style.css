@@ -5,11 +5,6 @@ body {
   background-color: #fdfcfb;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-}
-
 /* Grid System */
 .full-width {
   width: 100%;
@@ -29,14 +24,14 @@ body {
 /* Header */
 header {
   background-color: #558976;
-  height: 800px;
+  height: 200px;
 }
 
 header h1 {
   font-size: 32px;
   font-family: 'Over the Rainbow', cursive;
   color: #fdfcfb;
-  padding: 50px 0;
+  padding: 50px 20px;
 }
 
 header nav {
@@ -62,33 +57,20 @@ header nav ul li a:hover {
   color: #fdfcfb;
 }
 
-header h2 {
-  font-size: 42px;
-  color: #f6f2ea;
-  font-family: 'Over the Rainbow', cursive;
-  padding: 80px 95px;
-  line-height: 80px;
-  clear: both;
-  width: 80%;
-}
-
 /* About Sarah */
 #about {
-  height: 550px;
-}
-
-#about .full-width {
-  padding: 20px 0;
+  height: 675px;
 }
 
 #about h2 {
-  font-size: 42px;
+  font-size: 40px;
   font-family: 'Over the Rainbow', cursive;
   color: #558976;
+  padding-left: 20px;
 }
 
 #about img {
-  height: 350px;
+  height: 450px;
   padding-left: 95px;
 }
 
@@ -96,7 +78,6 @@ header h2 {
   font-size: 20px;
   color: #333;
   line-height: 32px;
-  padding-right: 25px;
 }
 
 #about a {
@@ -112,10 +93,6 @@ header h2 {
   height: 650px;
 }
 
-#portfolio .full-width {
-  padding: 20px 0;
-}
-
 #portfolio .third-width {
   padding-left: 25px;
 }
@@ -126,13 +103,14 @@ header h2 {
 }
 
 #portfolio h2 {
-  font-size: 42px;
+  font-size: 40px;
   color: #558976;
   font-family: 'Over the Rainbow', cursive;
+  padding-left: 20px;
 }
 
 #portfolio h3 {
-  font-size: 32px;
+  font-size: 30px;
   padding-left: 25px;
 }
 
@@ -150,44 +128,66 @@ header h2 {
   height: 550px;
 }
 
-#contact .full-width {
-  padding: 50px 0;
-}
-
 #contact .half-width {
   padding-bottom: 25px;
 }
 
 #contact h2 {
   font-family: 'Over the Rainbow', cursive;
-  font-size: 42px;
+  font-size: 40px;
   color: #558976;
+  padding-left: 20px;
+}
+
+#contact h3 {
+  font-size: 30px;
+  padding-left: 45px;
 }
 
 #contact p {
   font-size: 20px;
   color: #333;
-  line-height: 42px;
-  padding-left: 25px;
+  padding-left: 45px;
 }
 
-#contact a {
-  color: #558976;
+#contact button {
+  background: #558976;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 10px;
+  margin-left: 45px;
+}
+
+#contact button a {
+  color: #fdfcfb;
 }
 
 #contact a:hover {
   color: #9dac38;
 }
 
-#contact img {
-  height: 400px;
-  padding-top: 55px;
+#contact ul li {
+  display: inline-block;
+}
+
+#contact ul li i {
+  padding-left: 15px;
+  color: #558976;
+}
+
+#contact ul li i:hover {
+  color: #9dac38;
+}
+
+#signup {
+  height: 275px;
+  padding: 95px 0;
 }
 
 /* Footer */
 footer {
   background: #558976;
-  height: 45px;
+  height: 55px;
 }
 
 footer p {
