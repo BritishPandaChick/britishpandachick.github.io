@@ -1,16 +1,17 @@
 /* Basic Styles */
 body {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   background-color: #fdfcfb;
+  font-size: 20px;
+}
+
+img {
+  max-width: 100%;
 }
 
 .container {
   display: flex;
   flex-direction: column;
-}
-
-img {
-  max-width: 100%;
 }
 
 /* Header */
@@ -22,9 +23,9 @@ header {
 
 header h1 {
   font-size: 32px;
-  font-family: 'Over the Rainbow', cursive;
+  font-family: 'Homemade Apple', cursive;
   color: #fdfcfb;
-  padding-left: 35px;
+  padding: 15px 0 0 35px;
 }
 
 header nav ul li {
@@ -42,123 +43,6 @@ header nav ul li a {
 
 header nav ul li a:hover {
   color: #fdfcfb;
-}
-
-/* About Sarah */
-#about {
-  width: 100%;
-  margin: 0 auto;
-}
-
-#about h2 {
-  font-size: 25px;
-  font-family: 'Over the Rainbow', cursive;
-  color: #558976;
-}
-
-#about img {
-  height: 250px;
-  padding-left: 45px;
-}
-
-#about p {
-  font-size: 18px;
-  color: #333;
-  line-height: 32px;
-}
-
-#about a {
-  color: #558976;
-}
-
-#about a:hover {
-  color: #9dac38;
-}
-
-/* Portfolio */
-#portfolio {
-  width: 100%;
-  margin: 0 auto;
-}
-
-#portfolio .third-width {
-  height: 35%;
-}
-
-#portfolio img {
-  width: 330px;
-}
-
-#portfolio h2 {
-  font-size: 25px;
-  color: #558976;
-  font-family: 'Over the Rainbow', cursive;
-}
-
-#portfolio h3 {
-  font-size: 20px;
-}
-
-#portfolio ul {
-  padding-bottom: 20px;
-}
-
-#portfolio ul li {
-  font-size: 18px;
-  color: #333;
-}
-
-/* Contact */
-#contact {
-  width: 100%;
-}
-
-#contact h2 {
-  font-family: 'Over the Rainbow', cursive;
-  font-size: 25px;
-  color: #558976;
-}
-
-#contact h3 {
-  font-size: 20px;
-}
-
-#contact p {
-  font-size: 18px;
-  color: #333;
-}
-
-#contact button {
-  background: #558976;
-  text-decoration: none;
-  font-size: 16px;
-  padding: 10px;
-}
-
-#contact button a {
-  color: #fdfcfb;
-}
-
-#contact a:hover {
-  color: #9dac38;
-}
-
-#contact ul li {
-  display: inline-block;
-}
-
-#contact ul li i {
-  padding-left: 15px;
-  color: #558976;
-}
-
-#contact ul li i:hover {
-  color: #9dac38;
-}
-
-#signup {
-  width: 330px;
-  padding-bottom: 25px;
 }
 
 /* Footer */
@@ -188,4 +72,18 @@ footer nav ul li i {
 
 footer nav ul li i:hover {
   color: #9dac38;
+}
+
+/* Home Page */
+#career-compass #skills #contact {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#skills .third-width {
+  height: 35%;
+}
+
+#skills img {
+  width: 80%;
 }
