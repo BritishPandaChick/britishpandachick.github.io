@@ -14,6 +14,11 @@ img {
   flex-direction: column;
 }
 
+#header #career-compass #skills #contact #about #blogs {
+  width: 100%;
+  margin: 0 auto;
+}
+
 /* Header */
 header {
   background-color: #558976;
@@ -45,10 +50,33 @@ header nav ul li a:hover {
   color: #fdfcfb;
 }
 
+/* Contact */
+#contact h2 {
+  font-family: 'Homemade Apple', cursive;
+  font-size: 25px;
+  color: #385001;
+}
+
+#contact h3 {
+  font-size: 20px;
+}
+
+#contact ul li {
+  display: inline-block;
+}
+
+#contact ul li i {
+  color: #385001;
+}
+
+#contact ul li i:hover {
+  color: #9dac38;
+}
+
 /* Footer */
 footer {
   background: #558976;
-  height: 30%;
+  height: 50%;
 }
 
 footer p {
@@ -75,9 +103,10 @@ footer nav ul li i:hover {
 }
 
 /* Home Page */
-#career-compass #skills #contact {
-  width: 100%;
-  margin: 0 auto;
+#career-compass {
+  font-size: 18px;
+  color: #333;
+  line-height: 32px;
 }
 
 #skills .third-width {
@@ -85,5 +114,45 @@ footer nav ul li i:hover {
 }
 
 #skills img {
-  width: 80%;
+  width: 95%;
+}
+
+#skills p {
+  font-size: 18px;
+  color: #333;
+  line-height: 32px;
+}
+
+/* About Page */
+#about h2 {
+  font-size: 25px;
+  font-family: 'Homemade Apple', cursive;
+  color: #385001;
+}
+
+#about h3 {
+  font-size: 20px;
+}
+
+#about p {
+  font-size: 18px;
+  line-height: 32px;
+}
+
+#blogs h2 {
+  font-size: 25px;
+  font-family: 'Homemade Apple', cursive;
+  color: #385001;
+}
+
+#blogs p {
+  font-size: 18px;
+  line-height: 32px;
+}
+
+#blogs button {
+  background: #558976;
+  color: #fdfcfb;
+  font-size: 20px;
+  padding: 10px;
 }
