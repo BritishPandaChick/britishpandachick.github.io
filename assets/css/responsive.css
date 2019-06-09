@@ -1,13 +1,7 @@
-/* http://colorpalettes.net/color-palette-2151/ */
 /* Basic Styles */
 body {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   background-color: #fdfcfb;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
 }
 
 img {
@@ -22,9 +16,13 @@ header {
 
 header h1 {
   font-size: 32px;
-  font-family: 'Over the Rainbow', cursive;
+  font-family: 'Homemade Apple', cursive;
   color: #fdfcfb;
-  padding: 20px;
+  padding: 30px;
+}
+
+header nav {
+  padding-right: 15px;
 }
 
 header nav ul li {

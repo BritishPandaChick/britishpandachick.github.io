@@ -9,11 +9,6 @@ img {
   max-width: 100%;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-}
-
 #header #career-compass #skills #contact #about #blogs {
   width: 100%;
   margin: 0 auto;
@@ -59,6 +54,7 @@ header nav ul li a:hover {
 
 #contact h3 {
   font-size: 20px;
+  color: #333;
 }
 
 #contact ul li {
@@ -67,6 +63,7 @@ header nav ul li a:hover {
 
 #contact ul li i {
   color: #385001;
+  padding-right: 6px;
 }
 
 #contact ul li i:hover {
@@ -132,6 +129,7 @@ footer nav ul li i:hover {
 
 #about h3 {
   font-size: 20px;
+  color: #333;
 }
 
 #about p {
@@ -145,9 +143,15 @@ footer nav ul li i:hover {
   color: #385001;
 }
 
+#blogs h3 {
+  font-size: 20px;
+  color: #333;
+}
+
 #blogs p {
   font-size: 18px;
   line-height: 32px;
+  color: #333;
 }
 
 #blogs button {
@@ -155,4 +159,25 @@ footer nav ul li i:hover {
   color: #fdfcfb;
   font-size: 20px;
   padding: 10px;
+}
+
+/* Portfolio */
+#portfolio .third-width {
+  height: 35%;
+}
+
+#portfolio h2 {
+  font-size: 25px;
+  font-family: 'Homemade Apple', cursive;
+  color: #385001;
+}
+
+#portfolio h3 {
+  font-size: 20px;
+  color: #333;
+}
+
+#portfolio ul li {
+  font-size: 18px;
+  color: #333;
 }
