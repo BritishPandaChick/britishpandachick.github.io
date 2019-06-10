@@ -57,6 +57,11 @@ header nav ul li a:hover {
   color: #333;
 }
 
+#contact p {
+  font-size: 18px;
+  color: #333;
+}
+
 #contact ul li {
   display: inline-block;
 }
@@ -79,24 +84,6 @@ footer {
 footer p {
   font-size: 16px;
   color: #f6f2ea;
-}
-
-footer nav ul {
-  padding: 20px 0;
-}
-
-footer nav ul li {
-  display: inline-block;
-}
-
-footer nav ul li i {
-  text-decoration: none;
-  color: #f6f2ea;
-  padding-left: 15px;
-}
-
-footer nav ul li i:hover {
-  color: #9dac38;
 }
 
 /* Home Page */
@@ -161,7 +148,7 @@ footer nav ul li i:hover {
   padding: 10px;
 }
 
-/* Portfolio */
+/* Portfolio Page */
 #portfolio .third-width {
   height: 35%;
 }

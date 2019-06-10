@@ -1,7 +1,6 @@
-/* http://colorpalettes.net/color-palette-2151/ */
 /* Basic Styles */
 body {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   background-color: #fdfcfb;
 }
 
@@ -24,19 +23,19 @@ body {
 /* Header */
 header {
   background-color: #558976;
-  height: 200px;
+  height: 220px;
 }
 
 header h1 {
-  font-size: 32px;
-  font-family: 'Over the Rainbow', cursive;
+  font-size: 55px;
+  font-family: 'Homemade Apple', cursive;
   color: #fdfcfb;
-  padding: 50px 20px;
+  padding: 20px 30px;
 }
 
 header nav {
   float: right;
-  padding: 85px 55px;
+  padding: 80px 20px;
 }
 
 header nav ul li {
@@ -50,11 +49,74 @@ header nav ul li a {
   text-decoration: none;
   font-size: 22px;
   color: #f6f2ea;
-  padding-left: 80px;
+  padding-left: 20px;
 }
 
 header nav ul li a:hover {
   color: #fdfcfb;
+}
+
+/* Contact */
+#contact h2 {
+  font-family: 'Homemade Apple', cursive;
+  font-size: 45px;
+  color: #385001;
+}
+
+#contact h3 {
+  font-size: 35px;
+  color: #333;
+}
+
+#contact p {
+  font-size: 20px;
+  color: #333;
+}
+
+#contact ul li {
+  display: inline-block;
+}
+
+#contact ul li i {
+  color: #385001;
+  padding-left: 25px;
+}
+
+#contact ul li i:hover {
+  color: #9dac38;
+}
+
+/* Footer */
+footer {
+  background: #558976;
+  height: 35px;
+}
+
+footer p {
+  font-size: 16px;
+  color: #f6f2ea;
+}
+
+/* Home Page */
+#career-compass {
+  font-size: 20px;
+  color: #333;
+  line-height: 32px;
+}
+
+#skills .third-width {
+  height: 35%;
+  padding-left: 40px;
+}
+
+#skills img {
+  width: 95%;
+}
+
+#skills p {
+  font-size: 20px;
+  color: #333;
+  line-height: 32px;
 }
 
 /* About Sarah */
@@ -121,90 +183,4 @@ header nav ul li a:hover {
 #portfolio ul li {
   font-size: 20px;
   color: #333;
-}
-
-/* Contact */
-#contact {
-  height: 550px;
-}
-
-#contact .half-width {
-  padding-bottom: 25px;
-}
-
-#contact h2 {
-  font-family: 'Over the Rainbow', cursive;
-  font-size: 40px;
-  color: #558976;
-  padding-left: 20px;
-}
-
-#contact h3 {
-  font-size: 30px;
-  padding-left: 45px;
-}
-
-#contact p {
-  font-size: 20px;
-  color: #333;
-  padding-left: 45px;
-}
-
-#contact button {
-  background: #558976;
-  text-decoration: none;
-  font-size: 16px;
-  padding: 10px;
-  margin-left: 45px;
-}
-
-#contact button a {
-  color: #fdfcfb;
-}
-
-#contact a:hover {
-  color: #9dac38;
-}
-
-#contact ul li {
-  display: inline-block;
-}
-
-#contact ul li i {
-  padding-left: 15px;
-  color: #558976;
-}
-
-#contact ul li i:hover {
-  color: #9dac38;
-}
-
-#signup {
-  height: 275px;
-  padding: 95px 0;
-}
-
-/* Footer */
-footer {
-  background: #558976;
-  height: 55px;
-}
-
-footer p {
-  font-size: 16px;
-  color: #f6f2ea;
-}
-
-footer nav ul li {
-  display: inline-block;
-}
-
-footer nav ul li i {
-  text-decoration: none;
-  color: #f6f2ea;
-  padding-left: 15px;
-}
-
-footer nav ul li i:hover {
-  color: #9dac38;
 }

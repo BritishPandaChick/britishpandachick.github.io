@@ -8,6 +8,11 @@ img {
   max-width: 100%;
 }
 
+.full-width {
+  width: 100%;
+  margin: 0 auto;
+}
+
 /* Header */
 header {
   background-color: #558976;
@@ -15,14 +20,10 @@ header {
 }
 
 header h1 {
-  font-size: 32px;
+  font-size: 42px;
   font-family: 'Homemade Apple', cursive;
   color: #fdfcfb;
-  padding: 30px;
-}
-
-header nav {
-  padding-right: 15px;
+  padding: 20px;
 }
 
 header nav ul li {
@@ -34,86 +35,25 @@ header nav ul li {
 header nav ul li a {
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 22px;
   color: #f6f2ea;
-  padding-left: 20px;
+  padding-left: 15px;
 }
 
 header nav ul li a:hover {
   color: #fdfcfb;
 }
 
-/* About Sarah */
-#about {
-  width: 100%;
-}
-
-#about h2 {
-  font-size:32px;
-  font-family: 'Over the Rainbow', cursive;
-  color: #558976;
-  padding-left: 15px;
-}
-
-#about img {
-  height: 300px;
-  padding-left: 75px;
-}
-
-#about p {
-  font-size: 20px;
-  color: #333;
-  line-height: 32px;
-}
-
-#about a {
-  color: #558976;
-}
-
-#about a:hover {
-  color: #9dac38;
-}
-
-/* Portfolio */
-#portfolio {
-  width: 100%;
-}
-
-#portfolio h2 {
-  font-size: 32px;
-  color: #558976;
-  font-family: 'Over the Rainbow', cursive;
-  padding-left: 15px;
-}
-
-#portfolio h3 {
-  font-size: 22px;
-  padding-left: 20px;
-}
-
-#portfolio ul {
-  padding-bottom: 20px;
-}
-
-#portfolio ul li {
-  font-size: 20px;
-  color: #333;
-}
-
 /* Contact */
-#contact {
-  width: 100%;
-}
-
 #contact h2 {
-  font-family: 'Over the Rainbow', cursive;
-  font-size: 32px;
-  color: #558976;
-  padding-left: 15px;
+  font-family: 'Homemade Apple', cursive;
+  font-size: 35px;
+  color: #385001;
 }
 
 #contact h3 {
-  font-size: 22px;
+  font-size: 25px;
+  color: #333;
 }
 
 #contact p {
@@ -121,36 +61,17 @@ header nav ul li a:hover {
   color: #333;
 }
 
-#contact button {
-  background: #558976;
-  text-decoration: none;
-  font-size: 16px;
-  padding: 10px;
-}
-
-#contact button a {
-  color: #fdfcfb;
-}
-
-#contact a:hover {
-  color: #9dac38;
-}
-
 #contact ul li {
   display: inline-block;
 }
 
 #contact ul li i {
-  padding-left: 15px;
-  color: #558976;
+  color: #385001;
+  padding-left: 25px;
 }
 
 #contact ul li i:hover {
   color: #9dac38;
-}
-
-#signup {
-  padding-bottom: 25px;
 }
 
 /* Footer */
@@ -164,16 +85,86 @@ footer p {
   color: #f6f2ea;
 }
 
-footer nav ul li {
-  display: inline-block;
+/* Home Page */
+#career-compass {
+  font-size: 20px;
+  color: #333;
+  line-height: 32px;
 }
 
-footer nav ul li i {
-  text-decoration: none;
-  color: #f6f2ea;
-  padding-left: 15px;
+#skills .third-width {
+  height: 35%;
 }
 
-footer nav ul li i:hover {
-  color: #9dac38;
+#skills img {
+  width: 95%;
+}
+
+#skills p {
+  font-size: 20px;
+  color: #333;
+  line-height: 32px;
+}
+
+/* About Page */
+#about h2 {
+  font-size: 35px;
+  font-family: 'Homemade Apple', cursive;
+  color: #385001;
+}
+
+#about h3 {
+  font-size: 25px;
+  color: #333;
+}
+
+#about p {
+  font-size: 20px;
+  line-height: 32px;
+  color: #333;
+}
+
+#blogs h2 {
+  font-size: 35px;
+  font-family: 'Homemade Apple', cursive;
+  color: #385001;
+}
+
+#blogs h3 {
+  font-size: 25px;
+  color: #333;
+}
+
+#blogs p {
+  font-size: 20px;
+  line-height: 32px;
+  color: #333;
+}
+
+#blogs button {
+  background: #558976;
+  color: #fdfcfb;
+  font-size: 20px;
+  padding: 10px;
+}
+
+/* Portfolio Page */
+#portfolio .third-width {
+  height: 35%;
+}
+
+#portfolio h2 {
+  font-size: 35px;
+  font-family: 'Homemade Apple', cursive;
+  color: #385001;
+}
+
+#portfolio h3 {
+  font-size: 25px;
+  color: #333;
+}
+
+#portfolio ul li {
+  font-size: 20px;
+  color: #333;
 }
