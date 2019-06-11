@@ -27,7 +27,7 @@ header {
 }
 
 header h1 {
-  font-size: 55px;
+  font-size: 75px;
   font-family: 'Homemade Apple', cursive;
   color: #fdfcfb;
   padding: 20px 30px;
@@ -110,7 +110,8 @@ footer p {
 }
 
 #skills img {
-  width: 95%;
+  width: 75%;
+  padding-left: 25px;
 }
 
 #skills p {
@@ -119,65 +120,83 @@ footer p {
   line-height: 32px;
 }
 
-/* About Sarah */
+.other-skills {
+  padding-top: 15px;
+}
+
+/* About Page */
 #about {
-  height: 675px;
+  height: 755px;
 }
 
 #about h2 {
-  font-size: 40px;
-  font-family: 'Over the Rainbow', cursive;
-  color: #558976;
-  padding-left: 20px;
+  font-size: 45px;
+  font-family: 'Homemade Apple', cursive;
+  color: #385001;
+}
+
+#about h3 {
+  font-size: 35px;
+  color: #333;
 }
 
 #about img {
-  height: 450px;
-  padding-left: 95px;
+  width: 65%;
 }
 
 #about p {
   font-size: 20px;
-  color: #333;
   line-height: 32px;
+  color: #333;
 }
 
-#about a {
-  color: #558976;
+#blogs {
+  height: 450px;
 }
 
-#about a:hover {
-  color: #9dac38;
+#blogs h2 {
+  font-size: 35px;
+  font-family: 'Homemade Apple', cursive;
+  color: #385001;
 }
 
-/* Portfolio */
-#portfolio {
-  height: 650px;
+#blogs h3 {
+  font-size: 25px;
+  color: #333;
 }
 
-#portfolio .third-width {
-  padding-left: 25px;
+#blogs p {
+  font-size: 20px;
+  line-height: 32px;
+  color: #333;
 }
 
-#portfolio img {
-  padding-bottom: 30px;
-  width: 400px;
+#blogs button {
+  background: #558976;
+  color: #fdfcfb;
+  font-size: 20px;
+  padding: 10px;
+}
+
+/* Portfolio Page */
+.project {
+  height: 400px;
+  padding-bottom: 15px;
 }
 
 #portfolio h2 {
-  font-size: 40px;
-  color: #558976;
-  font-family: 'Over the Rainbow', cursive;
-  padding-left: 20px;
+  font-size: 45px;
+  font-family: 'Homemade Apple', cursive;
+  color: #385001;
 }
 
 #portfolio h3 {
-  font-size: 30px;
-  padding-left: 25px;
+  font-size: 45px;
+  color: #333;
 }
 
-#portfolio ul {
-  padding-bottom: 15px;
+#portfolio img {
+  width: 75%;
 }
 
 #portfolio ul li {
