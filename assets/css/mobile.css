@@ -112,6 +112,7 @@ footer p {
   font-size: 25px;
   font-family: 'Homemade Apple', cursive;
   color: #385001;
+  word-spacing: 15px;
 }
 
 #about h3 {
@@ -149,8 +150,9 @@ footer p {
 }
 
 /* Portfolio Page */
-#portfolio .third-width {
-  height: 35%;
+.project {
+  height: 55%;
+  padding-bottom: 20px;
 }
 
 #portfolio h2 {
@@ -167,4 +169,11 @@ footer p {
 #portfolio ul li {
   font-size: 18px;
   color: #333;
+}
+
+#portfolio button {
+  background: #558976;
+  color: #fdfcfb;
+  font-size: 18px;
+  padding: 10px;
 }

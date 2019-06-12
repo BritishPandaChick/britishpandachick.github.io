@@ -23,7 +23,7 @@ body {
 /* Header */
 header {
   background-color: #558976;
-  height: 220px;
+  height: 275px;
 }
 
 header h1 {
@@ -35,7 +35,7 @@ header h1 {
 
 header nav {
   float: right;
-  padding: 80px 20px;
+  padding: 100px 20px;
 }
 
 header nav ul li {
@@ -49,7 +49,7 @@ header nav ul li a {
   text-decoration: none;
   font-size: 22px;
   color: #f6f2ea;
-  padding-left: 20px;
+  padding-left: 50px;
 }
 
 header nav ul li a:hover {
@@ -99,6 +99,7 @@ footer p {
 
 /* Home Page */
 #career-compass {
+  padding-top: 15px;
   font-size: 20px;
   color: #333;
   line-height: 32px;
@@ -111,7 +112,7 @@ footer p {
 
 #skills img {
   width: 75%;
-  padding-left: 25px;
+  padding: 15px 0 0 25px;
 }
 
 #skills p {
@@ -121,7 +122,7 @@ footer p {
 }
 
 .other-skills {
-  padding-top: 15px;
+  padding-top: 20px;
 }
 
 /* About Page */
@@ -133,6 +134,7 @@ footer p {
   font-size: 45px;
   font-family: 'Homemade Apple', cursive;
   color: #385001;
+  word-spacing: 15px;
 }
 
 #about h3 {
@@ -180,8 +182,9 @@ footer p {
 
 /* Portfolio Page */
 .project {
-  height: 400px;
+  height: 500px;
   padding-bottom: 15px;
+  border: 2px solid red;
 }
 
 #portfolio h2 {
@@ -202,4 +205,11 @@ footer p {
 #portfolio ul li {
   font-size: 20px;
   color: #333;
+}
+
+#portfolio button {
+  background: #558976;
+  color: #fdfcfb;
+  font-size: 20px;
+  padding: 10px;
 }

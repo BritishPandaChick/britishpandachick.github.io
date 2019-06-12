@@ -37,7 +37,7 @@ header nav ul li a {
   text-decoration: none;
   font-size: 22px;
   color: #f6f2ea;
-  padding-left: 15px;
+  padding-left: 30px;
 }
 
 header nav ul li a:hover {
@@ -111,6 +111,7 @@ footer p {
   font-size: 35px;
   font-family: 'Homemade Apple', cursive;
   color: #385001;
+  word-spacing: 15px;
 }
 
 #about h3 {
@@ -149,8 +150,9 @@ footer p {
 }
 
 /* Portfolio Page */
-#portfolio .third-width {
+.project {
   height: 35%;
+  padding-bottom: 20px;
 }
 
 #portfolio h2 {
@@ -167,4 +169,11 @@ footer p {
 #portfolio ul li {
   font-size: 20px;
   color: #333;
+}
+
+#portfolio button {
+  background: #558976;
+  color: #fdfcfb;
+  font-size: 20px;
+  padding: 10px;
 }
