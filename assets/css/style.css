@@ -152,12 +152,28 @@ footer p {
   color: #333;
 }
 
+#education {
+  height: 500px;
+}
+
+#education h2 {
+  font-size: 45px;
+  font-family: 'Homemade Apple', cursive;
+  color: #385001;
+}
+
+#education p {
+  font-size: 20px;
+  line-height: 32px;
+  color: #333;
+}
+
 #blogs {
   height: 450px;
 }
 
 #blogs h2 {
-  font-size: 35px;
+  font-size: 45px;
   font-family: 'Homemade Apple', cursive;
   color: #385001;
 }
@@ -184,7 +200,6 @@ footer p {
 .project {
   height: 500px;
   padding-bottom: 15px;
-  border: 2px solid red;
 }
 
 #portfolio h2 {
@@ -212,4 +227,36 @@ footer p {
   color: #fdfcfb;
   font-size: 20px;
   padding: 10px;
+}
+
+#publications {
+  height: 300px;
+}
+
+#publications h2 {
+  font-size: 45px;
+  font-family: 'Homemade Apple', cursive;
+  color: #385001;
+}
+
+#publications ul li {
+  font-size: 20px;
+  color: #333;
+}
+
+#community {
+  border: 2px solid red;
+  height: 500px;
+}
+
+#community h2 {
+  font-size: 45px;
+  font-family: 'Homemade Apple', cursive;
+  color: #385001;
+}
+
+#community p {
+  font-size: 20px;
+  line-height: 32px;
+  color: #333;
 }

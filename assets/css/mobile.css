@@ -68,7 +68,7 @@ header nav ul li a:hover {
 
 #contact ul li i {
   color: #385001;
-  padding-right: 6px;
+  padding-right: 5px;
 }
 
 #contact ul li i:hover {
@@ -125,6 +125,18 @@ footer p {
   line-height: 32px;
 }
 
+#education h2 {
+  font-size: 25px;
+  font-family: 'Homemade Apple', cursive;
+  color: #385001;
+}
+
+#education p {
+  font-size: 18px;
+  line-height: 32px;
+  color: #333;
+}
+
 #blogs h2 {
   font-size: 25px;
   font-family: 'Homemade Apple', cursive;
@@ -176,4 +188,27 @@ footer p {
   color: #fdfcfb;
   font-size: 18px;
   padding: 10px;
+}
+
+#publications h2 {
+  font-size: 25px;
+  font-family: 'Homemade Apple', cursive;
+  color: #385001;
+}
+
+#publications ul li {
+  font-size: 18px;
+  color: #333;
+}
+
+#community h2 {
+  font-size: 25px;
+  font-family: 'Homemade Apple', cursive;
+  color: #385001;
+}
+
+#community p {
+  font-size: 18px;
+  line-height: 32px;
+  color: #333;
 }
