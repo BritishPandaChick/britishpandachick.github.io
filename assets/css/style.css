@@ -105,6 +105,10 @@ footer p {
   line-height: 32px;
 }
 
+#skills {
+  border: 2px solid red;
+}
+
 #skills .third-width {
   height: 35%;
   padding-left: 40px;
@@ -245,7 +249,6 @@ footer p {
 }
 
 #community {
-  border: 2px solid red;
   height: 500px;
 }
 
