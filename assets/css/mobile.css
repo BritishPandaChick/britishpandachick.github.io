@@ -97,11 +97,18 @@ footer p {
   height: 35%;
 }
 
-#skills img {
+#skills i {
   width: 95%;
+  color: #558976;
 }
 
 #skills p {
+  font-size: 18px;
+  color: #333;
+  line-height: 32px;
+}
+
+#other-skills p {
   font-size: 18px;
   color: #333;
   line-height: 32px;
