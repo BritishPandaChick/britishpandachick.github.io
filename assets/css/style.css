@@ -57,6 +57,10 @@ header nav ul li a:hover {
 }
 
 /* Contact */
+#contact {
+  height: 375px;
+}
+
 #contact h2 {
   font-family: 'Homemade Apple', cursive;
   font-size: 45px;
@@ -105,8 +109,12 @@ footer p {
   line-height: 32px;
 }
 
+#skills {
+  height: 400px;
+}
+
 #skills .third-width {
-  height: 35%;
+  height: 30%;
   padding: 20px;
 }
 
@@ -123,7 +131,7 @@ footer p {
 }
 
 #other-skills {
-  height: 35%;
+  height: 150px;
   padding-top: 20px;
 }
 
@@ -205,9 +213,8 @@ footer p {
 }
 
 /* Portfolio Page */
-.project {
-  height: 500px;
-  padding-bottom: 15px;
+#portfolio {
+  border: 2px solid red;
 }
 
 #portfolio h2 {
@@ -235,6 +242,11 @@ footer p {
   color: #fdfcfb;
   font-size: 20px;
   padding: 10px;
+}
+
+.project {
+  height: 500px;
+  padding-bottom: 15px;
 }
 
 #publications {

@@ -107,6 +107,12 @@ footer p {
   line-height: 32px;
 }
 
+#other-skills p {
+  font-size: 20px;
+  color: #333;
+  line-height: 32px;
+}
+
 /* About Page */
 #about h2 {
   font-size: 35px;
