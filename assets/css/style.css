@@ -213,8 +213,9 @@ footer p {
 }
 
 /* Portfolio Page */
-#portfolio {
-  border: 2px solid red;
+.project {
+  height: 400px;
+  padding: 50px 0;
 }
 
 #portfolio h2 {
@@ -223,34 +224,30 @@ footer p {
   color: #385001;
 }
 
-#portfolio h3 {
+.project h3 {
   font-size: 45px;
   color: #333;
 }
 
-#portfolio img {
+.project img {
   width: 75%;
+  padding-top: 50px;
 }
 
-#portfolio ul li {
+.project ul li {
   font-size: 20px;
   color: #333;
 }
 
-#portfolio button {
+.project button {
   background: #558976;
   color: #fdfcfb;
   font-size: 20px;
   padding: 10px;
 }
 
-.project {
-  height: 500px;
-  padding-bottom: 15px;
-}
-
 #publications {
-  height: 300px;
+  height: 350px;
 }
 
 #publications h2 {
@@ -265,13 +262,24 @@ footer p {
 }
 
 #community {
-  height: 500px;
+  height: 900px;
+  border: 2px solid red;
 }
 
 #community h2 {
   font-size: 45px;
   font-family: 'Homemade Apple', cursive;
   color: #385001;
+}
+
+#community h3 {
+  font-size: 45px;
+  color: #333;
+}
+
+#community ul li {
+  font-size: 20px;
+  color: #333;
 }
 
 #community p {
