@@ -247,7 +247,7 @@ footer p {
 }
 
 #publications {
-  height: 350px;
+  height: 500px;
 }
 
 #publications h2 {
@@ -256,14 +256,19 @@ footer p {
   color: #385001;
 }
 
+#publications p {
+  font-size: 20px;
+  line-height: 32px;
+  color: #333;
+}
+
 #publications ul li {
   font-size: 20px;
   color: #333;
 }
 
 #community {
-  height: 900px;
-  border: 2px solid red;
+  height: 600px;
 }
 
 #community h2 {
@@ -283,6 +288,22 @@ footer p {
 }
 
 #community p {
+  font-size: 20px;
+  line-height: 32px;
+  color: #333;
+}
+
+#awards {
+  height: 300px;
+}
+
+#awards h2 {
+  font-size: 45px;
+  font-family: 'Homemade Apple', cursive;
+  color: #385001;
+}
+
+#awards p {
   font-size: 20px;
   line-height: 32px;
   color: #333;

@@ -203,6 +203,12 @@ footer p {
   color: #385001;
 }
 
+#publications p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #333;
+}
+
 #publications ul li {
   font-size: 18px;
   color: #333;
@@ -215,6 +221,23 @@ footer p {
 }
 
 #community p {
+  font-size: 18px;
+  line-height: 32px;
+  color: #333;
+}
+
+#community ul li {
+  font-size: 18px;
+  color: #333;
+}
+
+#awards h2 {
+  font-size: 25px;
+  font-family: 'Homemade Apple', cursive;
+  color: #385001;
+}
+
+#awards p {
   font-size: 18px;
   line-height: 32px;
   color: #333;
