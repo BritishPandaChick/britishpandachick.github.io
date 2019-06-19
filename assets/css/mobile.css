@@ -46,6 +46,10 @@ header nav ul li a:hover {
 }
 
 /* Contact */
+#contact {
+  padding: 15px;
+}
+
 #contact h2 {
   font-family: 'Homemade Apple', cursive;
   font-size: 25px;
@@ -91,15 +95,18 @@ footer p {
   font-size: 18px;
   color: #333;
   line-height: 32px;
+  padding: 20px;
 }
 
 #skills .third-width {
   height: 35%;
+  padding: 20px;
 }
 
 #skills i {
   width: 95%;
   color: #558976;
+  padding: 20px 40px;
 }
 
 #skills p {
@@ -112,9 +119,14 @@ footer p {
   font-size: 18px;
   color: #333;
   line-height: 32px;
+  padding: 20px;
 }
 
 /* About Page */
+#about {
+  padding: 20px;
+}
+
 #about h2 {
   font-size: 25px;
   font-family: 'Homemade Apple', cursive;
@@ -132,6 +144,10 @@ footer p {
   line-height: 32px;
 }
 
+#education {
+  padding: 20px;
+}
+
 #education h2 {
   font-size: 25px;
   font-family: 'Homemade Apple', cursive;
@@ -142,6 +158,14 @@ footer p {
   font-size: 18px;
   line-height: 32px;
   color: #333;
+}
+
+#blogs {
+  padding: 20px;
+}
+
+#blogs .half-width {
+  padding-bottom: 50px;
 }
 
 #blogs h2 {
@@ -174,6 +198,15 @@ footer p {
   padding-bottom: 20px;
 }
 
+#portfolio {
+  padding: 20px;
+}
+
+#portfolio .half-width {
+  border: 2px solid red;
+  height: 295px;
+}
+
 #portfolio h2 {
   font-size: 25px;
   font-family: 'Homemade Apple', cursive;
@@ -197,6 +230,10 @@ footer p {
   padding: 10px;
 }
 
+#publications {
+  padding: 20px;
+}
+
 #publications h2 {
   font-size: 25px;
   font-family: 'Homemade Apple', cursive;
@@ -214,6 +251,14 @@ footer p {
   color: #333;
 }
 
+#community {
+  padding: 20px;
+}
+
+#community .half-width {
+  padding-bottom: 15px;
+}
+
 #community h2 {
   font-size: 25px;
   font-family: 'Homemade Apple', cursive;
@@ -229,6 +274,10 @@ footer p {
 #community ul li {
   font-size: 18px;
   color: #333;
+}
+
+#awards {
+  padding: 20px;
 }
 
 #awards h2 {
