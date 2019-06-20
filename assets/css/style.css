@@ -59,6 +59,7 @@ header nav ul li a:hover {
 /* Contact */
 #contact {
   height: 375px;
+  padding: 15px;
 }
 
 #contact h2 {
@@ -103,7 +104,7 @@ footer p {
 
 /* Home Page */
 #career-compass {
-  padding-top: 15px;
+  padding: 20px;
   font-size: 20px;
   color: #333;
   line-height: 32px;
@@ -120,7 +121,7 @@ footer p {
 
 #skills i {
   width: 75%;
-  padding-left: 55px;
+  padding: 15px 0px 15px 75px;
   color: #558976;
 }
 
@@ -132,7 +133,7 @@ footer p {
 
 #other-skills {
   height: 150px;
-  padding-top: 20px;
+  padding: 20px;
 }
 
 #other-skills p {
@@ -144,6 +145,7 @@ footer p {
 /* About Page */
 #about {
   height: 755px;
+  padding: 20px;
 }
 
 #about h2 {
@@ -170,6 +172,7 @@ footer p {
 
 #education {
   height: 500px;
+  padding: 20px;
 }
 
 #education h2 {
@@ -185,7 +188,8 @@ footer p {
 }
 
 #blogs {
-  height: 450px;
+  height: 500px;
+  padding: 20px;
 }
 
 #blogs h2 {
@@ -203,6 +207,7 @@ footer p {
   font-size: 20px;
   line-height: 32px;
   color: #333;
+  padding: 15px 15px 15px 0;
 }
 
 #blogs button {
@@ -218,6 +223,14 @@ footer p {
   padding: 50px 0;
 }
 
+#portfolio {
+  padding: 20px;
+}
+
+#portfolio .half-width {
+  height: 400px;
+}
+
 #portfolio h2 {
   font-size: 45px;
   font-family: 'Homemade Apple', cursive;
@@ -231,12 +244,13 @@ footer p {
 
 .project img {
   width: 75%;
-  padding-top: 50px;
+  padding: 50px 0;
 }
 
 .project ul li {
   font-size: 20px;
   color: #333;
+  padding-bottom: 15px;
 }
 
 .project button {
@@ -248,6 +262,7 @@ footer p {
 
 #publications {
   height: 500px;
+  padding: 20px;
 }
 
 #publications h2 {
@@ -269,6 +284,7 @@ footer p {
 
 #community {
   height: 600px;
+  padding: 20px;
 }
 
 #community h2 {
@@ -295,6 +311,7 @@ footer p {
 
 #awards {
   height: 300px;
+  padding: 20px;
 }
 
 #awards h2 {

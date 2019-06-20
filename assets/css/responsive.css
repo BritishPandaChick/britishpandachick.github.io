@@ -206,7 +206,8 @@ footer p {
 }
 
 #portfolio .half-width {
-  border: 2px solid red;
+  height: 275px;
+  padding-bottom: 50px;
 }
 
 #portfolio h2 {
