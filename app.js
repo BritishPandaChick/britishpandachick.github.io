@@ -19,4 +19,4 @@ app.get("/portfolio", function(req, res){
 })
 
 
-app.listen(port, () => console.log("YelpCamp Server has started"));
+app.listen(port, () => console.log("Portfolio server is connected"));
