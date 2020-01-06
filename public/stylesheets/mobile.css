@@ -9,29 +9,24 @@ img {
   max-width: 100%;
 }
 
-.full-width {
-  width: 100%;
-  margin: 0 auto;
-}
-
 /* Header */
 header {
   background-color: #558976;
   background-size: cover;
   height: 35%;
+  width: 100%;
+  margin: 0 auto;
+  padding: 25px 15px;
 }
 
 header h1 {
   font-size: 40px;
   font-family: 'Homemade Apple', cursive;
   color: #fdfcfb;
-  padding: 15px 0 0 35px;
 }
 
 header nav ul li {
   font-weight: bold;
-  list-style: none;
-  padding: 10px 0;
 }
 
 header nav ul li a {
@@ -45,40 +40,6 @@ header nav ul li a:hover {
   color: #fdfcfb;
 }
 
-/* Contact */
-#contact {
-  padding: 15px;
-}
-
-#contact h2 {
-  font-family: 'Homemade Apple', cursive;
-  font-size: 25px;
-  color: #385001;
-}
-
-#contact h3 {
-  font-size: 20px;
-  color: #333;
-}
-
-#contact p {
-  font-size: 18px;
-  color: #333;
-}
-
-#contact ul li {
-  display: inline-block;
-}
-
-#contact ul li i {
-  color: #385001;
-  padding-right: 5px;
-}
-
-#contact ul li i:hover {
-  color: #9dac38;
-}
-
 /* Footer */
 footer {
   background: #558976;
@@ -90,29 +51,44 @@ footer p {
   color: #f6f2ea;
 }
 
+footer ul li i {
+  color: #385001;
+}
+
+footer ul li i:hover {
+  color: #9dac38;
+}
+
 /* Home Page */
 #career-compass {
   font-size: 18px;
   color: #333;
   line-height: 32px;
   padding: 20px;
+  width: 100%;
+  margin: 0 auto;
 }
 
-#skills .third-width {
-  height: 35%;
-  padding: 20px;
+#skills {
+  width: 100%;
+  margin: 0 auto;
 }
 
 #skills i {
-  width: 95%;
   color: #558976;
-  padding: 20px 40px;
+  padding: 20px 75px;
 }
 
 #skills p {
   font-size: 18px;
   color: #333;
   line-height: 32px;
+  padding: 15px 0;
+}
+
+#other-skills {
+  width: 100%;
+  margin: 0 auto;
 }
 
 #other-skills p {
@@ -125,6 +101,8 @@ footer p {
 /* About Page */
 #about {
   padding: 20px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 #about h2 {
