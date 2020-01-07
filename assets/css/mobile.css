@@ -9,29 +9,24 @@ img {
   max-width: 100%;
 }
 
-.full-width {
-  width: 100%;
-  margin: 0 auto;
-}
-
 /* Header */
 header {
   background-color: #558976;
   background-size: cover;
   height: 35%;
+  width: 100%;
+  margin: 0 auto;
 }
 
 header h1 {
   font-size: 40px;
   font-family: 'Homemade Apple', cursive;
   color: #fdfcfb;
-  padding: 15px 0 0 35px;
+  padding: 23px 16px;
 }
 
 header nav ul li {
   font-weight: bold;
-  list-style: none;
-  padding: 10px 0;
 }
 
 header nav ul li a {
@@ -45,40 +40,6 @@ header nav ul li a:hover {
   color: #fdfcfb;
 }
 
-/* Contact */
-#contact {
-  padding: 15px;
-}
-
-#contact h2 {
-  font-family: 'Homemade Apple', cursive;
-  font-size: 25px;
-  color: #385001;
-}
-
-#contact h3 {
-  font-size: 20px;
-  color: #333;
-}
-
-#contact p {
-  font-size: 18px;
-  color: #333;
-}
-
-#contact ul li {
-  display: inline-block;
-}
-
-#contact ul li i {
-  color: #385001;
-  padding-right: 5px;
-}
-
-#contact ul li i:hover {
-  color: #9dac38;
-}
-
 /* Footer */
 footer {
   background: #558976;
@@ -90,41 +51,55 @@ footer p {
   color: #f6f2ea;
 }
 
+footer ul li {
+  display: inline-block;
+}
+
+footer ul li i {
+  color: #385001;
+}
+
+footer ul li i:hover {
+  color: #9dac38;
+}
+
 /* Home Page */
+#career-compass, #skills, #other-skills {
+  width: 100%;
+  margin: 0 auto;
+}
+
 #career-compass {
   font-size: 18px;
   color: #333;
   line-height: 32px;
-  padding: 20px;
-}
-
-#skills .third-width {
-  height: 35%;
-  padding: 20px;
+  padding: 20px 0;
 }
 
 #skills i {
-  width: 95%;
   color: #558976;
-  padding: 20px 40px;
+  padding: 20px 75px;
 }
 
 #skills p {
   font-size: 18px;
   color: #333;
   line-height: 32px;
+  padding: 20px;
 }
 
 #other-skills p {
   font-size: 18px;
   color: #333;
   line-height: 32px;
-  padding: 20px;
+  padding: 20px 0;
 }
 
 /* About Page */
-#about {
-  padding: 20px;
+#about, #education, #blogs {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 0;
 }
 
 #about h2 {
@@ -144,10 +119,6 @@ footer p {
   line-height: 32px;
 }
 
-#education {
-  padding: 20px;
-}
-
 #education h2 {
   font-size: 25px;
   font-family: 'Homemade Apple', cursive;
@@ -160,18 +131,11 @@ footer p {
   color: #333;
 }
 
-#blogs {
-  padding: 20px;
-}
-
-#blogs .half-width {
-  padding-bottom: 50px;
-}
-
 #blogs h2 {
   font-size: 25px;
   font-family: 'Homemade Apple', cursive;
   color: #385001;
+  padding-bottom: 15px;
 }
 
 #blogs h3 {
@@ -186,16 +150,14 @@ footer p {
 }
 
 #blogs button {
-  background: #558976;
-  color: #fdfcfb;
-  font-size: 18px;
-  padding: 10px;
+  margin-bottom: 50px;
+  font-size: 20px;
 }
 
 /* Portfolio Page */
-.project {
-  height: 55%;
-  padding-bottom: 20px;
+#portfolio, #publications, #community, #awards {
+  width: 100%;
+  margin: 0 auto;
 }
 
 #portfolio {
