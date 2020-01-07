@@ -1,167 +1,207 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Sarah Bartley | Portfolio</title>
+  <title>Portfolio</title>
+  <!-- Stylesheets -->
   <link href="../assets/css/style.css" media="screen and (min-width: 1025px)" rel="stylesheet">
   <link href="../assets/css/mobile.css" media="screen and (max-width: 640px)" rel="stylesheet">
   <link href="../assets/css/responsive.css" media="screen and (min-width: 641px) and (max-width: 1024px)" rel="stylesheet">
+  <!-- Font Awesome -->
   <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  <link href="assets/font-awesome/css/all.css" rel="stylesheet">
+  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Homemade+Apple|Roboto+Condensed&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap4 -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
   <header>
-    <div class="full-width">
-      <div class="half-width">
-        <h1>Sarah Bartley</h1>
-      </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <h1>Sarah Bartley</h1>
+        </div>
 
-      <div class="half-width">
-        <nav>
-          <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../about/index.html">About Sarah</a></li>
-            <li><a href="index.html">Portfolio</a></li>
-          </ul>
-        </nav>
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <nav>
+            <ul class="nav">
+              <li class="nav-item"><a href="../index.html" class="nav-link">Home</a></li>
+              <li class="nav-item"><a href="../about/index.html" class="nav-link">About Sarah</a></li>
+              <li class="nav-item"><a href="portfolio/index.html" class="nav-link">Portfolio</a></li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </div>
   </header>
 
   <main>
-    <section id="portfolio">
-      <div class="full-width project">
+    <div class="container">
+      <section id="portfolio">
         <h2>Portfolio</h2>
-        <div class="half-width">
-          <img src="../assets/img/tributepage2.16.png" alt="Tribute Page Project" class="img-responsive" />
+        <div class="project row">
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <img src="../assets/img/tributepage2.16.png" alt="Tribute Page Project" class="img-responsive" />
+          </div>
+
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <h3>Tribute Page</h3>
+            <ul>
+              <li>Create a tribute page website based on Duchess of Cambridge</li>
+              <li>Uses HTML, CSS and Bootstrap</li>
+              <li>Made mobile responsive website</li>
+            </ul>
+            <button onclick="openProjectOne()">See Project</button>
+          </div>
         </div>
 
-        <div class="half-width">
-          <h3>Tribute Page</h3>
-          <ul>
-            <li>Create a tribute page website based on Duchess of Cambridge</li>
-            <li>Uses HTML, CSS and Bootstrap</li>
-            <li>Made mobile responsive website</li>
-          </ul>
-          <button onclick="openProjectOne()">See Project</button>
-        </div>
-      </div>
+        <div class="row project">
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <img src="../assets/img/magic8ball2.16.png" alt="Magic 8 Ball Project" class="img-responsive" />
+          </div>
 
-      <div class="full-width project">
-        <div class="half-width">
-          <img src="../assets/img/magic8ball2.16.png" alt="Magic 8 Ball Project" class="img-responsive" />
-        </div>
-
-        <div class="half-width">
-          <h3>Magic 8 Ball</h3>
-          <ul>
-            <li>Create a magic 8 ball which tells users fortune to question</li>
-            <li>Made with HTML, CSS, JavaScript and jQuery</li>
-            <li>Debug website code. Edit JavaScript code to jQuery</li>
-          </ul>
-          <button onclick="openProjectTwo()">See Project</button>
-        </div>
-      </div>
-
-      <div class="full-width project">
-        <div class="half-width">
-          <img src="../assets/img/catclock2.16.png" alt="LOL Cat Clock Project" class="img-responsive" />
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <h3>Magic 8 Ball</h3>
+            <ul>
+              <li>Create a magic 8 ball which tells users fortune to question</li>
+              <li>Made with HTML, CSS, JavaScript and jQuery</li>
+              <li>Debug website code. Edit JavaScript code to jQuery</li>
+            </ul>
+            <button onclick="openProjectTwo()">See Project</button>
+          </div>
         </div>
 
-        <div class="half-width">
-          <h3>LOL Cat Clock</h3>
-          <ul>
-            <li>Made a clock which changes images depending on time of day. Able to set alarm on clock.</li>
-            <li>Made with HTML, CSS, JavaScript and jQuery</li>
-            <li>Debug website code. Improve website functionality by drying up code.</li>
-          </ul>
-          <button onclick="openProjectThree()">See project</button>
+        <div class="row project">
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <img src="../assets/img/catclock2.16.png" alt="LOL Cat Clock Project" class="img-responsive" />
+          </div>
+
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <h3>LOL Cat Clock</h3>
+            <ul>
+              <li>Made a clock which changes images depending on time of day. Able to set alarm on clock.</li>
+              <li>Made with HTML, CSS, JavaScript and jQuery</li>
+              <li>Debug website code. Improve website functionality by drying up code.</li>
+            </ul>
+            <button onclick="openProjectThree()">See project</button>
+          </div>
         </div>
-      </div>
-  </section>
+    </section>
 
-  <section id="publications">
-    <div class="full-width">
-      <h2>Publications</h2>
-      <p>Book Prescriber.<em>Stories about Books: How "What Color is Your Parachute" helped Sarah</em>. May 28, 2019.</p>
-      <p>App Academy.<em>Nevertheless Sarah Bartley Coded: How I Started My Coding Career</em>. January 11, 2019</p>
-      <p>The Practical Dev</p>
-        <ul>
-          <li><em>Sarah Bartley Continues to Code</em>. May 8, 2019</li>
-          <li><em>2018 in Review</em>. December 31, 2018</li>
-          <li><em>Nevertheless Sarah Bartley Coded</em>. May 7, 2018</li>
-        </ul>
-      <p>The Original BritishPandaChick. March 2015-October 2018.</p>
-    </div>
-  </section>
-
-  <section id="community">
-    <div class="full-width">
-      <div class="half-width">
-        <h2>Certifications</h2>
-        <p>SoloLearn</p>
+    <section id="publications">
+      <div class="col-sm-12 col-md-12 col-lg-12">
+        <h2>Publications</h2>
+        <p>Book Prescriber.<em>Stories about Books: How "What Color is Your Parachute" helped Sarah</em>. May 28, 2019.</p>
+        <p>App Academy.<em>Nevertheless Sarah Bartley Coded: How I Started My Coding Career</em>. January 11, 2019</p>
+        <p>The Practical Dev</p>
           <ul>
-            <li>HTML Fundamentals</li>
-            <li>CSS Fundamentals</li>
-            <li>JavaScript Tutorial</li>
-            <li>jQuery Tutorial</li>
-            <li>SQL Fundamentals</li>
+            <li><em>Sarah Bartley Continues to Code</em>. May 8, 2019</li>
+            <li><em>2018 in Review</em>. December 31, 2018</li>
+            <li><em>Nevertheless Sarah Bartley Coded</em>. May 7, 2018</li>
           </ul>
-        <p>Free Code Camp</p>
-          <ul>
-            <li>Responsive Web Design</li>
-            <li>JavaScript Algorithms and Data Structures</li>
-          </ul>
-        <p>Skillcrush</p>
-          <ul>
-            <li>WordPress Web Development</li>
-            <li>Web Design</li>
-          </ul>
-      </div>
-
-      <div class="half-width">
-        <h2>Speaking</h2>
-        <p>Moms Can Code Virtual Summit.<em>How to Use Social Media to Build Your Personal Brand</em>. April 2018.</p>
-        <p>Skillcrush. <em>Code Your Way to $1K: Q&A with Alumni</em>. April 2018.</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="awards">
-    <div class="full-width">
-      <div class="half-width">
-        <h2>Awards & Honors</h2>
-        <p>Grow with Google Challenge Scholarship. January 2018</p>
-        <p>Ambitionista Member Spotlight. August 2018</p>
-      </div>
-    </div>
-  </section>
-
-    <section id="contact">
-      <div class="full-width">
-        <h2>Interested in hiring me?</h2>
-        <p>E-mail me britishpandachick@gmail.com.</p>
-
-        <h3>Find me on Social Media</h3>
-        <nav>
-          <ul>
-            <li><a href="http://www.facebook.com/sarahbartleybpc" target="_blank"><i class="fab fa-facebook fa-2x"></i></a></li>
-            <li><a href="https://twitter.com/TheOriginalBPC" target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/sarahbartleybpc" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></li>
-            <li><a href="https://www.instagram.com/britishpandachick" target="_blank"><i class="fab fa-instagram fa-2x"></i></a></li>
-            <li><a href="http://www.pinterest.com/theoriginalbpc" target="_blank"><i class="fab fa-pinterest fa-2x"></i></a></li>
-            <li><a href="https://github.com/BritishPandaChick" target="_blank"><i class="fab fa-github fa-2x"></i></a></li>
-          </ul>
-        </nav>
+        <p>The Original BritishPandaChick. March 2015-October 2018.</p>
       </div>
     </section>
-  </main>
+
+    <section id="community">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <h2>Certifications</h2>
+          <p>SoloLearn</p>
+            <ul>
+              <li>HTML Fundamentals</li>
+              <li>CSS Fundamentals</li>
+              <li>JavaScript Tutorial</li>
+              <li>jQuery Tutorial</li>
+              <li>SQL Fundamentals</li>
+            </ul>
+          <p>Free Code Camp</p>
+            <ul>
+              <li>Responsive Web Design</li>
+              <li>JavaScript Algorithms and Data Structures</li>
+            </ul>
+          <p>Skillcrush</p>
+            <ul>
+              <li>WordPress Web Development</li>
+              <li>Web Design</li>
+            </ul>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <h2>Speaking</h2>
+          <p>Moms Can Code Virtual Summit.<em>How to Use Social Media to Build Your Personal Brand</em>. April 2018.</p>
+          <p>Skillcrush. <em>Code Your Way to $1K: Q&A with Alumni</em>. April 2018.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="awards">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <h2>Awards & Honors</h2>
+          <p>Grow with Google Challenge Scholarship. January 2018</p>
+          <p>Ambitionista Member Spotlight. August 2018</p>
+        </div>
+      </div>
+    </section>
+  </div>
+</main>
 
   <footer>
-    <div class="full-width">
-      <p>&copy;2018-2019 Sarah Bartley. All Rights Reserved.</p>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <p>&copy;2018-2019 Sarah Bartley. All Rights Reserved.</p>
+        </div>
+
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <p>Email: britishpandachick@gmail.com</p>
+        </div>
+
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <nav>
+            <ul class="nav">
+              <li class="nav-item">
+                <a href="http://www.facebook.com/sarahbartleybpc" target="_blank" class="nav-link">
+                  <i class="fab fa-facebook fa-2x"></i>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a href="https://twitter.com/TheOriginalBPC" target="_blank" class="nav-link">
+                  <i class="fab fa-twitter-square fa-2x"></i>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a href="https://www.linkedin.com/in/sarahbartleybpc" target="_blank" class="nav-link">
+                  <i class="fab fa-linkedin fa-2x"></i>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a href="https://www.instagram.com/britishpandachick" target="_blank" class="nav-link">
+                  <i class="fab fa-instagram fa-2x"></i>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a href="http://www.pinterest.com/theoriginalbpc" target="_blank" class="nav-link">
+                  <i class="fab fa-pinterest fa-2x"></i>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a href="https://github.com/BritishPandaChick" target="_blank" class="nav-link">
+                  <i class="fab fa-github fa-2x"></i>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </div>
   </footer>
 
