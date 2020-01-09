@@ -86,12 +86,6 @@ footer ul li i:hover {
   padding: 20px;
 }
 
-#other-skills p {
-  font-size: 18px;
-  color: #333;
-  line-height: 32px;
-}
-
 /* About Page */
 #about, #education, #blogs {
   width: 100%;
@@ -129,10 +123,6 @@ footer ul li i:hover {
   color: #333;
 }
 
-#blogs {
-  padding: 20px;
-}
-
 #blogs h2 {
   font-size: 35px;
   font-family: 'Homemade Apple', cursive;
@@ -161,14 +151,6 @@ footer ul li i:hover {
   width: 100%;
   margin: 0 auto;
   padding: 20px 0;
-}
-
-.project {
-  margin: 20px 0;
-}
-
-#portfolio img {
-  padding: 25px 0;
 }
 
 #portfolio h2 {
@@ -207,10 +189,6 @@ footer ul li i:hover {
 #publications ul li {
   font-size: 18px;
   color: #333;
-}
-
-#community {
-  padding: 20px;
 }
 
 #community h2 {

@@ -74,24 +74,15 @@ footer ul li i:hover {
 }
 
 #career-compass {
-  padding: 20px;
+  padding: 20px 0;
   font-size: 20px;
   color: #333;
   line-height: 32px;
 }
 
-#skills {
-  height: 400px;
-}
-
-#skills .third-width {
-  height: 30%;
-  padding: 20px;
-}
-
 #skills i {
   width: 75%;
-  padding: 15px 0px 15px 75px;
+  padding: 15px 35px;
   color: #558976;
 }
 
@@ -99,23 +90,14 @@ footer ul li i:hover {
   font-size: 20px;
   color: #333;
   line-height: 32px;
-}
-
-#other-skills {
-  height: 150px;
   padding: 20px;
-}
-
-#other-skills p {
-  font-size: 20px;
-  color: #333;
-  line-height: 32px;
 }
 
 /* About Page */
-#about {
-  height: 755px;
-  padding: 20px;
+#about, #education, #blogs {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 0;
 }
 
 #about h2 {
@@ -130,19 +112,10 @@ footer ul li i:hover {
   color: #333;
 }
 
-#about img {
-  width: 65%;
-}
-
 #about p {
   font-size: 20px;
   line-height: 32px;
   color: #333;
-}
-
-#education {
-  height: 500px;
-  padding: 20px;
 }
 
 #education h2 {
@@ -157,15 +130,11 @@ footer ul li i:hover {
   color: #333;
 }
 
-#blogs {
-  height: 500px;
-  padding: 20px;
-}
-
 #blogs h2 {
   font-size: 45px;
   font-family: 'Homemade Apple', cursive;
   color: #385001;
+  padding-bottom: 15px;
 }
 
 #blogs h3 {
@@ -177,28 +146,18 @@ footer ul li i:hover {
   font-size: 20px;
   line-height: 32px;
   color: #333;
-  padding: 15px 15px 15px 0;
 }
 
 #blogs button {
-  background: #558976;
-  color: #fdfcfb;
+  margin-bottom: 50px;
   font-size: 20px;
-  padding: 10px;
 }
 
 /* Portfolio Page */
-.project {
-  height: 400px;
-  padding: 50px 0;
-}
-
-#portfolio {
-  padding: 20px;
-}
-
-#portfolio .half-width {
-  height: 400px;
+#portfolio, #publications, #awards {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 0;
 }
 
 #portfolio h2 {
@@ -207,32 +166,19 @@ footer ul li i:hover {
   color: #385001;
 }
 
-.project h3 {
+#portfolio h3 {
   font-size: 45px;
   color: #333;
 }
 
-.project img {
-  width: 75%;
-  padding: 50px 0;
-}
-
-.project ul li {
+#portfolio ul li {
   font-size: 20px;
   color: #333;
-  padding-bottom: 15px;
 }
 
-.project button {
-  background: #558976;
-  color: #fdfcfb;
+#portfolio button {
+  margin-bottom: 20px;
   font-size: 20px;
-  padding: 10px;
-}
-
-#publications {
-  height: 500px;
-  padding: 20px;
 }
 
 #publications h2 {
@@ -252,20 +198,10 @@ footer ul li i:hover {
   color: #333;
 }
 
-#community {
-  height: 600px;
-  padding: 20px;
-}
-
 #community h2 {
   font-size: 45px;
   font-family: 'Homemade Apple', cursive;
   color: #385001;
-}
-
-#community h3 {
-  font-size: 45px;
-  color: #333;
 }
 
 #community ul li {
@@ -277,11 +213,6 @@ footer ul li i:hover {
   font-size: 20px;
   line-height: 32px;
   color: #333;
-}
-
-#awards {
-  height: 300px;
-  padding: 20px;
 }
 
 #awards h2 {

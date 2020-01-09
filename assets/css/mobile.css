@@ -88,13 +88,6 @@ footer ul li i:hover {
   padding: 20px;
 }
 
-#other-skills p {
-  font-size: 18px;
-  color: #333;
-  line-height: 32px;
-  padding: 20px 0;
-}
-
 /* About Page */
 #about, #education, #blogs {
   width: 100%;
