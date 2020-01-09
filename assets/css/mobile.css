@@ -155,17 +155,14 @@ footer ul li i:hover {
 }
 
 /* Portfolio Page */
-#portfolio, #publications, #community, #awards {
+#portfolio, #publications, #awards {
   width: 100%;
   margin: 0 auto;
+  padding: 20px 0;
 }
 
-#portfolio {
-  padding: 20px;
-}
-
-#portfolio .half-width {
-  height: 290px;
+#portfolio img {
+  padding: 25px 0;
 }
 
 #portfolio h2 {
@@ -185,14 +182,8 @@ footer ul li i:hover {
 }
 
 #portfolio button {
-  background: #558976;
-  color: #fdfcfb;
-  font-size: 18px;
-  padding: 10px;
-}
-
-#publications {
-  padding: 20px;
+  font-size: 20px;
+  margin-bottom: 20px;
 }
 
 #publications h2 {
@@ -216,10 +207,6 @@ footer ul li i:hover {
   padding: 20px;
 }
 
-#community .half-width {
-  padding-bottom: 15px;
-}
-
 #community h2 {
   font-size: 25px;
   font-family: 'Homemade Apple', cursive;
@@ -235,6 +222,10 @@ footer ul li i:hover {
 #community ul li {
   font-size: 18px;
   color: #333;
+}
+
+.speaking {
+  padding: 15px 0;
 }
 
 #awards {

@@ -4,38 +4,27 @@ body {
   background-color: #fdfcfb;
 }
 
-/* Grid System */
-.full-width {
-  width: 100%;
-  margin: 0 auto;
-}
-
-.half-width {
-  width: 50%;
-  float: left;
-}
-
-.third-width {
-  width: 30%;
-  float: left;
+img {
+  max-width: 100%;
 }
 
 /* Header */
 header {
   background-color: #558976;
   height: 275px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 header h1 {
   font-size: 75px;
   font-family: 'Homemade Apple', cursive;
   color: #fdfcfb;
-  padding: 20px 30px;
+  padding: 80px 27px;
 }
 
-header nav {
-  float: right;
-  padding: 100px 20px;
+header nav ul {
+  padding: 90px 0;
 }
 
 header nav ul li {
@@ -49,52 +38,16 @@ header nav ul li a {
   text-decoration: none;
   font-size: 22px;
   color: #f6f2ea;
-  padding-left: 50px;
 }
 
 header nav ul li a:hover {
   color: #fdfcfb;
 }
 
-/* Contact */
-#contact {
-  height: 375px;
-  padding: 15px;
-}
-
-#contact h2 {
-  font-family: 'Homemade Apple', cursive;
-  font-size: 45px;
-  color: #385001;
-}
-
-#contact h3 {
-  font-size: 35px;
-  color: #333;
-}
-
-#contact p {
-  font-size: 20px;
-  color: #333;
-}
-
-#contact ul li {
-  display: inline-block;
-}
-
-#contact ul li i {
-  color: #385001;
-  padding-left: 25px;
-}
-
-#contact ul li i:hover {
-  color: #9dac38;
-}
-
 /* Footer */
 footer {
   background: #558976;
-  height: 35px;
+  height: 35%;
 }
 
 footer p {
@@ -102,7 +55,24 @@ footer p {
   color: #f6f2ea;
 }
 
+footer ul li {
+  display: inline-block;
+}
+
+footer ul li i {
+  color: #385001;
+}
+
+footer ul li i:hover {
+  color: #9dac38;
+}
+
 /* Home Page */
+#career-compass, #skills, #other-skills {
+  width: 100%;
+  margin: 0 auto;
+}
+
 #career-compass {
   padding: 20px;
   font-size: 20px;
