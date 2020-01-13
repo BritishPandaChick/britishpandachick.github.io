@@ -1,4 +1,4 @@
-/* Basic Styles */
+/* ==== Basic Styles ==== */
 body {
   font-family: 'Roboto Condensed', sans-serif;
   background-color: #fdfcfb;
@@ -9,10 +9,9 @@ img {
   max-width: 100%;
 }
 
-/* Header */
+/* ==== Header ==== */
 header {
   background-color: #558976;
-  background-size: cover;
   height: 35%;
   width: 100%;
   margin: 0 auto;
@@ -24,6 +23,10 @@ header h1 {
   color: #fdfcfb;
   padding: 30px 0px;
   text-align: center;
+}
+
+header nav ul {
+  padding: 15px 0;
 }
 
 header nav ul li {
@@ -41,16 +44,16 @@ header nav ul li a:hover {
   color: #fdfcfb;
 }
 
-/* Footer */
+/* ==== Footer ==== */
 footer {
   background: #558976;
   height: 50%;
+  padding: 15px 0;
 }
 
 footer p {
   font-size: 16px;
   color: #f6f2ea;
-  padding: 15px 0;
 }
 
 footer ul li i {
@@ -61,22 +64,22 @@ footer ul li i:hover {
   color: #9dac38;
 }
 
-/* Home Page */
-#career-compass, #skills, #other-skills {
+/* ==== Home Page ==== */
+#career-compass, #skills {
   width: 100%;
   margin: 0 auto;
+  padding: 20px 0;
 }
 
-#career-compass {
+#career-compass p {
   font-size: 18px;
   color: #333;
   line-height: 32px;
-  padding: 20px 0;
 }
 
 #skills i {
   color: #558976;
-  padding: 20px 75px;
+  padding: 15px 55px;
 }
 
 #skills p {
@@ -87,10 +90,14 @@ footer ul li i:hover {
 }
 
 /* About Page */
-#about, #education, #blogs {
+#about, #education, #blogs, #publications, #side-projects {
   width: 100%;
   margin: 0 auto;
   padding: 20px 0;
+}
+
+#about img {
+  padding-bottom: 20px;
 }
 
 #about h2 {
@@ -108,6 +115,7 @@ footer ul li i:hover {
 #about p {
   font-size: 18px;
   line-height: 32px;
+  color: #333;
 }
 
 #education h2 {
@@ -142,39 +150,7 @@ footer ul li i:hover {
 
 #blogs button {
   margin-bottom: 50px;
-  font-size: 20px;
-}
-
-/* Portfolio Page */
-#portfolio, #publications, #awards {
-  width: 100%;
-  margin: 0 auto;
-  padding: 20px 0;
-}
-
-#portfolio img {
-  padding: 25px 0;
-}
-
-#portfolio h2 {
-  font-size: 25px;
-  font-family: 'Homemade Apple', cursive;
-  color: #385001;
-}
-
-#portfolio h3 {
-  font-size: 20px;
-  color: #333;
-}
-
-#portfolio ul li {
   font-size: 18px;
-  color: #333;
-}
-
-#portfolio button {
-  font-size: 20px;
-  margin-bottom: 20px;
 }
 
 #publications h2 {
@@ -185,7 +161,7 @@ footer ul li i:hover {
 
 #publications p {
   font-size: 18px;
-  line-height: 28px;
+  line-height: 32px;
   color: #333;
 }
 
@@ -194,43 +170,107 @@ footer ul li i:hover {
   color: #333;
 }
 
-#community {
-  padding: 20px;
-}
-
-#community h2 {
+#side-projects h2 {
   font-size: 25px;
   font-family: 'Homemade Apple', cursive;
   color: #385001;
+  padding-bottom: 15px;
 }
 
-#community p {
+#side-projects p {
   font-size: 18px;
   line-height: 32px;
   color: #333;
 }
 
-#community ul li {
+#side-projects button {
+  margin-bottom: 50px;
   font-size: 18px;
-  color: #333;
 }
 
-.speaking {
-  padding: 15px 0;
+/* Portfolio Page */
+#wordpress, #freecodecamp, #skillcrush, #hundred-days {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 0;
 }
 
-#awards {
-  padding: 20px;
-}
-
-#awards h2 {
+#wordpress h2 {
   font-size: 25px;
   font-family: 'Homemade Apple', cursive;
   color: #385001;
 }
 
-#awards p {
+#wordpress p {
   font-size: 18px;
   line-height: 32px;
   color: #333;
+}
+
+#wordpress img {
+  padding: 25px 0;
+}
+
+#wordpress button {
+  font-size: 18px;
+}
+
+#freecodecamp h2 {
+  font-size: 25px;
+  font-family: 'Homemade Apple', cursive;
+  color: #385001;
+}
+
+#freecodecamp p {
+  font-size: 18px;
+  line-height: 32px;
+  color: #333;
+}
+
+#freecodecamp img {
+  padding: 25px 0;
+}
+
+#freecodecamp button {
+  font-size: 18px;
+}
+
+#skillcrush h2 {
+  font-size: 25px;
+  font-family: 'Homemade Apple', cursive;
+  color: #385001;
+}
+
+#skillcrush p {
+  font-size: 18px;
+  line-height: 32px;
+  color: #333;
+}
+
+#skillcrush img {
+  padding: 25px 0;
+}
+
+#skillcrush button {
+  font-size: 18px;
+}
+
+#hundred-days h2 {
+  font-size: 25px;
+  font-family: 'Homemade Apple', cursive;
+  color: #385001;
+}
+
+#hundred-days p {
+  font-size: 18px;
+  line-height: 32px;
+  color: #333;
+}
+
+#hundred-days img {
+  padding: 25px 0;
+}
+
+#hundred-days button {
+  font-size: 18px;
 }
