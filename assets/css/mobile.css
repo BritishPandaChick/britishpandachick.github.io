@@ -31,7 +31,6 @@ header nav ul li {
 header nav ul li a {
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 20px;
   color: #f6f2ea;
 }
 
@@ -64,7 +63,6 @@ footer ul li i:hover {
 }
 
 #career-compass p {
-  font-size: 20px;
   color: #333;
   line-height: 32px;
 }
@@ -75,7 +73,6 @@ footer ul li i:hover {
 }
 
 #skills p {
-  font-size: 20px;
   color: #333;
   line-height: 32px;
   padding: 20px;
@@ -99,7 +96,6 @@ footer ul li i:hover {
 }
 
 #about p {
-  font-size: 20px;
   line-height: 32px;
   color: #333;
 }
@@ -112,7 +108,6 @@ footer ul li i:hover {
 }
 
 #education p {
-  font-size: 20px;
   line-height: 32px;
   color: #333;
 }
@@ -139,7 +134,6 @@ footer ul li i:hover {
 }
 
 #blogs p {
-  font-size: 20px;
   line-height: 32px;
   color: #333;
   padding-bottom: 15px;
@@ -147,7 +141,6 @@ footer ul li i:hover {
 
 #blogs button {
   margin-bottom: 50px;
-  font-size: 20px;
 }
 
 #publications h2 {
@@ -158,13 +151,11 @@ footer ul li i:hover {
 }
 
 #publications p {
-  font-size: 20px;
   line-height: 32px;
   color: #333;
 }
 
 #publications ul li {
-  font-size: 20px;
   color: #333;
 }
 
@@ -176,14 +167,12 @@ footer ul li i:hover {
 }
 
 #side-projects p {
-  font-size: 20px;
   line-height: 32px;
   color: #333;
 }
 
 #side-projects button {
   margin-bottom: 50px;
-  font-size: 20px;
 }
 
 /* ==== Portfolio Page ==== */
@@ -208,10 +197,6 @@ footer ul li i:hover {
   padding: 25px 0;
 }
 
-#wordpress button {
-  font-size: 20px;
-}
-
 #freecodecamp h2 {
   font-size: 30px;
   font-family: 'Homemade Apple', cursive;
@@ -228,10 +213,6 @@ footer ul li i:hover {
 
 #freecodecamp img {
   padding: 25px 0;
-}
-
-#freecodecamp button {
-  font-size: 20px;
 }
 
 #skillcrush h2 {
@@ -251,10 +232,6 @@ footer ul li i:hover {
   padding: 25px 0;
 }
 
-#skillcrush button {
-  font-size: 20px;
-}
-
 #hundred-days h2 {
   font-size: 30px;
   font-family: 'Homemade Apple', cursive;
@@ -270,8 +247,4 @@ footer ul li i:hover {
 
 #hundred-days img {
   padding: 25px 0;
-}
-
-#hundred-days button {
-  font-size: 20px;
 }

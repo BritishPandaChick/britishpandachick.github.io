@@ -1,26 +1,30 @@
-/* Basic Styles */
+/* ==== Basic Styles ==== */
 body {
   font-family: 'Roboto Condensed', sans-serif;
   background-color: #fdfcfb;
+  font-size: 20px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 img {
   max-width: 100%;
 }
 
-/* Header */
+/* ==== Header ==== */
 header {
   background-color: #558976;
-  height: 35%;
-  width: 100%;
-  margin: 0 auto;
 }
 
 header h1 {
-  font-size: 42px;
+  font-size: 37px;
   font-family: 'Homemade Apple', cursive;
   color: #fdfcfb;
-  padding: 20px 10px;
+  padding: 40px 25px;
+}
+
+header nav ul {
+  padding: 40px 0;
 }
 
 header nav ul li {
@@ -30,7 +34,6 @@ header nav ul li {
 header nav ul li a {
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 22px;
   color: #f6f2ea;
 }
 
@@ -38,19 +41,15 @@ header nav ul li a:hover {
   color: #fdfcfb;
 }
 
-/* Footer */
+/* ==== Footer ==== */
 footer {
   background: #558976;
-  height: 35%;
+  padding: 15px 0;
 }
 
 footer p {
-  font-size: 16px;
+  font-size: 18px;
   color: #f6f2ea;
-}
-
-footer ul li {
-  display: inline-block;
 }
 
 footer ul li i {
@@ -61,35 +60,29 @@ footer ul li i:hover {
   color: #9dac38;
 }
 
-/* Home Page */
-#career-compass, #skills, #other-skills {
-  width: 100%;
-  margin: 0 auto;
+/* ==== Home Page ==== */
+#career-compass, #skills {
+  padding: 20px 0;
 }
 
-#career-compass {
-  font-size: 18px;
+#career-compass p {
   color: #333;
   line-height: 32px;
-  padding: 20px 0;
 }
 
 #skills i {
   color: #558976;
-  padding: 15px 25px;
+  padding: 20px 30px;
 }
 
 #skills p {
-  font-size: 18px;
   color: #333;
   line-height: 32px;
-  padding: 20px;
+  padding-left: 15px;
 }
 
-/* About Page */
-#about, #education, #blogs {
-  width: 100%;
-  margin: 0 auto;
+/* ==== About Page ==== */
+#about, #education, #blogs, #publications, #side-projects {
   padding: 20px 0;
 }
 
@@ -100,13 +93,7 @@ footer ul li i:hover {
   word-spacing: 15px;
 }
 
-#about h3 {
-  font-size: 25px;
-  color: #333;
-}
-
 #about p {
-  font-size: 18px;
   line-height: 32px;
   color: #333;
 }
@@ -118,9 +105,16 @@ footer ul li i:hover {
 }
 
 #education p {
-  font-size: 18px;
   line-height: 32px;
   color: #333;
+}
+
+#education .formal {
+  padding-bottom: 25px;
+}
+
+#education .awards {
+  padding-bottom: 25px;
 }
 
 #blogs h2 {
@@ -136,42 +130,12 @@ footer ul li i:hover {
 }
 
 #blogs p {
-  font-size: 18px;
   line-height: 32px;
   color: #333;
 }
 
 #blogs button {
   margin-bottom: 50px;
-  font-size: 20px;
-}
-
-/* Portfolio Page */
-#portfolio, #publications, #awards {
-  width: 100%;
-  margin: 0 auto;
-  padding: 20px 0;
-}
-
-#portfolio h2 {
-  font-size: 35px;
-  font-family: 'Homemade Apple', cursive;
-  color: #385001;
-}
-
-#portfolio h3 {
-  font-size: 25px;
-  color: #333;
-}
-
-#portfolio ul li {
-  font-size: 18px;
-  color: #333;
-}
-
-#portfolio button {
-  font-size: 20px;
-  margin-bottom: 20px;
 }
 
 #publications h2 {
@@ -181,45 +145,94 @@ footer ul li i:hover {
 }
 
 #publications p {
-  font-size: 20px;
   line-height: 32px;
   color: #333;
 }
 
 #publications ul li {
-  font-size: 18px;
   color: #333;
 }
 
-#community h2 {
+#side-projects h2 {
   font-size: 35px;
   font-family: 'Homemade Apple', cursive;
   color: #385001;
 }
 
-#community p {
-  font-size: 20px;
+#side-projects p {
   line-height: 32px;
   color: #333;
 }
 
-#community ul li {
-  font-size: 20px;
-  color: #333;
+#side-projects button {
+  margin-bottom: 50px;
 }
 
-#awards {
-  padding: 20px;
+/* ==== Portfolio Page ==== */
+#wordpress, #freecodecamp, #skillcrush, #hundred-days {
+  padding: 20px 0;
 }
 
-#awards h2 {
+#wordpress h2 {
   font-size: 35px;
   font-family: 'Homemade Apple', cursive;
   color: #385001;
+  padding: 15px 0;
 }
 
-#awards p {
-  font-size: 18px;
+#wordpress p {
   line-height: 32px;
   color: #333;
+}
+
+#wordpress img {
+  padding: 30px 0;
+}
+
+#freecodecamp h2 {
+  font-size: 35px;
+  font-family: 'Homemade Apple', cursive;
+  color: #385001;
+  padding: 15px 0;
+}
+
+#freecodecamp p {
+  line-height: 32px;
+  color: #333;
+}
+
+#freecodecamp img {
+  padding: 30px 0;
+}
+
+#skillcrush h2 {
+  font-size: 35px;
+  font-family: 'Homemade Apple', cursive;
+  color: #385001;
+  padding: 15px 0;
+}
+
+#skillcrush p {
+  line-height: 32px;
+  color: #333;
+}
+
+#skillcrush img {
+  padding: 30px 0;
+}
+
+#hundred-days h2 {
+  font-size: 35px;
+  font-family: 'Homemade Apple', cursive;
+  color: #385001;
+  padding: 15px 0;
+}
+
+#hundred-days p {
+  line-height: 32px;
+  color: #333;
+}
+
+#hundred-days img {
+  padding: 30px 0;
 }
