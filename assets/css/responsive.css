@@ -2,7 +2,6 @@
 body {
   font-family: 'Roboto Condensed', sans-serif;
   background-color: #fdfcfb;
-  font-size: 20px;
   width: 100%;
   margin: 0 auto;
 }
@@ -20,7 +19,7 @@ header h1 {
   font-size: 37px;
   font-family: 'Homemade Apple', cursive;
   color: #fdfcfb;
-  padding: 40px 25px;
+  padding: 50px 25px;
 }
 
 header nav ul {
@@ -35,6 +34,7 @@ header nav ul li a {
   text-transform: uppercase;
   text-decoration: none;
   color: #f6f2ea;
+  font-size: 20px;
 }
 
 header nav ul li a:hover {
@@ -68,6 +68,7 @@ footer ul li i:hover {
 #career-compass p {
   color: #333;
   line-height: 32px;
+  font-size: 20px;
 }
 
 #skills i {
@@ -79,6 +80,7 @@ footer ul li i:hover {
   color: #333;
   line-height: 32px;
   padding-left: 15px;
+  font-size: 20px;
 }
 
 /* ==== About Page ==== */
@@ -96,6 +98,7 @@ footer ul li i:hover {
 #about p {
   line-height: 32px;
   color: #333;
+  font-size: 20px;
 }
 
 #education h2 {
@@ -107,10 +110,7 @@ footer ul li i:hover {
 #education p {
   line-height: 32px;
   color: #333;
-}
-
-#education .formal {
-  padding-bottom: 25px;
+  font-size: 20px;
 }
 
 #education .awards {
@@ -132,10 +132,12 @@ footer ul li i:hover {
 #blogs p {
   line-height: 32px;
   color: #333;
+  font-size: 20px;
 }
 
 #blogs button {
   margin-bottom: 50px;
+  font-size: 20px;
 }
 
 #publications h2 {
@@ -147,25 +149,30 @@ footer ul li i:hover {
 #publications p {
   line-height: 32px;
   color: #333;
+  font-size: 20px;
 }
 
 #publications ul li {
   color: #333;
+  font-size: 20px;
 }
 
 #side-projects h2 {
   font-size: 35px;
   font-family: 'Homemade Apple', cursive;
   color: #385001;
+  padding-bottom: 15px;
 }
 
 #side-projects p {
   line-height: 32px;
   color: #333;
+  font-size: 20px;
 }
 
 #side-projects button {
   margin-bottom: 50px;
+  font-size: 20px;
 }
 
 /* ==== Portfolio Page ==== */
@@ -183,6 +190,7 @@ footer ul li i:hover {
 #wordpress p {
   line-height: 32px;
   color: #333;
+  font-size: 20px;
 }
 
 #wordpress img {
@@ -199,6 +207,7 @@ footer ul li i:hover {
 #freecodecamp p {
   line-height: 32px;
   color: #333;
+  font-size: 20px;
 }
 
 #freecodecamp img {
@@ -215,6 +224,7 @@ footer ul li i:hover {
 #skillcrush p {
   line-height: 32px;
   color: #333;
+  font-size: 20px;
 }
 
 #skillcrush img {
@@ -231,6 +241,7 @@ footer ul li i:hover {
 #hundred-days p {
   line-height: 32px;
   color: #333;
+  font-size: 20px;
 }
 
 #hundred-days img {
