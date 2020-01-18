@@ -20,5 +20,4 @@ app.get("/portfolio", function(req, res){
   res.render("portfolio");
 });
 
-
 app.listen(port, () => console.log("Portfolio server is connected"));
