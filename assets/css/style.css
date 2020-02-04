@@ -83,7 +83,7 @@ footer ul li i:hover {
 }
 
 /* ==== About Page ==== */
-#about, #education, #blogs, #publications, #side-projects {
+#about, #education, #honors, #speaking, #blogs, #publications, #side-projects {
   padding: 40px 0;
 }
 
@@ -112,8 +112,33 @@ footer ul li i:hover {
   color: #333;
 }
 
-#education .awards {
-  padding-bottom: 30px;
+#honors h2 {
+  font-size: 40px;
+  font-family: 'Homemade Apple', cursive;
+  color: #385001;
+}
+
+#honors p {
+  font-size: 20px;
+  line-height: 32px;
+  color: #333;
+}
+
+#speaking h2 {
+  font-size: 40px;
+  font-family: 'Homemade Apple', cursive;
+  color: #385001;
+}
+
+#speaking p {
+  font-size: 20px;
+  line-height: 32px;
+  color: #333;
+}
+
+#speaking iframe {
+  width: 100%;
+  height: 100%;
 }
 
 #blogs h2 {
