@@ -127,6 +127,7 @@ footer ul li i:hover {
   line-height: 32px;
   color: #333;
   font-size: 20px;
+  padding-bottom: 15px;
 }
 
 #speaking h2 {
@@ -144,7 +145,7 @@ footer ul li i:hover {
 
 #speaking iframe {
   width: 100%;
-  height: 100%;
+  height: 400px;
 }
 
 #blogs h2 {
@@ -182,6 +183,7 @@ footer ul li i:hover {
   line-height: 32px;
   color: #333;
   font-size: 20px;
+  padding-bottom: 15px;
 }
 
 #publications ul li {
