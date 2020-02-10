@@ -1,4 +1,4 @@
-//About Page
+/*About Page */
 //BritishPandaChick Code blog button opens blog when clicked
 function openBritishCodes() {
   window.open("http://britishpandachickcodes.blogspot.com", "_blank");
@@ -19,7 +19,9 @@ function openElpha(){
   window.open("https://elpha.com/");
 }
 
-//Portfolio Page
+/* Portfolio Page */
+/* Free Code Camp Projects */
+
 //Opens Github rep for librarian website
 function openLibrarianSite(){
   window.open("https://github.com/BritishPandaChick/librarian-portfolio-site");
@@ -35,14 +37,45 @@ function openTributePage(){
   window.open("https://codepen.io/BritishPandaChick/full/BKBLOv");
 }
 
+//Open pen for Free Code Camp Portfolio project 
+function openPortfolioPen(){
+  window.open("https://codepen.io/BritishPandaChick/full/MyovyE")
+}
+
+//Open pen for Product Landing Page
+function openProductLanding(){
+  window.open("https://codepen.io/BritishPandaChick/full/rrJRRQ")
+}
+
 //Open pen for Quote Generator project
 function openQuoteGenerate(){
   window.open("https://codepen.io/BritishPandaChick/full/oLzoBG");
 }
 
-//Open pen for Markdown Previewer project
-function openMarkdownPreview(){
-  window.open("https://codepen.io/BritishPandaChick/full/YoVaZm");
+//Open pen for Technical Documentation Page 
+function openTechnicalDocument(){
+  window.open("https://codepen.io/BritishPandaChick/full/QBxxZo");
+}
+
+//Open pen for survey form project
+function openSurveyForm(){
+  window.open("https://codepen.io/BritishPandaChick/full/wxPVmO");
+}
+
+/* Skillcrush Projects */
+//Open Github rep for Skillcrush Portfolio project 
+function openSkillcrushPortfolio(){
+  window.open("https://github.com/BritishPandaChick/skillcrush-portfolio-project");
+}
+
+//Open Github repo for Skillcrush e-mail sign up page 
+function openEmailSignUp(){
+  window.open("https://github.com/BritishPandaChick/email-signup-page");
+}
+
+//Open Github repo for Jubilee Austen website 
+function openJubilee(){
+  window.open("https://github.com/BritishPandaChick/jubilee-austen-portfolio");
 }
 
 //Open Github repo for Magic 8 Ball project
