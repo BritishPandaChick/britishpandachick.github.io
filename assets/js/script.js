@@ -93,6 +93,22 @@ function openCatClock(){
   window.open("https://github.com/BritishPandaChick/lolcatclock");
 }
 
+/* 100 Days of Code Challenge */
+//Open pen for Rapunzel portfolio project 
+function openRapunzel(){
+  window.open("https://codepen.io/BritishPandaChick/full/OjoKjL");
+}
+
+//Open pen for Ratatouille restaurant website 
+function openRatatouille(){
+  window.open("https://codepen.io/BritishPandaChick/full/zEGreo");
+}
+
+//Open pen for AG Toy website
+function openToy(){
+  window.open("https://codepen.io/BritishPandaChick/full/XeGbmq");
+}
+
 //Open pen for event invitation project
 function openEventInvite(){
   window.open("https://codepen.io/BritishPandaChick/full/eEPQza");
@@ -106,4 +122,10 @@ function openMovieTrailer(){
 //Open pen for tourist attraction project
 function openTouristAttract(){
   window.open("https://codepen.io/BritishPandaChick/full/wqNGKL");
+}
+
+/* CodePlayer projects */
+//Open Github repo to see Pinterest layout code 
+function openPinterestLayout(){
+  
 }
