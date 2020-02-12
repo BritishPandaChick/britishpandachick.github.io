@@ -127,5 +127,25 @@ function openTouristAttract(){
 /* CodePlayer projects */
 //Open Github repo to see Pinterest layout code 
 function openPinterestLayout(){
-  
+  window.open("https://github.com/BritishPandaChick/pinterest-layout");
+}
+
+//Open Github repo to see Snow Effect code 
+function openSnowEffect(){
+  window.open("https://github.com/BritishPandaChick/codeplayer-snow-effect");
+}
+
+//Open Github repo to see Holiday Lights code
+function openHolidayLights(){
+  window.open("https://github.com/BritishPandaChick/blinking-holiday-lights");
+}
+
+//Open Github repo to see Image Accordion Effect code 
+function openAccordion(){
+  window.open("https://github.com/BritishPandaChick/image-accordion-effect");
+}
+
+//Open Github repo to see Matrix Rain code 
+function openMatrixRain(){
+  window.open("https://github.com/BritishPandaChick/matrix-rain");
 }

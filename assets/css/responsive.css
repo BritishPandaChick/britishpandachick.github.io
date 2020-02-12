@@ -201,7 +201,7 @@ footer ul li i:hover {
 }
 
 /* ==== Portfolio Page ==== */
-#wordpress, #freecodecamp, #skillcrush, #hundred-days {
+#wordpress, #freecodecamp, #skillcrush, #hundred-days, #codeplayer {
   padding: 20px 0;
 }
 
@@ -270,5 +270,22 @@ footer ul li i:hover {
 }
 
 #hundred-days img {
+  padding: 30px 0;
+}
+
+#codeplayer h2 {
+  font-size: 35px;
+  font-family: 'Homemade Apple', cursive;
+  color: #385001;
+  padding: 15px 0;
+}
+
+#codeplayer p {
+  line-height: 32px;
+  color: #333;
+  font-size: 20px;
+}
+
+#codeplayer img {
   padding: 30px 0;
 }
