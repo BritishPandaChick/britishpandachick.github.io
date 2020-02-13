@@ -149,3 +149,8 @@ function openAccordion(){
 function openMatrixRain(){
   window.open("https://github.com/BritishPandaChick/matrix-rain");
 }
+
+//Open Github repo to see Multiple Step Form 
+function openMultiStep(){
+  window.open("https://github.com/BritishPandaChick/multistep-form");
+}
