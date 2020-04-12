@@ -19,21 +19,27 @@
 <body>
   <header>
     <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-12 col-md-6 col-lg-6">
-          <h1>Sarah Bartley</h1>
-        </div>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <h1 class="navbar-brand">Sarah Bartley</h1>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
 
-        <div class="col-sm-12 col-md-6 col-lg-6">
-          <nav>
-            <ul class="nav">
-              <li class="nav-item"><a href="../index.html" class="nav-link">Home</a></li>
-              <li class="nav-item"><a href="../about/index.html" class="nav-link">About Sarah</a></li>
-              <li class="nav-item"><a href="../portfolio/index.html" class="nav-link">Portfolio</a></li>
-            </ul>
-          </nav>
+            <li class="nav-item">
+              <a class="nav-link" href="../about/index.html">About Sarah</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="../portfolio/index.html">Portfolio</a>
+            </li>
         </div>
-      </div>
+      </nav>
     </div>
   </header>
 
@@ -42,7 +48,7 @@
       <section id="about">
         <div class="row">
           <div class="col-sm-12 col-md-6 col-lg-6">
-            <img src="../assets/img/sarah-flowers.jpg" alt="Sarah Bartley" class="img-responsive" />
+            <img src="../assets/img/sarah-flowers.jpg" alt="Sarah Bartley" class="img-fluid" />
           </div>
 
           <div class="col-sm-12 col-md-6 col-lg-6">
@@ -110,7 +116,7 @@
         <div class="row">
           <div class="col-sm-12 col-md-6 col-lg-6">
             <h3>BritishPandaChick Codes</h3>
-            <p>BritishPandaChick Codes was launched November 2018. All the posts from the My Coding Journey series as well as ones written about carers and books on The Original BritishPandaChick were moved to this new platform. New content soon started appearing March 2019. I introduced new series including 100 Days of Code challenge and CNC2018 Get a Job Challenge.</p>
+            <p>BritishPandaChick Codes was launched November 2018. All the posts from the My Coding Journey series as well as ones written about careers and books on The Original BritishPandaChick were moved to this new platform. New content soon started appearing March 2019. I introduced new series including 100 Days of Code challenge and CNC2018 Get a Job Challenge.</p>
             <button type="button" class="btn btn-success btn-lg btn-block" onclick="openBritishCodes()">Read Now</button>
           </div>
 
@@ -215,11 +221,16 @@
               </li>
             </ul>
           </nav>
-        </div>
+        </div>        
       </div>
     </div>
   </footer>
 
+  <!-- Bootstrap JS Files -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <!-- JS File -->
   <script type="text/javascript" src="../assets/js/script.js"></script>
 </body>
 </html>
