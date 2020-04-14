@@ -1,1 +1,8 @@
+<<<<<<< HEAD
 .env
+=======
+# Don't track the contents of these files
+node_modules
+.env
+package-lock.json
+>>>>>>> eadb91c8116f6d9526ab898f382d2536e516361b
