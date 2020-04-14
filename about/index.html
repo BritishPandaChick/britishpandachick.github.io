@@ -19,22 +19,27 @@
 <body>
   <header>
     <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-12 col-md-6 col-lg-6">
-          <h1>Sarah Bartley</h1>
-        </div>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+      <h1 class="navbar-brand">Sarah Bartley</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-        <div class="col-sm-12 col-md-6 col-lg-6">
-          <nav>
-            <ul class="nav">
-              <li class="nav-item"><a href="../index.html" class="nav-link">Home</a></li>
-              <li class="nav-item"><a href="../about/index.html" class="nav-link">About Sarah</a></li>
-              <li class="nav-item"><a href="../portfolio/index.html" class="nav-link">Portfolio</a></li>
-            </ul>
-          </nav>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="nav navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../about/index.html">About Sarah</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../portfolio/index.html">Portfolio</a>
+            </li>
+          </ul>
         </div>
-      </div>
-    </div>
+      </nav>
+    </div>  
   </header>
 
   <main>
@@ -42,7 +47,7 @@
       <section id="about">
         <div class="row">
           <div class="col-sm-12 col-md-6 col-lg-6">
-            <img src="../assets/img/sarah-flowers.jpg" alt="Sarah Bartley" class="img-responsive" />
+            <img src="../assets/img/sarah-flowers.jpg" alt="Sarah Bartley" class="img-fluid" />
           </div>
 
           <div class="col-sm-12 col-md-6 col-lg-6">
@@ -177,49 +182,64 @@
 
         <div class="col-sm-12 col-md-4 col-lg-4">
           <nav>
-            <ul class="nav">
-              <li class="nav-item">
-                <a href="http://www.facebook.com/sarahbartleybpc" target="_blank" class="nav-link">
-                  <i class="fab fa-facebook fa-2x"></i>
-                </a>
-              </li>
-
-              <li class="nav-item">
-                <a href="https://twitter.com/TheOriginalBPC" target="_blank" class="nav-link">
-                  <i class="fab fa-twitter-square fa-2x"></i>
-                </a>
-              </li>
-
-              <li class="nav-item">
-                <a href="https://www.linkedin.com/in/sarahbartleybpc" target="_blank" class="nav-link">
-                  <i class="fab fa-linkedin fa-2x"></i>
-                </a>
-              </li>
-
-              <li class="nav-item">
-                <a href="https://www.instagram.com/britishpandachick" target="_blank" class="nav-link">
-                  <i class="fab fa-instagram fa-2x"></i>
-                </a>
-              </li>
-
-              <li class="nav-item">
-                <a href="http://www.pinterest.com/theoriginalbpc" target="_blank" class="nav-link">
-                  <i class="fab fa-pinterest fa-2x"></i>
-                </a>
-              </li>
-
-              <li class="nav-item">
-                <a href="https://github.com/BritishPandaChick" target="_blank" class="nav-link">
-                  <i class="fab fa-github fa-2x"></i>
-                </a>
-              </li>
-            </ul>
+            <div class="row">
+              <ul class="nav">
+                <li class="nav-item">
+                  <a href="http://www.facebook.com/sarahbartleybpc" target="_blank" class="nav-link">
+                    <i class="fab fa-facebook fa-2x"></i>
+                  </a>
+                </li>
+  
+                <li class="nav-item">
+                  <a href="https://twitter.com/TheOriginalBPC" target="_blank" class="nav-link">
+                    <i class="fab fa-twitter-square fa-2x"></i>
+                  </a>
+                </li>
+  
+                <li class="nav-item">
+                  <a href="https://www.linkedin.com/in/sarahbartleybpc" target="_blank" class="nav-link">
+                    <i class="fab fa-linkedin fa-2x"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <nav>
+            <div class="row">
+              <ul class="nav">
+                <li class="nav-item">
+                  <a href="https://www.instagram.com/britishpandachick" target="_blank" class="nav-link">
+                    <i class="fab fa-instagram fa-2x"></i>
+                  </a>
+                </li>
+  
+                <li class="nav-item">
+                  <a href="http://www.pinterest.com/theoriginalbpc" target="_blank" class="nav-link">
+                    <i class="fab fa-pinterest fa-2x"></i>
+                  </a>
+                </li>
+  
+                <li class="nav-item">
+                  <a href="https://github.com/BritishPandaChick" target="_blank" class="nav-link">
+                    <i class="fab fa-github fa-2x"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </nav>
         </div>
       </div>
     </div>
   </footer>
 
+  <!-- Bootstrap JS Code -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!-- JS File -->
   <script type="text/javascript" src="../assets/js/script.js"></script>
 </body>
 </html>
