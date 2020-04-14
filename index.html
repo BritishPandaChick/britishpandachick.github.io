@@ -19,27 +19,26 @@
 <body>
   <header>
     <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-12 col-md-6 col-lg-6">
-          <h1>Sarah Bartley</h1>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <h1 class="navbar-brand">Sarah Bartley</h1>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about/index.html">About Sarah</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio/index.html">Portfolio</a>
+            </li>
+          </ul>
         </div>
-
-        <div class="col-sm-12 col-md-6 col-lg-6">
-          <nav>
-            <ul class="nav">
-              <li class="nav-item">
-                <a href="index.html" class="nav-link">Home</a>
-              </li>
-              <li class="nav-item">
-                <a href="about/index.html" class="nav-link">About Sarah</a>
-              </li>
-              <li class="nav-item">
-                <a href="portfolio/index.html" class="nav-link">Portfolio</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </div>
+      </nav>
     </div>
   </header>
 
@@ -56,17 +55,17 @@
     	<section id="skills">
         <div class="row">
           <div class="col-sm-12 col-md-4 col-lg-4">
-            <i class="fas fa-pencil-ruler fa-7x"></i>
+            <img src="assets/img/wedding-website.jpg" class="img-thumbnail" />
             <p>I design the overall plan and look for web applications. I collaborate with clients on the user experience for websites. I work out sitemaps, user personas, and wireframes so designs will work on the web.  I organize and plan the vision for a website including the fonts, colors, and icons. I use design tools such as Adobe Creative Suite, Canva, and Visme to make web graphics for websites.</p>
           </div>
 
           <div class="col-sm-12 col-md-4 col-lg-4">
-            <i class="fas fa-laptop-code fa-7x"></i>
+            <img src="assets/img/jubilee-austen.png" class="img-thumbnail" />
             <p>I convert design comps into live responsive websites accessible for all users. I build everything users see on a website such as web pages, menus, forms, and newsletters. I also edit and customize existing websites so they stay up to date with current coding standards. I test, debug, and maintain web applications regularly so they run smoothly on the web. I write clean, semantic, well formatted code so other developers can easily access and use with.</p>
           </div>
 
           <div class="col-sm-12 col-md-4 col-lg-4">
-            <i class="fas fa-code fa-7x"></i>
+            <img src="assets/img/sean-site.jpg" class="img-thumbnail" />
             <p>I construct and maintain the behind the scenes structure for websites. I set up databases for websites with MongoDB. I have experience using programming languages such as PHP, Ruby, and Python to help databases connect with servers. I particularly enjoy using NodeJs to generate dynamic web applications. </p>
           </div>
         </div>
@@ -130,6 +129,11 @@
     </div>
   </footer>
 
+  <!-- Bootstrap JS-->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <!-- JS File -->
   <script type="text/javascript" src="assets/js/script.js"></script>
 </body>
 </html>
