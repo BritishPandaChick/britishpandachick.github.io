@@ -6,32 +6,42 @@ body {
   margin: 0 auto;
 }
 
+img {
+  max-width: 100%;
+}
+
 /* ==== Header ==== */
 header {
   background-color: #558976;
 }
 
-header .navbar-brand {
+header h1 {
+  font-size: 35px;
   font-family: 'Homemade Apple', cursive;
   color: #fdfcfb;
-  font-size: 35px;
+  padding: 30px 0px;
+  text-align: center;
 }
 
-header .nav-item {
+header nav ul li {
   font-weight: bold;
-  font-family: "Roboto Condensed", sans-serif;
-  color: #f6f2ea;
 }
 
-header .nav-link {
+header nav ul li a {
   text-transform: uppercase;
-  color: #fdfcfb;
+  text-decoration: none;
+  color: #f6f2ea;
   font-size: 20px;
+}
+
+header nav ul li a:hover {
+  color: #fdfcfb;
 }
 
 /* ==== Footer ==== */
 footer {
   background: #558976;
+  padding: 15px 0;
 }
 
 footer p {
@@ -39,12 +49,11 @@ footer p {
   color: #f6f2ea;
 }
 
-footer nav ul li i {
+footer ul li i {
   color: #385001;
-  padding-left: 40px;
 }
 
-footer nav ul li i:hover {
+footer ul li i:hover {
   color: #9dac38;
 }
 
@@ -57,6 +66,11 @@ footer nav ul li i:hover {
   color: #333;
   line-height: 32px;
   font-size: 20px;
+}
+
+#skills i {
+  color: #558976;
+  padding: 15px 75px;
 }
 
 #skills p {
