@@ -4,10 +4,7 @@ body {
   background-color: #fdfcfb;
   width: 100%;
   margin: 0 auto;
-}
-
-img {
-  max-width: 100%;
+  color: #333;
 }
 
 /* ==== Header ==== */
@@ -19,8 +16,6 @@ header h1 {
   font-size: 35px;
   font-family: 'Homemade Apple', cursive;
   color: #fdfcfb;
-  padding: 30px 0px;
-  text-align: center;
 }
 
 header nav ul li {
@@ -29,7 +24,6 @@ header nav ul li {
 
 header nav ul li a {
   text-transform: uppercase;
-  text-decoration: none;
   color: #f6f2ea;
   font-size: 20px;
 }
@@ -58,25 +52,27 @@ footer ul li i:hover {
 }
 
 /* ==== Home Page ==== */
-#career-compass, #skills {
+#career-compass, #design, #frontend, #backend {
   padding: 20px 0;
 }
 
 #career-compass p {
-  color: #333;
   line-height: 32px;
   font-size: 20px;
 }
 
-#skills i {
-  color: #558976;
-  padding: 15px 75px;
+#design h3, #frontend h3, #backend h3 {
+  font-size: 30px;
+  font-family: "Homemade Apple", cursive;
+  color:#385001;
 }
 
-#skills p {
-  color: #333;
+#design img, #frontend img, #backend img {
+  margin-bottom: 40px;
+}
+
+#design p, #frontend p, #backend p {
   line-height: 32px;
-  padding: 20px;
   font-size: 20px;
 }
 
@@ -112,7 +108,6 @@ footer ul li i:hover {
 
 #education p {
   line-height: 32px;
-  color: #333;
   font-size: 20px;
 }
 
@@ -125,7 +120,6 @@ footer ul li i:hover {
 
 #honors p {
   line-height: 32px;
-  color: #333;
   font-size: 20px;
   padding-bottom: 15px;
 }
@@ -139,7 +133,6 @@ footer ul li i:hover {
 
 #speaking p {
   line-height: 32px;
-  color: #333;
   font-size: 20px;
 }
 
@@ -158,12 +151,10 @@ footer ul li i:hover {
 
 #blogs h3 {
   font-size: 25px;
-  color: #333;
 }
 
 #blogs p {
   line-height: 32px;
-  color: #333;
   padding-bottom: 15px;
   font-size: 20px;
 }
@@ -181,13 +172,11 @@ footer ul li i:hover {
 
 #publications p {
   line-height: 32px;
-  color: #333;
   font-size: 20px;
   padding-bottom: 15px;
 }
 
 #publications ul li {
-  color: #333;
   font-size: 20px;
 }
 
@@ -200,7 +189,6 @@ footer ul li i:hover {
 
 #side-projects p {
   line-height: 32px;
-  color: #333;
   font-size: 20px;
 }
 
@@ -210,92 +198,21 @@ footer ul li i:hover {
 }
 
 /* ==== Portfolio Page ==== */
-#wordpress, #freecodecamp, #skillcrush, #hundred-days, #codeplayer {
+#yelpcamp, #author, #tribute-page, #election-map, #cat-clock, #magic-ball {
   padding: 20px 0;
 }
 
-#wordpress h2 {
+#yelpcamp img, #author img, #tribute-page img, #election-map img, #cat-clock img, #magic-ball img {
+  margin-bottom: 30px;
+}
+
+#yelpcamp h2, #author h2 , #tribute-page h2, #election-map h2, #cat-clock h2, #magic-ball h2 {
   font-size: 30px;
   font-family: 'Homemade Apple', cursive;
   color: #385001;
   text-align: center;
 }
 
-#wordpress p {
+#yelpcamp li, #author li, #tribute-page li, #election-map li, #cat-clock li, #magic-ball li {
   font-size: 20px;
-  line-height: 32px;
-  color: #333;
-}
-
-#wordpress img {
-  padding: 25px 0;
-}
-
-#freecodecamp h2 {
-  font-size: 30px;
-  font-family: 'Homemade Apple', cursive;
-  color: #385001;
-  padding-bottom: 15px;
-  text-align: center;
-}
-
-#freecodecamp p {
-  font-size: 20px;
-  line-height: 32px;
-  color: #333;
-}
-
-#freecodecamp img {
-  padding: 25px 0;
-}
-
-#skillcrush h2 {
-  font-size: 30px;
-  font-family: 'Homemade Apple', cursive;
-  color: #385001;
-  text-align: center;
-}
-
-#skillcrush p {
-  font-size: 20px;
-  line-height: 32px;
-  color: #333;
-}
-
-#skillcrush img {
-  padding: 25px 0;
-}
-
-#hundred-days h2 {
-  font-size: 30px;
-  font-family: 'Homemade Apple', cursive;
-  color: #385001;
-  text-align: center;
-}
-
-#hundred-days p {
-  font-size: 20px;
-  line-height: 32px;
-  color: #333;
-}
-
-#hundred-days img {
-  padding: 25px 0;
-}
-
-#coderplayer h2 {
-  font-size: 30px;
-  font-family:'Homemade Apple', cursive;
-  color: #385001;
-  text-align: center;
-}
-
-#codeplayer p {
-  font-size: 20px;
-  line-height: 32px;
-  color: #333;
-}
-
-#codeplayer img {
-  padding: 25px 0;
 }
