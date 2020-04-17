@@ -11,146 +11,43 @@ function openNeedleKits() {
 
 //Disney Codes Challenge button opens article
 function openDisneyCodes(){
-  window.open("https://dev.to/theoriginalbpc/everything-you-need-to-know-about-disney-codes-challenge-3ojb");
+  window.open("https://dev.to/theoriginalbpc/everything-you-need-to-know-about-disney-codes-challenge-3ojb", "_blank");
 }
 
 //Elpha button opens to Elpha home page
 function openElpha(){
-  window.open("https://elpha.com/");
+  window.open("https://elpha.com/", "_blank");
 }
 
 /* Portfolio Page */
 /* Free Code Camp Projects */
 
-//Opens Github rep for librarian website
-function openLibrarianSite(){
-  window.open("https://github.com/BritishPandaChick/librarian-portfolio-site");
+//Opens web app for Yelpcamp
+function openYelpCamp(){
+  window.open("https://tranquil-thicket-59009.herokuapp.com/", "_blank");
 }
 
 //Opens Github repo for author website
 function openAuthorSite(){
-  window.open("https://github.com/BritishPandaChick/sean-author-website");
+  window.open("https://github.com/BritishPandaChick/sean-author-website", "_blank");
 }
 
 //Open pen for Tribute Page
 function openTributePage(){
-  window.open("https://codepen.io/BritishPandaChick/full/BKBLOv");
-}
-
-//Open pen for Free Code Camp Portfolio project 
-function openPortfolioPen(){
-  window.open("https://codepen.io/BritishPandaChick/full/MyovyE")
-}
-
-//Open pen for Product Landing Page
-function openProductLanding(){
-  window.open("https://codepen.io/BritishPandaChick/full/rrJRRQ")
-}
-
-//Open pen for Quote Generator project
-function openQuoteGenerate(){
-  window.open("https://codepen.io/BritishPandaChick/full/oLzoBG");
-}
-
-//Open pen for Technical Documentation Page 
-function openTechnicalDocument(){
-  window.open("https://codepen.io/BritishPandaChick/full/QBxxZo");
-}
-
-//Open pen for survey form project
-function openSurveyForm(){
-  window.open("https://codepen.io/BritishPandaChick/full/wxPVmO");
-}
-
-/* Skillcrush Projects */
-//Open Github rep for Skillcrush Portfolio project 
-function openSkillcrushPortfolio(){
-  window.open("https://github.com/BritishPandaChick/skillcrush-portfolio-project");
-}
-
-//Open Github repo for Skillcrush e-mail sign up page 
-function openEmailSignUp(){
-  window.open("https://github.com/BritishPandaChick/email-signup-page");
-}
-
-//Open Github repo for Jubilee Austen website 
-function openJubilee(){
-  window.open("https://github.com/BritishPandaChick/jubilee-austen-portfolio");
+  window.open("https://codepen.io/BritishPandaChick/full/BKBLOv", "_blank");
 }
 
 //Open Github repo for Magic 8 Ball project
 function openMagicBall(){
-  window.open("https://github.com/BritishPandaChick/magic-eight-ball");
+  window.open("https://github.com/BritishPandaChick/magic-eight-ball", "_blank");
 }
 
 //Open Github repo for election map project
 function openElectionMap(){
-  window.open("https://github.com/BritishPandaChick/election-map");
+  window.open("https://github.com/BritishPandaChick/election-map", "_blank");
 }
 
 //Open Github repo for LOL Cat Clock Project
 function openCatClock(){
-  window.open("https://github.com/BritishPandaChick/lolcatclock");
-}
-
-/* 100 Days of Code Challenge */
-//Open pen for Rapunzel portfolio project 
-function openRapunzel(){
-  window.open("https://codepen.io/BritishPandaChick/full/OjoKjL");
-}
-
-//Open pen for Ratatouille restaurant website 
-function openRatatouille(){
-  window.open("https://codepen.io/BritishPandaChick/full/zEGreo");
-}
-
-//Open pen for AG Toy website
-function openToy(){
-  window.open("https://codepen.io/BritishPandaChick/full/XeGbmq");
-}
-
-//Open pen for event invitation project
-function openEventInvite(){
-  window.open("https://codepen.io/BritishPandaChick/full/eEPQza");
-}
-
-//Open pen for movie trailer project
-function openMovieTrailer(){
-  window.open("https://codepen.io/BritishPandaChick/full/pWVjgK");
-}
-
-//Open pen for tourist attraction project
-function openTouristAttract(){
-  window.open("https://codepen.io/BritishPandaChick/full/wqNGKL");
-}
-
-/* CodePlayer projects */
-//Open Github repo to see Pinterest layout code 
-function openPinterestLayout(){
-  window.open("https://github.com/BritishPandaChick/pinterest-layout");
-}
-
-//Open Github repo to see Snow Effect code 
-function openSnowEffect(){
-  window.open("https://github.com/BritishPandaChick/codeplayer-snow-effect");
-}
-
-//Open Github repo to see Holiday Lights code
-function openHolidayLights(){
-  window.open("https://github.com/BritishPandaChick/blinking-holiday-lights");
-}
-
-//Open Github repo to see Image Accordion Effect code 
-function openAccordion(){
-  window.open("https://github.com/BritishPandaChick/image-accordion-effect");
-}
-
-//Open Github repo to see Matrix Rain code 
-function openMatrixRain(){
-  window.open("https://github.com/BritishPandaChick/matrix-rain");
-}
-
-//Open Github repo to see Multiple Step Form 
-function openMultiStep(){
-  window.open("https://github.com/BritishPandaChick/multistep-form");
+  window.open("https://github.com/BritishPandaChick/lolcatclock", "_blank");
 }

@@ -52,231 +52,97 @@ footer ul li i:hover {
 }
 
 /* ==== Home Page ==== */
-#career-compass, #skills {
+#career-compass, #design, #frontend, #backend {
   padding: 20px 0;
 }
 
-#career-compass p {
-  color: #333;
-  line-height: 32px;
-  font-size: 20px;
+#design h2, #frontend h2, #backend h2 {
+  font-size: 35px;
+  font-family: "Homemade Apple", cursive;
+  color:#385001;
 }
 
-#skills i {
-  color: #558976;
-  padding: 20px 30px;
-}
-
-#skills p {
-  color: #333;
+#career-compass p, #design p, #frontend p, #backend p {
   line-height: 32px;
-  padding-left: 15px;
   font-size: 20px;
 }
 
 /* ==== About Page ==== */
-#about, #education, #honors, #speaking, #blogs, #publications, #side-projects {
+#about, #education, #honors, #video, #blogs, #publications, #side-projects {
   padding: 20px 0;
 }
 
-#about h2 {
+#about img {
+  padding-bottom: 30px;
+}
+
+#about h2, #education h2, #honors h2, #video h2, #blogs h2, #publications h2, #side-projects h2 {
   font-size: 35px;
   font-family: 'Homemade Apple', cursive;
   color: #385001;
+  text-align: center;
+}
+
+#about p, #education p, #honors p, #video p, #blogs p, #publications p, #side-projects p {
+  line-height: 32px;
+  font-size: 20px;
+}
+
+#about h2 {
   word-spacing: 15px;
 }
 
-#about p {
-  line-height: 32px;
-  color: #333;
-  font-size: 20px;
+#honors p, #blogs p, #publications p {
+  padding-bottom: 15px;
 }
 
-#education h2 {
-  font-size: 35px;
-  font-family: 'Homemade Apple', cursive;
-  color: #385001;
+#video h3, #blogs h3 {
+  font-size: 25px;
 }
 
-#education p {
-  line-height: 32px;
-  color: #333;
-  font-size: 20px;
-}
-
-#honors h2 {
-  font-size: 35px;
-  font-family: 'Homemade Apple', cursive;
-  color: #385001;
-}
-
-#honors p {
-  line-height: 32px;
-  color: #333;
-  font-size: 20px;
-}
-
-#speaking h2 {
-  font-size: 35px;
-  font-family: 'Homemade Apple', cursive;
-  color: #385001;
-}
-
-#speaking p {
-  line-height: 32px;
-  color: #333;
-  font-size: 20px;
-}
-
-#speaking iframe {
+#video iframe {
   width: 100%;
   height: 400px;
 }
 
 #blogs h2 {
-  font-size: 35px;
-  font-family: 'Homemade Apple', cursive;
-  color: #385001;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 }
 
-#blogs h3 {
-  font-size: 25px;
-  color: #333;
-}
-
-#blogs p {
-  line-height: 32px;
-  color: #333;
-  font-size: 20px;
-}
-
-#blogs button {
+#blogs button, #side-projects button {
   margin-bottom: 50px;
-  font-size: 20px;
-}
-
-#publications h2 {
-  font-size: 35px;
-  font-family: 'Homemade Apple', cursive;
-  color: #385001;
-}
-
-#publications p {
-  line-height: 32px;
-  color: #333;
   font-size: 20px;
 }
 
 #publications ul li {
-  color: #333;
-  font-size: 20px;
-}
-
-#side-projects h2 {
-  font-size: 35px;
-  font-family: 'Homemade Apple', cursive;
-  color: #385001;
-  padding-bottom: 15px;
-}
-
-#side-projects p {
-  line-height: 32px;
-  color: #333;
-  font-size: 20px;
-}
-
-#side-projects button {
-  margin-bottom: 50px;
   font-size: 20px;
 }
 
 /* ==== Portfolio Page ==== */
-#wordpress, #freecodecamp, #skillcrush, #hundred-days, #codeplayer {
+.projects {
+  font-size: 35px;
+  font-family: 'Homemade Apple', cursive;
+  color: #385001;
+  padding-top: 20px;
+}
+
+#yelpcamp, #author, #tribute-page, #election-map, #cat-clock, #magic-ball {
   padding: 20px 0;
 }
 
-#wordpress h2 {
-  font-size: 35px;
-  font-family: 'Homemade Apple', cursive;
-  color: #385001;
-  padding: 15px 0;
+#yelpcamp img, #author img, #tribute-page img, #election-map img, #cat-clock img, #magic-ball img {
+  margin-bottom: 30px;
 }
 
-#wordpress p {
-  line-height: 32px;
-  color: #333;
+#yelpcamp h3, #author h3 , #tribute-page h3, #election-map h3, #cat-clock h3, #magic-ball h3 {
+  font-size: 25px;
+  text-align: center;
+}
+
+#yelpcamp li, #author li, #tribute-page li, #election-map li, #cat-clock li, #magic-ball li {
   font-size: 20px;
 }
 
-#wordpress img {
-  padding: 30px 0;
-}
-
-#freecodecamp h2 {
-  font-size: 35px;
-  font-family: 'Homemade Apple', cursive;
-  color: #385001;
-  padding: 15px 0;
-}
-
-#freecodecamp p {
-  line-height: 32px;
-  color: #333;
+#yelpcamp button, #author button, #tribute-page button, #election-map button, #cat-clock button, #magic-ball button {
   font-size: 20px;
-}
-
-#freecodecamp img {
-  padding: 30px 0;
-}
-
-#skillcrush h2 {
-  font-size: 35px;
-  font-family: 'Homemade Apple', cursive;
-  color: #385001;
-  padding: 15px 0;
-}
-
-#skillcrush p {
-  line-height: 32px;
-  color: #333;
-  font-size: 20px;
-}
-
-#skillcrush img {
-  padding: 30px 0;
-}
-
-#hundred-days h2 {
-  font-size: 35px;
-  font-family: 'Homemade Apple', cursive;
-  color: #385001;
-  padding: 15px 0;
-}
-
-#hundred-days p {
-  line-height: 32px;
-  color: #333;
-  font-size: 20px;
-}
-
-#hundred-days img {
-  padding: 30px 0;
-}
-
-#codeplayer h2 {
-  font-size: 35px;
-  font-family: 'Homemade Apple', cursive;
-  color: #385001;
-  padding: 15px 0;
-}
-
-#codeplayer p {
-  line-height: 32px;
-  color: #333;
-  font-size: 20px;
-}
-
-#codeplayer img {
-  padding: 30px 0;
 }
