@@ -109,6 +109,10 @@ footer ul li i:hover {
   padding-bottom: 10px;
 }
 
+#video h4, #blogs h4, #side-projects h4 {
+  font-size: 20px;
+}
+
 #blogs button, #side-projects button {
   margin-bottom: 50px;
   font-size: 20px;
