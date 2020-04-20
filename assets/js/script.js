@@ -24,7 +24,7 @@ function openElpha(){
 
 //Opens web app for Yelpcamp
 function openYelpCamp(){
-  window.open("https://tranquil-thicket-59009.herokuapp.com/", "_blank");
+  window.open("https://github.com/BritishPandaChick/yelpcamp", "_blank");
 }
 
 //Opens Github repo for author website
