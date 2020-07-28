@@ -1,6 +1,7 @@
+/* Sass variables */
 /* Basic Styles */
 body {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   background-color: #fdfcfb;
   width: 100%;
   margin: 0 auto;
@@ -14,7 +15,7 @@ header {
 
 header h1 {
   font-size: 55px;
-  font-family: 'Homemade Apple', cursive;
+  font-family: "Homemade Apple", cursive;
   color: #fdfcfb;
 }
 
@@ -59,7 +60,7 @@ footer ul li i:hover {
 #design h2, #frontend h2, #backend h2 {
   font-size: 40px;
   font-family: "Homemade Apple", cursive;
-  color:#385001;
+  color: #385001;
 }
 
 #career-compass p, #design p, #frontend p, #backend p {
@@ -74,7 +75,7 @@ footer ul li i:hover {
 
 #about h2, #education h2, #honors h2, #video h2, #blogs h2, #publications h2, #side-projects h2 {
   font-size: 40px;
-  font-family: 'Homemade Apple', cursive;
+  font-family: "Homemade Apple", cursive;
   color: #385001;
 }
 
@@ -120,7 +121,7 @@ footer ul li i:hover {
 /* Portfolio Page */
 .projects {
   font-size: 40px;
-  font-family: 'Homemade Apple', cursive;
+  font-family: "Homemade Apple", cursive;
   color: #385001;
   padding-top: 20px;
 }
@@ -133,7 +134,7 @@ footer ul li i:hover {
   margin-bottom: 30px;
 }
 
-#yelpcamp h3, #author h3 , #tribute-page h3, #election-map h3, #cat-clock h3, #magic-ball h3 {
+#yelpcamp h3, #author h3, #tribute-page h3, #election-map h3, #cat-clock h3, #magic-ball h3 {
   font-size: 35px;
   text-align: center;
 }
@@ -141,8 +142,10 @@ footer ul li i:hover {
 #yelpcamp p, #author p, #tribute-page p, #election-map p, #cat-clock p, #magic-ball p {
   font-size: 20px;
   line-height: 32px;
-} 
+}
 
 #yelpcamp button, #author button, #tribute-page button, #election-map button, #cat-clock button, #magic-ball button {
   font-size: 20px;
 }
+
+/*# sourceMappingURL=style.css.map */
