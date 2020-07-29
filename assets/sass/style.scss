@@ -20,45 +20,45 @@ body {
   /* ==== Header ==== */
   header {
     background-color: $background-color;
+
+    h1 {
+      font-size: 55px;
+      font-family: $headline-font;
+      color: $white;
+    }
+
+    li {
+      font-weight: bold;
+
+      a {
+        text-transform: uppercase;
+        color: $link-color;
+        font-size: 20px;
+      }
+
+      a:hover {
+        color: $white;
+      }
+    }
   }
-  
-  header h1 {
-    font-size: 55px;
-    font-family: $headline-font;
-    color: $white;
-  }
-  
-  header nav ul li {
-    font-weight: bold;
-  }
-  
-  header nav ul li a {
-    text-transform: uppercase;
-    color: $link-color;
-    font-size: 20px;
-  }
-  
-  header nav ul li a:hover {
-    color: $white;
-  }
-  
+
   /* ==== Footer ==== */
   footer {
     background: $background-color;
     padding: 15px 0;
-  }
-  
-  footer p {
-    font-size: 16px;
-    color: $link-color;
-  }
-  
-  footer ul li i {
-    color: $icon-color;
-  }
-  
-  footer ul li i:hover {
-    color: $hover-color;
+
+    p {
+      font-size: 16px;
+      color: $link-color;
+    }
+
+    i {
+      color: $icon-color;
+    }
+
+    i:hover {
+      color: $hover-color;
+    }
   }
   
   /* ==== Home Page ==== */
@@ -80,17 +80,17 @@ body {
   /* ==== About Page ==== */
   #about, #education, #honors, #video, #blogs, #publications, #side-projects {
     padding: 20px 0;
-  }
-  
-  #about h2, #education h2, #honors h2, #video h2, #blogs h2, #publications h2, #side-projects h2 {
-    font-size: 40px;
-    font-family: $headline-font;
-    color: $icon-color;
-  }
-  
-  #about p, #education p, #honors p, #video p, #blogs p, #publications p, #side-projects p {
-    line-height: 32px;
-    font-size: 20px;
+
+    h2 {
+      font-size: 40px;
+      font-family: $headline-font;
+      color: $icon-color;
+    }
+
+    p {
+      line-height: 32px;
+      font-size: 20px;
+    }
   }
   
   #about h2 {
@@ -137,22 +137,22 @@ body {
   
   #yelpcamp, #author, #tribute-page, #election-map, #cat-clock, #magic-ball {
     padding: 20px 0;
-  }
-  
-  #yelpcamp img, #author img, #tribute-page img, #election-map img, #cat-clock img, #magic-ball img {
-    margin-bottom: 30px;
-  }
-  
-  #yelpcamp h3, #author h3 , #tribute-page h3, #election-map h3, #cat-clock h3, #magic-ball h3 {
-    font-size: 35px;
-    text-align: center;
-  }
-  
-  #yelpcamp p, #author p, #tribute-page p, #election-map p, #cat-clock p, #magic-ball p {
-    font-size: 20px;
-    line-height: 32px;
-  } 
-  
-  #yelpcamp button, #author button, #tribute-page button, #election-map button, #cat-clock button, #magic-ball button {
-    font-size: 20px;
+
+    img {
+      margin-bottom: 30px;
+    }
+
+    h3 {
+      font-size: 35px;
+      text-align: center;
+    }
+
+    p {
+      font-size: 20px;
+      line-height: 32px;
+    }
+
+    button {
+      font-size: 20px;
+    }
   }

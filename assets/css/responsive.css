@@ -65,23 +65,20 @@ footer i:hover {
 #about, #education, #honors, #video, #blogs, #publications, #side-projects {
   padding: 20px 0;
 }
-
-#about img {
-  padding-bottom: 30px;
-}
-
 #about h2, #education h2, #honors h2, #video h2, #blogs h2, #publications h2, #side-projects h2 {
   font-size: 35px;
   font-family: "Homemade Apple", cursive;
   color: #385001;
   text-align: center;
 }
-
 #about p, #education p, #honors p, #video p, #blogs p, #publications p, #side-projects p {
   line-height: 32px;
   font-size: 20px;
 }
 
+#about img {
+  padding-bottom: 30px;
+}
 #about h2 {
   word-spacing: 15px;
 }
@@ -127,21 +124,17 @@ footer i:hover {
 #yelpcamp, #author, #tribute-page, #election-map, #cat-clock, #magic-ball {
   padding: 20px 0;
 }
-
 #yelpcamp img, #author img, #tribute-page img, #election-map img, #cat-clock img, #magic-ball img {
   margin-bottom: 30px;
 }
-
 #yelpcamp h3, #author h3, #tribute-page h3, #election-map h3, #cat-clock h3, #magic-ball h3 {
   font-size: 25px;
   text-align: center;
 }
-
 #yelpcamp p, #author p, #tribute-page p, #election-map p, #cat-clock p, #magic-ball p {
   font-size: 20px;
   line-height: 32px;
 }
-
 #yelpcamp button, #author button, #tribute-page button, #election-map button, #cat-clock button, #magic-ball button {
   font-size: 20px;
 }

@@ -1,12 +1,11 @@
 /* Sass variables */ 
 $base-font: 'Roboto Condensed', sans-serif;
 $headline-font: 'Homemade Apple', cursive;
-$background-color: #558976;
+$background-color: #385001;
 $white: #fdfcfb;
 $base-color: #333;
-$link-color: #f6f2ea;
-$icon-color: #385001;
-$hover-color: #9dac38;
+$icon-color: #9dac38;
+$hover-color: #f6f2ea;
 
 /* ==== Basic Styles ==== */
 body {
@@ -17,71 +16,72 @@ body {
     color: $base-color;
   }
   
-  /* ==== Header ==== */
-  header {
-    background-color: $background-color;
+/* ==== Header ==== */
+header {
+  background-color: $background-color;
 
-    h1 {
-        font-size: 35px;
-        font-family: $headline-font;
+  h1 {
+      font-size: 45px;
+      font-family: $headline-font;
+      color: $white;
+  }
+
+  li {
+    font-weight: bold;
+
+    a {
+        text-transform: uppercase;
         color: $white;
-    }
-
-    li {
-        font-weight: bold;
-
-        a {
-            text-transform: uppercase;
-            color: $link-color;
-            font-size: 20px;
-        }
-
-        a:hover {
-            color: $white;
-        }
-    }
-  }
-  
-  /* ==== Footer ==== */
-  footer {
-    background: $background-color;
-    padding: 15px 0;
-
-    p {
         font-size: 18px;
-        color: $link-color;
     }
 
-    i {
-        color: $icon-color;
-    }
-
-    i:hover {
-        color: #9dac38;
+    a:hover {
+        color: $hover-color;
     }
   }
+}
   
-  /* ==== Home Page ==== */
-  #career-compass, #design, #frontend, #backend {
-    padding: 20px 0;
+/* ==== Footer ==== */
+footer {
+  background: $background-color;
+  padding: 15px 0;
 
-    p {
-        line-height: 32px;
-        font-size: 20px;
-    }
+  p {
+    font-size: 16px;
+    color: $white;
   }
+
+  i {
+    color: $icon-color;
+  }
+
+  i:hover {
+      color: $hover-color;
+  }
+}
   
-  #design, #frontend, #backend {
-      h2 {
-        font-size: 30px;
-        font-family: $headline-font;
-        color: $icon-color;
-      }
+/* ==== Home Page ==== */
+#career-compass, #design, #frontend, #backend {
+  padding: 20px 0;
 
-      img {
-          margin-bottom: 40px;
-      }
+  p {
+      line-height: 32px;
+      font-size: 18px;
   }
+}
+  
+#design, #frontend, #backend {
+  h2 {
+    font-size: 28px;
+    font-family: $headline-font;
+    color: $icon-color;
+    padding-bottom: 10px;
+  }
+
+  img {
+    margin-bottom: 40px;
+  }
+}
   
 
   /* ==== About Page ==== */
