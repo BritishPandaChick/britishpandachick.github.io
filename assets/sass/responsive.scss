@@ -1,11 +1,9 @@
 /* Sass variables */ 
 $base-font: 'Roboto Condensed', sans-serif;
 $headline-font: 'Homemade Apple', cursive;
-$background-color: #558976;
+$background-color: #385001;
 $white: #fdfcfb;
 $base-color: #333;
-$link-color: #f6f2ea;
-$icon-color: #385001;
 $hover-color: #9dac38;
 
 /* ==== Basic Styles ==== */
@@ -17,49 +15,49 @@ body {
     color: $base-color;
   }
   
-  /* ==== Header ==== */
-  header {
-    background-color: $background-color;
+/* ==== Header ==== */
+header {
+  background-color: $background-color;
 
-    h1 {
-      font-size: 37px;
-      font-family: $headline-font;
+  h1 {
+    font-size: 46px;
+    font-family: $headline-font;
+    color: $white;
+  }
+
+  li {
+    font-weight: bold;
+
+    a {
+      text-transform: uppercase;
+      color: $white;
+      font-size: 20px;
+    }
+
+    a:hover {
       color: $white;
     }
-
-    li {
-      font-weight: bold;
-
-      a {
-        text-transform: uppercase;
-        color: $link-color;
-        font-size: 20px;
-      }
-
-      a:hover {
-        color: $white;
-      }
-    }
   }
+}
   
-  /* ==== Footer ==== */
-  footer {
-    background: $background-color;
-    padding: 15px 0;
+/* ==== Footer ==== */
+footer {
+  background: $background-color;
+  padding: 15px 0;
 
-    p {
-      font-size: 18px;
-      color: $link-color;
-    }
-
-    i {
-      color: $icon-color;
-    }
-
-    i:hover {
-      color: $hover-color;
-    }
+  p {
+    font-size: 16px;
+    color: $white;
   }
+
+  i {
+    color: $white;
+  }
+
+  i:hover {
+    color: $hover-color;
+  }
+}
   
   /* ==== Home Page ==== */
   #career-compass, #design, #frontend, #backend {

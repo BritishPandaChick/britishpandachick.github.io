@@ -39,7 +39,7 @@ footer p {
   color: #fdfcfb;
 }
 footer i {
-  color: #9dac38;
+  color: #fdfcfb;
 }
 footer i:hover {
   color: #f6f2ea;
@@ -51,13 +51,13 @@ footer i:hover {
 }
 #career-compass p, #design p, #frontend p, #backend p {
   line-height: 32px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 #design h2, #frontend h2, #backend h2 {
   font-size: 28px;
   font-family: "Homemade Apple", cursive;
-  color: #9dac38;
+  color: #385001;
   padding-bottom: 10px;
 }
 #design img, #frontend img, #backend img {
@@ -69,29 +69,25 @@ footer i:hover {
   padding: 20px 0;
 }
 #about h2, #education h2, #honors h2, #video h2, #blogs h2, #publications h2, #side-projects h2 {
-  font-size: 30px;
+  font-size: 28px;
   font-family: "Homemade Apple", cursive;
-  color: #9dac38;
+  color: #385001;
   text-align: center;
 }
 #about p, #education p, #honors p, #video p, #blogs p, #publications p, #side-projects p {
   line-height: 32px;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 #about img {
-  padding-bottom: 30px;
+  margin-bottom: 20px;
 }
 #about h2 {
   word-spacing: 15px;
 }
 
-#honors p, #blogs p, #publications p {
-  padding-bottom: 15px;
-}
-
 #video h3, #blogs h3 {
-  font-size: 25px;
+  font-size: 18px;
 }
 
 #video iframe {
@@ -104,42 +100,46 @@ footer i:hover {
 }
 
 #video h4, #blogs h4, #side-projects h4 {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 #blogs button, #side-projects button {
-  margin-bottom: 50px;
-  font-size: 20px;
+  margin-bottom: 30px;
+  font-size: 16px;
 }
 
 #publications ul li {
-  font-size: 20px;
+  font-size: 16px;
+}
+
+#side-projects h2 {
+  padding-bottom: 10px;
 }
 
 /* ==== Portfolio Page ==== */
 .projects {
   font-size: 30px;
   font-family: "Homemade Apple", cursive;
-  color: #9dac38;
+  color: #385001;
   padding-top: 20px;
 }
 
-#yelpcamp, #author, #tribute-page, #election-map, #cat-clock, #magic-ball {
+#project-one, #project-two, #project-three, #project-four, #project-five, #project-six {
   padding: 20px 0;
 }
-#yelpcamp img, #author img, #tribute-page img, #election-map img, #cat-clock img, #magic-ball img {
+#project-one img, #project-two img, #project-three img, #project-four img, #project-five img, #project-six img {
   margin-bottom: 30px;
 }
-#yelpcamp h3, #author h3, #tribute-page h3, #election-map h3, #cat-clock h3, #magic-ball h3 {
-  font-size: 25px;
+#project-one h3, #project-two h3, #project-three h3, #project-four h3, #project-five h3, #project-six h3 {
+  font-size: 18px;
   text-align: center;
 }
-#yelpcamp p, #author p, #tribute-page p, #election-map p, #cat-clock p, #magic-ball p {
-  font-size: 20px;
+#project-one p, #project-two p, #project-three p, #project-four p, #project-five p, #project-six p {
+  font-size: 16px;
   line-height: 32px;
 }
-#yelpcamp button, #author button, #tribute-page button, #election-map button, #cat-clock button, #magic-ball button {
-  font-size: 20px;
+#project-one button, #project-two button, #project-three button, #project-four button, #project-five button, #project-six button {
+  font-size: 16px;
 }
 
 /*# sourceMappingURL=mobile.css.map */
