@@ -4,7 +4,7 @@ $headline-font: 'Homemade Apple', cursive;
 $background-color: #385001;
 $white: #fdfcfb;
 $base-color: #333;
-$hover-color: #9dac38;
+$hover-color: #f6f2ea;
 
 /* ==== Basic Styles ==== */
 body {
@@ -35,7 +35,7 @@ header {
     }
 
     a:hover {
-      color: $white;
+      color: $hover-color;
     }
   }
 }

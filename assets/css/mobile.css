@@ -106,6 +106,8 @@ footer i:hover {
 #blogs button, #side-projects button {
   margin-bottom: 30px;
   font-size: 16px;
+  background-color: #385001;
+  color: #fdfcfb;
 }
 
 #publications ul li {
