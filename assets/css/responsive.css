@@ -10,10 +10,10 @@ body {
 
 /* ==== Header ==== */
 header {
-  background-color: #385001;
+  background-color: #558976;
 }
 header h1 {
-  font-size: 46px;
+  font-size: 67px;
   font-family: "Homemade Apple", cursive;
   color: #fdfcfb;
 }
@@ -26,23 +26,23 @@ header li a {
   font-size: 20px;
 }
 header li a:hover {
-  color: #f6f2ea;
+  color: #9dac38;
 }
 
 /* ==== Footer ==== */
 footer {
-  background: #385001;
+  background: #558976;
   padding: 15px 0;
 }
 footer p {
-  font-size: 16px;
+  font-size: 18px;
   color: #fdfcfb;
 }
 footer i {
   color: #fdfcfb;
 }
 footer i:hover {
-  color: #f6f2ea;
+  color: #9dac38;
 }
 
 /* ==== Home Page ==== */
@@ -51,14 +51,14 @@ footer i:hover {
 }
 
 #design h2, #frontend h2, #backend h2 {
-  font-size: 28px;
+  font-size: 41px;
   font-family: "Homemade Apple", cursive;
-  color: #385001;
+  color: #558976;
 }
 
 #career-compass p, #design p, #frontend p, #backend p {
   line-height: 32px;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 /* ==== About Page ==== */
@@ -66,15 +66,15 @@ footer i:hover {
   padding: 20px 0;
 }
 #about h2, #education h2, #honors h2, #video h2, #blogs h2, #publications h2, #side-projects h2 {
-  font-size: 28px;
+  font-size: 41px;
   font-family: "Homemade Apple", cursive;
-  color: #385001;
+  color: #558976;
   text-align: center;
   padding-bottom: 10px;
 }
 #about p, #education p, #honors p, #video p, #blogs p, #publications p, #side-projects p {
   line-height: 32px;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 #about img {
@@ -89,7 +89,7 @@ footer i:hover {
 }
 
 #video h3, #blogs h3, #publications h3 {
-  font-size: 18px;
+  font-size: 25px;
 }
 
 #video iframe {
@@ -102,23 +102,25 @@ footer i:hover {
 }
 
 #video h4, #blogs h4, #side-projects h4 {
-  font-size: 16px;
+  font-size: 29px;
 }
 
 #blogs button, #side-projects button {
   margin-bottom: 50px;
   font-size: 20px;
+  background-color: #558976;
+  color: #fdfcfb;
 }
 
 #publications ul li {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 /* ==== Portfolio Page ==== */
 .projects {
-  font-size: 28px;
+  font-size: 41px;
   font-family: "Homemade Apple", cursive;
-  color: #385001;
+  color: #558976;
   padding: 15px 0;
 }
 
@@ -126,15 +128,17 @@ footer i:hover {
   padding: 20px 0;
 }
 #project-one h3, #project-two h3, #project-three h3, #project-four h3, #project-five h3, #project-six h3 {
-  font-size: 18px;
+  font-size: 25px;
   text-align: center;
 }
 #project-one p, #project-two p, #project-three p, #project-four p, #project-five p, #project-six p {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 32px;
 }
 #project-one button, #project-two button, #project-three button, #project-four button, #project-five button, #project-six button {
-  font-size: 16px;
+  font-size: 20px;
+  background-color: #558976;
+  color: #fdfcfb;
 }
 
 /*# sourceMappingURL=responsive.css.map */

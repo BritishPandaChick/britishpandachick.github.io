@@ -1,10 +1,10 @@
 /* Sass variables */ 
 $base-font: 'Roboto Condensed', sans-serif;
 $headline-font: 'Homemade Apple', cursive;
-$background-color: #385001;
+$background-color: #558976;
 $white: #fdfcfb;
 $base-color: #333;
-$hover-color: #f6f2ea;
+$hover-color: #9dac38;
 
 /* Basic Styles */
 body {
@@ -20,7 +20,7 @@ header {
   background-color: $background-color;
 
   h1 {
-    font-size: 55px;
+    font-size: 75px;
     font-family: $headline-font;
     color: $white;
   }
@@ -66,7 +66,7 @@ footer {
 }
   
 #design h2, #frontend h2, #backend h2 {
-  font-size: 40px;
+  font-size: 46px;
   font-family: $headline-font;
   color: $background-color;
   padding: 15px 0;
@@ -82,7 +82,7 @@ footer {
   padding: 20px 0;
 
   h2 {
-    font-size: 40px;
+    font-size: 46px;
     font-family: $headline-font;
     color: $background-color;
     padding-bottom: 10px;
@@ -110,7 +110,7 @@ footer {
 }
   
 #video h3, #blogs h3, #publications h3 {
-  font-size: 29px;
+  font-size: 28px;
 }
   
 #video iframe {
@@ -123,12 +123,14 @@ footer {
 }
   
 #video h4, #blogs h4, #side-projects h4 {
-  font-size: 25px;
+  font-size: 18px;
 }
   
 #blogs button, #side-projects button {
   margin-bottom: 50px;
   font-size: 20px;
+  background-color: $background-color;
+  color: $white;
 }
   
 #publications ul li {
@@ -137,7 +139,7 @@ footer {
   
 /* Portfolio Page */
 .projects {
-  font-size: 40px;
+  font-size: 46px;
   font-family: $headline-font;
   color: $background-color;
   padding: 15px 0;
@@ -151,7 +153,7 @@ footer {
   }
 
   h3 {
-    font-size: 29px;
+    font-size: 28px;
     text-align: center;
   }
 
@@ -162,5 +164,7 @@ footer {
 
   button {
     font-size: 20px;
+    background-color: $background-color;
+    color: $white;
   }
 }

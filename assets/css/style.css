@@ -10,10 +10,10 @@ body {
 
 /* ==== Header ==== */
 header {
-  background-color: #385001;
+  background-color: #558976;
 }
 header h1 {
-  font-size: 55px;
+  font-size: 75px;
   font-family: "Homemade Apple", cursive;
   color: #fdfcfb;
 }
@@ -27,12 +27,12 @@ header li a {
   font-size: 20px;
 }
 header li a:hover {
-  color: #f6f2ea;
+  color: #9dac38;
 }
 
 /* ==== Footer ==== */
 footer {
-  background: #385001;
+  background: #558976;
   padding: 15px 0;
 }
 footer p {
@@ -43,7 +43,7 @@ footer i {
   color: #fdfcfb;
 }
 footer i:hover {
-  color: #f6f2ea;
+  color: #9dac38;
 }
 
 /* ==== Home Page ==== */
@@ -52,9 +52,9 @@ footer i:hover {
 }
 
 #design h2, #frontend h2, #backend h2 {
-  font-size: 40px;
+  font-size: 46px;
   font-family: "Homemade Apple", cursive;
-  color: #385001;
+  color: #558976;
   padding: 15px 0;
 }
 
@@ -68,9 +68,9 @@ footer i:hover {
   padding: 20px 0;
 }
 #about h2, #education h2, #honors h2, #video h2, #blogs h2, #publications h2, #side-projects h2 {
-  font-size: 40px;
+  font-size: 46px;
   font-family: "Homemade Apple", cursive;
-  color: #385001;
+  color: #558976;
   padding-bottom: 10px;
 }
 #about p, #education p, #honors p, #video p, #blogs p, #publications p, #side-projects p {
@@ -91,7 +91,7 @@ footer i:hover {
 }
 
 #video h3, #blogs h3, #publications h3 {
-  font-size: 29px;
+  font-size: 28px;
 }
 
 #video iframe {
@@ -104,12 +104,14 @@ footer i:hover {
 }
 
 #video h4, #blogs h4, #side-projects h4 {
-  font-size: 25px;
+  font-size: 18px;
 }
 
 #blogs button, #side-projects button {
   margin-bottom: 50px;
   font-size: 20px;
+  background-color: #558976;
+  color: #fdfcfb;
 }
 
 #publications ul li {
@@ -118,9 +120,9 @@ footer i:hover {
 
 /* Portfolio Page */
 .projects {
-  font-size: 40px;
+  font-size: 46px;
   font-family: "Homemade Apple", cursive;
-  color: #385001;
+  color: #558976;
   padding: 15px 0;
 }
 
@@ -131,7 +133,7 @@ footer i:hover {
   margin-bottom: 30px;
 }
 #project-one h3, #project-two h3, #project-three h3, #project-four h3, #project-five h3, #project-six h3 {
-  font-size: 29px;
+  font-size: 28px;
   text-align: center;
 }
 #project-one p, #project-two p, #project-three p, #project-four p, #project-five p, #project-six p {
@@ -140,6 +142,8 @@ footer i:hover {
 }
 #project-one button, #project-two button, #project-three button, #project-four button, #project-five button, #project-six button {
   font-size: 20px;
+  background-color: #558976;
+  color: #fdfcfb;
 }
 
 /*# sourceMappingURL=style.css.map */

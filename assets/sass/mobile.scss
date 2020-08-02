@@ -1,10 +1,10 @@
 /* Sass variables */ 
 $base-font: 'Roboto Condensed', sans-serif;
 $headline-font: 'Homemade Apple', cursive;
-$background-color: #385001;
+$background-color: #558976;
 $white: #fdfcfb;
 $base-color: #333;
-$hover-color: #f6f2ea;
+$hover-color: #9dac38;
 
 /* ==== Basic Styles ==== */
 body {
@@ -20,7 +20,7 @@ header {
   background-color: $background-color;
 
   h1 {
-      font-size: 45px;
+      font-size: 76px;
       font-family: $headline-font;
       color: $white;
   }
@@ -46,7 +46,7 @@ footer {
   padding: 15px 0;
 
   p {
-    font-size: 16px;
+    font-size: 18px;
     color: $white;
   }
 
@@ -65,13 +65,13 @@ footer {
 
   p {
       line-height: 32px;
-      font-size: 16px;
+      font-size: 20px;
   }
 }
   
 #design, #frontend, #backend {
   h2 {
-    font-size: 28px;
+    font-size: 47px;
     font-family: $headline-font;
     color: $background-color;
     padding-bottom: 10px;
@@ -96,7 +96,7 @@ footer {
 
   p {
       line-height: 32px;
-      font-size: 16px;
+      font-size: 20px;
   }
 }
 
@@ -111,7 +111,7 @@ footer {
 }
   
 #video h3, #blogs h3, #publications h3 {
-  font-size: 18px;
+  font-size: 29px;
 }
   
 #video iframe {
@@ -124,18 +124,18 @@ footer {
 }
   
 #video h4, #blogs h4, #side-projects h4 {
-  font-size: 16px;
+  font-size: 18px;
 }
   
 #blogs button, #side-projects button {
   margin-bottom: 30px;
-  font-size: 16px;
+  font-size: 20px;
   background-color: $background-color;
   color: $white;
 }
   
 #publications ul li {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 #side-projects h2 {
@@ -144,7 +144,7 @@ footer {
   
 /* ==== Portfolio Page ==== */
 .projects {
-  font-size: 30px;
+  font-size: 47px;
   font-family: $headline-font;
   color: $background-color;
   padding-top: 20px;
@@ -158,16 +158,18 @@ footer {
   }
 
   h3 {
-    font-size: 18px;
+    font-size: 29px;
     text-align: center;
   }
 
   p {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 32px;
   }
 
   button {
     font-size: 16px;
+    background-color: $background-color;
+    color: $white;
   }
 }
