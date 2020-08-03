@@ -20,7 +20,7 @@ header {
   background-color: $background-color;
 
   h1 {
-    font-size: 67px;
+    font-size: 75px;
     font-family: $headline-font;
     color: $white;
   }
@@ -65,7 +65,7 @@ footer {
 }
   
 #design h2, #frontend h2, #backend h2 {
-  font-size: 41px;
+  font-size: 35px;
   font-family: $headline-font;
   color: $background-color;
 }
@@ -80,7 +80,7 @@ footer {
   padding: 20px 0;
 
   h2 {
-    font-size: 41px;
+    font-size: 35px;
     font-family: $headline-font;
     color: $background-color;
     text-align: center;
@@ -121,7 +121,7 @@ footer {
 }
   
 #video h4, #blogs h4, #side-projects h4 {
-  font-size: 29px;
+  font-size: 20px;
 }
   
 #blogs button, #side-projects button {
@@ -137,7 +137,7 @@ footer {
   
 /* ==== Portfolio Page ==== */
 .projects {
-  font-size: 41px;
+  font-size: 35px;
   font-family: $headline-font;
   color: $background-color;
   padding: 15px 0;
