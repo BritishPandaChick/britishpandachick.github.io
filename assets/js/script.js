@@ -51,3 +51,8 @@ function openElectionMap(){
 function openCatClock(){
   window.open("https://github.com/BritishPandaChick/lolcatclock", "_blank");
 }
+
+//Open project one post 
+function openProjectOne(){
+  window.open("../portfolio/project-one/index.html");
+}
