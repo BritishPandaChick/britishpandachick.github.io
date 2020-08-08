@@ -46,10 +46,10 @@ footer i:hover {
 }
 
 /* ==== Home Page ==== */
-#career-compass, #design, #frontend, #backend {
+#career-compass, #design, #frontend, #backend, #hired {
   padding: 20px 0;
 }
-#career-compass p, #design p, #frontend p, #backend p {
+#career-compass p, #design p, #frontend p, #backend p, #hired p {
   line-height: 32px;
   font-size: 20px;
 }
@@ -62,6 +62,15 @@ footer i:hover {
 }
 #design img, #frontend img, #backend img {
   margin-bottom: 40px;
+}
+
+#hired {
+  background-color: #558976;
+}
+#hired h2 {
+  font-family: "Homemade Apple", cursive;
+  font-size: 30px;
+  color: #fdfcfb;
 }
 
 /* ==== About Page ==== */

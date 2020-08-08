@@ -60,7 +60,7 @@ footer {
 }
   
 /* ==== Home Page ==== */
-#career-compass, #design, #frontend, #backend {
+#career-compass, #design, #frontend, #backend, #hired {
   padding: 20px 0;
 
   p {
@@ -79,6 +79,16 @@ footer {
 
   img {
     margin-bottom: 40px;
+  }
+}
+
+#hired {
+  background-color: $background-color;
+
+  h2 {
+    font-family: $headline-font;
+    font-size: 30px;
+    color: $white;
   }
 }
   
