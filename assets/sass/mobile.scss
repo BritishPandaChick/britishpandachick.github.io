@@ -82,12 +82,19 @@ footer {
   }
 }
 
+/* Hired Section */
 #hired {
   background-color: $background-color;
+  padding: 20px 0;
 
-  h2 {
+  h3 {
     font-family: $headline-font;
-    font-size: 30px;
+    font-size: 25px;
+    color: $white;
+  }
+
+  h4 {
+    font-size: 20px;
     color: $white;
   }
 }
@@ -98,7 +105,7 @@ footer {
   padding: 20px 0;
 
   h2 {
-      font-size: 30px;
+      font-size: 25px;
       font-family: $headline-font;
       color: $background-color;
       text-align: center;
@@ -153,11 +160,11 @@ footer {
 }
   
 /* ==== Portfolio Page ==== */
-.projects {
+#portfolio {
   font-size: 30px;
   font-family: $headline-font;
   color: $background-color;
-  padding-top: 20px;
+  padding: 20px 0;
 }
   
 #project-one, #project-two, #project-three, #project-four, #project-five, #project-six {
@@ -181,5 +188,15 @@ footer {
     font-size: 20px;
     background-color: $background-color;
     color: $white;
+    margin-bottom: 15px;
+  }
+}
+
+/* Project Pages */ 
+#one-text, #two-text, #three-text, #four-text, #five-text, #six-text {
+  h2 {
+    font-family: $headline-font;
+    font-size: 30px;
+    color: $headline-font;
   }
 }
