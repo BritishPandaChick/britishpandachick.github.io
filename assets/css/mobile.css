@@ -66,17 +66,17 @@ footer i:hover {
 
 /* Hired Section */
 #hired {
-  background-color: #558976;
+  border: 2px solid #558976;
   padding: 20px 0;
 }
-#hired h3 {
+#hired h2 {
   font-family: "Homemade Apple", cursive;
-  font-size: 25px;
-  color: #fdfcfb;
+  font-size: 30px;
+  color: #558976;
 }
-#hired h4 {
-  font-size: 20px;
-  color: #fdfcfb;
+#hired h3 {
+  font-size: 25px;
+  color: #558976;
 }
 
 /* ==== About Page ==== */
@@ -84,7 +84,7 @@ footer i:hover {
   padding: 20px 0;
 }
 #about h2, #education h2, #honors h2, #video h2, #blogs h2, #publications h2, #side-projects h2 {
-  font-size: 25px;
+  font-size: 30px;
   font-family: "Homemade Apple", cursive;
   color: #558976;
   text-align: center;
@@ -160,13 +160,6 @@ footer i:hover {
   background-color: #558976;
   color: #fdfcfb;
   margin-bottom: 15px;
-}
-
-/* Project Pages */
-#one-text h2, #two-text h2, #three-text h2, #four-text h2, #five-text h2, #six-text h2 {
-  font-family: "Homemade Apple", cursive;
-  font-size: 30px;
-  color: "Homemade Apple", cursive;
 }
 
 /*# sourceMappingURL=mobile.css.map */

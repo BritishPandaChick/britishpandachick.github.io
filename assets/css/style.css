@@ -63,6 +63,21 @@ footer i:hover {
   font-size: 20px;
 }
 
+/* Hired Section */
+#hired {
+  border: 2px solid #558976;
+  padding: 20px 0;
+}
+#hired h2 {
+  font-family: "Homemade Apple", cursive;
+  font-size: 35px;
+  color: #558976;
+}
+#hired h3 {
+  font-size: 20px;
+  color: #558976;
+}
+
 /* ==== About Page ==== */
 #about, #education, #honors, #video, #blogs, #publications, #side-projects {
   padding: 20px 0;

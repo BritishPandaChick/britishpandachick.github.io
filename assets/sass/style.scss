@@ -76,6 +76,23 @@ footer {
   line-height: 32px;
   font-size: 20px;
 }
+
+/* Hired Section */
+#hired {
+  border: 2px solid $background-color;
+  padding: 20px 0;
+
+  h2 {
+    font-family: $headline-font;
+    font-size: 35px;
+    color: $background-color;
+  }
+
+  h3 {
+    font-size: 20px;
+    color: $background-color;
+  }
+}
   
 /* ==== About Page ==== */
 #about, #education, #honors, #video, #blogs, #publications, #side-projects {

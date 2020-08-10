@@ -20,8 +20,6 @@ function openElpha(){
 }
 
 /* Portfolio Page */
-/* Free Code Camp Projects */
-
 //Opens web app for Yelpcamp
 function openYelpCamp(){
   window.open("https://github.com/BritishPandaChick/yelpcamp", "_blank");
@@ -50,34 +48,4 @@ function openElectionMap(){
 //Open Github repo for LOL Cat Clock Project
 function openCatClock(){
   window.open("https://github.com/BritishPandaChick/lolcatclock", "_blank");
-}
-
-//Open Project One Page 
-function openProjectOne(){
-  window.open("../portfolio/project-one/index.html");
-}
-
-//Open Project Two Page 
-function openProjectTwo(){
-  window.open("../portfolio/project-two/index.html");
-}
-
-//Open Project Three Page 
-function openProjectThree(){
-  window.open("../portfolio/project-three/index.html");
-}
-
-//Open Project Four Page 
-function openProjectFour(){
-  window.open("../portfolio/project-four/index.html");
-}
-
-//Open Project Five Page 
-function openProjectFive(){
-  window.open("../portfolio/project-five/index.html");
-}
-
-//Open Project Six Page 
-function openProjectSix(){
-  window.open("../portfolio/project-six/index.html");
 }
