@@ -12,7 +12,7 @@
   <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
   <link href="../assets/font-awesome/css/all.css" rel="stylesheet">
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Homemade+Apple|Roboto+Condensed&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
   <!-- Bootstrap4 -->
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
@@ -20,16 +20,13 @@
   <header>
     <div class="container-fluid">
       <nav class="navbar navbar-expand-lg navbar-dark">
-        <h1 class="navbar-brand">Sarah Bartley</h1>
+        <a href="../index.html" class="navbar-brand">Sarah Bartley</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       
         <div class="collapse navbar-collapse" id="navbarContent">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="../index.html">Home</a>
-            </li>
             <li class="nav-item">
               <a class="nav-link" href="../about/index.html">About Sarah</a>
             </li>
@@ -49,183 +46,203 @@
       </div>
     </section>
 
-    <section id="project-one">
+    <section id="gallery">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 col-md-6 col-lg-6">
-            <img src="../assets/img/yelpcamp.jpg" alt="YelpCamp" class="img-thumbnail" />
-          </div>
-
-          <div class="col-sm-12 col-md-6 col-lg-6">
-            <h3>YelpCamp</h3>
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <img src="../assets/img/yelpcamp.jpg" alt="YelpCamp" class="img-thumbnail">
+            <h3>Yelpcamp</h3>
             <p>Web app created with Express.js that allows users to create an account, add campgrounds and comment on individual campgrounds. Uses packages such as Passport, Mongoose, and Method-Override.</p>
-            <div class="row">
-              <div class="col-sm-12 col-md-12 col-lg-12">
-                <button class="btn btn-block btn-lg" onclick="openYelpCamp()">See Code</button>
-              </div>
-            </div>
+            <a href="https://github.com/BritishPandaChick/yelpcamp" target="_blank">Code</a> &#8212 <a href="#" target="_blank">Final</a> &#8212 <a href="../project-one/index.html">Post</a>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="project-two">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-md-6 col-lg-6">
+  
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <img src="../assets/img/sean-site.jpg" alt="Sean Author website" class="img-thumbnail">
             <h3>Author Website</h3>
             <p>WordPress website made with JavaScript and PHP. Uses plugins such as Moobearry Book Manager, Disable Comments, and Anti-Spam.</p>
-            <div class="row">
-              <div class="col-sm-12 col-md-12 col-lg-12">
-                <button class="btn btn-block btn-lg" onclick="openAuthorSite()">See Code</button>
-              </div>
-            </div> 
+            <a href="https://github.com/BritishPandaChick/sean-author-website" target="_blank">Code</a> &#8212 <a href="#">Final</a> &#8212 <a href="../project-two/two.html">Post</a>
           </div>
-
-          <div class="col-sm-12 col-md-6 col-lg-6">
-            <img src="../assets/img/sean-site.jpg" alt="Sean Author website" class="img-thumbnail" />
+  
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <img src="../assets/img/fcc-tribute-page.png" alt="Duchess of Cambridge Tribute Page" class="img-thumbnail">
+            <h3>Duchess of Cambridge Tribute Page</h3>
+            <p>Static web page made with Bootstrap that shows a timeline, quote, and a website link.</p>
+            <a href="https://codepen.io/BritishPandaChick/full/BKBLOv" target="_blank">Code</a> &#8212 <a href="#">Final</a> &#8212 <a href="../project-three/three.html">Post</a>
+          </div>
+  
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <img src="../assets/img/election-map.png" alt="Election map" class="img-thumbnail">
+            <h3>Election Map</h3>
+            <p>An interactive map created with JavaScript allows users to see who won the election for individual states and the entire country.</p>
+            <a href="https://github.com/BritishPandaChick/election-map" target="_blank">Code</a> &#8212 <a href="#">Final</a> &#8212 <a href="../project-four/four.html">Post</a>
+          </div>
+  
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <img src="../assets/img/magic-ball.png" alt="Magic 8 Ball" class="img-thumbnail">
+            <h3>Magic 8 Ball</h3>
+            <p>A website with a magic 8 ball that prompts users for a question. When users click the button, the ball will shake and display the answer.</p>
+            <a href="https://github.com/BritishPandaChick/magic-eight-ball" target="_blank">Code</a> &#8212 <a href="#">Final</a> &#8212 <a href="../project-five/five.html">Post</a>
+          </div>
+  
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <img src="../assets/img/cat-clock.png" alt="LOL Cat Clock" class="img-thumbnail" />
+            <h3>LOL Cat Clock</h3>
+            <p>Clock made with JavaScript that has a working clock and displays cat memes at different times of the day. Users can click the party time button to change the image.</p>
+            <a href="https://github.com/BritishPandaChick/lolcatclock" target="_blank">Code</a> &#8212 <a href="#">Final</a> &#8212 <a href="../project-six/six.html">Post</a>
           </div>
         </div>
-      </div>   
+      </div> 
     </section>
 
-    <section id="project-three">
+    <section id="writing">
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-6 col-lg-6">
-            <img src="../assets/img/fcc-tribute-page.png" alt="Duchess of Cambridge Tribute Page" class="img-thumbnail" />
+            <h3 class="text-center">Blogs</h3>
+            <a href="http://britishpandachickcodes.blogspot.com" target="_blank">BritishPandaChick Codes</a>. November 2018 - Present.</p>
+            <p><a href="http://needleworkkits.blogspot.com" target="_blank">Needlework Kits</a>. September 2017 - Present.</p>
+            <p>The Original BritishPandaChick. March 2015 - October 2018.</p>
           </div>
   
           <div class="col-sm-12 col-md-6 col-lg-6">
-            <h3>Duchess of Cambridge Tribute Page</h3>
-            <p>Static web page made with Bootstrap that shows a timeline, quote, and a website link.</p>
-            <div class="row">
-              <div class="col-sm-12 col-md-12 col-lg-12">
-                <button class="btn btn-block btn-lg" onclick="openTributePage()">See Code</button>
-              </div>
-            </div>
+            <h3 class="text-center">Publications</h3>
+            <p>Book Prescriber. <a href="https://blog.bookprescriber.com/stories-about-books-what-color-is-your-parachute/" target="_blank">Stories about Books: How "What Color is Your Parachute" helped Sarah</a>. May 28, 2019.</p>
+            <p>App Academy. <a href="https://blog.appacademy.io/nevertheless-sarah-bartley-coded-how-i-started-my-career/" target="_blank">Nevertheless Sarah Bartley Coded: How I Started My Coding Career</a>. January 11, 2019.</p>
+            
+            <h4>The Practical Dev</h4>
+            <ul>
+              <li><a href="https://dev.to/theoriginalbpc/coding-plans-for-summer-2020-ibg" target="_blank">Coding Plans for Summer 2020</a>. May 26, 2020.</li>
+              <li><a href="https://dev.to/theoriginalbpc/sarah-bartley-continues-to-code-in-2020-34e1" target="_blank">Sarah Bartley Continues to Code in 2020</a>. March 6, 2020.</li>
+              <li><a href="https://dev.to/theoriginalbpc/2019-in-review-jig" target="_blank">2019 in Review</a>. December 31, 2019.</li>
+              <li><a href="https://dev.to/theoriginalbpc/everything-you-need-to-know-about-disney-codes-challenge-3ojb" target="_blank">Everything You Need to Know About Disney Codes Challenge</a>. July 30, 2019.</li>
+              <li><a href="https://dev.to/theoriginalbpc/creating-the-disney-codes-challenge-45am" target="_blank">Creating the Disney Codes Challenge</a>. July 27, 2019</li>
+              <li><a href="https://dev.to/theoriginalbpc/sarah-bartley-continues-to-code-5g60" target="_blank">Sarah Bartley Continues to Code</a>. May 8, 2019.</li>
+              <li><a href="https://dev.to/theoriginalbpc/2018-in-review-376l" target="_blank">2018 in Review</a>. December 31, 2018.</li>
+              <li><a href="https://dev.to/theoriginalbpc/nevertheless-sarah-bartley-coded--4mcg">Nevertheless Sarah Bartley Coded</a>. May 7, 2018.</li>
+            </ul>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="project-four">
+    <section id="side-projects">
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-6 col-lg-6">
-            <h3>Election Map</h3>
-            <p>An interactive map created with JavaScript allows users to see who won the election for individual states and the entire country.</p>
-            <div class="row">
-              <div class="col-sm-12 col-md-12 col-lg-12">
-                <button class="btn btn-block btn-lg" onclick="openElectionMap()">See Code</button>
-              </div>
-            </div>
+            <h3>Disney Codes Challenge</h3>
+            <h4>Founded July 2019</h4>
+            <p>Disney Codes Challenge is a 57-day coding challenge. Developers are committed to building web projects inspired by 
+                Disney properties each day for 23 minutes. Developers document their progress the challenge with the journal from the 
+                challenge repository on Github.</p>
+            <button type="button" class="btn btn-lg btn-block" onclick="openDisneyCodes()">Learn More</button>
           </div>
-
+  
           <div class="col-sm-12 col-md-6 col-lg-6">
-            <img src="../assets/img/election-map.png" alt="Election map" class="img-thumbnail" />
-          </div>  
-        </div>
-      </div>
-    </section>
-
-    <section id="project-five">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-md-6 col-lg-6">
-            <img src="../assets/img/magic-ball.png" alt="Magic 8 Ball" class="img-thumbnail" />
-          </div>
-
-          <div class="col-sm-12 col-md-6 col-lg-6">
-            <h3>Magic 8 Ball</h3>
-            <p>A website with a magic 8 ball that prompts users for a question. When users click the button, the ball will shake and display the answer.</p>
-            <div class="row">
-              <div class="col-sm-12 col-md-12 col-lg-12">
-                <button class="btn btn-block btn-lg" onclick="openMagicBall()">See Code</button>
-              </div>
-            </div>
+            <h3>Elphas Can Code</h3>
+            <h4>Founded September 2019</h4>
+            <p>Elphas Can Code is a supportive online community for all Elpha members learning how to code. The community strives to help all members at different stages of their coding journeys. I serve as the community moderator where I review posts, enforce Elpha guidelines, and create conversations so all members can contribute.</p>
+            <button type="button" class="btn btn-lg btn-block" onclick="openElpha()">Learn More</button>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="project-six">
+    <section id="honors">
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-6 col-lg-6">
-            <h3>LOL Cat Clock</h3>
-            <p>Clock made with JavaScript that has a working clock and displays cat memes at different times of the day. Users can click the party time button to change the image.</p>
-            <div class="row">
-              <div class="col-sm-12 col-md-12 col-lg-12">
-                <button class="btn btn-block btn-lg" onclick="openCatClock()">See Code</button>
-              </div>
-            </div>       
+            <h2>Awards & Honors</h2>
+            <p><a href="https://www.1mwis.com/profiles/sarah-bartley" target="_blank">1 Mill Women in STEM</a>. April 2020</p>
+            <p>Grow with Google Challenge Scholarship. January 2018</p>
+            <p>Ambitionista Member Spotlight. August 2018</p>
           </div>
 
           <div class="col-sm-12 col-md-6 col-lg-6">
-            <img src="../assets/img/cat-clock.png" alt="LOL Cat Clock" class="img-thumbnail" />
-          </div>          
+            <h2>Speaking</h2>
+            <p>Lambda School. <em>How to Use Bootstrap to Build a Portfolio Website</em>. April 2020.</p>
+            <p>Moms Can Code Virtual Summit. <em>How to Use Social Media to Build Your Personal Brand</em>. April 2018.</p>
+            <p>Skillcrush. <em>Code Your Way to $1K: Q&A with Alumni</em>. April 2018.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="video">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <h3>Skillcrush Alumni Video</h3>
+            <p>2018 - 2019</p>
+            <p>I was interviewed for a Skillcrush promotional video for their website in February 2018. The premise of the video was to market Skillcrush courses by having Skillcrush alumni sharing stories with Skillcrush. I shared my story for the video and contributed pictures for the video slideshow. One of the websites I made was featured in the video.</p>
+          </div>
+
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <iframe src="https://www.youtube.com/embed/tU5Dw5qAe7Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
         </div>
       </div>
     </section>
 
     <section id="hired">
-      <div class="text-center">
-        <h2>Do you need help with a website?</h2>
-        <h3>E-mail britishpandachick@gmail to set up an interview.</h3>
+      <div class="container">
+        <h2 class="text-center">Hire Me!</h2>
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <p>Do you need help with your website? Are you looking to build a website for your business and aren't sure where to start? Send me a message and schedule a time for us to chat about your project.</p>
+  
+            <p><i class="far fa-envelope"></i> britishpandachick@gmail</p>
+          </div>
+
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <h3>Connect with Me on Social Media</h3>
+            <nav>
+              <ul class="nav">
+                <li class="nav-item">
+                  <a href="http://www.facebook.com/sarahbartleybpc" target="_blank" class="nav-link">
+                    <i class="fab fa-facebook fa-2x"></i>
+                  </a>
+                </li>
+      
+                <li class="nav-item">
+                  <a href="https://twitter.com/TheOriginalBPC" target="_blank" class="nav-link">
+                    <i class="fab fa-twitter-square fa-2x"></i>
+                  </a>
+                </li>
+      
+                <li class="nav-item">
+                  <a href="https://www.linkedin.com/in/sarahbartleybpc" target="_blank" class="nav-link">
+                    <i class="fab fa-linkedin fa-2x"></i>
+                  </a>
+                </li>
+      
+                <li class="nav-item">
+                  <a href="https://www.instagram.com/britishpandachick" target="_blank" class="nav-link">
+                    <i class="fab fa-instagram fa-2x"></i>
+                    </a>
+                  </li>
+      
+                <li class="nav-item">
+                  <a href="http://www.pinterest.com/theoriginalbpc" target="_blank" class="nav-link">
+                    <i class="fab fa-pinterest fa-2x"></i>
+                  </a>
+                </li>
+      
+                <li class="nav-item">
+                  <a href="https://github.com/BritishPandaChick" target="_blank" class="nav-link">
+                    <i class="fab fa-github fa-2x"></i>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
       </div>
     </section>
   </main>
 
   <footer>
     <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-12 col-md-6 col-lg-6">
-          <p>&copy; 2018-2020 Sarah Bartley. All Rights Reserved.</p>
-        </div>
-
-        <div class="col-sm-12 col-md-6 col-lg-6">
-          <nav>
-            <ul class="nav">
-              <li class="nav-item">
-                <a href="http://www.facebook.com/sarahbartleybpc" target="_blank" class="nav-link">
-                  <i class="fab fa-facebook fa-2x"></i>
-                </a>
-              </li>
-
-              <li class="nav-item">
-                <a href="https://twitter.com/TheOriginalBPC" target="_blank" class="nav-link">
-                  <i class="fab fa-twitter-square fa-2x"></i>
-                </a>
-              </li>
-
-              <li class="nav-item">
-                <a href="https://www.linkedin.com/in/sarahbartleybpc" target="_blank" class="nav-link">
-                  <i class="fab fa-linkedin fa-2x"></i>
-                </a>
-              </li>
-
-              <li class="nav-item">
-                <a href="https://www.instagram.com/britishpandachick" target="_blank" class="nav-link">
-                  <i class="fab fa-instagram fa-2x"></i>
-                </a>
-              </li>
-
-              <li class="nav-item">
-                <a href="http://www.pinterest.com/theoriginalbpc" target="_blank" class="nav-link">
-                  <i class="fab fa-pinterest fa-2x"></i>
-                </a>
-              </li>
-
-              <li class="nav-item">
-                <a href="https://github.com/BritishPandaChick" target="_blank" class="nav-link">
-                  <i class="fab fa-github fa-2x"></i>
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </div>
+      <p>&copy; 2018-2020 Sarah Bartley. All Rights Reserved.</p>
     </div>
   </footer>
 

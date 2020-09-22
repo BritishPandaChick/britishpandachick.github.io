@@ -1,6 +1,6 @@
 /* Sass variables */ 
-$base-font: 'Roboto Condensed', sans-serif;
-$headline-font: 'Homemade Apple', cursive;
+$base-font: 'Josefin Slab', serif;
+$headline-font: 'Roboto Condensed', sans-serif;
 $background-color: #558976;
 $white: #fdfcfb;
 $base-color: #333;
@@ -8,25 +8,25 @@ $hover-color: #9dac38;
 
 /* ==== Basic Styles ==== */
 body {
-    font-family: $base-font;
     background-color: $white;
     width: 100%;
     margin: 0 auto;
-    color: $base-color;
+    color: $white;
   }
   
 /* ==== Header ==== */
 header {
   background-color: $background-color;
 
-  h1 {
-      font-size: 63px;
+  .navbar-brand {
+      font-size: 35px;
       font-family: $headline-font;
       color: $white;
   }
 
   li {
     font-weight: bold;
+    font-family: $headline-font;
 
     a {
         text-transform: uppercase;
@@ -48,116 +48,81 @@ footer {
   p {
     font-size: 18px;
     color: $white;
-  }
-
-  i {
-    color: $white;
-  }
-
-  i:hover {
-      color: $hover-color;
+    font-family: $headline-font;
   }
 }
   
 /* ==== Home Page ==== */
-#career-compass, #design, #frontend, #backend, #hired {
-  padding: 20px 0;
-
-  p {
-      line-height: 32px;
-      font-size: 20px;
-  }
-}
-  
-#design, #frontend, #backend {
-  h2 {
-    font-size: 30px;
-    font-family: $headline-font;
-    color: $background-color;
-    padding-bottom: 10px;
-  }
-
-  img {
-    margin-bottom: 40px;
-  }
+img {
+  height: 800px;
 }
 
-/* Hired Section */
+#career-compass {
+  font-family: $base-font;
+  font-size: 20px;
+  line-height: 32px;
+  padding: 40px 0;
+}
+
+/* === Hired Section === */
 #hired {
   border: 2px solid $background-color;
-  padding: 40px 0;
+  padding: 20px 0;
 
   h2 {
     font-family: $headline-font;
     font-size: 30px;
     color: $background-color;
-    padding-bottom: 10px;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 32px;
+    font-family: $base-font;
   }
 
   h3 {
     font-size: 25px;
     color: $background-color;
+    font-family: $headline-font;
   }
+
+  i {
+    color: $background-color;
+  }
+
+  li {
+    a {
+      color: $background-color;
+    }
+  
+    a:hover {
+      color: $hover-color;
+    }
+  }
+
 }
   
 
 /* ==== About Page ==== */
-#about, #education, #honors, #video, #blogs, #publications, #side-projects {
+#about {
   padding: 20px 0;
 
   h2 {
-      font-size: 30px;
-      font-family: $headline-font;
-      color: $background-color;
-      text-align: center;
+    font-family: $headline-font;
+    color: $background-color;
+    font-size: 30px;
+  }
+
+  img {
+    padding: 20px 0;
   }
 
   p {
-      line-height: 32px;
-      font-size: 20px;
+    font-size: 20px;
+    font-family: $base-font;
+    line-height: 32px;
   }
-}
-
-#about {
-  img {
-    margin-bottom: 20px;
-  }
-
-  h2 {
-    word-spacing: 15px;
-  }
-}
-  
-#video h3, #blogs h3, #publications h3 {
-  font-size: 25px;
-}
-  
-#video iframe {
-  width: 100%;
-  height: 400px;
-}
-  
-#blogs h2 {
-  padding-bottom: 10px;
-}
-  
-#video h4, #blogs h4, #side-projects h4 {
-  font-size: 20px;
-}
-  
-#blogs button, #side-projects button {
-  margin-bottom: 30px;
-  font-size: 20px;
-  background-color: $background-color;
-  color: $white;
-}
-  
-#publications ul li {
-  font-size: 20px;
-}
-
-#side-projects h2 {
-  padding-bottom: 10px;
 }
   
 /* ==== Portfolio Page ==== */
