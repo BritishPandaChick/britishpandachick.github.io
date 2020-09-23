@@ -8,7 +8,6 @@ $hover-color: #9dac38;
 
 /* Basic Styles */
 body {
-    font-family: $base-font;
     background-color: $white;
     width: 100%;
     margin: 0 auto;
@@ -20,23 +19,23 @@ header {
   background-color: $background-color;
 
   .navbar-brand {
-    font-size: 75px;
-    font-family: $headline-font;
-    color: $white;
+      font-size: 45px;
+      font-family: $headline-font;
+      color: $white;
   }
 
   li {
     font-weight: bold;
-    padding-left: 10px;
+    font-family: $headline-font;
 
     a {
-      text-transform: uppercase;
-      color: $white;
-      font-size: 20px;
+        text-transform: uppercase;
+        color: $white;
+        font-size: 20px;
     }
 
     a:hover {
-      color: $hover-color;
+        color: $hover-color;
     }
   }
 }
@@ -49,140 +48,215 @@ footer {
   p {
     font-size: 16px;
     color: $white;
-  }
-
-  i {
-    color: $white;
-  }
-
-  i:hover {
-    color: $hover-color;
+    font-family: $headline-font;
   }
 }
   
 /* ==== Home Page ==== */
-#career-compass, #design, #frontend, #backend {
-  padding: 40px 0;
-}
-  
-#design h2, #frontend h2, #backend h2 {
-  font-size: 35px;
-  font-family: $headline-font;
-  color: $background-color;
-  padding: 15px 0;
-}
-  
-#career-compass p, #design p, #frontend p, #backend p {
-  line-height: 32px;
-  font-size: 20px;
+.main-image img {
+  height: 800px;
 }
 
-/* Hired Section */
+#career-compass {
+  font-family: $base-font;
+  font-size: 20px;
+  line-height: 32px;
+  padding: 40px 0;
+}
+
+/* ==== Hired Section ==== */
 #hired {
   border: 2px solid $background-color;
-  padding: 40px 0;
+  padding: 20px 0;
 
   h2 {
     font-family: $headline-font;
-    font-size: 35px;
+    font-size: 40px;
     color: $background-color;
-    padding-bottom: 10px;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 32px;
+    font-family: $base-font;
   }
 
   h3 {
-    font-size: 20px;
+    font-size: 35px;
+    font-family: $headline-font;
+  }
+
+  i {
     color: $background-color;
+  }
+
+  li {
+    a {
+      color: $background-color;
+    }
+  
+    a:hover {
+      color: $hover-color;
+    }
   }
 }
   
 /* ==== About Page ==== */
-#about, #education, #honors, #video, #blogs, #publications, #side-projects {
+#about {
   padding: 20px 0;
 
   h2 {
-    font-size: 35px;
     font-family: $headline-font;
     color: $background-color;
-    padding-bottom: 10px;
+    font-size: 40px;
+  }
+
+  img {
+    padding: 20px 0;
   }
 
   p {
-    line-height: 32px;
     font-size: 20px;
+    font-family: $base-font;
+    line-height: 32px;
   }
-}
-  
-#about {
-  img {
-    margin-bottom: 30px;
-  }
-
-  h2 {
-    word-spacing: 15px;
-    padding: 15px 0;
-  }  
-}
-
-#honors p, #blogs p, #publications p {
-  padding-bottom: 15px;
-}
-  
-#video h3, #blogs h3, #publications h3 {
-  font-size: 25px;
-}
-  
-#video iframe {
-  width: 100%;
-  height: 400px;
-}
-  
-#blogs h2 {
-  padding-bottom: 15px;
-}
-  
-#video h4, #blogs h4, #side-projects h4 {
-  font-size: 20px;
-}
-  
-#blogs button, #side-projects button {
-  margin-bottom: 50px;
-  font-size: 20px;
-  background-color: $background-color;
-  color: $white;
-}
-  
-#publications ul li {
-  font-size: 20px;
 }
   
 /* Portfolio Page */
-.projects {
-  font-size: 35px;
-  font-family: $headline-font;
-  color: $background-color;
-  padding: 15px 0;
-}
-  
-#project-one, #project-two, #project-three, #project-four, #project-five, #project-six {
+#gallery {
   padding: 20px 0;
 
+  h2 {
+    font-family: $headline-font;
+    font-size: 35px;
+    color: $background-color;
+  }
+
   img {
-    margin-bottom: 30px;
+    margin: 20px 0;
   }
 
   h3 {
-    font-size: 25px;
+    font-size: 30px;
+    font-family: $headline-font;
     text-align: center;
   }
 
   p {
     font-size: 20px;
+    font-family: $base-font;
+    line-height: 32px;
+  }
+
+  a {
+    color: $background-color;
+    font-size: 20px;
+    font-family: $base-font;
+  }
+
+  a:hover {
+    color: $hover-color;
+  }
+}
+  
+#writing {
+  padding: 15px 0;
+
+  h3 {
+    font-size: 35px;
+    font-family: $headline-font;
+  }
+
+  a {
+    color: $background-color;
+    font-size: 20px;
+  }
+
+  a:hover {
+    color: $hover-color;
+  }
+
+  p {
+    font-size: 20px;
+    font-family: $base-font;
+  }
+
+  h4 {
+    font-size: 30px;
+  }
+
+  li {
+    font-size: 20px;
+    font-family: $base-font;
+  }
+}
+
+#side-projects {
+  padding: 15px 0;
+
+  h3 {
+    font-size: 35px;
+    font-family: $headline-font;
+  }
+
+  h4 {
+    font-size: 30px;
+    font-family: $headline-font;
+  }
+
+  p {
+    font-size: 20px;
+    font-family: $base-font;
     line-height: 32px;
   }
 
   button {
-    font-size: 20px;
     background-color: $background-color;
     color: $white;
+    margin-bottom: 25px;
+  }
+}
+
+#honors {
+  padding: 15px 0;
+
+  h3 {
+    font-size: 35px;
+    font-family: $headline-font;
+  }
+
+  p {
+    font-size: 20px;
+    font-family: $base-font;
+  }
+
+  a {
+    font-size: 20px;
+    font-family: $base-font;
+    color: $background-color;
+  }
+
+  a:hover {
+    color: $hover-color;
+  }
+}
+
+#video {
+  padding: 15px 0;
+
+  h3 {
+    font-size: 35px;
+    font-family: $headline-font;
+    color: $background-color;
+  }
+
+  p {
+    font-size: 20px;
+    font-family: $base-font;
+  }
+
+  iframe {
+    height: 400px;
+    width: 100%;
   }
 }
