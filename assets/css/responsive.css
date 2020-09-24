@@ -21,7 +21,6 @@ header li {
   font-family: "Roboto Condensed", sans-serif;
 }
 header li a {
-  text-transform: uppercase;
   color: #fdfcfb;
   font-size: 20px;
 }
@@ -29,10 +28,41 @@ header li a:hover {
   color: #9dac38;
 }
 
+/* === Hired Section === */
+#hired {
+  border: 2px solid #558976;
+  padding: 30px 0;
+}
+#hired h2 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 35px;
+  color: #558976;
+  padding: 10px 0;
+}
+#hired p {
+  font-size: 20px;
+  line-height: 32px;
+  font-family: "Josefin Slab", serif;
+}
+#hired h3 {
+  font-size: 30px;
+  font-family: "Roboto Condensed", sans-serif;
+  padding: 10px 0;
+}
+#hired i {
+  color: #558976;
+}
+#hired li a {
+  color: #558976;
+}
+#hired li a:hover {
+  color: #9dac38;
+}
+
 /* ==== Footer ==== */
 footer {
   background: #558976;
-  padding: 15px 0;
+  padding: 20px 0;
 }
 footer p {
   font-size: 18px;
@@ -52,35 +82,6 @@ footer p {
   padding: 40px 0;
 }
 
-/* === Hired Section === */
-#hired {
-  border: 2px solid #558976;
-  padding: 20px 0;
-}
-#hired h2 {
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 35px;
-  color: #558976;
-}
-#hired p {
-  font-size: 20px;
-  line-height: 32px;
-  font-family: "Josefin Slab", serif;
-}
-#hired h3 {
-  font-size: 30px;
-  font-family: "Roboto Condensed", sans-serif;
-}
-#hired i {
-  color: #558976;
-}
-#hired li a {
-  color: #558976;
-}
-#hired li a:hover {
-  color: #9dac38;
-}
-
 /* ==== About Page ==== */
 #about {
   padding: 20px 0;
@@ -91,7 +92,7 @@ footer p {
   font-size: 35px;
 }
 #about img {
-  padding: 20px 0;
+  margin: 20px 0;
 }
 #about p {
   font-size: 20px;
@@ -101,7 +102,7 @@ footer p {
 
 /* ==== Portfolio Page ==== */
 #gallery {
-  padding: 20px 0;
+  padding: 40px 0;
 }
 #gallery h2 {
   font-family: "Roboto Condensed", sans-serif;
@@ -109,7 +110,7 @@ footer p {
   color: #558976;
 }
 #gallery img {
-  margin: 20px 0;
+  margin: 25px 0;
 }
 #gallery h3 {
   font-size: 30px;
@@ -136,6 +137,7 @@ footer p {
 #writing h3 {
   font-size: 30px;
   font-family: "Roboto Condensed", sans-serif;
+  padding: 20px 0;
 }
 #writing a {
   color: #558976;
@@ -150,6 +152,8 @@ footer p {
 }
 #writing h4 {
   font-size: 25px;
+  font-family: "Roboto Condensed", sans-serif;
+  padding: 15px 0;
 }
 #writing li {
   font-size: 20px;
@@ -157,7 +161,7 @@ footer p {
 }
 
 #side-projects {
-  padding: 15px 0;
+  padding: 20px 0;
 }
 #side-projects h3 {
   font-size: 30px;
@@ -166,6 +170,7 @@ footer p {
 #side-projects h4 {
   font-size: 25px;
   font-family: "Roboto Condensed", sans-serif;
+  padding: 10px 0;
 }
 #side-projects p {
   font-size: 20px;
@@ -184,6 +189,7 @@ footer p {
 #honors h3 {
   font-size: 30px;
   font-family: "Roboto Condensed", sans-serif;
+  padding: 15px 0;
 }
 #honors p {
   font-size: 20px;
@@ -204,7 +210,7 @@ footer p {
 #video h3 {
   font-size: 30px;
   font-family: "Roboto Condensed", sans-serif;
-  color: #558976;
+  padding: 10px 0;
 }
 #video p {
   font-size: 20px;

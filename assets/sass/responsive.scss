@@ -29,7 +29,6 @@ header {
     font-family: $headline-font;
 
     a {
-        text-transform: uppercase;
         color: $white;
         font-size: 20px;
     }
@@ -39,11 +38,50 @@ header {
     }
   }
 }
+
+/* === Hired Section === */
+#hired {
+  border: 2px solid $background-color;
+  padding: 30px 0;
+
+  h2 {
+    font-family: $headline-font;
+    font-size: 35px;
+    color: $background-color;
+    padding: 10px 0;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 32px;
+    font-family: $base-font;
+  }
+
+  h3 {
+    font-size: 30px;
+    font-family: $headline-font;
+    padding: 10px 0;
+  }
+
+  i {
+    color: $background-color;
+  }
+
+  li {
+    a {
+      color: $background-color;
+    }
+  
+    a:hover {
+      color: $hover-color;
+    }
+  }
+}
   
 /* ==== Footer ==== */
 footer {
   background: $background-color;
-  padding: 15px 0;
+  padding: 20px 0;
 
   p {
     font-size: 18px;
@@ -63,43 +101,6 @@ footer {
   line-height: 32px;
   padding: 40px 0;
 }
-
-/* === Hired Section === */
-#hired {
-  border: 2px solid $background-color;
-  padding: 20px 0;
-
-  h2 {
-    font-family: $headline-font;
-    font-size: 35px;
-    color: $background-color;
-  }
-
-  p {
-    font-size: 20px;
-    line-height: 32px;
-    font-family: $base-font;
-  }
-
-  h3 {
-    font-size: 30px;
-    font-family: $headline-font;
-  }
-
-  i {
-    color: $background-color;
-  }
-
-  li {
-    a {
-      color: $background-color;
-    }
-  
-    a:hover {
-      color: $hover-color;
-    }
-  }
-}
   
 /* ==== About Page ==== */
 #about {
@@ -112,7 +113,7 @@ footer {
   }
 
   img {
-    padding: 20px 0;
+    margin: 20px 0;
   }
 
   p {
@@ -124,7 +125,7 @@ footer {
   
 /* ==== Portfolio Page ==== */
 #gallery {
-  padding: 20px 0;
+  padding: 40px 0;
 
   h2 {
     font-family: $headline-font;
@@ -133,7 +134,7 @@ footer {
   }
 
   img {
-    margin: 20px 0;
+    margin: 25px 0;
   }
 
   h3 {
@@ -165,6 +166,7 @@ footer {
   h3 {
     font-size: 30px;
     font-family: $headline-font;
+    padding: 20px 0;
   }
 
   a {
@@ -183,6 +185,8 @@ footer {
 
   h4 {
     font-size: 25px;
+    font-family: $headline-font;
+    padding: 15px 0;
   }
 
   li {
@@ -192,7 +196,7 @@ footer {
 }
 
 #side-projects {
-  padding: 15px 0;
+  padding: 20px 0;
 
   h3 {
     font-size: 30px;
@@ -202,6 +206,7 @@ footer {
   h4 {
     font-size: 25px;
     font-family: $headline-font;
+    padding: 10px 0;
   }
 
   p {
@@ -223,6 +228,7 @@ footer {
   h3 {
     font-size: 30px;
     font-family: $headline-font;
+    padding: 15px 0;
   }
 
   p {
@@ -247,7 +253,7 @@ footer {
   h3 {
     font-size: 30px;
     font-family: $headline-font;
-    color: $background-color;
+    padding: 10px 0;
   }
 
   p {
