@@ -109,7 +109,7 @@ footer p {
 }
 #gallery h2 {
   font-family: "Roboto Condensed", sans-serif;
-  font-size: 35px;
+  font-size: 40px;
   color: #558976;
 }
 #gallery img {
@@ -220,6 +220,56 @@ footer p {
 #video iframe {
   height: 400px;
   width: 100%;
+}
+
+/* Project Pages */
+#description {
+  padding: 40px 0;
+}
+#description h2 {
+  font-size: 40px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #558976;
+}
+#description img {
+  padding: 20px 0;
+}
+#description h3 {
+  font-size: 35px;
+  font-family: "Roboto Condensed", sans-serif;
+  padding: 10px 0;
+  color: #333;
+}
+#description li {
+  font-size: 20px;
+  color: #333;
+  font-family: "Josefin Slab", serif;
+}
+#description p {
+  font-size: 20px;
+  color: #333;
+  line-height: 32px;
+  font-family: "Josefin Slab", serif;
+}
+#description a {
+  font-size: 20px;
+  color: #558976;
+  font-family: "Josefin Slab", serif;
+}
+#description a:hover {
+  color: #9dac38;
+}
+
+#back {
+  padding: 15px 0;
+}
+#back a {
+  color: #558976;
+  font-size: 20px;
+  font-family: "Josefin Slab", serif;
+}
+#back a:hover {
+  color: #9dac38;
 }
 
 /*# sourceMappingURL=style.css.map */

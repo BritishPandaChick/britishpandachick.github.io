@@ -133,7 +133,7 @@ footer {
 
   h2 {
     font-family: $headline-font;
-    font-size: 35px;
+    font-size: 40px;
     color: $background-color;
   }
 
@@ -266,5 +266,64 @@ footer {
   iframe {
     height: 400px;
     width: 100%;
+  }
+}
+
+/* Project Pages */
+#description {
+  padding: 40px 0;
+
+  h2 {
+    font-size: 40px;
+    font-family: $headline-font;
+    color: $background-color;
+  }
+
+  img {
+    padding: 20px 0;
+  }
+
+  h3 {
+    font-size: 35px;
+    font-family: $headline-font;
+    padding: 10px 0;
+    color: $base-color;
+  }
+
+  li {
+    font-size: 20px;
+    color: $base-color;
+    font-family: $base-font;
+  }
+
+  p {
+    font-size: 20px;
+    color: $base-color;
+    line-height: 32px;
+    font-family: $base-font;
+  }
+
+  a {
+    font-size: 20px;
+    color: $background-color;
+    font-family: $base-font;
+  }
+
+  a:hover {
+    color: $hover-color;
+  }
+}
+
+#back {
+  padding: 15px 0;
+  
+  a {
+    color: $background-color;
+    font-size: 20px;
+    font-family: $base-font;
+  }
+
+  a:hover {
+    color: $hover-color;
   }
 }

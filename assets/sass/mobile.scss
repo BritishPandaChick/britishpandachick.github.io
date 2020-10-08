@@ -19,7 +19,7 @@ header {
   background-color: $background-color;
 
   .navbar-brand {
-      font-size: 35px;
+      font-size: 25px;
       font-family: $headline-font;
       color: $white;
   }
@@ -42,23 +42,23 @@ header {
 /* === Hired Section === */
 #hired {
   border: 2px solid $background-color;
-  padding: 30px 0;
+  padding: 40px 10px;
 
   h2 {
     font-family: $headline-font;
-    font-size: 30px;
+    font-size: 25px;
     color: $background-color;
     padding: 10px 0;
   }
 
   p {
-    font-size: 20px;
     line-height: 32px;
     font-family: $base-font;
+    font-size: 20px;
   }
 
   h3 {
-    font-size: 25px;
+    font-size: 20px;
     font-family: $headline-font;
     padding: 10px 0;
   }
@@ -81,7 +81,7 @@ header {
 /* ==== Footer ==== */
 footer {
   background: $background-color;
-  padding: 20px 0;
+  padding: 25px 0;
 
   p {
     font-size: 18px;
@@ -92,7 +92,7 @@ footer {
   
 /* ==== Home Page ==== */
 .main-image img {
-  height: 800px;
+  height: 500px;
 }
 
 #career-compass {
@@ -104,12 +104,12 @@ footer {
 
 /* ==== About Page ==== */
 #about {
-  padding: 20px 0;
+  padding: 40px 0;
 
   h2 {
     font-family: $headline-font;
     color: $background-color;
-    font-size: 30px;
+    font-size: 25px;
   }
 
   img {
@@ -120,16 +120,17 @@ footer {
     font-size: 20px;
     font-family: $base-font;
     line-height: 32px;
+    padding: 0 10px;
   }
 }
   
 /* ==== Portfolio Page ==== */
 #gallery {
-  padding: 40px 0;
+  padding: 40px 15px 20px 15px;
 
   h2 {
     font-family: $headline-font;
-    font-size: 30px;
+    font-size: 25px;
     color: $background-color;
   }
 
@@ -138,7 +139,7 @@ footer {
   }
 
   h3 {
-    font-size: 25px;
+    font-size: 20px;
     font-family: $headline-font;
     text-align: center;
   }
@@ -161,10 +162,10 @@ footer {
 }
   
 #writing {
-  padding: 15px 0;
+  padding: 15px;
 
   h3 {
-    font-size: 25px;
+    font-size: 20px;
     font-family: $headline-font;
     padding: 20px 0;
   }
@@ -184,7 +185,7 @@ footer {
   }
 
   h4 {
-    font-size: 20px;
+    font-size: 18px;
     padding: 15px 0;
     font-family: $headline-font;
   }
@@ -196,10 +197,10 @@ footer {
 }
 
 #side-projects {
-  padding: 20px 0;
+  padding: 15px;
 
   h3 {
-    font-size: 25px;
+    font-size: 20px;
     font-family: $headline-font;
     padding: 10px 0;
   }
@@ -214,14 +215,15 @@ footer {
     background-color: $background-color;
     color: $white;
     margin-bottom: 25px;
+    font-size: 20px;
   }
 }
 
 #honors {
-  padding: 15px 0;
+  padding: 15px;
 
   h3 {
-    font-size: 25px;
+    font-size: 20px;
     font-family: $headline-font;
     padding: 15px 0;
   }
@@ -243,10 +245,10 @@ footer {
 }
 
 #video {
-  padding: 15px 0;
+  padding: 15px;
 
   h3 {
-    font-size: 25px;
+    font-size: 20px;
     font-family: $headline-font;
     padding: 10px 0;
   }
@@ -259,5 +261,64 @@ footer {
   iframe {
     height: 400px;
     width: 100%;
+  }
+}
+
+/* Project Pages */
+#description {
+  padding: 40px 15px;
+
+  h2 {
+    font-size: 25px;
+    font-family: $headline-font;
+    color: $background-color;
+  }
+
+  img {
+    padding: 20px 0;
+  }
+
+  h3 {
+    font-size: 20px;
+    font-family: $headline-font;
+    padding: 10px 0;
+    color: $base-color;
+  }
+
+  li {
+    font-size: 20px;
+    color: $base-color;
+    font-family: $base-font;
+  }
+
+  p {
+    font-size: 20px;
+    color: $base-color;
+    line-height: 32px;
+    font-family: $base-font;
+  }
+
+  a {
+    font-size: 20px;
+    color: $background-color;
+    font-family: $base-font;
+  }
+
+  a:hover {
+    color: $hover-color;
+  }
+}
+
+#back {
+  padding: 15px;
+  
+  a {
+    color: $background-color;
+    font-size: 20px;
+    font-family: $base-font;
+  }
+
+  a:hover {
+    color: $hover-color;
   }
 }

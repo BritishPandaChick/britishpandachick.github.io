@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Project One</title>
+  <title>Markdown Previewer</title>
   <!-- Stylesheets -->
   <link href="../assets/css/style.css" media="screen and (min-width: 1025px)" rel="stylesheet">
   <link href="../assets/css/mobile.css" media="screen and (max-width: 640px)" rel="stylesheet">
@@ -39,19 +39,36 @@
         </div>
     </header>
     <main>
-        <h2 class="text-center">Yelpcamp</h2>
         <section id="description">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 col-md-6 col-lg-6">
-                      <img src="../assets/img/yelpcamp.jpg" alt="Yelpcamp" class="img-fluid">
-                    </div>
+          <div class="container">
+            <h2 class="text-center">Markdown Previewer</h2>
+              <div class="row">
+                  <div class="col-sm-12 col-md-6 col-lg-6">
+                    <img src="../assets/img/markdown-previewer.png" alt="Markdown Previewer" class="img-fluid">
+                  </div>
 
-                    <div class="col-sm-12 col-md-6 col-lg-6">
-                      <p>“How despicably I have acted!” she cried; “I, who have prided myself on my discernment! I, who have valued myself on my abilities! who have often disdained the generous candour of my sister, and gratified my vanity in useless or blameable mistrust! How humiliating is this discovery! Yet, how just a humiliation! Had I been in love, I could not have been more wretchedly blind! But vanity, not love, has been my folly. Pleased with the preference of one, and offended by the neglect of the other, on the very beginning of our acquaintance, I have courted prepossession and ignorance, and driven reason away, where either were concerned. Till this moment I never knew myself.”</p>
-                    </div>
-                </div>
-            </div>
+                  <div class="col-sm-12 col-md-6 col-lg-6">
+                    <h3>Objectives</h3>
+                    <ul>
+                      <li>When text is entered into the editor, the preview is updated.</li>
+                      <li>Markdown text is entered in the editor and translated to HTML in the preview.</li>
+                      <li>Default text in the editor has markdowns for the header, sub-header, link, inline code, code block, list item, blockquote, image, and bolded text.</li>
+                      <li>Default markdowns in the editor are rendered as HTML when the previewer loads.</li>
+                    </ul>
+                  </div>
+
+                  <div class="col-sm-12 col-md-12 col-lg-12">
+                    <h3>Background</h3>
+                    <p>First, I created the boiler plate code for this project. Inside the container div, I created two divs with the top and bottom class. These divs would hold the editor and preview elements. After I set up my code files and created the boiler plate code, I created the defaultMarkdown variable with a string of all the required markdowns for the project. The rest of the project was spent coding, testing, and debugging code to ensure each of the markdowns would appear in the previewer.</p>
+                    
+                    <p>In order to get the markdowns to appear in the previewer, I created a construction method before the render method so I could create a temporary class component. Inside the constructor was super(props) and this.state object with the markdown property set to the defaultMarkdown variable. Inside the render method, I added an expression marked(this.state.markdown) so the defaultMarkdown string is printed out as text. In order to get the text to print as HTML, I added the dangerouslySetInnerHTML attribute of the preview id. I created an object with the __html property and set it with marked(this.state.markdown).</p>
+
+                    <p>Once I got the required markdowns to work on the site, I added code to interpret carriage returns as <br> and open links in new tabs. In order to get carriage returns to work on the previewer, I used setOptions function with marked. Inside the object, I set the breaks to true. After reading the Marked.js documentation, I created a renderer variable before marked.setOptions which is set to new marked.Renderer(). Then I set renderer.link as a function so it would return links with the target attribute set to “_blank”. </p>
+                    
+                    <a href="https://codepen.io/BritishPandaChick/full/YoVaZm" target="_blank">Final</a> &#8212 <a href="https://github.com/BritishPandaChick/fcc-markdown-previewer" target="_blank">Code</a>
+                  </div>
+              </div>
+          </div>
         </section>
         
         <section id="back">

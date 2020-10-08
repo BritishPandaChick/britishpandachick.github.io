@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Project One</title>
+  <title>Magic 8 Ball</title>
   <!-- Stylesheets -->
   <link href="../assets/css/style.css" media="screen and (min-width: 1025px)" rel="stylesheet">
   <link href="../assets/css/mobile.css" media="screen and (max-width: 640px)" rel="stylesheet">
@@ -39,27 +39,43 @@
         </div>
     </header>
     <main>
-        <h2 class="text-center">Yelpcamp</h2>
-        <section id="description">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 col-md-6 col-lg-6">
-                      <img src="../assets/img/yelpcamp.jpg" alt="Yelpcamp" class="img-fluid">
-                    </div>
-
-                    <div class="col-sm-12 col-md-6 col-lg-6">
-                      <p>“How despicably I have acted!” she cried; “I, who have prided myself on my discernment! I, who have valued myself on my abilities! who have often disdained the generous candour of my sister, and gratified my vanity in useless or blameable mistrust! How humiliating is this discovery! Yet, how just a humiliation! Had I been in love, I could not have been more wretchedly blind! But vanity, not love, has been my folly. Pleased with the preference of one, and offended by the neglect of the other, on the very beginning of our acquaintance, I have courted prepossession and ignorance, and driven reason away, where either were concerned. Till this moment I never knew myself.”</p>
-                    </div>
-                </div>
+      <section id="description">
+        <div class="container">
+          <h2 class="text-center">Magic 8 Ball</h2>
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-6">
+              <img src="../assets/img/magic-eight-ball.png" alt="Magic 8 Ball" class="img-fluid">
             </div>
-        </section>
-        
-        <section id="back">
-          <div class="container">
-            <a href="../portfolio/index.html">==> Back to Portfolio</a>
+
+            <div class="col-sm-12 col-md-12 col-lg-6">
+              <h3>Objectives</h3>
+              <ul>
+                <li>Create an object for magic 8 ball and array property for answers.</li>
+                <li>Create a method to get question, shake the ball, and display answer.</li>
+                <li>Hide magic 8 ball answer and allow answer to fade in.</li>
+                <li>Swap images when trying to reveal answer.</li>
+                <li>Debug code files.</li>
+              </ul>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12">
+              <h3>Background</h3>
+              <p>I have made two versions of this project throughout my coding journey. The first version of the magic 8 ball was a form where users typed in their questions and had their answers displayed on the page. Behind the scenes was jQuery working to get a random answer and fading it onto the page.</p>
+
+              <p>I revisited this project a couple of years later and made changes to the look of the page as well as the code. Before I started writing any code, I took a few minutes to write some pseudo code. The pseudo code broke down the specific steps the code needed to do so the magic 8 ball would work. This pseudo code would serve as the base of the onClick method.</p>
+
+              <p>First, I created a magic 8 ball object and set up an array property with an array of answers. Next, I made the askQuestion method that returns a random answer when I ask a question. I finally used some jQuery to switch out magic 8 ball images, hide text, and get answers to fade in and out on the magic 8 ball. The last thing that needed to be done was debugging the entire site and fixing any errors in this code.</p>
+              <a href="https://codepen.io/BritishPandaChick/full/NWNoJRy" target="_blank">Final</a> &#8212 <a href="https://github.com/BritishPandaChick/magic-eight-ball" target="_blank">Code</a>
+            </div>
           </div>
-        </section>
+        </div>
+      </section>
         
+      <section id="back">
+        <div class="container">
+          <a href="../portfolio/index.html">==> Back to Portfolio</a>
+        </div>
+      </section>        
     </main>
     <footer>
         <div class="container-fluid">
