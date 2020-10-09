@@ -12,14 +12,14 @@ header {
   background-color: #558976;
 }
 header .navbar-brand {
-  font-size: 45px;
+  font-size: 30px;
   font-family: "Roboto Condensed", sans-serif;
   color: #fdfcfb;
 }
 header li {
   font-weight: bold;
   font-family: "Roboto Condensed", sans-serif;
-  padding: 15px;
+  padding: 0 10px;
 }
 header li a {
   color: #fdfcfb;
@@ -32,11 +32,11 @@ header li a:hover {
 /* ==== Hired Section ==== */
 #hired {
   border: 2px solid #558976;
-  padding: 30px 0;
+  padding: 40px 15px;
 }
 #hired h2 {
   font-family: "Roboto Condensed", sans-serif;
-  font-size: 40px;
+  font-size: 35px;
   color: #558976;
   padding: 10px 0;
 }
@@ -46,7 +46,7 @@ header li a:hover {
   font-family: "Josefin Slab", serif;
 }
 #hired h3 {
-  font-size: 35px;
+  font-size: 30px;
   font-family: "Roboto Condensed", sans-serif;
 }
 #hired i {
@@ -62,7 +62,7 @@ header li a:hover {
 /* ==== Footer ==== */
 footer {
   background: #558976;
-  padding: 20px 0;
+  padding: 25px 0;
 }
 footer p {
   font-size: 16px;
@@ -72,7 +72,7 @@ footer p {
 
 /* ==== Home Page ==== */
 .main-image img {
-  height: 800px;
+  height: 500px;
 }
 
 #career-compass {
@@ -84,17 +84,18 @@ footer p {
 
 /* ==== About Page ==== */
 #about {
-  padding: 20px 0;
+  padding: 40px 0;
 }
 #about h2 {
   font-family: "Roboto Condensed", sans-serif;
   color: #558976;
-  font-size: 40px;
+  font-size: 35px;
 }
 #about img {
   margin: 20px 0;
+  width: 90%;
 }
-#about .text-group {
+#about .first-group {
   padding: 20px 0;
 }
 #about p {
@@ -105,15 +106,15 @@ footer p {
 
 /* Portfolio Page */
 #gallery {
-  padding: 20px 0;
+  padding: 40px 15px 20px 15px;
 }
 #gallery h2 {
   font-family: "Roboto Condensed", sans-serif;
-  font-size: 40px;
+  font-size: 35px;
   color: #558976;
 }
 #gallery img {
-  margin: 20px 0;
+  margin: 25px 0;
 }
 #gallery h3 {
   font-size: 30px;
@@ -135,10 +136,10 @@ footer p {
 }
 
 #writing {
-  padding: 15px 0;
+  padding: 15px;
 }
 #writing h3 {
-  font-size: 35px;
+  font-size: 30px;
   font-family: "Roboto Condensed", sans-serif;
   padding: 20px 0;
 }
@@ -154,7 +155,7 @@ footer p {
   font-family: "Josefin Slab", serif;
 }
 #writing h4 {
-  font-size: 30px;
+  font-size: 25px;
   font-family: "Roboto Condensed", sans-serif;
   padding: 15px 0;
 }
@@ -164,15 +165,16 @@ footer p {
 }
 
 #side-projects {
-  padding: 15px 0;
+  padding: 15px;
 }
 #side-projects h3 {
-  font-size: 35px;
+  font-size: 30px;
   font-family: "Roboto Condensed", sans-serif;
 }
 #side-projects h4 {
-  font-size: 30px;
+  font-size: 25px;
   font-family: "Roboto Condensed", sans-serif;
+  padding: 10px 0;
 }
 #side-projects p {
   font-size: 20px;
@@ -186,11 +188,12 @@ footer p {
 }
 
 #honors {
-  padding: 15px 0;
+  padding: 15px;
 }
 #honors h3 {
-  font-size: 35px;
+  font-size: 30px;
   font-family: "Roboto Condensed", sans-serif;
+  padding: 15px 0;
 }
 #honors p {
   font-size: 20px;
@@ -206,10 +209,10 @@ footer p {
 }
 
 #video {
-  padding: 15px 0;
+  padding: 15px;
 }
 #video h3 {
-  font-size: 35px;
+  font-size: 30px;
   font-family: "Roboto Condensed", sans-serif;
   padding: 10px 0;
 }
@@ -224,10 +227,10 @@ footer p {
 
 /* Project Pages */
 #description {
-  padding: 40px 0;
+  padding: 40px 15px;
 }
 #description h2 {
-  font-size: 40px;
+  font-size: 35px;
   font-family: "Roboto Condensed", sans-serif;
   color: #558976;
 }
@@ -235,7 +238,7 @@ footer p {
   padding: 20px 0;
 }
 #description h3 {
-  font-size: 35px;
+  font-size: 30px;
   font-family: "Roboto Condensed", sans-serif;
   padding: 10px 0;
   color: #333;
@@ -261,7 +264,7 @@ footer p {
 }
 
 #back {
-  padding: 15px 0;
+  padding: 15px;
 }
 #back a {
   color: #558976;

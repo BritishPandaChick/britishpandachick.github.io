@@ -92,8 +92,7 @@ footer p {
   font-size: 25px;
 }
 #about img {
-  margin: 20px 0;
-  height: 90%;
+  padding: 20px 90px;
 }
 #about p {
   font-size: 20px;
@@ -225,10 +224,10 @@ footer p {
 
 /* Project Pages */
 #description {
-  padding: 40px 0;
+  padding: 40px 15px;
 }
 #description h2 {
-  font-size: 35px;
+  font-size: 25px;
   font-family: "Roboto Condensed", sans-serif;
   color: #558976;
 }
@@ -236,7 +235,7 @@ footer p {
   padding: 20px 0;
 }
 #description h3 {
-  font-size: 30px;
+  font-size: 20px;
   font-family: "Roboto Condensed", sans-serif;
   padding: 10px 0;
   color: #333;
@@ -262,7 +261,7 @@ footer p {
 }
 
 #back {
-  padding: 15px 0;
+  padding: 15px;
 }
 #back a {
   color: #558976;

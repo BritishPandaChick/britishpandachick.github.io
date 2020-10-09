@@ -113,8 +113,7 @@ footer {
   }
 
   img {
-    margin: 20px 0;
-    height: 90%;
+    padding: 20px 90px;
   }
 
   p {
@@ -271,10 +270,10 @@ footer {
 
 /* Project Pages */
 #description {
-  padding: 40px 0;
+  padding: 40px 15px;
 
   h2 {
-    font-size: 35px;
+    font-size: 25px;
     font-family: $headline-font;
     color: $background-color;
   }
@@ -284,7 +283,7 @@ footer {
   }
 
   h3 {
-    font-size: 30px;
+    font-size: 20px;
     font-family: $headline-font;
     padding: 10px 0;
     color: $base-color;
@@ -315,7 +314,7 @@ footer {
 }
 
 #back {
-  padding: 15px 0;
+  padding: 15px;
   
   a {
     color: $background-color;
