@@ -330,3 +330,32 @@ footer {
     color: $hover-color;
   }
 }
+
+/* ==== Services ==== */ 
+#services {
+  padding: 40px 15px;
+
+  h2 {
+    font-size: 35px;
+    font-family: $headline-font;
+    color: $background-color;
+  }
+
+  img {
+    padding: 20px 0;
+  }
+
+  h3 {
+    font-size: 30px;
+    font-family: $headline-font;
+    padding: 10px 0;
+    color: $base-color;
+  }
+
+  p {
+    font-size: 20px;
+    font-family: $base-font;
+    color: $base-color;
+    line-height: 32px;
+  }
+}
