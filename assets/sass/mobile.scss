@@ -5,14 +5,16 @@ $background-color: #558976;
 $white: #fdfcfb;
 $base-color: #333;
 $hover-color: #9dac38;
+$accent-color:#f6f2ea;
+$dark-green: #385001;
 
 /* ==== Basic Styles ==== */
 body {
-    background-color: $white;
-    width: 100%;
-    margin: 0 auto;
-    color: $base-color;
-  }
+  background-color: $white;
+  width: 100%;
+  margin: 0 auto;
+  color: $base-color;
+}
   
 /* ==== Header ==== */
 header {
@@ -39,35 +41,26 @@ header {
   }
 }
 
-/* === Hired Section === */
+/* ==== Footer ==== */
 #hired {
-  border: 2px solid $background-color;
-  padding: 40px 10px;
-
-  h2 {
-    font-family: $headline-font;
-    font-size: 25px;
-    color: $background-color;
-    padding: 10px 0;
-  }
+  background-color: $accent-color;
+  padding: 25px 0;
 
   p {
-    line-height: 32px;
-    font-family: $base-font;
-    font-size: 20px;
-  }
-
-  h3 {
-    font-size: 20px;
-    font-family: $headline-font;
-    padding: 10px 0;
-  }
-
-  i {
+    font-size: 18px;
     color: $background-color;
+    font-family: $headline-font;
+    padding-left: 20px;
+    
+    i {
+      color: $background-color;
+      padding-right: 10px;
+    }
   }
 
   li {
+    padding: 10px 0;
+
     a {
       color: $background-color;
     }
@@ -77,11 +70,10 @@ header {
     }
   }
 }
-  
-/* ==== Footer ==== */
-footer {
+
+#copyright {
   background: $background-color;
-  padding: 25px 0;
+  padding: 20px 15px;
 
   p {
     font-size: 18px;
@@ -96,10 +88,17 @@ footer {
 }
 
 #career-compass {
-  font-family: $base-font;
-  font-size: 20px;
-  line-height: 32px;
   padding: 40px 0;
+
+  p {
+    font-family: $base-font;
+    font-size: 20px;
+    line-height: 32px;
+  }
+  
+  img {
+    padding-top: 15px;
+  }
 }
 
 /* ==== About Page ==== */

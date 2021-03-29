@@ -28,29 +28,23 @@ header li a:hover {
   color: #9dac38;
 }
 
-/* === Hired Section === */
+/* ==== Footer ==== */
 #hired {
-  border: 2px solid #558976;
-  padding: 40px 10px;
-}
-#hired h2 {
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 25px;
-  color: #558976;
-  padding: 10px 0;
+  background-color: #f6f2ea;
+  padding: 25px 0;
 }
 #hired p {
-  line-height: 32px;
-  font-family: "Josefin Slab", serif;
-  font-size: 20px;
-}
-#hired h3 {
-  font-size: 20px;
-  font-family: "Roboto Condensed", sans-serif;
-  padding: 10px 0;
-}
-#hired i {
+  font-size: 18px;
   color: #558976;
+  font-family: "Roboto Condensed", sans-serif;
+  padding-left: 20px;
+}
+#hired p i {
+  color: #558976;
+  padding-right: 10px;
+}
+#hired li {
+  padding: 10px 0;
 }
 #hired li a {
   color: #558976;
@@ -59,12 +53,11 @@ header li a:hover {
   color: #9dac38;
 }
 
-/* ==== Footer ==== */
-footer {
+#copyright {
   background: #558976;
-  padding: 25px 0;
+  padding: 20px 15px;
 }
-footer p {
+#copyright p {
   font-size: 18px;
   color: #fdfcfb;
   font-family: "Roboto Condensed", sans-serif;
@@ -76,10 +69,15 @@ footer p {
 }
 
 #career-compass {
+  padding: 40px 0;
+}
+#career-compass p {
   font-family: "Josefin Slab", serif;
   font-size: 20px;
   line-height: 32px;
-  padding: 40px 0;
+}
+#career-compass img {
+  padding-top: 15px;
 }
 
 /* ==== About Page ==== */
