@@ -5,6 +5,8 @@ $background-color: #558976;
 $white: #fdfcfb;
 $base-color: #333;
 $hover-color: #9dac38;
+$accent-color:#f6f2ea;
+$dark-green: #385001;
 
 /* ==== Basic Styles ==== */
 body {
@@ -27,6 +29,7 @@ header {
   li {
     font-weight: bold;
     font-family: $headline-font;
+    padding: 0 10px;
 
     a {
         color: $white;
@@ -38,36 +41,27 @@ header {
     }
   }
 }
-
-/* === Hired Section === */
+  
+/* ==== Footer ==== */
 #hired {
-  border: 2px solid $background-color;
-  padding: 40px 15px;
-
-  h2 {
-    font-family: $headline-font;
-    font-size: 25px;
-    color: $background-color;
-    padding: 10px 0;
-  }
+  background-color: $accent-color;
+  padding: 25px 0;
 
   p {
-    font-size: 20px;
-    line-height: 32px;
-    font-family: $base-font;
-  }
-
-  h3 {
-    font-size: 20px;
-    font-family: $headline-font;
-    padding: 10px 0;
-  }
-
-  i {
+    font-size: 18px;
     color: $background-color;
+    font-family: $headline-font;
+    padding: 20px 25px;
+    
+    i {
+      color: $background-color;
+      padding-right: 10px;
+    }
   }
 
   li {
+    padding: 10px 0;
+
     a {
       color: $background-color;
     }
@@ -77,11 +71,10 @@ header {
     }
   }
 }
-  
-/* ==== Footer ==== */
-footer {
+
+#copyright {
   background: $background-color;
-  padding: 25px 0;
+  padding: 15px 25px;
 
   p {
     font-size: 18px;
@@ -91,20 +84,43 @@ footer {
 }
   
 /* ==== Home Page ==== */
-.main-image img {
-  height: 500px;
+#main-image {
+  background-image: url("../img/sb-home-banner.png");
+  background-position: center;
+  background-size: cover;
+  padding: 100px 0;
+  text-align: center;
+
+  h2 {
+    font-family: $headline-font;
+    color: $background-color;
+    font-size: 25px;
+  }
+
+  h3 {
+    font-size: 20px;
+    font-family: $headline-font;
+    padding: 15px 0;
+  }
 }
 
 #career-compass {
-  font-family: $base-font;
-  font-size: 20px;
-  line-height: 32px;
-  padding: 40px 0;
+  padding: 50px; 
+
+  p {
+    font-family: $base-font;
+    font-size: 20px;
+    line-height: 32px;
+  }
+  
+  img {
+    padding-top: 15px;
+  }
 }
   
 /* ==== About Page ==== */
 #about {
-  padding: 40px 0;
+  padding: 40px;
 
   h2 {
     font-family: $headline-font;
@@ -126,7 +142,7 @@ footer {
   
 /* ==== Portfolio Page ==== */
 #gallery {
-  padding: 40px 15px 20px 15px;
+  padding: 40px;
 
   h2 {
     font-family: $headline-font;
@@ -154,6 +170,7 @@ footer {
     color: $background-color;
     font-size: 20px;
     font-family: $base-font;
+    text-decoration: none;
   }
 
   a:hover {
@@ -162,7 +179,7 @@ footer {
 }
   
 #writing {
-  padding: 15px;
+  padding: 40px;
 
   h3 {
     font-size: 20px;
@@ -173,6 +190,7 @@ footer {
   a {
     color: $background-color;
     font-size: 20px;
+    text-decoration: none;
   }
 
   a:hover {
@@ -182,6 +200,7 @@ footer {
   p {
     font-size: 20px;
     font-family: $base-font;
+    line-height: 32px;
   }
 
   h4 {
@@ -197,17 +216,11 @@ footer {
 }
 
 #side-projects {
-  padding: 15px;
+  padding: 40px;
 
   h3 {
     font-size: 20px;
     font-family: $headline-font;
-  }
-
-  h4 {
-    font-size: 20px;
-    font-family: $headline-font;
-    padding: 10px 0;
   }
 
   p {
@@ -220,11 +233,12 @@ footer {
     background-color: $background-color;
     color: $white;
     margin-bottom: 25px;
+    font-size: 20px;
   }
 }
 
 #honors {
-  padding: 15px;
+  padding: 40px;
 
   h3 {
     font-size: 20px;
@@ -235,12 +249,14 @@ footer {
   p {
     font-size: 20px;
     font-family: $base-font;
+    line-height: 32px;
   }
 
   a {
     font-size: 20px;
     font-family: $base-font;
     color: $background-color;
+    text-decoration: none;
   }
 
   a:hover {
@@ -249,7 +265,7 @@ footer {
 }
 
 #video {
-  padding: 15px;
+  padding: 40px;
 
   h3 {
     font-size: 20px;
@@ -260,17 +276,18 @@ footer {
   p {
     font-size: 20px;
     font-family: $base-font;
+    line-height: 32px;
   }
 
   iframe {
-    height: 400px;
-    width: 100%;
+    height: 450px;
+    padding-top: 20px;
   }
 }
 
 /* Project Pages */
 #description {
-  padding: 40px 15px;
+  padding: 40px;
 
   h2 {
     font-size: 25px;
@@ -306,6 +323,7 @@ footer {
     font-size: 20px;
     color: $background-color;
     font-family: $base-font;
+    text-decoration: none;
   }
 
   a:hover {
@@ -320,6 +338,7 @@ footer {
     color: $background-color;
     font-size: 20px;
     font-family: $base-font;
+    text-decoration: none;
   }
 
   a:hover {
@@ -329,7 +348,7 @@ footer {
 
 /* ==== Services ==== */ 
 #services {
-  padding: 40px 15px;
+  padding: 40px;
 
   h2 {
     font-size: 25px;
@@ -353,5 +372,146 @@ footer {
     font-family: $base-font;
     color: $base-color;
     line-height: 32px;
+  }
+}
+
+/* ==== Blog ==== */ 
+#original-bpc {
+  padding: 40px;
+
+  h2 {
+    font-family: $headline-font;
+    font-size: 25px;
+    color: $background-color;
+  }
+
+  h3 {
+    font-size: 20px;
+    font-family: $headline-font;
+    color: $base-color;
+    padding: 10px 0;
+  }
+
+  p {
+    font-size: 20px;
+    font-family: $base-font;
+    color: $base-color;
+    line-height: 32px;
+  }
+
+  a {
+    color: $background-color;
+    font-size: 20px;
+    font-family: $base-font;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: $hover-color;
+  }
+}
+
+#bpc-codes {
+  padding: 40px;
+
+  h2 {
+    font-family: $headline-font;
+    font-size: 25px;
+    color: $background-color;
+  }
+
+  h3 {
+    font-size: 20px;
+    font-family: $headline-font;
+    color: $base-color;
+    padding: 10px 0;
+  }
+
+  p {
+    font-size: 20px;
+    font-family: $base-font;
+    color: $base-color;
+    line-height: 32px;
+  }
+
+  a {
+    color: $background-color;
+    font-size: 20px;
+    font-family: $base-font;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: $hover-color;
+  }
+}
+
+#practical-dev {
+  padding: 40px;
+
+  h2 {
+    font-family: $headline-font;
+    font-size: 25px;
+    color: $background-color;
+  }
+
+  h3 {
+    font-size: 20px;
+    font-family: $headline-font;
+    color: $base-color;
+    padding: 10px 0;
+  }
+
+  p {
+    font-size: 20px;
+    font-family: $base-font;
+    color: $base-color;
+    line-height: 32px;
+  }
+
+  a {
+    color: $background-color;
+    font-size: 20px;
+    font-family: $base-font;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: $hover-color;
+  }
+}
+
+#code-newbie {
+  padding: 40px;
+
+  h2 {
+    font-family: $headline-font;
+    font-size: 25px;
+    color: $background-color;
+  }
+
+  h3 {
+    font-size: 20px;
+    font-family: $headline-font;
+    color: $base-color;
+    padding: 10px 0;
+  }
+
+  p {
+    font-size: 20px;
+    font-family: $base-font;
+    color: $base-color;
+    line-height: 32px;
+  }
+
+  a {
+    color: $background-color;
+    font-size: 20px;
+    font-family: $base-font;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: $hover-color;
   }
 }

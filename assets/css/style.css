@@ -29,28 +29,23 @@ header li a:hover {
   color: #9dac38;
 }
 
-/* ==== Hired Section ==== */
+/* ==== Footer ==== */
 #hired {
-  border: 2px solid #558976;
-  padding: 40px 15px;
-}
-#hired h2 {
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 35px;
-  color: #558976;
-  padding: 10px 0;
+  background-color: #f6f2ea;
+  padding: 25px 0;
 }
 #hired p {
-  font-size: 20px;
-  line-height: 32px;
-  font-family: "Josefin Slab", serif;
-}
-#hired h3 {
-  font-size: 30px;
-  font-family: "Roboto Condensed", sans-serif;
-}
-#hired i {
+  font-size: 16px;
   color: #558976;
+  font-family: "Roboto Condensed", sans-serif;
+  padding: 20px 25px;
+}
+#hired p i {
+  color: #558976;
+  padding-right: 10px;
+}
+#hired li {
+  padding: 10px 0;
 }
 #hired li a {
   color: #558976;
@@ -59,32 +54,52 @@ header li a:hover {
   color: #9dac38;
 }
 
-/* ==== Footer ==== */
-footer {
+#copyright {
   background: #558976;
-  padding: 25px 0;
+  padding: 15px 25px;
 }
-footer p {
+#copyright p {
   font-size: 16px;
   color: #fdfcfb;
   font-family: "Roboto Condensed", sans-serif;
 }
 
 /* ==== Home Page ==== */
-.main-image img {
+#main-image {
+  background-image: url("../img/sb-home-banner.png");
+  background-position: center;
+  background-size: cover;
+  padding: 150px 0;
+  text-align: center;
   height: 500px;
+}
+#main-image h2 {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #558976;
+  font-size: 65px;
+}
+#main-image h3 {
+  font-size: 50px;
+  font-family: "Roboto Condensed", sans-serif;
+  padding: 15px 0;
 }
 
 #career-compass {
+  padding: 80px;
+}
+#career-compass p {
   font-family: "Josefin Slab", serif;
   font-size: 20px;
   line-height: 32px;
-  padding: 40px 0;
+  padding: 150px 0;
+}
+#career-compass img {
+  padding-top: 15px;
 }
 
 /* ==== About Page ==== */
 #about {
-  padding: 40px 0;
+  padding: 50px;
 }
 #about h2 {
   font-family: "Roboto Condensed", sans-serif;
@@ -93,7 +108,6 @@ footer p {
 }
 #about img {
   margin: 20px 0;
-  width: 90%;
 }
 #about .first-group {
   padding: 20px 0;
@@ -106,7 +120,7 @@ footer p {
 
 /* Portfolio Page */
 #gallery {
-  padding: 40px 15px 20px 15px;
+  padding: 50px;
 }
 #gallery h2 {
   font-family: "Roboto Condensed", sans-serif;
@@ -130,13 +144,14 @@ footer p {
   color: #558976;
   font-size: 20px;
   font-family: "Josefin Slab", serif;
+  text-decoration: none;
 }
 #gallery a:hover {
   color: #9dac38;
 }
 
 #writing {
-  padding: 15px;
+  padding: 50px;
 }
 #writing h3 {
   font-size: 30px;
@@ -146,6 +161,7 @@ footer p {
 #writing a {
   color: #558976;
   font-size: 20px;
+  text-decoration: none;
 }
 #writing a:hover {
   color: #9dac38;
@@ -153,6 +169,7 @@ footer p {
 #writing p {
   font-size: 20px;
   font-family: "Josefin Slab", serif;
+  line-height: 32px;
 }
 #writing h4 {
   font-size: 25px;
@@ -165,16 +182,11 @@ footer p {
 }
 
 #side-projects {
-  padding: 15px;
+  padding: 50px;
 }
 #side-projects h3 {
   font-size: 30px;
   font-family: "Roboto Condensed", sans-serif;
-}
-#side-projects h4 {
-  font-size: 25px;
-  font-family: "Roboto Condensed", sans-serif;
-  padding: 10px 0;
 }
 #side-projects p {
   font-size: 20px;
@@ -185,10 +197,11 @@ footer p {
   background-color: #558976;
   color: #fdfcfb;
   margin-bottom: 25px;
+  font-size: 20px;
 }
 
 #honors {
-  padding: 15px;
+  padding: 50px;
 }
 #honors h3 {
   font-size: 30px;
@@ -198,18 +211,20 @@ footer p {
 #honors p {
   font-size: 20px;
   font-family: "Josefin Slab", serif;
+  line-height: 32px;
 }
 #honors a {
   font-size: 20px;
   font-family: "Josefin Slab", serif;
   color: #558976;
+  text-decoration: none;
 }
 #honors a:hover {
   color: #9dac38;
 }
 
 #video {
-  padding: 15px;
+  padding: 50px;
 }
 #video h3 {
   font-size: 30px;
@@ -219,15 +234,17 @@ footer p {
 #video p {
   font-size: 20px;
   font-family: "Josefin Slab", serif;
+  line-height: 32px;
 }
 #video iframe {
   height: 400px;
   width: 100%;
+  padding-top: 20px;
 }
 
 /* Project Pages */
 #description {
-  padding: 40px 15px;
+  padding: 50px;
 }
 #description h2 {
   font-size: 35px;
@@ -258,6 +275,7 @@ footer p {
   font-size: 20px;
   color: #558976;
   font-family: "Josefin Slab", serif;
+  text-decoration: none;
 }
 #description a:hover {
   color: #9dac38;
@@ -270,6 +288,7 @@ footer p {
   color: #558976;
   font-size: 20px;
   font-family: "Josefin Slab", serif;
+  text-decoration: none;
 }
 #back a:hover {
   color: #9dac38;
@@ -277,7 +296,7 @@ footer p {
 
 /* ==== Services ==== */
 #services {
-  padding: 40px 15px;
+  padding: 50px;
 }
 #services h2 {
   font-size: 35px;
@@ -298,6 +317,127 @@ footer p {
   font-family: "Josefin Slab", serif;
   color: #333;
   line-height: 32px;
+}
+
+/* ==== Blog ==== */
+#original-bpc {
+  padding: 50px;
+}
+#original-bpc h2 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 35px;
+  color: #558976;
+}
+#original-bpc h3 {
+  font-size: 30px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #333;
+  padding: 10px 0;
+}
+#original-bpc p {
+  font-size: 20px;
+  font-family: "Josefin Slab", serif;
+  color: #333;
+  line-height: 32px;
+}
+#original-bpc a {
+  color: #558976;
+  font-size: 20px;
+  font-family: "Josefin Slab", serif;
+  text-decoration: none;
+}
+#original-bpc a:hover {
+  color: #9dac38;
+}
+
+#bpc-codes {
+  padding: 50px;
+}
+#bpc-codes h2 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 35px;
+  color: #558976;
+}
+#bpc-codes h3 {
+  font-size: 30px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #333;
+  padding: 10px 0;
+}
+#bpc-codes p {
+  font-size: 20px;
+  font-family: "Josefin Slab", serif;
+  color: #333;
+  line-height: 32px;
+}
+#bpc-codes a {
+  color: #558976;
+  font-size: 20px;
+  font-family: "Josefin Slab", serif;
+  text-decoration: none;
+}
+#bpc-codes a:hover {
+  color: #9dac38;
+}
+
+#practical-dev {
+  padding: 50px;
+}
+#practical-dev h2 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 35px;
+  color: #558976;
+}
+#practical-dev h3 {
+  font-size: 30px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #333;
+  padding: 10px 0;
+}
+#practical-dev p {
+  font-size: 20px;
+  font-family: "Josefin Slab", serif;
+  color: #333;
+  line-height: 32px;
+}
+#practical-dev a {
+  color: #558976;
+  font-size: 20px;
+  font-family: "Josefin Slab", serif;
+  text-decoration: none;
+}
+#practical-dev a:hover {
+  color: #9dac38;
+}
+
+#code-newbie {
+  padding: 50px;
+}
+#code-newbie h2 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 35px;
+  color: #558976;
+}
+#code-newbie h3 {
+  font-size: 30px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #333;
+  padding: 10px 0;
+}
+#code-newbie p {
+  font-size: 20px;
+  font-family: "Josefin Slab", serif;
+  color: #333;
+  line-height: 32px;
+}
+#code-newbie a {
+  color: #558976;
+  font-size: 20px;
+  font-family: "Josefin Slab", serif;
+  text-decoration: none;
+}
+#code-newbie a:hover {
+  color: #9dac38;
 }
 
 /*# sourceMappingURL=style.css.map */
