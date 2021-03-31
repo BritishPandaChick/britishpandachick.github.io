@@ -48,54 +48,59 @@
        </nav>
     </header>
     <main>
-        <section id="description">
-          <div class="container">
-            <h2 class="text-center">Yelpcamp</h2>
-              <div class="row">
-                  <div class="col-sm-12 col-md-12 col-lg-6">
-                    <img src="../assets/img/yelpcamp.png" alt="Yelpcamp" class="img-fluid">
-                  </div>
+      <section id="overview">
+        <div class="container">
+          <h2 class="text-center">Yelpcamp</h2>
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-8">
+              <img src="../assets/img/yelpcamp.png" alt="Yelpcamp" class="img-fluid">
+            </div>
 
-                  <div class="col-sm-12 col-md-12 col-lg-6">
-                    <h3>Objectives</h3>
-                    <ul>
-                      <li>Create routes so users can create, edit, and delete campgrounds.</li>
-                      <li>Set up user, comments, and campgrounds models to use inside routes.</li>
-                      <li>Add authentication for contributing comments, logging into the site, and show specific elements on the page.</li>
-                      <li>Debug, test, and refactor code.</li>
-                      <li>Deploy web app on Heroku.</li>
-                    </ul>
-                  </div>
+            <div class="col-sm-12 col-md-12 col-lg-4">
+              <h3>Objectives</h3>
+              <ul>
+                <li>Create routes so users can create, edit, and delete campgrounds.</li>
+                <li>Set up user, comments, and campgrounds models to use inside routes.</li>
+                <li>Add authentication for contributing comments, logging into the site, and show specific elements on the page.</li>
+                <li>Debug, test, and refactor code.</li>
+                <li>Deploy web app on Heroku.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
 
-                  <div class="col-sm-12 col-md-12 col-lg-12">
-                    <h3>Background</h3>                    
-                    <p>At the beginning of this project, I kept the setup pretty simple by installing the packages I needed and getting the layout set up for the landing and campground pages. Once the dependencies were installed, I created the layout for the site and did some initial styling for the site using Bootstrap. Then I concentrated on how to initially get new campgrounds created. This resulted in two new routes added to the app.js file to post and show campgrounds on the site.</p>
+      <section id="description">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+              <h3>Background</h3>                    
+              <p>At the beginning of this project, I kept the setup pretty simple by installing the packages I needed and getting the layout set up for the landing and campground pages. Once the dependencies were installed, I created the layout for the site and did some initial styling for the site using Bootstrap. Then I concentrated on how to initially get new campgrounds created. This resulted in two new routes added to the app.js file to post and show campgrounds on the site.</p>
                     
-                    <p>Now that a working version of the app was up and running, I started making several versions of this site where I added new routes to add and display campgrounds. I set up a schema and model for the campgrounds. Next, I created a show route and template to show information about the campgrounds and comments. I created a database to start collecting campground information and adding code to ensure the app could find and use this data in various models and templates.</p>
+              <p>Now that a working version of the app was up and running, I started making several versions of this site where I added new routes to add and display campgrounds. I set up a schema and model for the campgrounds. Next, I created a show route and template to show information about the campgrounds and comments. I created a database to start collecting campground information and adding code to ensure the app could find and use this data in various models and templates.</p>
 
-                    <p>A large amount of time was spent on authenticating the site. This involved creating a user model as well as setting up more routes that allow signed in users to edit, modify, and delete campgrounds or comments. The hardest part of this project was actually getting the web application to deploy on Heroku. I ran into a lot of database issues when I was trying to connect the web app to Heroku. It took some googling, but I discovered the url I was trying to use was incorrect. Once I fixed the url, my database was able to start collecting data with no error messages.</p>
-                    <a href="https://tranquil-thicket-59009.herokuapp.com/" target="_blank">Final</a> &#8212 <a href="https://github.com/BritishPandaChick/yelpcamp" target="_blank">Code</a>
-                  </div>
-              </div>
+              <p>A large amount of time was spent on authenticating the site. This involved creating a user model as well as setting up more routes that allow signed in users to edit, modify, and delete campgrounds or comments. The hardest part of this project was actually getting the web application to deploy on Heroku. I ran into a lot of database issues when I was trying to connect the web app to Heroku. It took some googling, but I discovered the url I was trying to use was incorrect. Once I fixed the url, my database was able to start collecting data with no error messages.</p>
+              <a href="https://tranquil-thicket-59009.herokuapp.com/" target="_blank">Final</a> &#8212 <a href="https://github.com/BritishPandaChick/yelpcamp" target="_blank">Code</a>
+            </div>
           </div>
-        </section>
+        </div>
+      </section>
         
-        <section id="back">
-          <div class="container">
-            <a href="../portfolio/index.html">==> Back to Portfolio</a>
-          </div>
-        </section>
-        
+      <section id="back">
+        <div class="container">
+          <a href="../portfolio/index.html">==> Back to Portfolio</a>
+        </div>
+      </section>  
     </main>
     <footer>
-      <div class="container-fluid">
-        <section id="hired">
+      <section id="hired">
+        <div class="container-fluid">
           <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-6">
-              <p><i class="far fa-envelope"></i>britishpandachick@gmail.com</p>
+            <div class="col-sm-12 col-md-8 col-lg-8">
+              <p><i class="far fa-envelope"></i> britishpandachick@gmail.com</p>
             </div>
   
-            <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="col-sm-12 col-md-4 col-lg-4">
               <nav>
                 <ul class="nav">
                   <li class="nav-item">
@@ -103,31 +108,31 @@
                       <i class="fab fa-facebook fa-2x"></i>
                     </a>
                   </li>
-        
+          
                   <li class="nav-item">
                     <a href="https://twitter.com/TheOriginalBPC" target="_blank" class="nav-link">
                       <i class="fab fa-twitter-square fa-2x"></i>
                     </a>
                   </li>
-        
+          
                   <li class="nav-item">
                     <a href="https://www.linkedin.com/in/sarahbartleybpc" target="_blank" class="nav-link">
                       <i class="fab fa-linkedin fa-2x"></i>
                     </a>
                   </li>
-        
+          
                   <li class="nav-item">
                     <a href="https://www.instagram.com/britishpandachick" target="_blank" class="nav-link">
                       <i class="fab fa-instagram fa-2x"></i>
-                      </a>
-                    </li>
-        
+                    </a>
+                  </li>
+          
                   <li class="nav-item">
                     <a href="http://www.pinterest.com/theoriginalbpc" target="_blank" class="nav-link">
                       <i class="fab fa-pinterest fa-2x"></i>
                     </a>
                   </li>
-        
+          
                   <li class="nav-item">
                     <a href="https://github.com/BritishPandaChick" target="_blank" class="nav-link">
                       <i class="fab fa-github fa-2x"></i>
@@ -135,14 +140,19 @@
                   </li>
                 </ul>
               </nav>
+          </div>
+        </div>
+      </section>
+  
+      <section id="copyright">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+              <p>&copy; 2018-2021, Sarah Bartley | All Rights Reserved</p>
             </div>
           </div>
-        </section>
-  
-        <section id="copyright">
-          <p>&copy; 2018-2021 Sarah Bartley. All Rights Reserved.</p>
-        </section>
-      </div> 
+        </div>
+      </section>
     </footer>
     
     <!-- Bootstrap JS-->

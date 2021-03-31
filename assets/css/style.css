@@ -105,14 +105,20 @@ header li a:hover {
   font-family: "Roboto Condensed", sans-serif;
   color: #558976;
   font-size: 35px;
-}
-#about img {
-  margin: 20px 0;
+  padding: 25px 0;
 }
 #about .first-group {
+  padding: 0 50px;
+}
+#about .first-group p {
+  font-size: 20px;
+  font-family: "Josefin Slab", serif;
+  line-height: 32px;
+}
+#about .second-group {
   padding: 20px 0;
 }
-#about p {
+#about .second-group p {
   font-size: 20px;
   font-family: "Josefin Slab", serif;
   line-height: 32px;
@@ -128,7 +134,7 @@ header li a:hover {
   color: #558976;
 }
 #gallery img {
-  margin: 25px 0;
+  margin: 50px 0;
 }
 #gallery h3 {
   font-size: 30px;
@@ -145,6 +151,7 @@ header li a:hover {
   font-size: 20px;
   font-family: "Josefin Slab", serif;
   text-decoration: none;
+  padding-bottom: 50px;
 }
 #gallery a:hover {
   color: #9dac38;
@@ -170,6 +177,7 @@ header li a:hover {
   font-size: 20px;
   font-family: "Josefin Slab", serif;
   line-height: 32px;
+  padding: 10px 0;
 }
 #writing h4 {
   font-size: 25px;
@@ -187,11 +195,17 @@ header li a:hover {
 #side-projects h3 {
   font-size: 30px;
   font-family: "Roboto Condensed", sans-serif;
+  padding: 15px 0;
+}
+#side-projects h4 {
+  font-size: 20px;
+  font-family: "Josefin Slab", serif;
 }
 #side-projects p {
   font-size: 20px;
   font-family: "Josefin Slab", serif;
   line-height: 32px;
+  padding: 15px 0;
 }
 #side-projects button {
   background-color: #558976;
@@ -229,7 +243,11 @@ header li a:hover {
 #video h3 {
   font-size: 30px;
   font-family: "Roboto Condensed", sans-serif;
-  padding: 10px 0;
+  padding: 15px 0;
+}
+#video h4 {
+  font-size: 20px;
+  font-family: "Josefin Slab", serif;
 }
 #video p {
   font-size: 20px;
@@ -243,27 +261,37 @@ header li a:hover {
 }
 
 /* Project Pages */
-#description {
+#overview {
   padding: 50px;
 }
-#description h2 {
+#overview h2 {
   font-size: 35px;
   font-family: "Roboto Condensed", sans-serif;
   color: #558976;
+  padding: 30px 0;
 }
-#description img {
+#overview img {
   padding: 20px 0;
 }
-#description h3 {
+#overview h3 {
   font-size: 30px;
   font-family: "Roboto Condensed", sans-serif;
   padding: 10px 0;
   color: #333;
 }
-#description li {
+#overview li {
   font-size: 20px;
   color: #333;
   font-family: "Josefin Slab", serif;
+}
+
+#description {
+  padding: 30px;
+}
+#description h3 {
+  font-size: 30px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #333;
 }
 #description p {
   font-size: 20px;
@@ -302,9 +330,10 @@ header li a:hover {
   font-size: 35px;
   font-family: "Roboto Condensed", sans-serif;
   color: #558976;
+  padding-top: 50px;
 }
 #services img {
-  padding: 20px 0;
+  padding: 10px 0;
 }
 #services h3 {
   font-size: 30px;

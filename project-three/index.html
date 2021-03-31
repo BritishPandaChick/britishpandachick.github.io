@@ -48,36 +48,42 @@
        </nav>
     </header>
     <main>
-        <section id="description">
-            <div class="container">
-              <h2 class="text-center">Election Map</h2>
-                <div class="row">
-                    <div class="col-sm-12 col-md-12 col-lg-6">
-                      <img src="../assets/img/election-map.png" alt="Election Map" class="img-fluid">
-                    </div>
+        <section id="overview">
+          <div class="container">
+            <h2 class="text-center">Election Map</h2>
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-8">
+                <img src="../assets/img/election-map.png" alt="Election Map" class="img-fluid">
+              </div>
 
-                    <div class="col-sm-12 col-md-12 col-lg-6">
-                      <h3>Objectives</h3>
-                      <ul>
-                        <li>Create a factory function to create candidates</li>
-                        <li>Create an array of election results. Update array with recounts.</li>
-                        <li>Tallying up results</li>
-                        <li>Assign winners to each state</li>
-                        <li>Populate table with winners</li>
-                      </ul>
-                    </div>
-
-                    <div class="col-sm-12 col-md-12 col-lg-12">
-                      <h3>Background</h3>
-                      <p>The focus on this project was mostly to get the functionality set up and working. First, I created a politician object and properties. Next, I made the createPolitician function and put the politician object and properties I just made inside of it. Then I created two new variables for the candidates. Inside these new variables were new instances of the createPolitician function that set the property name. I created two arrays of election results for each of the candidates and updated the arrays with the recount information.</p>
-                      
-                      <p>Second, I created two methods to tally up votes and declare the winner. The first method I created tallyUpTotalVotes(). This method uses a for loop to go through all the electionResults and add up all the votes. I set the second method to the variable winner. Inside this method is an if-else statement that picks the candidate’s name based on who had the most totalVotes. I made the setStateResults function that set the results for each state and would change the color of each state on the map once a winner was declared.</p>
-                      
-                      <p>Finally, it was time to tackle the table and get information to appear on the table to show the final results. I created the countryInfoTable variable that grabbed the countryResults id in the HTML file. I began making lots of variables for either positions of the table and ones for displaying the text. Initially I put some of these variables at the bottom of my code. This resulted in issues with the table data. However, after some debugging and testing I realized everything worked once it was put inside the setStateResults function.</p>
-                      <a href="https://codepen.io/BritishPandaChick/full/oNxmVxj" target="_blank">Final</a> &#8212 <a href="https://github.com/BritishPandaChick/election-map" target="_blank">Code</a>
-                    </div>
-                </div>
+              <div class="col-sm-12 col-md-12 col-lg-4">
+                <h3>Objectives</h3>
+                <ul>
+                  <li>Create a factory function to create candidates</li>
+                  <li>Create an array of election results. Update array with recounts.</li>
+                  <li>Tallying up results</li>
+                  <li>Assign winners to each state</li>
+                  <li>Populate table with winners</li>
+                </ul>
+              </div>
             </div>
+          </div>
+        </section>
+
+        <section id="description">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-12">
+                <h3>Background</h3>
+                <p>The focus on this project was mostly to get the functionality set up and working. First, I created a politician object and properties. Next, I made the createPolitician function and put the politician object and properties I just made inside of it. Then I created two new variables for the candidates. Inside these new variables were new instances of the createPolitician function that set the property name. I created two arrays of election results for each of the candidates and updated the arrays with the recount information.</p>
+                      
+                <p>Second, I created two methods to tally up votes and declare the winner. The first method I created tallyUpTotalVotes(). This method uses a for loop to go through all the electionResults and add up all the votes. I set the second method to the variable winner. Inside this method is an if-else statement that picks the candidate’s name based on who had the most totalVotes. I made the setStateResults function that set the results for each state and would change the color of each state on the map once a winner was declared.</p>
+                      
+                <p>Finally, it was time to tackle the table and get information to appear on the table to show the final results. I created the countryInfoTable variable that grabbed the countryResults id in the HTML file. I began making lots of variables for either positions of the table and ones for displaying the text. Initially I put some of these variables at the bottom of my code. This resulted in issues with the table data. However, after some debugging and testing I realized everything worked once it was put inside the setStateResults function.</p>
+                <a href="https://codepen.io/BritishPandaChick/full/oNxmVxj" target="_blank">Final</a> &#8212 <a href="https://github.com/BritishPandaChick/election-map" target="_blank">Code</a>
+              </div>
+            </div>
+          </div>
         </section>
         
         <section id="back">
@@ -88,14 +94,14 @@
         
     </main>
     <footer>
-      <div class="container-fluid">
-        <section id="hired">
+      <section id="hired">
+        <div class="container-fluid">
           <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-6">
-              <p><i class="far fa-envelope"></i>britishpandachick@gmail.com</p>
+            <div class="col-sm-12 col-md-8 col-lg-8">
+              <p><i class="far fa-envelope"></i> britishpandachick@gmail.com</p>
             </div>
   
-            <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="col-sm-12 col-md-4 col-lg-4">
               <nav>
                 <ul class="nav">
                   <li class="nav-item">
@@ -103,31 +109,31 @@
                       <i class="fab fa-facebook fa-2x"></i>
                     </a>
                   </li>
-        
+          
                   <li class="nav-item">
                     <a href="https://twitter.com/TheOriginalBPC" target="_blank" class="nav-link">
                       <i class="fab fa-twitter-square fa-2x"></i>
                     </a>
                   </li>
-        
+          
                   <li class="nav-item">
                     <a href="https://www.linkedin.com/in/sarahbartleybpc" target="_blank" class="nav-link">
                       <i class="fab fa-linkedin fa-2x"></i>
                     </a>
                   </li>
-        
+          
                   <li class="nav-item">
                     <a href="https://www.instagram.com/britishpandachick" target="_blank" class="nav-link">
                       <i class="fab fa-instagram fa-2x"></i>
-                      </a>
-                    </li>
-        
+                    </a>
+                  </li>
+          
                   <li class="nav-item">
                     <a href="http://www.pinterest.com/theoriginalbpc" target="_blank" class="nav-link">
                       <i class="fab fa-pinterest fa-2x"></i>
                     </a>
                   </li>
-        
+          
                   <li class="nav-item">
                     <a href="https://github.com/BritishPandaChick" target="_blank" class="nav-link">
                       <i class="fab fa-github fa-2x"></i>
@@ -135,14 +141,19 @@
                   </li>
                 </ul>
               </nav>
+          </div>
+        </div>
+      </section>
+  
+      <section id="copyright">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+              <p>&copy; 2018-2021, Sarah Bartley | All Rights Reserved</p>
             </div>
           </div>
-        </section>
-  
-        <section id="copyright">
-          <p>&copy; 2018-2021 Sarah Bartley. All Rights Reserved.</p>
-        </section>
-      </div> 
+        </div>
+      </section>
     </footer>
     
     <!-- Bootstrap JS-->

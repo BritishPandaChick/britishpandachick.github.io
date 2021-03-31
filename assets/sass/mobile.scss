@@ -129,7 +129,7 @@ header {
   }
 
   img {
-    padding: 20px 0;
+    padding: 25px 0;
   }
 
   p {
@@ -151,7 +151,7 @@ header {
   }
 
   img {
-    margin: 25px 0;
+    margin: 40px 0;
   }
 
   h3 {
@@ -171,6 +171,7 @@ header {
     font-size: 20px;
     font-family: $base-font;
     text-decoration: none;
+    padding-bottom: 50px;
   }
 
   a:hover {
@@ -201,6 +202,7 @@ header {
     font-size: 20px;
     font-family: $base-font;
     line-height: 32px;
+    padding: 10px 0;
   }
 
   h4 {
@@ -221,13 +223,19 @@ header {
   h3 {
     font-size: 20px;
     font-family: $headline-font;
-    padding: 10px 0;
+    padding: 15px 0;
+  }
+
+  h4 {
+    font-size: 20px;
+    font-family: $base-font;
   }
 
   p {
     font-size: 20px;
     font-family: $base-font;
     line-height: 32px;
+    padding: 10px 0;
   }
 
   button {
@@ -271,7 +279,12 @@ header {
   h3 {
     font-size: 20px;
     font-family: $headline-font;
-    padding: 10px 0;
+    padding: 15px 0;
+  }
+
+  h4 {
+    font-size: 20px;
+    font-family: $base-font;
   }
 
   p {
@@ -281,13 +294,13 @@ header {
   }
 
   iframe {
-    height: 300px;
-    padding-top: 20px;
+    width: 100%;
+    margin-top: 20px;
   }
 }
 
 /* ==== Project Pages ==== */
-#description {
+#overview {
   padding: 40px;
 
   h2 {
@@ -297,7 +310,7 @@ header {
   }
 
   img {
-    padding: 20px 0;
+    padding: 30px 0;
   }
 
   h3 {
@@ -311,6 +324,17 @@ header {
     font-size: 20px;
     color: $base-color;
     font-family: $base-font;
+  }
+}
+
+#description {
+  padding: 40px;
+
+  h3 {
+    font-size: 20px;
+    font-family: $headline-font;
+    padding: 10px 0;
+    color: $base-color;
   }
 
   p {
@@ -358,7 +382,7 @@ header {
   }
 
   img {
-    padding: 20px 0;
+    padding: 40px 0;
   }
 
   h3 {

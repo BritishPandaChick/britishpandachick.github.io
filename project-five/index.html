@@ -48,37 +48,43 @@
        </nav>
     </header>
     <main>
-        <section id="description">
-          <div class="container">
-            <h2 class="text-center">Markdown Previewer</h2>
-              <div class="row">
-                  <div class="col-sm-12 col-md-12 col-lg-6">
-                    <img src="../assets/img/markdown-previewer.png" alt="Markdown Previewer" class="img-fluid">
-                  </div>
+      <section id="overview">
+        <div class="container">
+          <h2 class="text-center">Markdown Previewer</h2>
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-8">
+              <img src="../assets/img/markdown-previewer.png" alt="Markdown Previewer" class="img-fluid">
+            </div>
 
-                  <div class="col-sm-12 col-md-12 col-lg-6">
-                    <h3>Objectives</h3>
-                    <ul>
-                      <li>When text is entered into the editor, the preview is updated.</li>
-                      <li>Markdown text is entered in the editor and translated to HTML in the preview.</li>
-                      <li>Default text in the editor has markdowns for the header, sub-header, link, inline code, code block, list item, blockquote, image, and bolded text.</li>
-                      <li>Default markdowns in the editor are rendered as HTML when the previewer loads.</li>
-                    </ul>
-                  </div>
-
-                  <div class="col-sm-12 col-md-12 col-lg-12">
-                    <h3>Background</h3>
-                    <p>First, I created the boiler plate code for this project. Inside the container div, I created two divs with the top and bottom class. These divs would hold the editor and preview elements. After I set up my code files and created the boiler plate code, I created the defaultMarkdown variable with a string of all the required markdowns for the project. The rest of the project was spent coding, testing, and debugging code to ensure each of the markdowns would appear in the previewer.</p>
-                    
-                    <p>In order to get the markdowns to appear in the previewer, I created a construction method before the render method so I could create a temporary class component. Inside the constructor was super(props) and this.state object with the markdown property set to the defaultMarkdown variable. Inside the render method, I added an expression marked(this.state.markdown) so the defaultMarkdown string is printed out as text. In order to get the text to print as HTML, I added the dangerouslySetInnerHTML attribute of the preview id. I created an object with the __html property and set it with marked(this.state.markdown).</p>
-
-                    <p>Once I got the required markdowns to work on the site, I added code to interpret carriage returns as <br> and open links in new tabs. In order to get carriage returns to work on the previewer, I used setOptions function with marked. Inside the object, I set the breaks to true. After reading the Marked.js documentation, I created a renderer variable before marked.setOptions which is set to new marked.Renderer(). Then I set renderer.link as a function so it would return links with the target attribute set to “_blank”. </p>
-                    
-                    <a href="https://codepen.io/BritishPandaChick/full/YoVaZm" target="_blank">Final</a> &#8212 <a href="https://github.com/BritishPandaChick/fcc-markdown-previewer" target="_blank">Code</a>
-                  </div>
-              </div>
+            <div class="col-sm-12 col-md-12 col-lg-4">
+              <h3>Objectives</h3>
+              <ul>
+                <li>When text is entered into the editor, the preview is updated.</li>
+                <li>Markdown text is entered in the editor and translated to HTML in the preview.</li>
+                <li>Default text in the editor has markdowns for the header, sub-header, link, inline code, code block, list item, blockquote, image, and bolded text.</li>
+                <li>Default markdowns in the editor are rendered as HTML when the previewer loads.</li>
+              </ul>
+            </div>
           </div>
-        </section>
+        </div>
+      </section>
+
+      <section id="description">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+              <h3>Background</h3>
+              <p>First, I created the boiler plate code for this project. Inside the container div, I created two divs with the top and bottom class. These divs would hold the editor and preview elements. After I set up my code files and created the boiler plate code, I created the defaultMarkdown variable with a string of all the required markdowns for the project. The rest of the project was spent coding, testing, and debugging code to ensure each of the markdowns would appear in the previewer.</p>
+                    
+              <p>In order to get the markdowns to appear in the previewer, I created a construction method before the render method so I could create a temporary class component. Inside the constructor was super(props) and this.state object with the markdown property set to the defaultMarkdown variable. Inside the render method, I added an expression marked(this.state.markdown) so the defaultMarkdown string is printed out as text. In order to get the text to print as HTML, I added the dangerouslySetInnerHTML attribute of the preview id. I created an object with the __html property and set it with marked(this.state.markdown).</p>
+
+              <p>Once I got the required markdowns to work on the site, I added code to interpret carriage returns as <br> and open links in new tabs. In order to get carriage returns to work on the previewer, I used setOptions function with marked. Inside the object, I set the breaks to true. After reading the Marked.js documentation, I created a renderer variable before marked.setOptions which is set to new marked.Renderer(). Then I set renderer.link as a function so it would return links with the target attribute set to “_blank”. </p>
+                    
+              <a href="https://codepen.io/BritishPandaChick/full/YoVaZm" target="_blank">Final</a> &#8212 <a href="https://github.com/BritishPandaChick/fcc-markdown-previewer" target="_blank">Code</a>
+            </div>
+          </div>
+        </div>
+      </section>
         
         <section id="back">
           <div class="container">
@@ -88,14 +94,14 @@
         
     </main>
     <footer>
-      <div class="container-fluid">
-        <section id="hired">
+      <section id="hired">
+        <div class="container-fluid">
           <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-6">
-              <p><i class="far fa-envelope"></i>britishpandachick@gmail.com</p>
+            <div class="col-sm-12 col-md-8 col-lg-8">
+              <p><i class="far fa-envelope"></i> britishpandachick@gmail.com</p>
             </div>
   
-            <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="col-sm-12 col-md-4 col-lg-4">
               <nav>
                 <ul class="nav">
                   <li class="nav-item">
@@ -103,31 +109,31 @@
                       <i class="fab fa-facebook fa-2x"></i>
                     </a>
                   </li>
-        
+          
                   <li class="nav-item">
                     <a href="https://twitter.com/TheOriginalBPC" target="_blank" class="nav-link">
                       <i class="fab fa-twitter-square fa-2x"></i>
                     </a>
                   </li>
-        
+          
                   <li class="nav-item">
                     <a href="https://www.linkedin.com/in/sarahbartleybpc" target="_blank" class="nav-link">
                       <i class="fab fa-linkedin fa-2x"></i>
                     </a>
                   </li>
-        
+          
                   <li class="nav-item">
                     <a href="https://www.instagram.com/britishpandachick" target="_blank" class="nav-link">
                       <i class="fab fa-instagram fa-2x"></i>
-                      </a>
-                    </li>
-        
+                    </a>
+                  </li>
+          
                   <li class="nav-item">
                     <a href="http://www.pinterest.com/theoriginalbpc" target="_blank" class="nav-link">
                       <i class="fab fa-pinterest fa-2x"></i>
                     </a>
                   </li>
-        
+          
                   <li class="nav-item">
                     <a href="https://github.com/BritishPandaChick" target="_blank" class="nav-link">
                       <i class="fab fa-github fa-2x"></i>
@@ -135,14 +141,19 @@
                   </li>
                 </ul>
               </nav>
+          </div>
+        </div>
+      </section>
+  
+      <section id="copyright">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+              <p>&copy; 2018-2021, Sarah Bartley | All Rights Reserved</p>
             </div>
           </div>
-        </section>
-  
-        <section id="copyright">
-          <p>&copy; 2018-2021 Sarah Bartley. All Rights Reserved.</p>
-        </section>
-      </div> 
+        </div>
+      </section>
     </footer>
     
     <!-- Bootstrap JS-->

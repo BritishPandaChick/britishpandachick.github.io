@@ -128,20 +128,27 @@ header {
     font-family: $headline-font;
     color: $background-color;
     font-size: 35px;
-  }
-
-  img {
-    margin: 20px 0;
+    padding: 25px 0;
   }
 
   .first-group {
-    padding: 20px 0;
+    padding: 0 50px;
+
+    p {
+      font-size: 20px;
+      font-family: $base-font;
+      line-height: 32px;
+    }
   }
 
-  p {
-    font-size: 20px;
-    font-family: $base-font;
-    line-height: 32px;
+  .second-group {
+    padding: 20px 0;
+
+    p {
+      font-size: 20px;
+      font-family: $base-font;
+      line-height: 32px;
+    }
   }
 }
   
@@ -156,7 +163,7 @@ header {
   }
 
   img {
-    margin: 25px 0;
+    margin: 50px 0;
   }
 
   h3 {
@@ -176,6 +183,7 @@ header {
     font-size: 20px;
     font-family: $base-font;
     text-decoration: none;
+    padding-bottom: 50px;
   }
 
   a:hover {
@@ -206,6 +214,7 @@ header {
     font-size: 20px;
     font-family: $base-font;
     line-height: 32px;
+    padding: 10px 0;
   }
 
   h4 {
@@ -226,12 +235,19 @@ header {
   h3 {
     font-size: 30px;
     font-family: $headline-font;
+    padding: 15px 0;
+  }
+
+  h4 {
+    font-size: 20px;
+    font-family: $base-font;
   }
 
   p {
     font-size: 20px;
     font-family: $base-font;
     line-height: 32px;
+    padding: 15px 0;
   }
 
   button {
@@ -275,7 +291,12 @@ header {
   h3 {
     font-size: 30px;
     font-family: $headline-font;
-    padding: 10px 0;
+    padding: 15px 0;
+  }
+
+  h4 {
+    font-size: 20px;
+    font-family: $base-font;
   }
 
   p {
@@ -292,13 +313,14 @@ header {
 }
 
 /* Project Pages */
-#description {
+#overview {
   padding: 50px;
 
   h2 {
     font-size: 35px;
     font-family: $headline-font;
     color: $background-color;
+    padding: 30px 0;
   }
 
   img {
@@ -316,6 +338,16 @@ header {
     font-size: 20px;
     color: $base-color;
     font-family: $base-font;
+  }
+}
+
+#description {
+  padding: 30px;
+
+  h3 {
+    font-size: 30px;
+    font-family: $headline-font;
+    color: $base-color;
   }
 
   p {
@@ -360,10 +392,11 @@ header {
     font-size: 35px;
     font-family: $headline-font;
     color: $background-color;
+    padding-top: 50px;
   }
 
   img {
-    padding: 20px 0;
+    padding: 10px 0;
   }
 
   h3 {
