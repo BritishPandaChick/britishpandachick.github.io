@@ -363,6 +363,11 @@ header li a:hover {
   color: #333;
   padding: 10px 0;
 }
+#original-bpc h4 {
+  font-size: 25x;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #333;
+}
 #original-bpc p {
   font-size: 20px;
   font-family: "Josefin Slab", serif;
@@ -393,6 +398,11 @@ header li a:hover {
   color: #333;
   padding: 10px 0;
 }
+#bpc-codes h4 {
+  font-size: 25px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #333;
+}
 #bpc-codes p {
   font-size: 20px;
   font-family: "Josefin Slab", serif;
@@ -422,6 +432,11 @@ header li a:hover {
   font-family: "Roboto Condensed", sans-serif;
   color: #333;
   padding: 10px 0;
+}
+#practical-dev h4 {
+  font-size: 25px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #333;
 }
 #practical-dev p {
   font-size: 20px;
