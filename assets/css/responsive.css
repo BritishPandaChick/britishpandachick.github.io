@@ -4,68 +4,32 @@ body {
   background-color: #fdfcfb;
   width: 100%;
   margin: 0 auto;
-  color: #333;
 }
 
 /* ==== Header ==== */
 header {
-  background-color: #558976;
+  background-color: #385001;
 }
 header .navbar-brand {
   font-size: 25px;
   font-family: "Roboto Condensed", sans-serif;
   color: #fdfcfb;
 }
-header li {
+header ul li {
   font-weight: bold;
 }
-header li a {
+header ul li a {
   color: #fdfcfb;
   font-size: 20px;
-}
-header li a:hover {
-  color: #9dac38;
-}
-
-/* ==== Footer ==== */
-#hired {
-  background-color: #f6f2ea;
-  padding: 20px 0;
-}
-#hired p {
-  font-size: 18px;
-  color: #558976;
   font-family: "Roboto Condensed", sans-serif;
-  padding-left: 20px;
 }
-#hired p i {
-  color: #558976;
-  padding-right: 10px;
-}
-#hired li {
-  padding: 10px 0;
-}
-#hired li a {
-  color: #558976;
-}
-#hired li a:hover {
+header ul li a:hover {
   color: #9dac38;
-}
-
-#copyright {
-  background: #558976;
-  padding: 15px 25px;
-}
-#copyright p {
-  font-size: 18px;
-  color: #fdfcfb;
-  font-family: "Roboto Condensed", sans-serif;
 }
 
 /* ==== Home Page ==== */
 #banner {
-  background: url("../img/sunset-home-office.jpg");
-  background-size: cover;
+  background-color: #558976;
   height: 300px;
   width: 100%;
   padding: 100px 0;
@@ -73,15 +37,14 @@ header li a:hover {
 }
 #banner h2 {
   font-family: "Roboto Condensed", sans-serif;
-  color: #558976;
+  color: #f6f2ea;
   font-size: 25px;
-  color: #fdfcfb;
 }
 #banner h3 {
   font-size: 20px;
   font-family: "Roboto Condensed", sans-serif;
   padding: 15px 0;
-  color: #fdfcfb;
+  color: #f6f2ea;
 }
 
 #career-compass {
@@ -103,11 +66,12 @@ header li a:hover {
   text-align: center;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 25px;
-  color: #558976;
+  color: #385001;
 }
 #skills h3 {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 20px;
+  color: #558976;
 }
 #skills li {
   font-size: 20px;
@@ -121,7 +85,8 @@ header li a:hover {
   text-align: center;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 25px;
-  color: #558976;
+  color: #385001;
+  padding-bottom: 15px;
 }
 #about img {
   padding: 15px 0;
@@ -139,7 +104,7 @@ header li a:hover {
   text-align: center;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 25px;
-  color: #558976;
+  color: #385001;
 }
 #portfolio img {
   padding: 15px 0;
@@ -148,6 +113,7 @@ header li a:hover {
   font-size: 20px;
   font-family: "Roboto Condensed", sans-serif;
   text-align: center;
+  color: #558976;
 }
 #portfolio p {
   font-size: 20px;
@@ -158,6 +124,7 @@ header li a:hover {
   font-size: 20px;
   color: #385001;
   text-decoration: none;
+  font-family: "Josefin Slab", serif;
 }
 #portfolio a:hover {
   color: #9dac38;
@@ -170,16 +137,61 @@ header li a:hover {
   font-size: 25px;
   text-align: center;
   font-family: "Roboto Condensed", sans-serif;
-  color: #558976;
+  color: #385001;
 }
 #blog h3 {
   font-size: 20px;
   font-family: "Roboto Condensed", sans-serif;
+  color: #558976;
 }
 #blog p {
   font-family: "Josefin Slab", serif;
   font-size: 20px;
   line-height: 32px;
+}
+#blog a {
+  font-size: 20px;
+  color: #385001;
+  text-decoration: none;
+  font-family: "Josefin Slab", serif;
+}
+#blog a:hover {
+  color: #9dac38;
+}
+
+/* ==== Footer ==== */
+#hired {
+  background-color: #f6f2ea;
+  padding: 15px 0;
+}
+#hired p {
+  font-size: 18px;
+  color: #385001;
+  font-family: "Roboto Condensed", sans-serif;
+  padding-left: 20px;
+}
+#hired p i {
+  color: #385001;
+  padding-right: 10px;
+}
+#hired li {
+  padding: 10px 0;
+}
+#hired li a {
+  color: #385001;
+}
+#hired li a:hover {
+  color: #9dac38;
+}
+
+#copyright {
+  background: #385001;
+  padding: 15px 0;
+}
+#copyright p {
+  font-size: 18px;
+  color: #fdfcfb;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 /*# sourceMappingURL=responsive.css.map */
