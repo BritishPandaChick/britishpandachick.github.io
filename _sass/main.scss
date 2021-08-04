@@ -13,7 +13,7 @@ header {
   background-color: $main-color;
 
   .navbar-brand {
-      font-size: 25px;
+      font-size: 30px;
       font-family: $headline-font;
       color: $white;
   }
@@ -38,19 +38,18 @@ header {
 /* ==== Home Page ==== */
 #banner {
   background-color: $accent-color;
-  height: 300px;
-  width: 100%;
+  height: 400px;
   padding: 100px 0;
   text-align: center;
 
   h2 {
     font-family: $headline-font;
     color: $ivory;
-    font-size: 25px;
+    font-size: 65px;
   }
 
   h3 {
-    font-size: 20px;
+    font-size: 50px;
     font-family: $headline-font;
     padding: 15px 0;
     color: $ivory;
@@ -58,7 +57,7 @@ header {
 }
 
 #career-compass {
-  padding: 40px;
+  padding: 80px;
 
   p {
     font-family: $base-font;
@@ -72,18 +71,18 @@ header {
 }
 
 #skills {
-  padding: 40px;
+  padding: 50px;
 
   h2 {
     text-align: center;
     font-family: $headline-font;
-    font-size: 25px;
+    font-size: 35px;
     color: $main-color;
   }
 
   h3 {
     font-family: $headline-font;
-    font-size: 20px;
+    font-size: 30px;
     color: $accent-color;
   }
 
@@ -94,12 +93,12 @@ header {
 }
 
 #about {
-  padding: 40px;
+  padding: 50px;
 
   h2 {
     text-align: center;
     font-family: $headline-font;
-    font-size: 25px;
+    font-size: 35px;
     color: $main-color;
     padding-bottom: 15px;
   }
@@ -116,12 +115,12 @@ header {
 }
 
 #portfolio {
-  padding: 40px;
+  padding: 50px;
 
   h2 {
     text-align: center;
     font-family: $headline-font;
-    font-size: 25px;
+    font-size: 35px;
     color: $main-color;
   }
 
@@ -130,7 +129,7 @@ header {
   }
 
   h3 {
-    font-size: 20px;
+    font-size: 30px;
     font-family: $headline-font;
     text-align: center;
     color: $accent-color;
@@ -155,17 +154,17 @@ header {
 }
 
 #blog {
-  padding: 40px;
+  padding: 50px;
 
   h2 {
-    font-size: 25px;
+    font-size: 35px;
     text-align: center;
     font-family: $headline-font;
     color: $main-color;
   }
 
   h3 {
-    font-size: 20px;
+    font-size: 30px;
     font-family: $headline-font;
     color: $accent-color;
   }
@@ -194,10 +193,10 @@ header {
   padding: 15px 0;
 
   p {
-    font-size: 18px;
+    font-size: 16px;
     color: $main-color;
     font-family: $headline-font;
-    padding-left: 20px;
+    padding: 20px 25px;
     
     i {
       color: $main-color;
@@ -223,7 +222,7 @@ header {
   padding: 15px 0;
 
   p {
-    font-size: 18px;
+    font-size: 16px;
     color: $white;
     font-family: $headline-font;
   }
