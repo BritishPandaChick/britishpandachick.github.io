@@ -153,8 +153,43 @@ header {
   }
 }
 
-#blog {
-  padding: 50px;
+#codenewbie {
+  padding: 40px;
+
+  h2 {
+    font-size: 5px;
+    text-align: center;
+    font-family: $headline-font;
+    color: $main-color
+  }
+
+  h3 {
+    font-size: 30px;
+    font-family: $headline-font;
+    color: $accent-color;
+    padding: 25px 0;
+  }
+
+  p {
+    font-family: $base-font;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  a {
+    font-size: 20px;
+    color: $main-color;
+    text-decoration: none;
+    font-family: $base-font;
+  }
+
+  a:hover {
+    color: $hover-color;
+  }
+}
+
+#practical-dev {
+  padding: 40px;
 
   h2 {
     font-size: 35px;
@@ -167,11 +202,7 @@ header {
     font-size: 30px;
     font-family: $headline-font;
     color: $accent-color;
-  }
-
-  h4 {
-    font-size: 25px;
-    font-family: $headline-font;
+    padding: 25px 0;
   }
 
   p {

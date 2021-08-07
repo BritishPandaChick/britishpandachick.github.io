@@ -42,9 +42,10 @@ header {
   }  
 }
   
-/* ==== Home Page ==== */
+/* ==== Banner Section ==== */
 #banner {
-  background-color: $accent-color;
+  background: url("../img/sarah-portfolio-banner.png");
+  background-size: cover;
   height: 300px;
   width: 100%;
   padding: 100px 0;
@@ -52,7 +53,7 @@ header {
 
   h2 {
     font-family: $headline-font;
-    color: $ivory;
+    color: $accent-color;
     font-size: 25px;
   }
 
@@ -60,10 +61,11 @@ header {
     font-size: 20px;
     font-family: $headline-font;
     padding: 15px 0;
-    color: $ivory;
+    color: $accent-color;
   }
 }
 
+/* === Career Compass ===*/
 #career-compass {
   padding: 40px;
 
@@ -78,6 +80,7 @@ header {
   }
 }
 
+/* === Skills section === */
 #skills {
   padding: 40px;
 
@@ -100,6 +103,7 @@ header {
   }
 }
 
+/* === About section === */
 #about {
   padding: 40px;
 
@@ -122,6 +126,7 @@ header {
   }
 }
 
+/* === Portfolio === */
 #portfolio {
   padding: 40px;
 
@@ -133,27 +138,71 @@ header {
   }
 
   img {
+    margin: 40px 0;
+  }
+
+  h3 {
+    font-size: 20px;
+    font-family: $headline-font;
+    text-align: center;
+    color: $accent-color;
+  }
+
+  p {
+    font-size: 20px;
+    font-family: $base-font;
+    line-height: 32px;
+  }
+
+  a {
+    font-size: 20px;
+    color: $accent-color;
+    text-decoration: none;
+    font-family: $base-font;
+  }
+
+  a:hover {
+    color: $hover-color;
+  }
+}
+
+/* === Publications section === */
+#blog {
+  padding: 40px;
+
+  h2 {
+    font-size: 25px;
+    font-family: $headline-font;
+    color: $main-color;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  h3 {
+    font-size: 20px;
+    font-family: $headline-font;
+    color: $accent-color;
     padding: 15px 0;
   }
 
-  h3 {
-    font-size: 20px;
-    font-family: $headline-font;
-    text-align: center;
-    color: $accent-color;
-  }
-
   p {
-    font-size: 20px;
     font-family: $base-font;
-    line-height: 32px;
+    font-size: 20px;
+    color: $base-color;
+    padding: 10px 0;
+  } 
+
+  ul {
+    li {
+      font-size: 20px;
+      color: $base-color;
+      font-family: $base-font;
+    }
   }
 
   a {
-    font-size: 20px;
-    color: $main-color;
+    color: $accent-color;
     text-decoration: none;
-    font-family: $base-font;
   }
 
   a:hover {
@@ -161,35 +210,67 @@ header {
   }
 }
 
-#codenewbie {
+/* === Side Projects === */ 
+#side-projects {
+  padding: 40px;
+
+  h3 {
+    font-size: 20px;
+    font-family: $headline-font;
+    color: $accent-color;
+    padding: 15px 0;
+  }
+
+  h4 {
+    font-size: 20px;
+    font-family: $headline-font;
+    color: $main-color;
+  }
+
+  p {
+    font-size: 20px;
+    font-family: $base-font;
+    color: $base-color;
+    line-height: 32px;
+    padding: 10px 0;
+  }
+
+  button {
+    background-color: $main-color;
+    color: $white;
+    margin-bottom: 25px;
+    font-size: 20px;
+  }
+}
+
+/* === Honors === */
+#honors {
   padding: 40px;
 
   h2 {
     font-size: 25px;
-    text-align: center;
     font-family: $headline-font;
     color: $main-color;
-    padding-bottom: 15px;
+    text-align: center;
   }
 
   h3 {
     font-size: 20px;
     font-family: $headline-font;
     color: $accent-color;
-    padding: 20px 0;
+    padding: 25px 0;
   }
 
   p {
     font-family: $base-font;
+    color: $base-color;
     font-size: 20px;
     line-height: 32px;
   }
 
   a {
-    font-size: 20px;
-    color: $main-color;
+    color: $accent-color;
     text-decoration: none;
-    font-family: $base-font;
   }
 
   a:hover {
@@ -197,38 +278,38 @@ header {
   }
 }
 
-#practical-dev {
+/* === Video === */
+#video {
   padding: 40px;
 
   h2 {
     font-size: 25px;
-    text-align: center;
-    font-family: $headline-font;
     color: $main-color;
+    font-family: $headline-font;
+    text-align: center;
   }
 
   h3 {
     font-size: 20px;
     font-family: $headline-font;
     color: $accent-color;
-    padding: 20px 0;
+  }
+
+  h4 {
+    font-size: 20px;
+    font-family: $headline-font;
+    color: $base-color;
   }
 
   p {
-    font-family: $base-font;
     font-size: 20px;
+    font-family: $base-font;
     line-height: 32px;
   }
 
-  a {
-    font-size: 20px;
-    color: $main-color;
-    text-decoration: none;
-    font-family: $base-font;
-  }
-
-  a:hover {
-    color: $hover-color;
+  iframe {
+    width: 100%;
+    margin-top: 20px;
   }
 }
 

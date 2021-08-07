@@ -130,36 +130,63 @@ header ul li a:hover {
   color: #9dac38;
 }
 
-#blog {
+#codenewbie {
   padding: 40px;
 }
-#blog h2 {
+#codenewbie h2 {
   font-size: 25px;
   text-align: center;
   font-family: "Roboto Condensed", sans-serif;
   color: #385001;
 }
-#blog h3 {
+#codenewbie h3 {
   font-size: 20px;
   font-family: "Roboto Condensed", sans-serif;
   color: #558976;
+  padding: 25px 0;
 }
-#blog h4 {
-  font-size: 25px;
-  font-family: "Roboto Condensed", sans-serif;
-}
-#blog p {
+#codenewbie p {
   font-family: "Josefin Slab", serif;
   font-size: 20px;
   line-height: 32px;
 }
-#blog a {
+#codenewbie a {
   font-size: 20px;
   color: #385001;
   text-decoration: none;
   font-family: "Josefin Slab", serif;
 }
-#blog a:hover {
+#codenewbie a:hover {
+  color: #9dac38;
+}
+
+#practical-dev {
+  padding: 40px;
+}
+#practical-dev h2 {
+  font-size: 25px;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #385001;
+}
+#practical-dev h3 {
+  font-size: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #558976;
+  padding: 25px 0;
+}
+#practical-dev p {
+  font-family: "Josefin Slab", serif;
+  font-size: 20px;
+  line-height: 32px;
+}
+#practical-dev a {
+  font-size: 20px;
+  color: #385001;
+  text-decoration: none;
+  font-family: "Josefin Slab", serif;
+}
+#practical-dev a:hover {
   color: #9dac38;
 }
 
