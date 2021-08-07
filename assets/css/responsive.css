@@ -144,6 +144,10 @@ header ul li a:hover {
   font-family: "Roboto Condensed", sans-serif;
   color: #558976;
 }
+#blog h4 {
+  font-size: 25px;
+  font-family: "Roboto Condensed", sans-serif;
+}
 #blog p {
   font-family: "Josefin Slab", serif;
   font-size: 20px;
