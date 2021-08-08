@@ -106,23 +106,21 @@ header {
 /* === About section === */
 #about {
   padding: 40px;
+  background-color: $main-color;
 
   h2 {
     text-align: center;
     font-family: $headline-font;
     font-size: 25px;
-    color: $main-color;
     padding-bottom: 15px;
-  }
-
-  img {
-    padding: 15px 0;
+    color: $white;
   }
 
   p {
     font-size: 20px;
     line-height: 32px;
     font-family: $base-font;
+    color: $white;
   }
 }
 
@@ -252,6 +250,7 @@ header {
     font-family: $headline-font;
     color: $main-color;
     text-align: center;
+    padding: 15px 0;
   }
 
   h3 {
@@ -287,6 +286,7 @@ header {
     color: $main-color;
     font-family: $headline-font;
     text-align: center;
+    padding: 15px 0;
   }
 
   h3 {

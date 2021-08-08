@@ -84,21 +84,20 @@ header ul li a:hover {
 /* === About section === */
 #about {
   padding: 40px;
+  background-color: #385001;
 }
 #about h2 {
   text-align: center;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 25px;
-  color: #385001;
   padding-bottom: 15px;
-}
-#about img {
-  padding: 15px 0;
+  color: #fdfcfb;
 }
 #about p {
   font-size: 20px;
   line-height: 32px;
   font-family: "Josefin Slab", serif;
+  color: #fdfcfb;
 }
 
 /* === Portfolio === */
@@ -209,6 +208,7 @@ header ul li a:hover {
   font-family: "Roboto Condensed", sans-serif;
   color: #385001;
   text-align: center;
+  padding: 15px 0;
 }
 #honors h3 {
   font-size: 20px;
@@ -239,6 +239,7 @@ header ul li a:hover {
   color: #385001;
   font-family: "Roboto Condensed", sans-serif;
   text-align: center;
+  padding: 15px 0;
 }
 #video h3 {
   font-size: 20px;
