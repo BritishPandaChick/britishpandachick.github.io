@@ -54,7 +54,7 @@ header {
 
   h2 {
     font-family: $headline-font;
-    color: $accent-color;
+    color: $main-color;
     font-size: 25px;
   }
 
@@ -318,9 +318,17 @@ header {
 }
 
 /* ==== Footer ==== */
-#hired {
+#contact {
   background-color: $ivory;
   padding: 15px 0;
+
+  h3 {
+    font-family: $headline-font;
+    font-size: 20px;
+    color: $main-color;
+    padding: 15px 0;
+    text-align: center;
+  }
 
   p {
     font-size: 18px;

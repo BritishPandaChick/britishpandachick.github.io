@@ -31,6 +31,7 @@ header ul li a:hover {
 #banner {
   background: url("../img/sarah-portfolio-banner.png");
   background-size: cover;
+  background-position: center;
   height: 300px;
   width: 100%;
   padding: 100px 0;
@@ -38,7 +39,7 @@ header ul li a:hover {
 }
 #banner h2 {
   font-family: "Roboto Condensed", sans-serif;
-  color: #558976;
+  color: #385001;
   font-size: 25px;
 }
 #banner h3 {
@@ -262,27 +263,34 @@ header ul li a:hover {
 }
 
 /* ==== Footer ==== */
-#hired {
+#contact {
   background-color: #f6f2ea;
   padding: 15px 0;
 }
-#hired p {
+#contact h3 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+  color: #385001;
+  text-align: center;
+  padding: 15px 0;
+}
+#contact p {
   font-size: 18px;
   color: #385001;
   font-family: "Roboto Condensed", sans-serif;
   padding-left: 20px;
 }
-#hired p i {
+#contact p i {
   color: #385001;
   padding-right: 10px;
 }
-#hired li {
+#contact li {
   padding: 10px 0;
 }
-#hired li a {
+#contact li a {
   color: #385001;
 }
-#hired li a:hover {
+#contact li a:hover {
   color: #9dac38;
 }
 

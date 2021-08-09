@@ -46,6 +46,7 @@ header {
 #banner {
   background: url("../img/sarah-portfolio-banner.png");
   background-size: cover;
+  background-position: center;
   height: 300px;
   width: 100%;
   padding: 100px 0;
@@ -53,7 +54,7 @@ header {
 
   h2 {
     font-family: $headline-font;
-    color: $accent-color;
+    color: $main-color;
     font-size: 25px;
   }
 
@@ -314,9 +315,17 @@ header {
 }
 
 /* ==== Footer ==== */
-#hired {
+#contact {
   background-color: $ivory;
   padding: 15px 0;
+
+  h3 {
+    font-family: $headline-font;
+    font-size: 20px;
+    color: $main-color;
+    text-align: center;
+    padding: 15px 0;
+  }
 
   p {
     font-size: 18px;
