@@ -12,12 +12,14 @@ header {
     font-size: 25px;
     font-family: "Roboto Condensed", sans-serif;
     color: #fdfcfb; }
-  header ul li a {
-    color: #fdfcfb;
-    font-size: 20px;
-    font-family: "Josefin Slab", serif; }
-  header ul li a:hover {
-    color: #9dac38; }
+  header ul li {
+    font-weight: bold; }
+    header ul li a {
+      color: #fdfcfb;
+      font-size: 20px;
+      font-family: "Josefin Slab", serif; }
+    header ul li a:hover {
+      color: #9dac38; }
 
 /* ==== Banner Section ==== */
 #banner {
@@ -42,12 +44,12 @@ header {
   #career-compass h3 {
     font-size: 20px;
     font-family: "Roboto Condensed", sans-serif;
-    text-align: center; }
+    text-align: center;
+    padding-bottom: 15px; }
   #career-compass p {
     font-family: "Josefin Slab", serif;
     font-size: 20px;
-    line-height: 32px;
-    padding: 20px 0; }
+    line-height: 32px; }
   #career-compass img {
     padding-top: 15px; }
 
@@ -113,7 +115,8 @@ header {
 
 /* === Publications section === */
 #writing {
-  padding: 40px; }
+  padding: 40px;
+  border: 2px solid #385001; }
   #writing h2 {
     font-size: 25px;
     font-family: "Roboto Condensed", sans-serif;
@@ -124,7 +127,7 @@ header {
     font-size: 20px;
     font-family: "Roboto Condensed", sans-serif;
     color: #558976;
-    padding: 15px 0; }
+    padding-top: 15px; }
   #writing h4 {
     font-size: 20px;
     font-family: "Roboto Condensed", sans-serif;
@@ -147,6 +150,12 @@ header {
 /* === Side Projects === */
 #side-projects {
   padding: 40px; }
+  #side-projects h2 {
+    font-size: 25px;
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: center;
+    color: #385001;
+    padding: 20px 0; }
   #side-projects h3 {
     font-size: 20px;
     font-family: "Roboto Condensed", sans-serif;
@@ -177,11 +186,6 @@ header {
     color: #385001;
     text-align: center;
     padding: 15px 0; }
-  #honors h3 {
-    font-size: 20px;
-    font-family: "Roboto Condensed", sans-serif;
-    color: #558976;
-    padding: 25px 0; }
   #honors p {
     font-family: "Josefin Slab", serif;
     color: #333;
@@ -195,25 +199,23 @@ header {
 
 /* === Video === */
 #speaking {
-  padding: 40px; }
+  padding: 40px;
+  background: #385001; }
   #speaking h2 {
     font-size: 25px;
-    color: #385001;
+    color: #fdfcfb;
     font-family: "Roboto Condensed", sans-serif;
     text-align: center;
     padding: 15px 0; }
   #speaking h3 {
     font-size: 20px;
     font-family: "Roboto Condensed", sans-serif;
-    color: #558976; }
-  #speaking h4 {
-    font-size: 20px;
-    font-family: "Roboto Condensed", sans-serif;
-    color: #333; }
+    color: #fdfcfb; }
   #speaking p {
     font-size: 20px;
     font-family: "Josefin Slab", serif;
-    line-height: 32px; }
+    line-height: 32px;
+    color: #fdfcfb; }
   #speaking iframe {
     width: 100%;
     margin-top: 20px; }
@@ -250,5 +252,7 @@ header {
     font-size: 18px;
     color: #fdfcfb;
     font-family: "Roboto Condensed", sans-serif; }
+
+/* === YouTube === */
 
 /*# sourceMappingURL=mobile.css.map */

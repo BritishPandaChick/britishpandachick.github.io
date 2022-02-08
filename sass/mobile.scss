@@ -27,6 +27,8 @@ header {
 
   ul {
     li {
+      font-weight: bold;
+
       a {
           color: $white;
           font-size: 20px;
@@ -72,13 +74,13 @@ header {
     font-size: 20px;
     font-family: $headline-font;
     text-align: center;
+    padding-bottom: 15px;
   }
 
   p {
     font-family: $base-font;
     font-size: 20px;
     line-height: 32px;
-    padding: 20px 0;
   }
   
   img {
@@ -174,6 +176,7 @@ header {
 /* === Publications section === */
 #writing {
   padding: 40px;
+  border: 2px solid $main-color;
 
   h2 {
     font-size: 25px;
@@ -187,7 +190,7 @@ header {
     font-size: 20px;
     font-family: $headline-font;
     color: $accent-color;
-    padding: 15px 0;
+    padding-top: 15px;
   }
 
   h4 {
@@ -224,6 +227,14 @@ header {
 /* === Side Projects === */ 
 #side-projects {
   padding: 40px;
+
+  h2 {
+    font-size: 25px;
+    font-family: $headline-font;
+    text-align: center;
+    color: $main-color;
+    padding: 20px 0;
+  }
 
   h3 {
     font-size: 20px;
@@ -266,13 +277,6 @@ header {
     padding: 15px 0;
   }
 
-  h3 {
-    font-size: 20px;
-    font-family: $headline-font;
-    color: $accent-color;
-    padding: 25px 0;
-  }
-
   p {
     font-family: $base-font;
     color: $base-color;
@@ -293,10 +297,11 @@ header {
 /* === Video === */
 #speaking {
   padding: 40px;
+  background: $main-color;
 
   h2 {
     font-size: 25px;
-    color: $main-color;
+    color: $white;
     font-family: $headline-font;
     text-align: center;
     padding: 15px 0;
@@ -305,19 +310,14 @@ header {
   h3 {
     font-size: 20px;
     font-family: $headline-font;
-    color: $accent-color;
-  }
-
-  h4 {
-    font-size: 20px;
-    font-family: $headline-font;
-    color: $base-color;
+    color: $white;
   }
 
   p {
     font-size: 20px;
     font-family: $base-font;
     line-height: 32px;
+    color: $white;
   }
 
   iframe {
@@ -374,3 +374,5 @@ header {
     font-family: $headline-font;
   }
 }
+
+/* === YouTube === */

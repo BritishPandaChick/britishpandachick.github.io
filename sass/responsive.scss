@@ -44,13 +44,38 @@ header {
   
 /* ==== Banner Section ==== */
 #banner {
+  background-color: #017ac8;
   height: 300px;
   width: 100%;
+  padding: 80px 0;
+  color: #fbfcfe;
+  
+  h2 {
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 52px;
+
+    span {
+      font-family: 'Oswald', sans-serif;
+    }
+  }
+
+  h3 {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+  }
 }
 
 /* === Career Compass === */
 #career-compass {
   padding: 40px;
+
+  h3 {
+    font-size: 20px;
+    font-family: $headline-font;
+    text-align: center;
+    padding-bottom: 15px;
+  }
 
   p {
     font-family: $base-font;
@@ -66,16 +91,16 @@ header {
 /* === Skills section === */
 #skills {
   padding: 40px;
+  border: 2px solid $main-color;
 
   h2 {
     text-align: center;
     font-family: $headline-font;
     font-size: 25px;
     color: $main-color;
-    padding: 15px 0;
   }
 
-  h3 {
+  h4 {
     font-family: $headline-font;
     font-size: 20px;
     color: $accent-color;
@@ -117,7 +142,6 @@ header {
     font-family: $headline-font;
     font-size: 25px;
     color: $main-color;
-    padding: 15px 0;
   }
 
   img {
@@ -150,8 +174,9 @@ header {
 }
 
 /* === Publications section === */
-#blog {
+#writing {
   padding: 40px;
+  border: 2px solid $main-color;
 
   h2 {
     font-size: 25px;
@@ -165,7 +190,13 @@ header {
     font-size: 20px;
     font-family: $headline-font;
     color: $accent-color;
-    padding: 15px 0;
+    padding-top: 15px;
+  }
+
+  h4 {
+    font-size: 20px;
+    font-family: $headline-font;
+    color: $accent-color;
   }
 
   p {
@@ -196,6 +227,14 @@ header {
 /* === Side Projects === */ 
 #side-projects {
   padding: 40px;
+
+  h2 {
+    font-size: 25px;
+    font-family: $headline-font;
+    text-align: center;
+    color: $main-color;
+    padding: 20px 0;
+  }
 
   h3 {
     font-size: 20px;
@@ -238,13 +277,6 @@ header {
     padding: 15px 0;
   }
 
-  h3 {
-    font-size: 20px;
-    font-family: $headline-font;
-    color: $accent-color;
-    padding: 25px 0;
-  }
-
   p {
     font-family: $base-font;
     color: $base-color;
@@ -263,12 +295,13 @@ header {
 }
 
 /* === Video === */
-#video {
+#speaking {
   padding: 40px;
+  background: $main-color;
 
   h2 {
     font-size: 25px;
-    color: $main-color;
+    color: $white;
     font-family: $headline-font;
     text-align: center;
     padding: 15px 0;
@@ -277,19 +310,14 @@ header {
   h3 {
     font-size: 20px;
     font-family: $headline-font;
-    color: $accent-color;
-  }
-
-  h4 {
-    font-size: 20px;
-    font-family: $headline-font;
-    color: $base-color;
+    color: $white;
   }
 
   p {
     font-size: 20px;
     font-family: $base-font;
     line-height: 32px;
+    color: $white;
   }
 
   iframe {
