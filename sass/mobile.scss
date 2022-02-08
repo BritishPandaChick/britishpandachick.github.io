@@ -7,7 +7,6 @@ $base-color: #333;
 $hover-color: #9dac38;
 $ivory:#f6f2ea;
 $main-color: #385001;
-$youtube-banner: #017ac8;
 
 /* ==== Basic Styles ==== */
 body {
@@ -43,11 +42,11 @@ header {
   
 /* ==== Banner Section ==== */
 #banner {
-  background-color: $youtube-banner;
+  background-color: #017ac8;
   height: 300px;
   width: 100%;
   padding: 80px 0;
-  color: $white;
+  color: #fbfcfe;
   
   h2 {
     font-size: 25px;
@@ -69,10 +68,17 @@ header {
 #career-compass {
   padding: 40px;
 
+  h3 {
+    font-size: 20px;
+    font-family: $headline-font;
+    text-align: center;
+  }
+
   p {
     font-family: $base-font;
     font-size: 20px;
     line-height: 32px;
+    padding: 20px 0;
   }
   
   img {
@@ -83,6 +89,7 @@ header {
 /* === Skills section === */
 #skills {
   padding: 40px;
+  border: 2px solid $main-color;
 
   h2 {
     text-align: center;
@@ -91,7 +98,7 @@ header {
     color: $main-color;
   }
 
-  h3 {
+  h4 {
     font-family: $headline-font;
     font-size: 20px;
     color: $accent-color;
@@ -139,7 +146,7 @@ header {
     margin: 40px 0;
   }
 
-  h3 {
+  h4 {
     font-size: 20px;
     font-family: $headline-font;
     text-align: center;
@@ -165,7 +172,7 @@ header {
 }
 
 /* === Publications section === */
-#blog {
+#writing {
   padding: 40px;
 
   h2 {
@@ -181,6 +188,12 @@ header {
     font-family: $headline-font;
     color: $accent-color;
     padding: 15px 0;
+  }
+
+  h4 {
+    font-size: 20px;
+    font-family: $headline-font;
+    color: $accent-color;
   }
 
   p {
@@ -278,7 +291,7 @@ header {
 }
 
 /* === Video === */
-#video {
+#speaking {
   padding: 40px;
 
   h2 {
