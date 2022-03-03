@@ -6,24 +6,21 @@ body {
   margin: 0 auto; }
 
 /* ==== Header ==== */
-header {
-  background-color: #385001; }
-  header .navbar-brand {
-    font-size: 25px;
-    font-family: "Roboto Condensed", sans-serif;
-    color: #fdfcfb; }
-  header ul li {
-    font-weight: bold; }
-    header ul li a {
-      color: #fdfcfb;
-      font-size: 20px;
-      font-family: "Josefin Slab", serif; }
-    header ul li a:hover {
-      color: #9dac38; }
+header .navbar-brand {
+  font-size: 25px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #fdfcfb; }
+header ul li {
+  font-weight: bold; }
+  header ul li a {
+    color: #fdfcfb;
+    font-size: 20px;
+    font-family: "Josefin Slab", serif; }
+  header ul li a:hover {
+    color: #9dac38; }
 
 /* ==== Banner Section ==== */
 #banner {
-  background-color: #017ac8;
   height: 300px;
   width: 100%;
   padding: 80px 0;

@@ -17,8 +17,6 @@ body {
   
 /* ==== Header ==== */
 header {
-  background-color: $main-color;
-
   .navbar-brand {
       font-size: 25px;
       font-family: $headline-font;
@@ -44,7 +42,6 @@ header {
   
 /* ==== Banner Section ==== */
 #banner {
-  background-color: #017ac8;
   height: 300px;
   width: 100%;
   padding: 80px 0;
