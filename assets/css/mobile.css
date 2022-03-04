@@ -6,18 +6,20 @@ body {
   margin: 0 auto; }
 
 /* ==== Header ==== */
-header .navbar-brand {
-  font-size: 25px;
-  font-family: "Roboto Condensed", sans-serif;
-  color: #fdfcfb; }
-header ul li {
-  font-weight: bold; }
-  header ul li a {
-    color: #fdfcfb;
-    font-size: 20px;
-    font-family: "Josefin Slab", serif; }
-  header ul li a:hover {
-    color: #9dac38; }
+header {
+  background-color: #385001; }
+  header .navbar-brand {
+    font-size: 25px;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #fdfcfb; }
+  header ul li {
+    font-weight: bold; }
+    header ul li a {
+      color: #fdfcfb;
+      font-size: 20px;
+      font-family: "Josefin Slab", serif; }
+    header ul li a:hover {
+      color: #9dac38; }
 
 /* ==== Banner Section ==== */
 #banner {
@@ -53,7 +55,7 @@ header ul li {
 /* === Skills section === */
 #skills {
   padding: 40px;
-  border: 2px solid #385001; }
+  border: 2px solid #558976; }
   #skills h2 {
     text-align: center;
     font-family: "Roboto Condensed", sans-serif;
@@ -62,7 +64,7 @@ header ul li {
   #skills h3 {
     font-family: "Roboto Condensed", sans-serif;
     font-size: 20px;
-    color: #558976;
+    color: #385001;
     padding-top: 15px; }
   #skills li {
     font-size: 20px;
@@ -98,7 +100,7 @@ header ul li {
     font-size: 20px;
     font-family: "Roboto Condensed", sans-serif;
     text-align: center;
-    color: #558976; }
+    color: #385001; }
   #portfolio p {
     font-size: 20px;
     font-family: "Josefin Slab", serif;
@@ -114,7 +116,7 @@ header ul li {
 /* === Publications section === */
 #writing {
   padding: 40px;
-  border: 2px solid #385001; }
+  border: 2px solid #558976; }
   #writing h2 {
     font-size: 25px;
     font-family: "Roboto Condensed", sans-serif;
@@ -124,7 +126,7 @@ header ul li {
   #writing h3 {
     font-size: 20px;
     font-family: "Roboto Condensed", sans-serif;
-    color: #558976;
+    color: #385001;
     padding-top: 15px; }
   #writing p {
     font-family: "Josefin Slab", serif;
@@ -192,7 +194,7 @@ header ul li {
 /* === Side Projects === */
 #side-projects {
   padding: 40px;
-  border: 2px solid #385001; }
+  border: 2px solid #558976; }
   #side-projects h2 {
     font-size: 25px;
     font-family: "Roboto Condensed", sans-serif;
@@ -216,7 +218,9 @@ header ul li {
     padding: 10px 0; }
   #side-projects button {
     margin-bottom: 25px;
-    font-size: 20px; }
+    font-size: 20px;
+    color: #fdfcfb;
+    background-color: #385001; }
 
 /* ==== Footer ==== */
 #contact {

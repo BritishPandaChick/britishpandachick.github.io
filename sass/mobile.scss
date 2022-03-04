@@ -17,6 +17,8 @@ body {
   
 /* ==== Header ==== */
 header {
+  background-color: $main-color;
+
   .navbar-brand {
       font-size: 25px;
       font-family: $headline-font;
@@ -88,7 +90,7 @@ header {
 /* === Skills section === */
 #skills {
   padding: 40px;
-  border: 2px solid $main-color;
+  border: 2px solid $accent-color;
 
   h2 {
     text-align: center;
@@ -100,7 +102,7 @@ header {
   h3 {
     font-family: $headline-font;
     font-size: 20px;
-    color: $accent-color;
+    color: $main-color;
     padding-top: 15px;
   }
 
@@ -150,7 +152,7 @@ header {
     font-size: 20px;
     font-family: $headline-font;
     text-align: center;
-    color: $accent-color;
+    color: $main-color;
   }
 
   p {
@@ -174,7 +176,7 @@ header {
 /* === Publications section === */
 #writing {
   padding: 40px;
-  border: 2px solid $main-color;
+  border: 2px solid $accent-color;
 
   h2 {
     font-size: 25px;
@@ -187,7 +189,7 @@ header {
   h3 {
     font-size: 20px;
     font-family: $headline-font;
-    color: $accent-color;
+    color: $main-color;
     padding-top: 15px;
   }
 
@@ -289,7 +291,7 @@ header {
 /* === Side Projects === */ 
 #side-projects {
   padding: 40px;
-  border: 2px solid $main-color;
+  border: 2px solid $accent-color;
 
   h2 {
     font-size: 25px;
@@ -323,6 +325,8 @@ header {
   button {
     margin-bottom: 25px;
     font-size: 20px;
+    color: $white;
+    background-color: $main-color;
   }
 }
 
