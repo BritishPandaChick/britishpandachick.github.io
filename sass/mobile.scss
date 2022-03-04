@@ -42,10 +42,10 @@ header {
   
 /* ==== Banner Section ==== */
 #banner {
-  height: 300px;
   width: 100%;
-  padding: 80px 0;
   color: #fbfcfe;
+  padding: 20px 0;
+  background-color: #017ac8;
   
   h2 {
     font-size: 25px;
@@ -97,10 +97,11 @@ header {
     color: $main-color;
   }
 
-  h4 {
+  h3 {
     font-family: $headline-font;
     font-size: 20px;
     color: $accent-color;
+    padding-top: 15px;
   }
 
   li {
@@ -145,7 +146,7 @@ header {
     margin: 40px 0;
   }
 
-  h4 {
+  h3 {
     font-size: 20px;
     font-family: $headline-font;
     text-align: center;
@@ -190,12 +191,6 @@ header {
     padding-top: 15px;
   }
 
-  h4 {
-    font-size: 20px;
-    font-family: $headline-font;
-    color: $accent-color;
-  }
-
   p {
     font-family: $base-font;
     font-size: 20px;
@@ -209,76 +204,6 @@ header {
       color: $base-color;
       font-family: $base-font;
     }
-  }
-
-  a {
-    color: $accent-color;
-    text-decoration: none;
-  }
-
-  a:hover {
-    color: $hover-color;
-  }
-}
-
-/* === Side Projects === */ 
-#side-projects {
-  padding: 40px;
-
-  h2 {
-    font-size: 25px;
-    font-family: $headline-font;
-    text-align: center;
-    color: $main-color;
-    padding: 20px 0;
-  }
-
-  h3 {
-    font-size: 20px;
-    font-family: $headline-font;
-    color: $accent-color;
-    padding: 15px 0;
-  }
-
-  h4 {
-    font-size: 20px;
-    font-family: $headline-font;
-    color: $main-color;
-  }
-
-  p {
-    font-size: 20px;
-    font-family: $base-font;
-    color: $base-color;
-    line-height: 32px;
-    padding: 10px 0;
-  }
-
-  button {
-    background-color: $main-color;
-    color: $white;
-    margin-bottom: 25px;
-    font-size: 20px;
-  }
-}
-
-/* === Honors === */
-#honors {
-  padding: 40px;
-
-  h2 {
-    font-size: 25px;
-    font-family: $headline-font;
-    color: $main-color;
-    text-align: center;
-    padding: 15px 0;
-  }
-
-  p {
-    font-family: $base-font;
-    color: $base-color;
-    font-size: 20px;
-    line-height: 32px;
   }
 
   a {
@@ -316,10 +241,88 @@ header {
     line-height: 32px;
     color: $white;
   }
+  
+  a {
+    color: $white;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: $hover-color;
+  }
 
   iframe {
     width: 100%;
     margin-top: 20px;
+  }
+}
+
+/* === Honors === */
+#honors {
+  padding: 40px;
+
+  h2 {
+    font-size: 25px;
+    font-family: $headline-font;
+    color: $main-color;
+    text-align: center;
+    padding: 15px 0;
+  }
+
+  p {
+    font-family: $base-font;
+    color: $base-color;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  a {
+    color: $accent-color;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: $hover-color;
+  }
+}
+
+/* === Side Projects === */ 
+#side-projects {
+  padding: 40px;
+  border: 2px solid $main-color;
+
+  h2 {
+    font-size: 25px;
+    font-family: $headline-font;
+    text-align: center;
+    color: $main-color;
+    padding: 20px 0;
+  }
+
+  h3 {
+    font-size: 20px;
+    font-family: $headline-font;
+    color: $main-color;
+    padding: 15px 0;
+  }
+
+  h4 {
+    font-size: 20px;
+    font-family: $headline-font;
+    color: $base-color;
+  }
+
+  p {
+    font-size: 20px;
+    font-family: $base-font;
+    color: $base-color;
+    line-height: 32px;
+    padding: 10px 0;
+  }
+
+  button {
+    margin-bottom: 25px;
+    font-size: 20px;
   }
 }
 
@@ -371,5 +374,3 @@ header {
     font-family: $headline-font;
   }
 }
-
-/* === YouTube === */
