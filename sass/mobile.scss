@@ -112,6 +112,30 @@ header {
   }
 }
 
+/* === Tools === */
+#tools {
+  padding: 40px;
+
+  h2 {
+    text-align: center;
+    font-family: $headline-font;
+    font-size: 25px;
+    color: $main-color;
+  }
+
+  h3 {
+    font-family: $headline-font;
+    font-size: 20px;
+    color: $main-color;
+    padding-top: 15px;
+  }
+
+  li {
+    font-size: 20px;
+    font-family: $base-font;
+  }
+}
+
 /* === About section === */
 #about {
   padding: 40px;
