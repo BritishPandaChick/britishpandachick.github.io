@@ -68,6 +68,7 @@ header {
 /* === Career Compass === */
 #career-compass {
   padding: 80px;
+  border: 2px solid $accent-color;
 
   h3 {
     font-size: 30px;
@@ -86,7 +87,6 @@ header {
 /* === Skills section === */
 #skills {
   padding: 50px;
-  border: 2px solid $accent-color;
 
   h2 {
     text-align: center;
@@ -319,6 +319,7 @@ header {
 /* === Side Projects === */ 
 #side-projects {
   padding: 50px;
+  border: 2px solid $accent-color;
 
   h2 {
     font-size: 35px;

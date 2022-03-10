@@ -39,7 +39,8 @@ header {
 
 /* === Career Compass === */
 #career-compass {
-  padding: 80px; }
+  padding: 80px;
+  border: 2px solid #558976; }
   #career-compass h3 {
     font-size: 30px;
     font-family: "Roboto Condensed", sans-serif;
@@ -52,8 +53,7 @@ header {
 
 /* === Skills section === */
 #skills {
-  padding: 50px;
-  border: 2px solid #558976; }
+  padding: 50px; }
   #skills h2 {
     text-align: center;
     font-family: "Roboto Condensed", sans-serif;
@@ -214,7 +214,8 @@ header {
 
 /* === Side Projects === */
 #side-projects {
-  padding: 50px; }
+  padding: 50px;
+  border: 2px solid #558976; }
   #side-projects h2 {
     font-size: 35px;
     font-family: "Roboto Condensed", sans-serif;
