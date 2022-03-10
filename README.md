@@ -14,3 +14,8 @@ Go to [http://britishpandachick.github.io](http://britishpandachick.github.io) t
 
 ## Contributing
 I will not be accepting any pull requests.
+
+## Acknowledgements 
+* Sass 
+* Pixabay 
+* Skillcrush

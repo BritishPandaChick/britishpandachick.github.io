@@ -405,3 +405,16 @@ header {
     font-family: $headline-font;
   }
 }
+
+/* === Videos === */
+#videos {
+  padding: 50px;
+
+  h2 {
+    font-size: 35px;
+    font-family: $headline-font;
+    text-align: center;
+    color: $main-color;
+    padding: 20px 0;
+  }
+}

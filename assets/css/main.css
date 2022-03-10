@@ -275,4 +275,14 @@ header {
     color: #fdfcfb;
     font-family: "Roboto Condensed", sans-serif; }
 
+/* === Videos === */
+#videos {
+  padding: 50px; }
+  #videos h2 {
+    font-size: 35px;
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: center;
+    color: #385001;
+    padding: 20px 0; }
+
 /*# sourceMappingURL=main.css.map */

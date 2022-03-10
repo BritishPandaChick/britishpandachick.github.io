@@ -278,4 +278,13 @@ header {
     color: #fdfcfb;
     font-family: "Roboto Condensed", sans-serif; }
 
+/* === YouTube === */
+#videos {
+  padding: 40px; }
+  #videos h2 {
+    font-size: 25px;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #385001;
+    padding: 20px 0; }
+
 /*# sourceMappingURL=responsive.css.map */

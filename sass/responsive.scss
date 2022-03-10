@@ -410,3 +410,15 @@ header {
     font-family: $headline-font;
   }
 }
+
+/* === YouTube === */ 
+#videos {
+  padding: 40px;
+
+  h2 {
+    font-size: 25px;
+    font-family: $headline-font;
+    color: $main-color;
+    padding: 20px 0;
+  }
+}
