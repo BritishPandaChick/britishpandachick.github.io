@@ -198,6 +198,10 @@ header {
     color: #385001;
     text-align: center;
     padding: 15px 0; }
+  #honors h3 {
+    font-size: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #385001; }
   #honors p {
     font-family: "Josefin Slab", serif;
     color: #333;

@@ -2,7 +2,10 @@
 My personal portfolio website.
 
 ## Dependencies
-* Bootstrap 4
+* HTML
+* CSS
+* JavaScript 
+* Bootstrap 5
 * Font Awesome
 * Google Fonts
 

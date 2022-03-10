@@ -295,6 +295,12 @@ header {
     padding: 15px 0;
   }
 
+  h3 {
+    font-size: 20px;
+    font-family: $headline-font;
+    color: $main-color;
+  }
+
   p {
     font-family: $base-font;
     color: $base-color;
@@ -316,14 +322,6 @@ header {
 #side-projects {
   padding: 40px;
   border: 2px solid $accent-color;
-
-  h2 {
-    font-size: 25px;
-    font-family: $headline-font;
-    text-align: center;
-    color: $main-color;
-    padding: 20px 0;
-  }
 
   h3 {
     font-size: 20px;

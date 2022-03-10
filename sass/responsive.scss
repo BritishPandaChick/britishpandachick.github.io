@@ -296,6 +296,12 @@ header {
     padding: 15px 0;
   }
 
+  h3 {
+    font-size: 20px;
+    font-family: $headline-font;
+    color: $main-color;
+  }
+
   p {
     font-family: $base-font;
     color: $base-color;
