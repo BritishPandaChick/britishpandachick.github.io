@@ -116,14 +116,14 @@ header {
 #tools {
   padding: 40px;
 
-  h2 {
+  h3 {
     text-align: center;
     font-family: $headline-font;
-    font-size: 25px;
+    font-size: 20px;
     color: $main-color;
   }
 
-  h3 {
+  h4 {
     font-family: $headline-font;
     font-size: 20px;
     color: $main-color;
@@ -410,5 +410,49 @@ header {
     font-family: $headline-font;
     color: $main-color;
     padding: 15px 0;
+  }
+}
+
+/* === Projects === */
+#project-banner {
+  width: 100%;
+}
+
+#projects {
+  padding: 40px;
+
+  h2 {
+    text-align: center;
+    font-family: $headline-font;
+    font-size: 25px;
+    color: $main-color;
+  }
+
+  img {
+    margin: 40px 0;
+  }
+
+  h3 {
+    font-size: 20px;
+    font-family: $headline-font;
+    text-align: center;
+    color: $main-color;
+  }
+
+  p {
+    font-size: 20px;
+    font-family: $base-font;
+    line-height: 32px;
+  }
+
+  a {
+    font-size: 20px;
+    color: $accent-color;
+    text-decoration: none;
+    font-family: $base-font;
+  }
+
+  a:hover {
+    color: $hover-color;
   }
 }
