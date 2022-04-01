@@ -6,8 +6,6 @@ My personal portfolio website.
 * CSS
 * JavaScript 
 * Bootstrap 5
-* Font Awesome
-* Google Fonts
 
 ## Instructions
 Go to [http://britishpandachick.github.io](http://britishpandachick.github.io) to see my full portfolio.
@@ -19,3 +17,6 @@ I will not be accepting any pull requests.
 * Sass 
 * Pixabay 
 * Skillcrush
+* Google Fonts 
+* Font Awesome
+* ColorPalettes.net
