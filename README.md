@@ -18,5 +18,5 @@ I will not be accepting any pull requests.
 * Pixabay 
 * Skillcrush
 * Google Fonts 
+* [ColorPalettes.net](https://colorpalettes.net/color-palette-2151/)
 * Font Awesome
-* ColorPalettes.net
