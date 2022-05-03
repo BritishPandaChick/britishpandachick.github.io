@@ -150,10 +150,6 @@ header {
     font-size: 20px;
     color: #333;
     padding: 10px 0; }
-  #writing ul li {
-    font-size: 20px;
-    color: #333;
-    font-family: "Josefin Slab", serif; }
   #writing a {
     color: #558976;
     text-decoration: none; }
@@ -170,10 +166,6 @@ header {
     font-family: "Roboto Condensed", sans-serif;
     text-align: center;
     padding: 15px 0; }
-  #speaking h3 {
-    font-size: 20px;
-    font-family: "Roboto Condensed", sans-serif;
-    color: #fdfcfb; }
   #speaking p {
     font-size: 20px;
     font-family: "Josefin Slab", serif;
@@ -191,12 +183,6 @@ header {
 /* === Honors === */
 #honors {
   padding: 40px; }
-  #honors h2 {
-    font-size: 25px;
-    font-family: "Roboto Condensed", sans-serif;
-    color: #385001;
-    text-align: center;
-    padding: 15px 0; }
   #honors h3 {
     font-size: 20px;
     font-family: "Roboto Condensed", sans-serif;

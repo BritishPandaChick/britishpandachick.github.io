@@ -1,6 +1,8 @@
-/* === Sass variables === */ 
-$base-font: 'Josefin Slab', serif;
-$headline-font: 'Roboto Condensed', sans-serif;
+/* === Sass variables === */
+$base-font: 'Josefin Slab',
+serif;
+$headline-font: 'Roboto Condensed',
+sans-serif;
 $accent-color: #558976;
 $white: #fdfcfb;
 $base-color: #333;
@@ -14,15 +16,15 @@ body {
   width: 100%;
   margin: 0 auto;
 }
-  
+
 /* ==== Header ==== */
 header {
   background-color: $main-color;
 
   .navbar-brand {
-      font-size: 25px;
-      font-family: $headline-font;
-      color: $white;
+    font-size: 25px;
+    font-family: $headline-font;
+    color: $white;
   }
 
   ul {
@@ -30,25 +32,25 @@ header {
       font-weight: bold;
 
       a {
-          color: $white;
-          font-size: 20px;
-          font-family: $base-font;
+        color: $white;
+        font-size: 20px;
+        font-family: $base-font;
       }
-  
+
       a:hover {
-          color: $hover-color;
+        color: $hover-color;
       }
     }
-  }  
+  }
 }
-  
+
 /* ==== Banner Section ==== */
 #banner {
   width: 100%;
   color: #fbfcfe;
   padding: 20px 0;
   background-color: #017ac8;
-  
+
   h2 {
     font-size: 25px;
     font-family: 'Open Sans', sans-serif;
@@ -82,7 +84,7 @@ header {
     font-size: 20px;
     line-height: 32px;
   }
-  
+
   img {
     padding-top: 15px;
   }
@@ -222,14 +224,6 @@ header {
     font-size: 20px;
     color: $base-color;
     padding: 10px 0;
-  } 
-
-  ul {
-    li {
-      font-size: 20px;
-      color: $base-color;
-      font-family: $base-font;
-    }
   }
 
   a {
@@ -255,19 +249,13 @@ header {
     padding: 15px 0;
   }
 
-  h3 {
-    font-size: 20px;
-    font-family: $headline-font;
-    color: $white;
-  }
-
   p {
     font-size: 20px;
     font-family: $base-font;
     line-height: 32px;
     color: $white;
   }
-  
+
   a {
     color: $white;
     text-decoration: none;
@@ -286,14 +274,6 @@ header {
 /* === Honors === */
 #honors {
   padding: 40px;
-
-  h2 {
-    font-size: 25px;
-    font-family: $headline-font;
-    color: $main-color;
-    text-align: center;
-    padding: 15px 0;
-  }
 
   h3 {
     font-size: 20px;
@@ -318,7 +298,7 @@ header {
   }
 }
 
-/* === Side Projects === */ 
+/* === Side Projects === */
 #side-projects {
   padding: 40px;
   border: 2px solid $accent-color;
@@ -370,7 +350,7 @@ header {
     color: $main-color;
     font-family: $headline-font;
     padding-left: 20px;
-    
+
     i {
       color: $main-color;
       padding-right: 10px;
@@ -383,7 +363,7 @@ header {
     a {
       color: $main-color;
     }
-  
+
     a:hover {
       color: $hover-color;
     }
@@ -401,7 +381,7 @@ header {
   }
 }
 
-/* === YouTube === */ 
+/* === YouTube === */
 #videos {
   padding: 40px;
 
