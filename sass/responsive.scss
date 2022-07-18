@@ -1,6 +1,8 @@
-/* Sass variables */ 
-$base-font: 'Josefin Slab', serif;
-$headline-font: 'Roboto Condensed', sans-serif;
+/* Sass variables */
+$base-font: 'Josefin Slab',
+serif;
+$headline-font: 'Roboto Condensed',
+sans-serif;
 $accent-color: #558976;
 $white: #fdfcfb;
 $base-color: #333;
@@ -14,41 +16,41 @@ body {
   width: 100%;
   margin: 0 auto;
 }
-  
+
 /* ==== Header ==== */
 header {
   background-color: $main-color;
 
   .navbar-brand {
-      font-size: 25px;
-      font-family: $headline-font;
-      color: $white;
+    font-size: 25px;
+    font-family: $headline-font;
+    color: $white;
   }
 
   ul {
     li {
       font-weight: bold;
-  
+
       a {
-          color: $white;
-          font-size: 20px;
-          font-family: $headline-font;
+        color: $white;
+        font-size: 20px;
+        font-family: $headline-font;
       }
-  
+
       a:hover {
-          color: $hover-color;
+        color: $hover-color;
       }
     }
-  }  
+  }
 }
-  
+
 /* ==== Banner Section ==== */
 #banner {
   background-color: #017ac8;
   width: 100%;
   padding: 80px 0;
   color: #fbfcfe;
-  
+
   h2 {
     font-size: 25px;
     font-family: 'Open Sans', sans-serif;
@@ -82,7 +84,7 @@ header {
     font-size: 20px;
     line-height: 32px;
   }
-  
+
   img {
     padding-top: 15px;
   }
@@ -93,14 +95,13 @@ header {
   padding: 40px;
 
   h2 {
-    text-align: center;
     font-family: $headline-font;
     font-size: 25px;
     color: $main-color;
     padding: 15px 0;
   }
 
-  h3 {
+  h4 {
     font-family: $headline-font;
     font-size: 20px;
     color: $main-color;
@@ -112,12 +113,11 @@ header {
   }
 }
 
-/* === Tools ==- */ 
+/* === Tools ==- */
 #tools {
   padding: 40px;
 
   h3 {
-    text-align: center;
     font-family: $headline-font;
     font-size: 20px;
     color: $main-color;
@@ -142,7 +142,6 @@ header {
   background-color: $main-color;
 
   h2 {
-    text-align: center;
     font-family: $headline-font;
     font-size: 25px;
     color: $white;
@@ -162,7 +161,6 @@ header {
   padding: 40px;
 
   h2 {
-    text-align: center;
     font-family: $headline-font;
     font-size: 25px;
     color: $main-color;
@@ -206,11 +204,10 @@ header {
     font-size: 25px;
     font-family: $headline-font;
     color: $main-color;
-    text-align: center;
     padding: 20px 0;
   }
 
-  h3 {
+  h4 {
     font-size: 20px;
     font-family: $headline-font;
     color: $accent-color;
@@ -222,14 +219,6 @@ header {
     font-size: 20px;
     color: $base-color;
     padding: 10px 0;
-  } 
-
-  ul {
-    li {
-      font-size: 20px;
-      color: $base-color;
-      font-family: $base-font;
-    }
   }
 
   a {
@@ -251,14 +240,7 @@ header {
     font-size: 25px;
     color: $white;
     font-family: $headline-font;
-    text-align: center;
     padding: 15px 0;
-  }
-
-  h3 {
-    font-size: 20px;
-    font-family: $headline-font;
-    color: $white;
   }
 
   p {
@@ -288,14 +270,6 @@ header {
 #honors {
   padding: 40px;
 
-  h2 {
-    font-size: 25px;
-    font-family: $headline-font;
-    color: $main-color;
-    text-align: center;
-    padding: 15px 0;
-  }
-
   h3 {
     font-size: 20px;
     font-family: $headline-font;
@@ -319,18 +293,10 @@ header {
   }
 }
 
-/* === Side Projects === */ 
+/* === Side Projects === */
 #side-projects {
   padding: 40px;
   border: 2px solid $accent-color;
-
-  h2 {
-    font-size: 25px;
-    font-family: $headline-font;
-    text-align: center;
-    color: $main-color;
-    padding: 20px 0;
-  }
 
   h3 {
     font-size: 20px;
@@ -371,7 +337,6 @@ header {
     font-size: 20px;
     color: $main-color;
     padding: 15px 0;
-    text-align: center;
   }
 
   p {
@@ -380,7 +345,7 @@ header {
     font-family: $headline-font;
     padding-left: 20px;
     padding-top: 20px;
-    
+
     i {
       color: $main-color;
       padding-right: 10px;
@@ -393,7 +358,7 @@ header {
     a {
       color: $main-color;
     }
-  
+
     a:hover {
       color: $hover-color;
     }
@@ -411,28 +376,11 @@ header {
   }
 }
 
-/* === YouTube === */ 
-#videos {
-  padding: 40px;
-
-  h2 {
-    font-size: 25px;
-    font-family: $headline-font;
-    color: $main-color;
-    padding: 20px 0;
-  }
-}
-
-/* === Projects === */ 
-#project-banner {
-  width: 100%;
-}
-
+/* === Projects === */
 #projects {
   padding: 40px;
 
   h2 {
-    text-align: center;
     font-family: $headline-font;
     font-size: 25px;
     color: $main-color;

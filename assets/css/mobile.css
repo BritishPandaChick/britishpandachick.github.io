@@ -57,11 +57,10 @@ header {
 #skills {
   padding: 40px; }
   #skills h2 {
-    text-align: center;
     font-family: "Roboto Condensed", sans-serif;
     font-size: 25px;
     color: #385001; }
-  #skills h3 {
+  #skills h4 {
     font-family: "Roboto Condensed", sans-serif;
     font-size: 20px;
     color: #385001;
@@ -74,7 +73,6 @@ header {
 #tools {
   padding: 40px; }
   #tools h3 {
-    text-align: center;
     font-family: "Roboto Condensed", sans-serif;
     font-size: 20px;
     color: #385001; }
@@ -92,7 +90,6 @@ header {
   padding: 40px;
   background-color: #385001; }
   #about h2 {
-    text-align: center;
     font-family: "Roboto Condensed", sans-serif;
     font-size: 25px;
     padding-bottom: 15px;
@@ -140,7 +137,7 @@ header {
     color: #385001;
     text-align: center;
     padding: 20px 0; }
-  #writing h3 {
+  #writing h4 {
     font-size: 20px;
     font-family: "Roboto Condensed", sans-serif;
     color: #385001;
@@ -150,10 +147,6 @@ header {
     font-size: 20px;
     color: #333;
     padding: 10px 0; }
-  #writing ul li {
-    font-size: 20px;
-    color: #333;
-    font-family: "Josefin Slab", serif; }
   #writing a {
     color: #558976;
     text-decoration: none; }
@@ -168,12 +161,7 @@ header {
     font-size: 25px;
     color: #fdfcfb;
     font-family: "Roboto Condensed", sans-serif;
-    text-align: center;
     padding: 15px 0; }
-  #speaking h3 {
-    font-size: 20px;
-    font-family: "Roboto Condensed", sans-serif;
-    color: #fdfcfb; }
   #speaking p {
     font-size: 20px;
     font-family: "Josefin Slab", serif;
@@ -191,12 +179,6 @@ header {
 /* === Honors === */
 #honors {
   padding: 40px; }
-  #honors h2 {
-    font-size: 25px;
-    font-family: "Roboto Condensed", sans-serif;
-    color: #385001;
-    text-align: center;
-    padding: 15px 0; }
   #honors h3 {
     font-size: 20px;
     font-family: "Roboto Condensed", sans-serif;
@@ -245,7 +227,6 @@ header {
     font-family: "Roboto Condensed", sans-serif;
     font-size: 20px;
     color: #385001;
-    text-align: center;
     padding: 15px 0; }
   #contact p {
     font-size: 18px;
@@ -270,23 +251,10 @@ header {
     color: #fdfcfb;
     font-family: "Roboto Condensed", sans-serif; }
 
-/* === YouTube === */
-#videos {
-  padding: 40px; }
-  #videos h2 {
-    font-size: 25px;
-    font-family: "Roboto Condensed", sans-serif;
-    color: #385001;
-    padding: 15px 0; }
-
 /* === Projects === */
-#project-banner {
-  width: 100%; }
-
 #projects {
   padding: 40px; }
   #projects h2 {
-    text-align: center;
     font-family: "Roboto Condensed", sans-serif;
     font-size: 25px;
     color: #385001; }
