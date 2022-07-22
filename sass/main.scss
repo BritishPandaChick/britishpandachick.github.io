@@ -17,27 +17,11 @@ body {
   margin: 0 auto;
 }
 
-.content {
-  padding: 16px;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky + .content {
-  padding-top: 102px;
-}
-
 /* ==== Header ==== */
 header {
   background-color: $main-color;
-
-  .header {
-    padding: 10px 16px;
-  }
+  width: 100%;
+  position: fixed;
 
   .navbar-brand {
     font-size: 30px;
@@ -66,7 +50,7 @@ header {
 #banner {
   background-color: #017ac8;
   width: 100%;
-  padding: 80px 0;
+  padding: 180px 0;
   color: #fbfcfe;
 
   h2 {
