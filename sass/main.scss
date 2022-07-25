@@ -20,6 +20,8 @@ body {
 /* ==== Header ==== */
 header {
   background-color: $main-color;
+  width: 100%;
+  position: fixed;
 
   .navbar-brand {
     font-size: 30px;
@@ -48,7 +50,7 @@ header {
 #banner {
   background-color: #017ac8;
   width: 100%;
-  padding: 80px 0;
+  padding: 180px 0;
   color: #fbfcfe;
 
   h2 {

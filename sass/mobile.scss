@@ -20,6 +20,8 @@ body {
 /* ==== Header ==== */
 header {
   background-color: $main-color;
+  position: fixed;
+  width: 100%;
 
   .navbar-brand {
     font-size: 25px;
