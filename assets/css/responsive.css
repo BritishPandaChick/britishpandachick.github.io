@@ -3,350 +3,278 @@
 body {
   background-color: #fdfcfb;
   width: 100%;
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 
 /* ==== Header ==== */
 header {
   background-color: #385001;
   position: fixed;
-  width: 100%;
-}
-header .navbar-brand {
-  font-size: 25px;
-  font-family: "Roboto Condensed", sans-serif;
-  color: #fdfcfb;
-}
-header ul li {
-  font-weight: bold;
-}
-header ul li a {
-  color: #fdfcfb;
-  font-size: 20px;
-  font-family: "Roboto Condensed", sans-serif;
-}
-header ul li a:hover {
-  color: #9dac38;
-}
+  width: 100%; }
+  header .navbar-brand {
+    font-size: 25px;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #fdfcfb; }
+  header ul li {
+    font-weight: bold; }
+    header ul li a {
+      color: #fdfcfb;
+      font-size: 20px;
+      font-family: "Roboto Condensed", sans-serif; }
+    header ul li a:hover {
+      color: #9dac38; }
 
 /* ==== Banner Section ==== */
 #banner {
   background-color: #017ac8;
   width: 100%;
   padding: 80px 0;
-  color: #fbfcfe;
-}
-#banner h2 {
-  font-size: 25px;
-  font-family: "Open Sans", sans-serif;
-  line-height: 52px;
-}
-#banner h2 span {
-  font-family: "Oswald", sans-serif;
-}
-#banner h3 {
-  font-size: 20px;
-  font-family: "Open Sans", sans-serif;
-}
+  color: #fbfcfe; }
+  #banner h2 {
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 52px; }
+    #banner h2 span {
+      font-family: 'Oswald', sans-serif; }
+  #banner h3 {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif; }
 
 /* === Career Compass === */
 #career-compass {
   padding: 40px;
-  border: 2px solid #558976;
-}
-#career-compass h3 {
-  font-size: 20px;
-  font-family: "Roboto Condensed", sans-serif;
-  text-align: center;
-  padding-bottom: 15px;
-}
-#career-compass p {
-  font-family: "Josefin Slab", serif;
-  font-size: 20px;
-  line-height: 32px;
-}
-#career-compass img {
-  padding-top: 15px;
-}
+  border: 2px solid #558976; }
+  #career-compass h3 {
+    font-size: 25px;
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: center;
+    padding-bottom: 15px; }
+  #career-compass p {
+    font-family: "Josefin Slab", serif;
+    font-size: 20px;
+    line-height: 32px; }
+  #career-compass img {
+    padding-top: 15px; }
 
 /* === Skills section === */
 #skills {
-  padding: 40px;
-}
-#skills h2 {
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 25px;
-  color: #385001;
-  padding: 15px 0;
-}
-#skills h4 {
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 20px;
-  color: #385001;
-}
-#skills li {
-  font-size: 20px;
-  font-family: "Josefin Slab", serif;
-}
+  padding: 40px; }
+  #skills h3 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 25px;
+    color: #385001;
+    padding: 15px 0; }
+  #skills h4 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 20px;
+    color: #385001; }
+  #skills li {
+    font-size: 20px;
+    font-family: "Josefin Slab", serif; }
 
 /* === Tools ==- */
 #tools {
-  padding: 40px;
-}
-#tools h3 {
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 20px;
-  color: #385001;
-  padding: 15px 0;
-}
-#tools h4 {
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 20px;
-  color: #385001;
-}
-#tools li {
-  font-size: 20px;
-  font-family: "Josefin Slab", serif;
-}
+  padding: 40px; }
+  #tools h3 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 25px;
+    color: #385001;
+    padding: 15px 0; }
+  #tools h4 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 20px;
+    color: #385001; }
+  #tools li {
+    font-size: 20px;
+    font-family: "Josefin Slab", serif; }
 
 /* === About section === */
 #about {
   padding: 40px;
-  background-color: #385001;
-}
-#about h2 {
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 25px;
-  color: #fdfcfb;
-  padding-bottom: 15px;
-}
-#about p {
-  font-size: 20px;
-  line-height: 32px;
-  font-family: "Josefin Slab", serif;
-  color: #fdfcfb;
-}
+  background-color: #385001; }
+  #about h3 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 25px;
+    color: #fdfcfb;
+    padding-bottom: 15px; }
+  #about p {
+    font-size: 20px;
+    line-height: 32px;
+    font-family: "Josefin Slab", serif;
+    color: #fdfcfb; }
 
 /* === Portfolio section === */
 #portfolio {
-  padding: 40px;
-}
-#portfolio h2 {
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 25px;
-  color: #385001;
-}
-#portfolio img {
-  margin: 40px 0;
-}
-#portfolio h3 {
-  font-size: 20px;
-  font-family: "Roboto Condensed", sans-serif;
-  text-align: center;
-  color: #385001;
-}
-#portfolio p {
-  font-size: 20px;
-  font-family: "Josefin Slab", serif;
-  line-height: 32px;
-}
-#portfolio a {
-  font-size: 20px;
-  color: #385001;
-  text-decoration: none;
-  font-family: "Josefin Slab", serif;
-}
-#portfolio a:hover {
-  color: #9dac38;
-}
+  padding: 40px; }
+  #portfolio h3 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 25px;
+    color: #385001; }
+  #portfolio img {
+    margin: 40px 0; }
+  #portfolio h4 {
+    font-size: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: center;
+    color: #385001; }
+  #portfolio p {
+    font-size: 20px;
+    font-family: "Josefin Slab", serif;
+    line-height: 32px; }
+  #portfolio a {
+    font-size: 20px;
+    color: #385001;
+    text-decoration: none;
+    font-family: "Josefin Slab", serif; }
+  #portfolio a:hover {
+    color: #9dac38; }
 
 /* === Publications section === */
 #writing {
   padding: 40px;
-  border: 2px solid #558976;
-}
-#writing h2 {
-  font-size: 25px;
-  font-family: "Roboto Condensed", sans-serif;
-  color: #385001;
-  padding: 20px 0;
-}
-#writing h4 {
-  font-size: 20px;
-  font-family: "Roboto Condensed", sans-serif;
-  color: #558976;
-  padding-top: 15px;
-}
-#writing p {
-  font-family: "Josefin Slab", serif;
-  font-size: 20px;
-  color: #333;
-  padding: 10px 0;
-}
-#writing a {
-  color: #558976;
-  text-decoration: none;
-}
-#writing a:hover {
-  color: #9dac38;
-}
+  border: 2px solid #558976; }
+  #writing h3 {
+    font-size: 25px;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #385001;
+    padding: 20px 0; }
+  #writing h4 {
+    font-size: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #558976;
+    padding-top: 15px; }
+  #writing p {
+    font-family: "Josefin Slab", serif;
+    font-size: 20px;
+    color: #333;
+    padding: 10px 0; }
+  #writing a {
+    color: #558976;
+    text-decoration: none; }
+  #writing a:hover {
+    color: #9dac38; }
 
 /* === Video === */
 #speaking {
   padding: 40px;
-  background: #385001;
-}
-#speaking h2 {
-  font-size: 25px;
-  color: #fdfcfb;
-  font-family: "Roboto Condensed", sans-serif;
-  padding: 15px 0;
-}
-#speaking p {
-  font-size: 20px;
-  font-family: "Josefin Slab", serif;
-  line-height: 32px;
-  color: #fdfcfb;
-}
-#speaking a {
-  color: #fdfcfb;
-  text-decoration: none;
-}
-#speaking a:hover {
-  color: #9dac38;
-}
-#speaking iframe {
-  width: 100%;
-  height: 500px;
-  padding-top: 20px;
-}
+  background: #385001; }
+  #speaking h3 {
+    font-size: 25px;
+    color: #fdfcfb;
+    font-family: "Roboto Condensed", sans-serif;
+    padding: 15px 0; }
+  #speaking p {
+    font-size: 20px;
+    font-family: "Josefin Slab", serif;
+    line-height: 32px;
+    color: #fdfcfb; }
+  #speaking a {
+    color: #fdfcfb;
+    text-decoration: none; }
+  #speaking a:hover {
+    color: #9dac38; }
+  #speaking iframe {
+    width: 100%;
+    height: 500px;
+    padding-top: 20px; }
 
 /* === Honors === */
 #honors {
-  padding: 40px;
-}
-#honors h3 {
-  font-size: 20px;
-  font-family: "Roboto Condensed", sans-serif;
-  color: #385001;
-}
-#honors p {
-  font-family: "Josefin Slab", serif;
-  color: #333;
-  font-size: 20px;
-  line-height: 32px;
-}
-#honors a {
-  color: #558976;
-  text-decoration: none;
-}
-#honors a:hover {
-  color: #9dac38;
-}
+  padding: 40px; }
+  #honors h3 {
+    font-size: 25px;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #385001;
+    padding: 15px 0; }
+  #honors p {
+    font-family: "Josefin Slab", serif;
+    color: #333;
+    font-size: 20px;
+    line-height: 32px; }
+  #honors a {
+    color: #558976;
+    text-decoration: none; }
+  #honors a:hover {
+    color: #9dac38; }
 
 /* === Side Projects === */
 #side-projects {
   padding: 40px;
-  border: 2px solid #558976;
-}
-#side-projects h3 {
-  font-size: 20px;
-  font-family: "Roboto Condensed", sans-serif;
-  color: #385001;
-  padding: 15px 0;
-}
-#side-projects h4 {
-  font-size: 20px;
-  font-family: "Roboto Condensed", sans-serif;
-  color: #333;
-}
-#side-projects p {
-  font-size: 20px;
-  font-family: "Josefin Slab", serif;
-  color: #333;
-  line-height: 32px;
-  padding: 10px 0;
-}
-#side-projects button {
-  background-color: #385001;
-  color: #fdfcfb;
-  margin-bottom: 25px;
-  font-size: 20px;
-}
+  border: 2px solid #558976; }
+  #side-projects h3 {
+    font-size: 25px;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #385001;
+    padding: 15px 0; }
+  #side-projects p {
+    font-size: 20px;
+    font-family: "Josefin Slab", serif;
+    color: #333;
+    line-height: 32px; }
+  #side-projects .description {
+    padding: 10px 0; }
+  #side-projects button {
+    background-color: #385001;
+    color: #fdfcfb;
+    margin-bottom: 25px;
+    font-size: 20px; }
 
 /* ==== Footer ==== */
 #contact {
   background-color: #f6f2ea;
-  padding: 15px 0;
-}
-#contact h3 {
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 20px;
-  color: #385001;
-  padding: 15px 0;
-}
-#contact p {
-  font-size: 18px;
-  color: #385001;
-  font-family: "Roboto Condensed", sans-serif;
-  padding-left: 20px;
-  padding-top: 20px;
-}
-#contact p i {
-  color: #385001;
-  padding-right: 10px;
-}
-#contact li {
-  padding: 10px 0;
-}
-#contact li a {
-  color: #385001;
-}
-#contact li a:hover {
-  color: #9dac38;
-}
+  padding: 15px 0; }
+  #contact h3 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 20px;
+    color: #385001;
+    padding: 15px 0; }
+  #contact p {
+    font-size: 18px;
+    color: #385001;
+    font-family: "Roboto Condensed", sans-serif;
+    padding-left: 20px;
+    padding-top: 20px; }
+    #contact p i {
+      color: #385001;
+      padding-right: 10px; }
+  #contact li {
+    padding: 10px 0; }
+    #contact li a {
+      color: #385001; }
+    #contact li a:hover {
+      color: #9dac38; }
 
 #copyright {
   background: #385001;
-  padding: 15px 0;
-}
-#copyright p {
-  font-size: 18px;
-  color: #fdfcfb;
-  font-family: "Roboto Condensed", sans-serif;
-}
+  padding: 15px 0; }
+  #copyright p {
+    font-size: 18px;
+    color: #fdfcfb;
+    font-family: "Roboto Condensed", sans-serif; }
 
 /* === Projects === */
 #projects {
-  padding: 40px;
-}
-#projects h2 {
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 25px;
-  color: #385001;
-}
-#projects img {
-  margin: 40px 0;
-}
-#projects h3 {
-  font-size: 20px;
-  font-family: "Roboto Condensed", sans-serif;
-  text-align: center;
-  color: #385001;
-}
-#projects p {
-  font-size: 20px;
-  font-family: "Josefin Slab", serif;
-  line-height: 32px;
-}
-#projects a {
-  font-size: 20px;
-  color: #385001;
-  text-decoration: none;
-  font-family: "Josefin Slab", serif;
-}
-#projects a:hover {
-  color: #9dac38;
-}
+  padding: 40px; }
+  #projects h2 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 25px;
+    color: #385001; }
+  #projects img {
+    margin: 40px 0; }
+  #projects h3 {
+    font-size: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: center;
+    color: #385001; }
+  #projects p {
+    font-size: 20px;
+    font-family: "Josefin Slab", serif;
+    line-height: 32px; }
+  #projects a {
+    font-size: 20px;
+    color: #385001;
+    text-decoration: none;
+    font-family: "Josefin Slab", serif; }
+  #projects a:hover {
+    color: #9dac38; }
 
 /*# sourceMappingURL=responsive.css.map */
