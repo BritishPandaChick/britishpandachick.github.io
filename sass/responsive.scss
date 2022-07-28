@@ -57,6 +57,7 @@ header {
     font-size: 25px;
     font-family: 'Open Sans', sans-serif;
     line-height: 52px;
+    padding: 40px 0;
 
     span {
       font-family: 'Oswald', sans-serif;
@@ -378,7 +379,7 @@ header {
 
 /* === Projects === */
 #projects {
-  padding: 40px;
+  padding: 80px;
 
   h2 {
     font-family: $headline-font;
