@@ -176,7 +176,6 @@ header {
   h4 {
     font-size: 20px;
     font-family: $headline-font;
-    text-align: center;
     color: $main-color;
   }
 
@@ -381,7 +380,7 @@ header {
 #projects {
   padding: 80px;
 
-  h2 {
+  h3 {
     font-family: $headline-font;
     font-size: 25px;
     color: $main-color;

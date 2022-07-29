@@ -172,7 +172,6 @@ header {
   h4 {
     font-size: 25px;
     font-family: $headline-font;
-    text-align: center;
     color: $main-color;
   }
 
@@ -375,9 +374,9 @@ header {
 
 /* === Projects === */
 #projects {
-  padding: 50px;
+  padding: 80px;
 
-  h2 {
+  h3 {
     font-family: $headline-font;
     font-size: 35px;
     color: $main-color;
@@ -387,7 +386,7 @@ header {
     margin: 50px 0;
   }
 
-  h3 {
+  h4 {
     font-size: 30px;
     font-family: $headline-font;
     text-align: center;
