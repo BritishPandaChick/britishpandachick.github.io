@@ -8,7 +8,7 @@ body {
 /* ==== Header ==== */
 header {
   background-color: #385001;
-  position: fixed;
+  position: sticky;
   width: 100%; }
   header .navbar-brand {
     font-size: 25px;
@@ -203,8 +203,7 @@ header {
   #side-projects h3 {
     font-size: 25px;
     font-family: "Roboto Condensed", sans-serif;
-    color: #385001;
-    padding: 15px 0; }
+    color: #385001; }
   #side-projects p {
     font-size: 20px;
     font-family: "Josefin Slab", serif;

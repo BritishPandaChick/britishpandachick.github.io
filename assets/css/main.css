@@ -9,7 +9,7 @@ body {
 header {
   background-color: #385001;
   width: 100%;
-  position: fixed; }
+  position: sticky; }
   header .navbar-brand {
     font-size: 30px;
     font-family: "Roboto Condensed", sans-serif;
@@ -201,8 +201,7 @@ header {
   #side-projects h3 {
     font-size: 30px;
     font-family: "Roboto Condensed", sans-serif;
-    color: #385001;
-    padding: 15px 0; }
+    color: #385001; }
   #side-projects p {
     font-size: 20px;
     font-family: "Josefin Slab", serif;

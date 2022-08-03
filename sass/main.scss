@@ -21,7 +21,7 @@ body {
 header {
   background-color: $main-color;
   width: 100%;
-  position: fixed;
+  position: sticky;
 
   .navbar-brand {
     font-size: 30px;
@@ -301,7 +301,6 @@ header {
     font-size: 30px;
     font-family: $headline-font;
     color: $main-color;
-    padding: 15px 0;
   }
 
   p {
