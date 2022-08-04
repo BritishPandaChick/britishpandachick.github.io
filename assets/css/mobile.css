@@ -8,7 +8,7 @@ body {
 /* ==== Header ==== */
 header {
   background-color: #385001;
-  position: sticky;
+  position: fixed;
   width: 100%; }
   header .navbar-brand {
     font-size: 25px;
@@ -53,6 +53,11 @@ header {
     font-family: "Josefin Slab", serif;
     font-size: 20px;
     line-height: 32px; }
+    #career-compass p a {
+      color: #558976;
+      text-decoration: none; }
+    #career-compass p a:hover {
+      color: #9dac38; }
   #career-compass img {
     padding-top: 15px; }
 

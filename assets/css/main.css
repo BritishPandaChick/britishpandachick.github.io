@@ -9,7 +9,7 @@ body {
 header {
   background-color: #385001;
   width: 100%;
-  position: sticky; }
+  position: fixed; }
   header .navbar-brand {
     font-size: 30px;
     font-family: "Roboto Condensed", sans-serif;
@@ -53,6 +53,11 @@ header {
     font-family: "Josefin Slab", serif;
     font-size: 20px;
     line-height: 32px; }
+    #career-compass p a {
+      color: #558976;
+      text-decoration: none; }
+    #career-compass p a:hover {
+      color: #9dac38; }
 
 /* === Skills section === */
 #skills {
