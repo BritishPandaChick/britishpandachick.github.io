@@ -49,24 +49,22 @@ header {
 /* ==== Banner Section ==== */
 #banner {
   width: 100%;
-  color: #fbfcfe;
   padding: 80px 0;
-  background-color: #017ac8;
+
+  img {
+    padding-top: 15px;
+  }
 
   h2 {
     font-size: 25px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: $headline-font;
     line-height: 52px;
-    padding: 40px 0;
-
-    span {
-      font-family: 'Oswald', sans-serif;
-    }
+    padding: 20px 0;
   }
 
   h3 {
     font-size: 20px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: $headline-font;
   }
 }
 
@@ -97,8 +95,8 @@ header {
     }
   }
 
-  img {
-    padding-top: 15px;
+  iframe {
+    width: 100%;
   }
 }
 
