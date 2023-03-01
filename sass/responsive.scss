@@ -307,15 +307,16 @@ header {
 }
 
 /* ==== Footer ==== */
-#contact {
+footer {
   background-color: $main-color;
-  padding: 15px 0;
+  padding: 10px 0;
+}
 
+#contact {
   h4 {
     font-family: $headline-font;
     font-size: 20px;
     color: $white;
-    padding: 15px 0;
   }
 
   p {
@@ -341,6 +342,14 @@ header {
     a:hover {
       color: $hover-color;
     }
+  }
+}
+
+#copyright {
+  p {
+    color: $white;
+    font-size: 18px;
+    font-family: $headline-font;
   }
 }
 

@@ -254,34 +254,40 @@ header ul li a:hover {
 }
 
 /* ==== Footer ==== */
-#contact {
+footer {
   background-color: #385001;
-  padding: 15px 0;
+  padding: 10px 0;
 }
+
 #contact h4 {
   font-family: "Roboto Condensed", sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   color: #fdfcfb;
-  padding: 15px 0;
 }
 #contact p {
-  font-size: 20px;
+  font-size: 16px;
   color: #fdfcfb;
   font-family: "Roboto Condensed", sans-serif;
   padding: 20px 25px;
 }
 #contact p i {
-  color: #385001;
+  color: #fdfcfb;
   padding-right: 10px;
 }
 #contact li {
   padding: 10px 0;
 }
 #contact li a {
-  color: #385001;
+  color: #fdfcfb;
 }
 #contact li a:hover {
   color: #9dac38;
+}
+
+#copyright {
+  color: #fdfcfb;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16px;
 }
 
 /* === Projects === */

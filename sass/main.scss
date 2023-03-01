@@ -307,25 +307,26 @@ header {
 }
 
 /* ==== Footer ==== */
-#contact {
+footer {
   background-color: $main-color;
-  padding: 15px 0;
+  padding: 10px 0;
+}
 
+#contact {
   h4 {
     font-family: $headline-font;
-    font-size: 30px;
+    font-size: 25px;
     color: $white;
-    padding: 15px 0;
   }
 
   p {
-    font-size: 20px;
+    font-size: 16px;
     color: $white;
     font-family: $headline-font;
     padding: 20px 25px;
 
     i {
-      color: $main-color;
+      color: $white;
       padding-right: 10px;
     }
   }
@@ -334,13 +335,19 @@ header {
     padding: 10px 0;
 
     a {
-      color: $main-color;
+      color: $white;
     }
 
     a:hover {
       color: $hover-color;
     }
   }
+}
+
+#copyright {
+  color: $white;
+  font-family: $headline-font;
+  font-size: 16px;
 }
 
 /* === Projects === */

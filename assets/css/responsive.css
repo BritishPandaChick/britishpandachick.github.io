@@ -254,15 +254,15 @@ header ul li a:hover {
 }
 
 /* ==== Footer ==== */
-#contact {
+footer {
   background-color: #385001;
-  padding: 15px 0;
+  padding: 10px 0;
 }
+
 #contact h4 {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 20px;
   color: #fdfcfb;
-  padding: 15px 0;
 }
 #contact p {
   font-size: 18px;
@@ -283,6 +283,12 @@ header ul li a:hover {
 }
 #contact li a:hover {
   color: #9dac38;
+}
+
+#copyright p {
+  color: #fdfcfb;
+  font-size: 18px;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 /* === Projects === */
