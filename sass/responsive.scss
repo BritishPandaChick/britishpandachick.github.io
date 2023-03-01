@@ -50,21 +50,24 @@ header {
 #banner {
   width: 100%;
   padding: 80px 0;
-
-  img {
-    padding-top: 15px;
-  }
-
-  h2 {
-    font-size: 25px;
-    font-family: $headline-font;
-    line-height: 52px;
-    padding: 40px 0;
-  }
+  background-color: $ivory;
 
   h3 {
-    font-size: 20px;
+    font-size: 25px;
     font-family: $headline-font;
+    padding: 25px 0;
+    color: $main-color;
+  }
+
+  p {
+    font-size: 20px;
+    font-family: $base-font;
+    line-height: 32px;
+    padding: 15px;
+  }
+
+  button {
+    margin-top: 25px;
   }
 }
 
@@ -241,14 +244,14 @@ header {
   }
 }
 
-/* === Video === */
+/* === Speaking === */
 #speaking {
   padding: 40px;
-  background: $main-color;
+  background: $ivory;
 
   h3 {
     font-size: 25px;
-    color: $white;
+    color: $main-color;
     font-family: $headline-font;
     padding: 15px 0;
   }
@@ -257,11 +260,10 @@ header {
     font-size: 20px;
     font-family: $base-font;
     line-height: 32px;
-    color: $white;
   }
 
   a {
-    color: $white;
+    color: $main-color;
     text-decoration: none;
   }
 
@@ -304,57 +306,28 @@ header {
   }
 }
 
-/* === Side Projects === */
-#side-projects {
-  padding: 40px;
-  border: 2px solid $accent-color;
-
-  h3 {
-    font-size: 25px;
-    font-family: $headline-font;
-    color: $main-color;
-  }
-
-  p {
-    font-size: 20px;
-    font-family: $base-font;
-    color: $base-color;
-    line-height: 32px;
-  }
-
-  .description {
-    padding: 10px 0;
-  }
-
-  button {
-    background-color: $main-color;
-    color: $white;
-    margin-bottom: 25px;
-    font-size: 20px;
-  }
+/* ==== Footer ==== */
+footer {
+  background-color: $main-color;
+  padding: 10px 0;
 }
 
-/* ==== Footer ==== */
 #contact {
-  background-color: $ivory;
-  padding: 15px 0;
-
-  h3 {
+  h4 {
     font-family: $headline-font;
     font-size: 20px;
-    color: $main-color;
-    padding: 15px 0;
+    color: $white;
   }
 
   p {
     font-size: 18px;
-    color: $main-color;
+    color: $white;
     font-family: $headline-font;
     padding-left: 20px;
     padding-top: 20px;
 
     i {
-      color: $main-color;
+      color: $white;
       padding-right: 10px;
     }
   }
@@ -363,7 +336,7 @@ header {
     padding: 10px 0;
 
     a {
-      color: $main-color;
+      color: $white;
     }
 
     a:hover {
@@ -373,12 +346,9 @@ header {
 }
 
 #copyright {
-  background: $main-color;
-  padding: 15px 0;
-
   p {
-    font-size: 18px;
     color: $white;
+    font-size: 18px;
     font-family: $headline-font;
   }
 }

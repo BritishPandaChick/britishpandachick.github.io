@@ -50,26 +50,25 @@ header {
 #banner {
   width: 100%;
   padding: 85px 0;
+  background-color: $ivory;
 
-  img {
-    padding-top: 15px;
+  h3 {
+    font-size: 25px;
+    font-family: $headline-font;
+    padding: 25px 0;
+    color: $main-color;
+  } 
+
+  p {
+    font-size: 20px;
+    font-family: $base-font;
+    line-height: 32px;
+    padding: 15px;
   }
 
-  .banner-text {
-    padding: 150px 0;
-
-    h2 {
-      font-size: 35px;
-      font-family: $headline-font;
-      line-height: 52px;
-      padding: 20px 0;
-    }
-  
-    h3 {
-      font-size: 30px;
-      font-family: 'Open Sans', sans-serif;
-    }
-  }  
+  button {
+    margin-top: 25px;
+  }
 }
 
 /* === Career Compass === */
@@ -245,14 +244,14 @@ header {
   }
 }
 
-/* === Video === */
+/* === Speaking === */
 #speaking {
   padding: 50px;
-  background-color: $main-color;
+  background-color: $ivory;
 
   h3 {
     font-size: 30px;
-    color: $white;
+    color: $main-color;
     font-family: $headline-font;
     padding: 20px 0;
   }
@@ -261,11 +260,10 @@ header {
     font-size: 20px;
     font-family: $base-font;
     line-height: 32px;
-    color: $white;
   }
 
   a {
-    color: $white;
+    color: $main-color;
     text-decoration: none;
   }
 
@@ -308,57 +306,27 @@ header {
   }
 }
 
-/* === Side Projects === */
-#side-projects {
-  padding: 50px;
-  border: 2px solid $accent-color;
-
-  h3 {
-    font-size: 30px;
-    font-family: $headline-font;
-    color: $main-color;
-  }
-
-  p {
-    font-size: 20px;
-    font-family: $base-font;
-    color: $base-color;
-    line-height: 32px;
-    padding: 10px 0;
-  }
-
-  .description {
-    padding: 10px 0;
-  }
-
-  button {
-    background-color: $main-color;
-    color: $white;
-    margin-bottom: 25px;
-    font-size: 20px;
-  }
+/* ==== Footer ==== */
+footer {
+  background-color: $main-color;
+  padding: 10px 0;
 }
 
-/* ==== Footer ==== */
 #contact {
-  background-color: $ivory;
-  padding: 15px 0;
-
-  h3 {
+  h4 {
     font-family: $headline-font;
-    font-size: 30px;
-    color: $main-color;
-    padding: 15px 0;
+    font-size: 25px;
+    color: $white;
   }
 
   p {
-    font-size: 20px;
-    color: $main-color;
+    font-size: 16px;
+    color: $white;
     font-family: $headline-font;
     padding: 20px 25px;
 
     i {
-      color: $main-color;
+      color: $white;
       padding-right: 10px;
     }
   }
@@ -367,7 +335,7 @@ header {
     padding: 10px 0;
 
     a {
-      color: $main-color;
+      color: $white;
     }
 
     a:hover {
@@ -377,14 +345,9 @@ header {
 }
 
 #copyright {
-  background: $main-color;
-  padding: 15px 0;
-
-  p {
-    font-size: 16px;
-    color: $white;
-    font-family: $headline-font;
-  }
+  color: $white;
+  font-family: $headline-font;
+  font-size: 16px;
 }
 
 /* === Projects === */
