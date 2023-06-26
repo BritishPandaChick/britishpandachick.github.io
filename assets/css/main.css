@@ -1,4 +1,3 @@
-/* Sass variables */
 /* ==== Basic Styles ==== */
 body {
   background-color: #fdfcfb;
@@ -7,24 +6,35 @@ body {
 }
 
 /* ==== Header ==== */
+nav {
+  background-color: #558976;
+  font-family: 'Josefin Slab', serif;
+  color: #333;
+}
+
+.navbar-brand {
+  color: #fdfcfb;
+}
+
+nav a {
+  color: #fdfcfb;
+}
+
+nav a:hover {
+  color: #9dac38;
+}
+
 .navbarScroll.navbarDark {
-  background-color: black;
+  background-color: #385001;
+  color: #fdfcfb;
 }
 
 /* === Banner === */
-.banner {
-  height: 100vh;
-  background: url("https://i.pinimg.com/originals/7e/5e/17/7e5e17386d5dc7565df06e9137e8910e.jpg");
+.bgimage {
+  height: 80vh;
+  background-color: #f6f2ea;
   background-size: cover;
   position: relative;
-}
-
-.hero_title {
-  font-size: 4.5rem;
-}
-
-.hero_desc {
-  font-size: 2rem;
 }
 
 .hero-text {
@@ -36,4 +46,98 @@ body {
   color: #fdfcfb;
 }
 
-/*# sourceMappingURL=main.css.map */
+.hero_title {
+  font-size: 4.5rem;
+  color: #333;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.hero_desc {
+  font-size: 2rem;
+  color: #333;
+  font-family: 'Josefin Slab', serif;
+}
+
+/*=== Career Compass ===*/
+#career-compass {
+  font-family: 'Josefin Slab', serif;
+  font-size: 1.3rem;
+}
+
+#career-compass a {
+  color: #558976;
+  text-decoration: none;
+}
+
+#career-compass a:hover {
+  color: #9dac38;
+}
+
+#career-compass iframe {
+  width: 100%;
+  height: 300px;
+}
+
+#career-compass h3 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 2rem;
+}
+
+/*=== About ===*/ 
+#about {
+  background-color: #385001;
+  color: #fdfcfb;
+  font-size: 1.3rem;
+  font-family: 'Josefin Slab', serif;
+}
+
+#about h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.imageAboutPage {
+  width: 100%;
+}
+
+/*=== Services ===*/
+.servicesText .card {
+  height: 280px;
+  cursor: pointer;
+}
+
+.servicesIcon {
+  font-size: 36px;
+  text-align: center;
+  width: 100%;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card:hover, .servicesIcon {
+  color: #9dac38;
+}
+
+.servicesText:hover {
+  border: 1px solid #558976;
+}
+
+/*=== Footer ===*/
+#footer {
+  background-color: #808080;
+  text-align: center;
+}
+
+.social-icons {
+  font-size: 36px;
+  cursor: pointer;
+}
+
+.fa-facebook:hover, .fa-instagram:hover, .fa-twitter:hover, .fa-linkedin:hover, .fa-pinterest:hover, .fa-github:hover {
+  color: #008000;
+}
+
+.fab {
+  color: #000000;
+}
