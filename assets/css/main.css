@@ -5,33 +5,46 @@ body {
   margin: 0 auto;
 }
 
-/* ==== Header ==== */
-nav {
-  background-color: #558976;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+p, a, li {
   font-family: 'Josefin Slab', serif;
   color: #333;
 }
 
-.navbar-brand {
-  color: #fdfcfb;
+a {
+  color: #558976;
+  text-decoration: none;
 }
 
-nav a {
-  color: #fdfcfb;
-}
-
-nav a:hover {
+a:hover {
   color: #9dac38;
 }
 
-.navbarScroll.navbarDark {
+/* ==== Header ==== */
+nav {
   background-color: #385001;
+}
+
+.navbar-brand {
+  color: #fdfcfb;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.nav-item {
+  font-family: 'Josefin Slab', serif;
+}
+
+.navbarScroll.navbarDark {
+  background-color: #558976;
   color: #fdfcfb;
 }
 
 /* === Banner === */
 .bgimage {
-  height: 80vh;
+  height: 100vh;
   background-color: #f6f2ea;
   background-size: cover;
   position: relative;
@@ -48,8 +61,7 @@ nav a:hover {
 
 .hero_title {
   font-size: 4.5rem;
-  color: #333;
-  font-family: 'Roboto Condensed', sans-serif;
+  color: #385001;
 }
 
 .hero_desc {
@@ -60,7 +72,6 @@ nav a:hover {
 
 /*=== Career Compass ===*/
 #career-compass {
-  font-family: 'Josefin Slab', serif;
   font-size: 1.3rem;
 }
 
