@@ -100,6 +100,14 @@ nav a:hover {
 }
 
 /*=== Services ===*/
+#services {
+  font-family: 'Josefin Slab', serif;
+}
+
+#services h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
 .servicesText .card {
   height: 280px;
   cursor: pointer;
@@ -111,11 +119,15 @@ nav a:hover {
   width: 100%;
 }
 
-.card-title {
+#services .card-title {
   text-align: center;
 }
 
-.card:hover, .servicesIcon {
+#services .card-text {
+  font-size: 1.3rem;
+}
+
+#services .card:hover, .servicesIcon {
   color: #9dac38;
 }
 
@@ -123,10 +135,117 @@ nav a:hover {
   border: 1px solid #558976;
 }
 
+/* === Portfolio === */ 
+#portfolio {
+  font-family: 'Josefin Slab', serif;
+}
+
+#portfolio h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#portfolio .card-title {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+#portfolio .card-text {
+  font-size: 1.3rem;
+}
+
+#portfolio .btn {
+  color: #fdfcfb;
+  font-family: 'Arial', sans-serif;
+}
+
+.extras {
+  font-size: 1.3rem;
+}
+
+.extras a {
+  color: #558976;
+  text-decoration: none;
+}
+
+.extras a:hover {
+  color: #9dac38;
+}
+
+/*=== Writing ===*/ 
+#writing {
+  font-family: 'Josefin Slab', serif;
+  font-size: 1.3rem;
+}
+
+#writing h1, h4 {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#writing a {
+  color: #558976;
+  text-decoration: none;
+}
+
+#writing a:hover {
+  color:#9dac38;
+}
+
+/*=== Speaking ===*/ 
+#speaking {
+  background-color: #385001;
+  font-family: 'Josefin Slab', serif;
+  font-size: 1.3rem;
+  color: #fdfcfb;
+}
+
+#speaking h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#speaking a {
+  color: #fdfcfb;
+  text-decoration: none;
+}
+
+#speaking a:hover {
+  color: #9dac38;
+}
+
+/*=== Honors ===*/
+#honors {
+  font-family: 'Josefin Slab', serif;
+  font-size: 1.3rem;
+}
+
+#honors h3 {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#honors a {
+  color: #558976;
+  text-decoration: none;
+}
+
+#honors a:hover {
+  color: #fdfcfb;
+}
+
+/* === Contact ===*/ 
+#contact {
+  font-family: 'Josefin Slab', serif;
+  font-size: 1.3rem;
+}
+
+#contact h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
 /*=== Footer ===*/
 #footer {
-  background-color: #808080;
+  background-color: #385001;
   text-align: center;
+  color: #fdfcfb;
 }
 
 .social-icons {
@@ -135,9 +254,9 @@ nav a:hover {
 }
 
 .fa-facebook:hover, .fa-instagram:hover, .fa-twitter:hover, .fa-linkedin:hover, .fa-pinterest:hover, .fa-github:hover {
-  color: #008000;
+  color: #9dac38;
 }
 
 .fab {
-  color: #000000;
+  color: #fdfcfb;
 }
