@@ -299,4 +299,487 @@
     <!-- load JavaScript after loading all html content -->
     <script src="assets/js/script.js"></script>
   </body>
+=======
+<head>
+  <title>Sarah Bartley</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Description, Keywords, and Author -->
+  <meta name="description" content="Sarah Bartley Portfolio website" />
+  <meta name="keywords" content="Sarah Bartley, Fullstack Web Developer" />
+  <meta name="author" content="Sarah Bartley, Fullstack Web Developer" />
+  <!-- Stylesheets -->
+  <link href="assets/css/main.css" media="screen and (min-width: 1025px)" rel="stylesheet">
+  <link href="assets/css/mobile.css" media="screen and (max-width: 640px)" rel="stylesheet">
+  <link href="assets/css/tablet.css" media="screen and (min-width: 641px) and (max-width: 1024px)" rel="stylesheet">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/0b53956d39.js" crossorigin="anonymous"></script>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@400;700&family=Open+Sans:wght@400;700&family=Oswald:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap"
+    rel="stylesheet">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/img/portfolio-favicon.png">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbarScroll">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">Sarah Bartley</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#writing">Writing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#speaking">Speaking</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#honors">Honors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sarah-bartley-resume-dec-2022.pdf">Resume</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="bgimage" id="banner">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+            <h2 class="hero_title">Join the Disney Codes Challenge!</h2>
+            <p class="hero_desc pt-3">Disney Codes Challenge is a 57-day coding challenge. Developers are committed to
+              building projects inspired by Disney properties each day for 23 minutes.</p>
+            <button type="button" class="btn btn-block btn-lg btn-success" onclick="openDisneyCodes()">Learn More</button>
+          </div>                
+        </div>
+      </div>
+    </section>
+
+    <section id="career-compass">
+      <div class="container mt-4 pt-4">
+        <div class="row">
+          <div class="col-lg-7">
+            <p>Hello world! I'm Sarah. I am a fullstack web developer from Canton, Ohio. I design, build, and edit the front end elements of web
+              applications. I translate design comps into interactive websites using JavaScript and WordPress. I am looking for a full-time front-end software engineer
+              role that uses JavaScript and JavaScript frameworks.</p>
+            <a href="sarah-bartley-resume-dec-2022.pdf"><i class="fa-regular fa-file"></i> Click here to view my resume!</a>
+          </div>
+
+          <div class="col-lg-5">
+            <iframe src="https://www.loom.com/embed/bf761573ec3648aaace7fd8f94795698"></iframe>
+          </div>
+        </div>
+        <br>
+        <hr>
+        <div class="row mt-4 pt-4">
+          <h3 class="text-center">Skills</h3>
+          <div class="col-lg-4">
+            <ul>
+              <li>JavaScript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Sass</li>
+              <li>Ruby</li>
+              <li>Python</li>
+              <li>PHP</li>
+              <li>SQL</li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4">
+            <ul>
+              <li>Bootstrap</li>
+              <li>Bulma.css</li>
+              <li>jQuery</li>
+              <li>Express</li>
+              <li>Mongoose</li>
+              <li>React</li>
+              <li>Redux</li>
+              <li>Ruby on Rails</li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4">
+            <ul>
+              <li>UX Design</li>
+              <li>Typography</li>
+              <li>Color Theory</li>
+              <li>Branding</li>
+              <li>Responsive Design</li>
+              <li>Wireframing</li>
+              <li>Accessibilty</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row mt-4 pt-4">
+          <h3 class="text-center">Software & Tools</h3>
+          <div class="col-lg-4">
+            <ul>
+              <li>Git & Github</li>
+              <li>Heroku</li>
+              <li>Jekyll</li>
+              <li>WordPress</li>
+              <li>Node.js</li>
+              <li>MongoDB</li>
+              <li>Command Line</li>
+              <li>Xampp</li>
+              <li>Scratch</li>
+              <li>Codesters</li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4">
+            <ul>
+              <li>Adobe Creative Suite</li>
+              <li>G Suite</li>
+              <li>Balsamiq</li>
+              <li>Axure</li>
+              <li>Canva</li>
+              <li>Visme</li>
+              <li>Gimp</li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4">
+            <ul>
+              <li>Google Analytics</li>
+              <li>Zoom</li>
+              <li>Skype</li>
+              <li>Jaaxy</li>
+              <li>Trello</li>
+              <li>EndNote</li>
+              <li>Amazon Web Services</li>
+              <li>Alexa Skills Kit</li>
+              <li>Audacity</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container mt-4 pt-4">
+        <h1 class="text-center">About Sarah</h1>
+        <div class="row mt-4">
+          <div class="col-lg-4">
+            <img src="assets/img/sarah-floral-dress.jpg" class="imageAboutPage" alt="Sarah Bartley">
+          </div>
+
+          <div class="col-lg-8">
+            <p>Hello world! My name is Sarah and I am a fullstack web developer from Canton, Ohio. I design, build, and edit
+              WordPress websites for small businesses and creatives. I am also an coding instructor at Coding with Kids where I teach students programming concepts. Throughout my coding journey I've accomplished several things including:</p>
+    
+            <div class="row mt-3">
+              <div class="col-lg-12">
+                <ul>
+                  <li>wrote blog posts and articles about code concepts, web design, careers, and freelancing.</li>
+                  <li>mentored and empowerd new developers of all ages just getting started in tech.</li>
+                  <li>managed the online community Elphas Can Code on Elpha.</li>
+                  <li>created the Disney Codes Challenge, a coding challenge designed to help developers begin a habit of coding more projects.</li>
+                  <li>collaborated with developers in the tech community to create resources that help others reach their coding goals.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="row mt-3">
+              <p>In addition to my tech experience, I spent 9 years teaching students academic skills at different schools
+                in Stark County Ohio and at Sylvan Learning. I also designed and differentiated curriculum to fit individual learning styles and regularly assessing student progress.</p>
+            </div>
+          </div>
+        </div>        
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container mt-4 pt-4">
+        <h1 class="text-center">Services</h1>
+        <div class="row">
+          <div class="col-lg-4 mt-4">
+            <div class="card servicesText">
+              <div class="card-body">
+                <i class="fas servicesIcon fa-regular fa-pen-nib"></i>
+                <h4 class="card-title mt-3">Web Design</h4>
+                <p class="card-text mt-3">I create high quality designs that match a business's look and feel. I work with clients to get the branding just right from the first meeting to the final design comp.</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-lg-4 mt-4">
+            <div class="card servicesText">
+              <div class="card-body">
+                <i class="fas servicesIcon fa-solid fa-code"></i>
+                <h4 class="card-title mt-3">Web Development</h4>
+                <p class="card-text mt-3">I take a design comp and quickly convert it into a pixel perfect website. I also take a client's existing site and give it an up to date makeover.</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-lg-4 mt-4">
+            <div class="card servicesText">
+              <div class="card-body">
+                <i class="fas servicesIcon fa-solid fa-chalkboard"></i>
+                <h4 class="card-title mt-3">Mentoring</h4>
+                <p class="card-text mt-3">I teach coding concepts to new developers and answer questions they have about learning to code. I help them create a plan to accomplish their coding goals.</p>
+              </div>
+            </div>
+          </div>  
+        </div>
+        <br>
+      </div>      
+    </section>
+
+    <section id="portfolio">
+      <div class="container mt-3">
+        <h1 class="text-center">Portfolio</h1>
+        <div class="row">
+          <div class="col-lg-4 mt-4">
+            <div class="card">
+              <img class="card-img-top" src="assets/img/wordpress-ann-bartley.png" alt="Ann Bartley website" style="width:100%">
+              <div class="card-body">
+                <h4 class="card-title">Screenwriter Website</h4>
+                <p class="card-text">Website for local screenwriter.</p>
+                <div class="text-center">
+                  <a class="btn btn-success" href="https://github.com/BritishPandaChick/ann-bartley-website"
+                  target="_blank">Code</a>
+                </div>
+              </div>              
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4">
+            <div class="card portfolioContent">
+              <img class="card-img-top" src="assets/img/wordpress-sean-mccartney.png" alt="Sean McCartney website" style="width:100%">
+              <div class="card-body">
+                <h4 class="card-title">Author Website</h4>
+                <p class="card-text">Author website for local author.</p>
+                <div class="text-center">
+                  <a class="btn btn-success" href="https://github.com/BritishPandaChick/sean-author-website"
+                  target="_blank">Code</a>
+                </div>
+              </div>              
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4">
+            <div class="card portfolioContent">
+              <img class="card-img-top" src="assets/img/wordpress-joe-stringer.png" alt="Joseph Stringer website" style="width:100%">
+              <div class="card-body">
+                <h4 class="card-title">Librarian Portfolio</h4>
+                <p class="card-text">Portfolio website for local librarian.</p>
+                <div class="text-center">
+                  <a class="btn btn-success" href="https://github.com/BritishPandaChick/librarian-portfolio-site"
+                  target="_blank">Code</a>
+                </div>
+              </div>              
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 mt-4">
+            <div class="card portfolioContent">
+              <img class="card-img-top" src="assets/img/skillcrush-lolcatclock-gimp.png" alt="LOL Cat Clock project" style="width:100%">
+              <div class="card-body">
+                <h4 class="card-title">LOL Cat Clock</h4>
+                <p class="card-text">Interactive clock that show the current time and allows users to see different cat memes throughout
+                  different times of the day.</p>
+                <div class="text-center">
+                  <a class="btn btn-success" href="https://github.com/BritishPandaChick/lolcatclock" target="_blank">Code</a>
+                  <a class="btn btn-primary" href="https://britishpandachick.github.io/lolcatclock/">Project</a>
+                </div>
+              </div>              
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4">
+            <div class="card portfolioContent">
+              <img class="card-img-top" src="assets/img/skillcrush-recipe-cards-gimp.png" alt="Three recipe Cards">
+              <div class="card-body">
+                <h4 class="card-title">Recipe Cards</h4>
+                <p class="card-text">Static one page recipe cards website based PSD design comp.</p>
+                <div class="text-center">
+                  <a class="btn btn-success" href="https://github.com/BritishPandaChick/recipe-cards" target="_blank">Code</a>
+                  <a class="btn btn-primary" href="https://britishpandachick.github.io/recipe-cards/">Project</a>
+                </div>
+              </div>              
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4">
+            <div class="card portfolioContent">
+              <img class="card-img-top" src="assets/img/skillcrush-rogue-pickings-gimp.png" alt="Rogue Pickings" style="width:100%">
+              <div class="card-body">
+                <h4 class="card-title">Rogue Pickings</h4>
+                <p class="card-text">Static one page website based PSD design comp.</p>
+                <div class="text-center">
+                  <a class="btn btn-success" href="https://github.com/BritishPandaChick/rogue-pickings"
+                  target="_blank">Code</a>
+                  <a class="btn btn-primary" href="https://britishpandachick.github.io/rogue-pickings/">Project</a>
+                </div>
+              </div>              
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="extras">
+          <p class="text-center">For more projects, go to <a href="https://github.com/BritishPandaChick"
+            target="_blank">Github</a> or visit the <a href="https://britishpandachick.github.io/projects">Projects</a> page.</p>
+        </div>        
+      </div>
+    </section>
+
+    <section id="writing">
+      <div class="container mt-3 pt-3">
+        <h1 class="text-center">Publications</h1>
+        <div class="row">
+          <div class="col-lg-6 mt-4">
+            <h4>Blogs</h4>
+            <p>BritishPandaChick Codes. November 2018 - February 2021</p>
+            <p>Needlework Kits. September 2017 - December 2021</p>
+            <p>The Original BritishPandaChick. March 2015 - October 2018</p>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+            <h4>Featured</h4>
+            <p>Elpha. <a href="https://bit.ly/3VxX9OF" target="_blank">How the Job Search Taught Me to Be Kind to Myself</a>. December 29, 2022</p>
+            <p>Elpha. <a href="https://elpha.com/resources/job-search-anxiety" target="_blank">Experiencing job search
+                burnout?</a>. September 8, 2022</p>
+            <p>Book Prescriber. <a
+                href="https://blog.bookprescriber.com/stories-about-books-what-color-is-your-parachute/"
+                target="_blank">Stories about Books: How "What Color is Your Parachute" helped Sarah</a>. May 28, 2019
+            </p>
+            <p>App Academy. <a
+                href="https://blog.appacademy.io/nevertheless-sarah-bartley-coded-how-i-started-my-career/"
+                target="_blank">Nevertheless Sarah Bartley Coded: How I Started My Coding Career</a>. January 11, 2019
+            </p>
+          </div>
+        </div>
+        <br>
+        <p class="text-center">Read more at <a href="https://dev.to/theoriginalbpc" target="_blank">The Practical
+            Dev</a> or <a href="https://community.codenewbie.org/theoriginalbpc" target="_blank">Code
+            Newbie</a></p>
+      </div>
+    </section>
+
+    <section id="speaking">
+      <div class="container mt-4 pt-4">
+        <h1 class="text-center">Speaking</h1>
+        <div class="row">
+          <div class="col-lg-6 mt-4">
+            <p>Dev Discuss. <em><a
+                  href="https://dev.to/devdiscuss/s8-e4-how-you-can-be-successful-breaking-into-tech-mid-career"
+                  target="_blank">How You Can Be Successful Breaking Into Tech Mid-Career</a></em>. March 2022</p>
+            <p>Girl Develop It. <em>How to Start a Freelance Career in Tech</em>. October 2021</p>
+            <p>Lambda School. <em>How to Use Bootstrap to Build a Portfolio Website</em>. April 2020</p>
+            <p>Skillcrush Alumni Video. 2018 - 2019.</p>
+            <p>Moms Can Code Virtual Summit. <em>How to Use Social Media to Build Your Personal Brand</em>. April 2018
+            </p>
+            <p>Skillcrush. <em>Code Your Way to $1K: Q&A with Alumni</em>. April 2018</p>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+            <iframe src="https://www.youtube.com/embed/tU5Dw5qAe7Q" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" style="height:100%; width:100%" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="honors">
+      <div class="container mt-4 pt-4">
+        <div class="row">
+          <div class="col-lg-6 mt-4">
+            <h3 class="text-center">Awards</h3>
+            <p><a href="https://community.codenewbie.org/codenewbie/sarah-bartley-crafty-codenewbie-b0e"
+                target="_blank">Code Newbie Community Spotlight</a>. June 2021</p>
+            <p><a href="https://community.codenewbie.org/codenewbie/codenewbie-writers-of-the-month-march-2021-4ng9"
+                target="_blank">Code Newbie Writer of the Month</a>. March 2021</p>
+            <p><a href="https://www.1mwis.com/profiles/sarah-bartley" target="_blank">1 Mill Women in STEM</a>. April
+              2020</p>
+            <p>Grow with Google Challenge Scholarship. January 2018</p>
+            <p>Ambitionista Member Spotlight. August 2018</p>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+            <h3 class="text-center">Community</h3>
+            <p>Skillcrush JEDI Committee. January 2023 - July 2023</p>
+            <p>Codeland 2022 Committee. February 2022 - April 2022</p>
+            <p>VIP Expert, FairyGodBoss. October 2020 - Present</p>
+            <p>Moderator, Elphas Can Code. September 2019 - March 2022</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container mt-3 contactContent">
+        <h1 class="text-center">Contact Me</h1>
+
+        <div class="row mt-3">
+          <div class="col-lg-6 mt-4">
+            <div style="overflow:hidden;resize:none;max-width:100%;width:500px;height:500px;">
+              <div id="my-map-canvas" style="height:100%; width:100%;max-width:100%;">
+                <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Canton,+OH+44720,+USA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+              </div>
+            </div>
+            <style>#my-map-canvas .text-marker{}.map-generator{max-width: 100%; max-height: 100%; background: none;}</style>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+            <h3>Interested in working with me?</h3>
+            <p>Let's chat on Zoom.</p>
+            <p><i class="far fa-envelope"></i> britishpandachick@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <div class="container-fluid">
+      <div class="social-icons mt-4">
+        <a href="http://www.facebook.com/sarahbartleybpc" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com/TheOriginalBPC" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/sarahbartleybpc" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/britishpandachick" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="http://www.pinterest.com/theoriginalbpc" target="_blank"><i class="fab fa-pinterest"></i></a>
+        <a href="https://github.com/BritishPandaChick" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+
+      <div class="copyright">
+        <p class="text-center">&copy; 2018-2023, Sarah Bartley | All Rights Reserved</p>
+      </div>  
+    </div>
+  </footer>
+
+  <!-- JS File -->
+  <script type="text/javascript" src="assets/js/script.js"></script>
+</body>
 </html>
