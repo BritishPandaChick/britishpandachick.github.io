@@ -67,16 +67,12 @@ nav {
 .hero_desc {
   font-size: 2rem;
   color: #333;
-  font-family: 'Josefin Slab', serif;
 }
 
 /*=== Career Compass ===*/
-#career-compass {
-  font-size: 1.3rem;
-}
-
 #career-compass p, #career-compass li {
   color: #333;
+  font-size: 1.3rem;
 }
 
 #career-compass a {
@@ -93,23 +89,22 @@ nav {
   height: 300px;
 }
 
-#career-compass h3 {
-  font-size: 2rem;
-}
-
 /*=== About ===*/ 
 #about {
   background-color: #385001;
-  font-size: 1.3rem;
-  font-family: 'Josefin Slab', serif;
 }
 
 #about h1, p, li {
   color: #fdfcfb;
 }
 
+#about p, li {
+  font-size: 1.3rem;
+}
+
 .imageAboutPage {
   width: 100%;
+  padding-bottom: 15px;
 }
 
 /*=== Services ===*/
@@ -193,8 +188,14 @@ nav {
 /*=== Speaking ===*/ 
 #speaking {
   background-color: #385001;
-  font-size: 1.3rem;
+}
+
+#speaking h1, p {
   color: #fdfcfb;
+}
+
+#speaking p {
+  font-size: 1.3rem;
 }
 
 #speaking a {
@@ -204,6 +205,10 @@ nav {
 
 #speaking a:hover {
   color: #9dac38;
+}
+
+#speaking iframe {
+  padding-bottom: 15px;
 }
 
 /*=== Honors ===*/
@@ -232,7 +237,7 @@ nav {
   background-color: #385001;
   text-align: center;
   color: #fdfcfb;
-  padding-bottom: 5px;
+  padding: 5px 0;
 }
 
 .social-icons {
