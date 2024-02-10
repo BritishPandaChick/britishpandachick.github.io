@@ -35,6 +35,7 @@ nav {
 
 .nav-item {
   font-family: 'Josefin Slab', serif;
+  color: #fdfcfb;
 }
 
 .navbarScroll.navbarDark {
@@ -61,27 +62,15 @@ nav {
 
 .hero_title {
   font-size: 3rem;
-  color: #385001;
 }
 
 .hero_desc {
   font-size: 1.4rem;
-  color: #333;
 }
 
 /*=== Career Compass ===*/
 #career-compass p, #career-compass li {
-  color: #333;
   font-size: 1.3rem;
-}
-
-#career-compass a {
-  color: #558976;
-  text-decoration: none;
-}
-
-#career-compass a:hover {
-  color: #9dac38;
 }
 
 #career-compass iframe {
