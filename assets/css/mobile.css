@@ -81,6 +81,12 @@ nav {
   height: 300px;
 }
 
+#career-compass .btn {
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  color: #fdfcfb;
+}
+
 /*=== About ===*/ 
 #about {
   background-color: #385001;
