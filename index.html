@@ -12,9 +12,10 @@
   <meta name="author" content="Sarah Bartley Dye, software developer" />
 
   <!-- Stylesheets -->
-  <link href="assets/css/main.css" media="screen and (min-width: 1025px)" rel="stylesheet">
+  <link href="assets/css/normalize.css" rel="stylesheet">
+  <!-- <link href="assets/css/main.css" media="screen and (min-width: 1025px)" rel="stylesheet">
   <link href="assets/css/mobile.css" media="screen and (max-width: 640px)" rel="stylesheet">
-  <link href="assets/css/tablet.css" media="screen and (min-width: 641px) and (max-width: 1024px)" rel="stylesheet">
+  <link href="assets/css/tablet.css" media="screen and (min-width: 641px) and (max-width: 1024px)" rel="stylesheet"> -->
 
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/0b53956d39.js" crossorigin="anonymous"></script>
@@ -27,8 +28,7 @@
     rel="stylesheet">
 
   <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="assets/img/portfolio-favicon.png">
@@ -36,33 +36,16 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbarScroll">
-      <div class="container">
-        <a href="index.html" class="navbar-brand">Sarah Bartley-Dye</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Sarah Bartley-Dye</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#writing">Writing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#speaking">Speaking</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#honors">Honors</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link  aria-current="page" href="#about">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="sarah-dye-resume-february-2025.pdf">Resume</a>
@@ -71,128 +54,38 @@
         </div>
       </div>
     </nav>
+     
   </header>
 
   <main>
     <section class="bgimage" id="banner">
       <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
-            <h2 class="hero_title">Join the Disney Codes Challenge!</h2>
-            <p class="hero_desc pt-3">Disney Codes Challenge is a 57-day coding challenge where developers are committed to
-              building projects Disney inspired projects each day for 23 minutes.</p>
-            <button type="button" class="btn btn-block btn-lg btn-success" onclick="openDisneyCodes()">Learn More</button>
-          </div>                
-        </div>
+        <div class="col-12 hero-text">
+         <h2 class="hero_title">Join the Disney Codes Challenge!</h2>
+          <div class="row">
+            <div class="col-4 d-md-block">
+              <button class="btn btn-success btn-lg" type="button" onclick="openDisneyCodes()">Learn More</button>
+            </div> 
+
+            <div class="col-8">
+              <p class="hero_desc pt-3">Build a Disney projects every day for 23 minutes in 57 days.</p>
+            </div>                 
+          </div>                  
+        </div>                
       </div>
     </section>
 
     <section id="career-compass">
       <div class="container mt-4 pt-4">
         <div class="row">
-          <div class="col-lg-7">
-            <p>Hello world! I'm Sarah. I am a fullstack web developer from Akron, Ohio.</p> 
-              
-            <p>I design, build, and maintain the front end elements of web applications. I translate design comps into interactive websites using JavaScript and WordPress. I edit WordPress websites so clients can better connect with the customers they want to connect with the most.</p>
-
-            <p>I am also an online coding instructor at Coding with Kids, an organization that teaches coding skills to kids of all ages. I teach Python to students and coach them through the process of building different games in Codesters. I gather data on student progress and communicate results to parents in weekly emails.</p>
-              
-            <p>I am looking for a remote full-time front-end role that uses JavaScript and JavaScript frameworks so I can better help businesses get online much quicker and be found by the customers they want to connect with.</p>
-            <a class="btn btn-success" href="sarah-dye-resume-february-2024.pdf"><i class="fa-regular fa-file"></i> Click here to view my resume!</a>
-          </div>
-
-          <div class="col-lg-5">
-            <iframe src="https://www.loom.com/embed/bf761573ec3648aaace7fd8f94795698"></iframe>
+          <div class="col-7"></div>
+          <div class="col-5">
+            <img src="assets/img/sarah-floral-dress.jpg" class="imageAboutPage" alt="Sarah Bartley">
           </div>
         </div>
-
-        <br>
-        <hr>
-        
-        <div class="row mt-4 pt-4">
-          <h3 class="text-center">Skills</h3>
-          <div class="col-lg-4">
-            <ul>
-              <li>JavaScript</li>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Sass</li>
-              <li>Ruby</li>
-              <li>Python</li>
-              <li>PHP</li>
-              <li>SQL</li>
-            </ul>
-          </div>
-
-          <div class="col-lg-4">
-            <ul>
-              <li>Bootstrap</li>
-              <li>Bulma.css</li>
-              <li>jQuery</li>
-              <li>Express.js</li>
-              <li>Mongoose.js</li>
-              <li>React.js</li>
-              <li>Redux.js</li>
-              <li>Ruby on Rails</li>
-            </ul>
-          </div>
-
-          <div class="col-lg-4">
-            <ul>
-              <li>UX Design</li>
-              <li>Typography</li>
-              <li>Color Theory</li>
-              <li>Branding</li>
-              <li>Responsive Design</li>
-              <li>Wireframing</li>
-              <li>Accessibilty</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row mt-4 pt-4">
-          <h3 class="text-center">Software & Tools</h3>
-          <div class="col-lg-4">
-            <ul>
-              <li>Git & Github</li>
-              <li>Heroku</li>
-              <li>Jekyll</li>
-              <li>WordPress</li>
-              <li>Node.js</li>
-              <li>MongoDB</li>
-              <li>Command Line</li>
-              <li>XAMPP</li>
-              <li>Scratch</li>
-              <li>Codesters</li>
-            </ul>
-          </div>
-
-          <div class="col-lg-4">
-            <ul>
-              <li>Adobe Creative Suite</li>
-              <li>G Suite</li>
-              <li>Balsamiq</li>
-              <li>Axure</li>
-              <li>Canva</li>
-              <li>Visme</li>
-              <li>Gimp</li>
-            </ul>
-          </div>
-
-          <div class="col-lg-4">
-            <ul>
-              <li>Google Analytics</li>
-              <li>Zoom</li>
-              <li>Skype</li>
-              <li>Jaaxy</li>
-              <li>Trello</li>
-              <li>EndNote</li>
-              <li>Amazon Web Services</li>
-              <li>Alexa Skills Kit</li>
-              <li>Audacity</li>
-            </ul>
-          </div>
-        </div>
+        <h3>Hello, world!</h3>
+            
+        <p>I'm Sarah. I am a software developer from Akron, Ohio. I design and build web applications. I teach kids how to code games with Python. You can also find me writing about code on the web.</p>
       </div>
     </section>
 
@@ -205,7 +98,7 @@
           </div>
 
           <div class="col-lg-8">
-            <p>I am a fullstack web developer from Akron, Ohio. I design, build, and maintain the front end elements on web applications. I am also teach Python to students of all ages at Coding with Kids.</p> 
+            <p>I am a software developer from Akron, Ohio. I design and build on web applications. I am also teach Python to students of all ages at Coding with Kids.</p> 
             <p>Throughout my coding journey I've accomplished several things including:</p>
     
             <div class="row mt-3">
@@ -501,5 +394,8 @@
 
   <!-- JS File -->
   <script type="text/javascript" src="assets/js/script.js"></script>
+
+  <!-- Bootstrap JS file -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
