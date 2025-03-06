@@ -50,7 +50,7 @@ a:hover {
   color: #fdfcfb;
 }
 
-.hero_desc p {
+.hero_desc {
   font-size: 1.4rem;
   color: #fdfcfb;
 }
@@ -124,24 +124,9 @@ a:hover {
   color: #9dac38;
 }
 
-/*=== Writing ===*/ 
-#writing p {
-  font-size: 1.3rem;
-  color: #333;
-}
-
-#writing a {
-  color: #558976;
-  text-decoration: none;
-}
-
-#writing a:hover {
-  color:#9dac38;
-}
-
 /*=== Speaking ===*/ 
 #speaking iframe {
-  padding-bottom: 15px;
+  width: 100%;
 }
 
 /* === Contact ===*/ 
@@ -166,7 +151,10 @@ a:hover {
 /*=== Footer ===*/
 #footer {
   background-color: #385001;
-  text-align: center;
+  padding: 10px 0;
+}
+
+#footer p {
   color: #fdfcfb;
-  padding: 5px 0;
+  font-size: 16px;
 }
