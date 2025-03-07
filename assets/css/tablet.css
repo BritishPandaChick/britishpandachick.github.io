@@ -1,6 +1,6 @@
 /* ==== Basic Styles ==== */
 body {
-  background-color: #fdfcfb;
+  background-color: #f6f2ea;
   width: 100%;
   margin: 0 auto;
 }
@@ -127,21 +127,6 @@ a:hover {
 /*=== Speaking ===*/ 
 #speaking iframe {
   width: 100%;
-}
-
-/*=== Honors ===*/
-#honors p {
-  font-size: 1.3rem;
-  color: #333;
-}
-
-#honors a {
-  color: #558976;
-  text-decoration: none;
-}
-
-#honors a:hover {
-  color: #9dac38;
 }
 
 /* === Contact ===*/ 
