@@ -24,31 +24,15 @@ a:hover {
 }
 
 /* ==== Header ==== */
-nav {
-  background-color: #385001;
-}
-
 .navbar-brand {
-  color: #fdfcfb;
+  color: #385001;
   font-family: 'Roboto Condensed', sans-serif;
-}
-
-.nav-item {
-  font-family: 'Josefin Slab', serif;
-  color: #fdfcfb;
-}
-
-.navbarScroll.navbarDark {
-  background-color: #558976;
-  color: #fdfcfb;
 }
 
 /* === Banner === */
 .bgimage {
   height: 100vh;
-  background-color: #f6f2ea;
-  background-size: cover;
-  position: relative;
+  background-color: #385001;
 }
 
 .hero-text {
@@ -61,48 +45,18 @@ nav {
 
 .hero_title {
   font-size: 4.5rem;
-  color: #385001;
+  color: #f6f2ea;
 }
 
-.hero_desc {
+.hero_desc p {
   font-size: 2rem;
-  color: #333;
+  color: #f6f2ea;
 }
 
 /*=== Career Compass ===*/
-#career-compass p, #career-compass li {
+#career-compass p {
   color: #333;
   font-size: 1.3rem;
-}
-
-#career-compass iframe {
-  padding-top: 15px;
-  width: 100%;
-  height: 300px;
-}
-
-#career-compass .btn {
-  font-family: 'Arial', sans-serif;
-  font-weight: bold;
-  color: #fdfcfb;
-}
-
-/*=== About ===*/ 
-#about {
-  background-color: #385001;
-}
-
-#about h1, p, li {
-  color: #fdfcfb;
-}
-
-#about p, li {
-  font-size: 1.3rem;
-}
-
-.imageAboutPage {
-  width: 100%;
-  padding-bottom: 15px;
 }
 
 /*=== Services ===*/
@@ -149,7 +103,7 @@ nav {
 }
 
 #portfolio .btn {
-  color: #fdfcfb;
+  color: #f6f2ea;
   font-family: 'Arial', sans-serif;
   font-weight: bold;
 }
@@ -168,74 +122,15 @@ nav {
   color: #9dac38;
 }
 
-/*=== Writing ===*/ 
-#writing p {
-  font-size: 1.3rem;
-  color: #333;
-}
-
-#writing a {
-  color: #558976;
-  text-decoration: none;
-}
-
-#writing a:hover {
-  color:#9dac38;
-}
-
-/*=== Speaking ===*/ 
-#speaking {
-  background-color: #385001;
-}
-
-#speaking h1, p {
-  color: #fdfcfb;
-}
-
-#speaking p {
-  font-size: 1.3rem;
-}
-
-#speaking a {
-  color: #fdfcfb;
-  text-decoration: none;
-}
-
-#speaking a:hover {
-  color: #9dac38;
-}
-
-#speaking iframe {
+/* === Contact ===*/ 
+#contact {
+  border: 2px solid #558976;
   padding-bottom: 15px;
 }
 
-/*=== Honors ===*/
-#honors p {
-  font-size: 1.3rem;
-  color: #333;
-}
-
-#honors a {
-  color: #558976;
-  text-decoration: none;
-}
-
-#honors a:hover {
-  color: #9dac38;
-}
-
-/* === Contact ===*/ 
 #contact p {
   font-size: 1.3rem;
   color: #333;
-}
-
-/*=== Footer ===*/
-#footer {
-  background-color: #385001;
-  text-align: center;
-  color: #fdfcfb;
-  padding: 5px 0;
 }
 
 .social-icons {
@@ -248,5 +143,17 @@ nav {
 }
 
 .fab {
-  color: #fdfcfb;
+  color: #385001;
 }
+
+/*=== Footer ===*/
+#footer {
+  background-color: #385001;
+  padding: 5px 0;
+}
+
+#footer p {
+  color: #f6f2ea;
+  font-size: 16px;
+}
+
