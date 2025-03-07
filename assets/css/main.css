@@ -50,7 +50,7 @@ a:hover {
   color: #fdfcfb;
 }
 
-.hero_desc {
+.hero_desc p {
   font-size: 2rem;
   color: #fdfcfb;
 }
@@ -124,12 +124,12 @@ a:hover {
   color: #9dac38;
 }
 
-/*=== Speaking ===*/ 
-#speaking iframe {
-  width: 100%;
+/* === Contact ===*/ 
+#contact {
+  border: 2px solid #385001;
+  padding-bottom: 15px;
 }
 
-/* === Contact ===*/ 
 #contact p {
   font-size: 1.3rem;
   color: #333;
@@ -151,7 +151,7 @@ a:hover {
 /*=== Footer ===*/
 #footer {
   background-color: #385001;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 #footer p {
