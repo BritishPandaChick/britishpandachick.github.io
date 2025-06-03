@@ -12,8 +12,8 @@
   <meta name="author" content="Sarah Bartley Dye, software developer" />
 
   <!-- Stylesheets -->
-  <!-- <link href="assets/css/normalize.css" rel="stylesheet">
-  <link href="assets/css/mobile.css" media="screen and (max-width: 640px)" rel="stylesheet">
+  <link href="assets/css/normalize.css" rel="stylesheet">
+  <!-- <link href="assets/css/mobile.css" media="screen and (max-width: 640px)" rel="stylesheet">
   <link href="assets/css/tablet.css" media="screen and (min-width: 641px) and (max-width: 1024px)" rel="stylesheet">
   <link href="assets/css/main.css" media="screen and (min-width: 1025px)" rel="stylesheet"> -->
 
@@ -36,13 +36,13 @@
 
 <body class="container is-fluid">
   <header>
-    <nav class="navbar is-fixed-top is-success" role="navigation" aria-labe="main navigation">
+    <nav class="navbar is-fixed-top is-success" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <a class="navbar-item" href="http://britishpandachick.github.io">
           Sarah Bartley Dye
         </a>
 
-        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMain">
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
@@ -62,23 +62,31 @@
   </header>
 
   <main>
-    <section class="hero is-medium" id="banner">
-      <div class="hero-body has-text-centered">
-        <h2 class="title">Join the Disney Codes Challenge!</h2>       
-        <p class="subtitle">Build a Disney projects every day for 23 minutes in 57 days.</p>
-        <button class="button is-link" onclick="openDisneyCodes()">Learn More</button>        
+    <section class="hero is-info is-medium" id="banner">
+      <div class="hero-body">
+        <h2 class="title has-text-centered">Join the Disney Codes Challenge!</h2>
+        <div class="columns">
+          <div class="column is-three-quarters">
+            <p class="subtitle has-text-centered">Build a Disney projects every day for 23 minutes in 57 days.</p>
+          </div>
+          <div class="column">
+            <a class="button is-responsive is-link" href="#">Learn More</a>      
+          </div>
+        </div>     
       </div>   
     </section>
 
     <section class="section" id="career-compass">
       <div class="columns">
         <div class="column">
-          <h3 class="title">Hello, world!</h3>
+          <h3 class="title has-text-centered">Hello, world!</h3>
           <p>I'm Sarah. I am a software developer from Akron, Ohio. I design and build web applications. I teach kids how to code games with Python. You can also find me writing about code on the web.</p>
         </div>
 
         <div class="column">
-          <img src="assets/img/sarah-portfolio-image.png" class="image is-square" alt="Sarah Bartley-Dye">
+          <figure class="image">
+             <img src="assets/img/sarah-portfolio-image.png" alt="Sarah Bartley-Dye">
+          </figure>
         </div>
       </div>     
     </section>
@@ -88,30 +96,60 @@
       <div class="columns">
         <div class="column">
           <div class="card servicesText">
-            <div class="card-body">
-              <i class="fas servicesIcon fa-regular fa-pen-nib"></i>
-              <h4 class="title has-text-centered">Web Design</h4>
-              <p class="card-text">I create high quality designs that match a business's look and feel. I work with clients to get the branding just right from the first meeting to the final design comp.</p>
+            <div class="card-image">
+              <span class="icon is-large">
+                <i class="fas servicesIcon fa-regular fa-pen-nib"></i>
+              </span>
+            </div>
+
+            <div class="card-content">     
+              <div class="card-header">
+                <h4 class="title has-text-centered">Web Design</h4>
+              </div>
+
+              <div class="content">
+                <p class="card-text">I create high quality designs that match a business's look and feel. I work with clients to get the branding just right from the first meeting to the final design comp.</p>
+              </div>              
             </div>
           </div>
         </div>
 
         <div class="column">
           <div class="card servicesText">
-            <div class="card-body">
-              <i class="icon fas servicesIcon fa-solid fa-code"></i>
-              <h4 class="title has-text-centered">Web Development</h4>
-              <p class="card-text">I take a design comp and quickly convert it into a pixel perfect website. I can also take a client's existing site and give it an up to date makeover.</p>
+            <div class="card-image">
+              <span class="icon is-large">
+                <i class="icon fas servicesIcon fa-solid fa-code"></i>
+              </span>
+            </div>
+
+            <div class="card-content">
+              <div class="card-header">
+                <h4 class="title has-text-centered">Web Development</h4>
+              </div>
+              
+              <div class="content">
+                <p class="card-text">I take a design comp and quickly convert it into a pixel perfect website. I can also take a client's existing site and give it an up to date makeover.</p>
+              </div>
             </div>
           </div>
         </div>
 
         <div class="column">
           <div class="card servicesText">
-            <div class="card-body">
-              <i class="icon fas servicesIcon fa-solid fa-chalkboard"></i>
-              <h4 class="title has-text-centered">Mentoring</h4>
-              <p class="card-text">I teach coding concepts to new developers and answer questions they have about learning to code. I help them create a plan to accomplish their coding goals.</p>
+            <div class="card-image">
+              <span class="icon is-large">
+                <i class="icon fas servicesIcon fa-solid fa-chalkboard"></i>
+              </span>
+            </div>
+
+            <div class="card-content">
+              <div class="card-header">
+                <h4 class="title has-text-centered">Mentoring</h4>
+              </div>
+              
+              <div class="content">
+                <p class="card-text">I teach coding concepts to new developers and answer questions they have about learning to code. I help them create a plan to accomplish their coding goals.</p>
+              </div>              
             </div>
           </div>   
         </div>
@@ -123,30 +161,41 @@
       <div class="columns">
         <div class="column">
           <div class="card portfolioContent">
-            <img class="image is-square" src="assets/img/skillcrush-lolcatclock-gimp.png" alt="LOL Cat Clock project" style="width:100%">
-              <div class="card-body">
-                <h4 class="title">LOL Cat Clock</h4>
+            <figure class="image">
+              <img class="image" src="assets/img/skillcrush-lolcatclock-gimp.png" alt="LOL Cat Clock project" style="width:100%">
+            </figure>
+            <div class="card-header">
+              <h4 class="title">LOL Cat Clock</h4>
+            </div>
+            <div class="card-content">              
+              <div class="content">
                 <p class="card-text">Interactive clock that show the current time and allows users to see different cat memes throughout
                   different times of the day.</p>
-                <div class="grid">
-                  <a class="button is-link" role="link" href="https://github.com/BritishPandaChick/lolcatclock" target="_blank">Code</a>
-                  <a class="button is-link" role="link" href="https://britishpandachick.github.io/lolcatclock/">Project</a>
-                </div>
+                <a class="button is-link" role="link" href="https://github.com/BritishPandaChick/lolcatclock" target="_blank">Code</a>
+                <a class="button is-link" role="link" href="https://britishpandachick.github.io/lolcatclock/">Project</a>
               </div>
+            </div>
           </div>             
         </div>
 
         <div class="column">
           <div class="card portfolioContent">
-              <img class="image is-square" src="assets/img/skillcrush-recipe-cards-gimp.png" alt="Three recipe Cards">
-              <div class="card-body">
-                <h4 class="title">Recipe Cards</h4>
-                <p class="card-text">Recipe card web page based PSD design comp.</p>
-                <div class="grid">
-                  <a class="button is-link" role="link" href="https://github.com/BritishPandaChick/recipe-cards" target="_blank">Code</a>
-                  <a class="button is-link" role="link" href="https://britishpandachick.github.io/recipe-cards/">Project</a>
-                </div>
-              </div>              
+            <div class="card-image">
+              <figure class="image">
+                <img class="image is-square" src="assets/img/skillcrush-recipe-cards-gimp.png" alt="Three recipe Cards">
+              </figure>
+            </div>
+            
+            <div class="card-header">
+              <h4 class="title has-text-centered">Recipe Cards</h4>
+            </div>
+
+            <div class="card-content">                
+              <p class="card-text">Recipe card web page based PSD design comp.</p>
+              <a class="button is-link" role="link" href="https://github.com/BritishPandaChick/recipe-cards" target="_blank">Code</a>
+              <a class="button is-link" role="link" href="https://britishpandachick.github.io/recipe-cards/">Project</a>
+                
+            </div>              
           </div>
         </div>
 
@@ -193,8 +242,8 @@
         </div>
 
         <div class="column">
-          <h2 class="has-text-centered">Interested in working with me?</h2>
-          <p class="subtitle">Let's schedule a time to chat on Zoom!</p>
+          <h2 class="subtitle has-text-centered">Interested in working with me?</h2>
+          <p>Let's schedule a time to chat on Zoom!</p>
           <p><i class="icon far fa-envelope"></i> britishpandachick@gmail.com</p>
           <br/>
           <h3 class="title">Follow Me</h3>
@@ -211,9 +260,9 @@
     </section>
   </main>
 
-  <footer id="footer">
-    <div class="container-fluid">
-        <p class="text-center">&copy;2018-2025, Sarah Bartley-Dye | All Rights Reserved</p>
+  <footer class="footer" id="footer">
+    <div class="content has-text-centered is-info">
+        <p>&copy;2018-2025, Sarah Bartley-Dye | All Rights Reserved</p>
     </div>
   </footer>
 
