@@ -25,32 +25,17 @@ a:hover {
 
 /* ==== Header ==== */
 .navbar-brand {
-  color: #385001;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
 /* === Banner === */
-.bgimage {
-  height: 100vh;
-  background-color: #385001;
-}
-
-.hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.hero_title {
+.hero h2 {
   font-size: 3rem;
-  color: #f6f2ea;
 }
 
-.hero_desc p {
+.hero-text p {
+  padding-top: 15px;
   font-size: 1.4rem;
-  color: #f6f2ea;
 }
 
 /*=== Career Compass ===*/
@@ -64,50 +49,7 @@ a:hover {
   color: #333;
 }
 
-.servicesText .card {
-  height: 280px;
-  cursor: pointer;
-}
-
-.servicesIcon {
-  font-size: 36px;
-  text-align: center;
-  width: 100%;
-}
-
-#services .card-title {
-  text-align: center;
-}
-
-#services .card-text {
-  font-size: 1.3rem;
-}
-
-#services .card:hover, .servicesIcon {
-  color: #9dac38;
-}
-
-.servicesText:hover {
-  border: 1px solid #9dac38;
-}
-
 /* === Portfolio === */ 
-#portfolio .card-title {
-  font-family: 'Roboto Condensed', sans-serif;
-  text-align: center;
-}
-
-#portfolio .card-text {
-  font-size: 1.3rem;
-  color: #333;
-}
-
-#portfolio .btn {
-  color: #f6f2ea;
-  font-family: 'Arial', sans-serif;
-  font-weight: bold;
-}
-
 .extras p {
   font-size: 1.3rem;
   color: #333;
@@ -155,4 +97,12 @@ a:hover {
 #footer p {
   color: #f6f2ea;
   font-size: 15px;
+}
+
+#footer a {
+  color:#f6f2ea;
+}
+
+#footer a:hover {
+  color: #9dac38;
 }
