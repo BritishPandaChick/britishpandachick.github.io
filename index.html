@@ -34,27 +34,29 @@
   <link rel="icon" type="image/png" href="assets/img/portfolio-favicon.png">
 </head>
 
-<body class="container is-fluid is-mobile">
+<body>
   <header>
     <nav class="navbar is-fixed-top is-success" role="navigation" aria-label="main navigation">
-      <div class="navbar-brand">
-        <a class="navbar-item" href="http://britishpandachick.github.io">
-          Sarah Bartley Dye
-        </a>
+      <div class="container is-fluid">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="http://britishpandachick.github.io">
+            Sarah Bartley Dye
+          </a>
 
-        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMain">
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMain">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
 
-        <div id="navbarMain" class="navbar-menu">
-          <div class="navbar-start">
-            <a class="navbar-item" href="#services">Services</a>
-            <a class="navbar-item" href="#portfolio">Portfolio</a>
-            <a class="navbar-item" href="#contact">Contact</a>
-            <a class="navbar-item" href="sarah-dye-resume-february-2025.pdf">Resume</a>
+          <div id="navbarMain" class="navbar-menu">
+            <div class="navbar-start">
+              <a class="navbar-item" href="#services">Services</a>
+              <a class="navbar-item" href="#portfolio">Portfolio</a>
+              <a class="navbar-item" href="#contact">Contact</a>
+              <a class="navbar-item" href="sarah-dye-resume-february-2025.pdf">Resume</a>
+            </div>
           </div>
         </div>
       </div>
@@ -62,216 +64,209 @@
   </header>
 
   <main>
-    <section class="hero is-info is-medium" id="banner">
-      <div class="hero-body">
-        <h2 class="has-text-centered">Join the Disney Codes Challenge!</h2>
-        <div class="columns hero-text">
-          <div class="column is-three-quarters">
-            <p class="has-text-centered">Build a Disney projects every day for 23 minutes in 57 days.</p>
-          </div>
-          <div class="column">
-            <a class="button is-link is-medium is-full-width" href="#">Learn More</a>      
-          </div>
-        </div>     
-      </div>   
-    </section>
-
-    <section class="section" id="career-compass">
-      <div class="columns">
-        <div class="column">
-          <h3 class="title has-text-centered">Hello, world!</h3>
-          <p>I'm Sarah. I am a software developer from Akron, Ohio. I design and build web applications. I teach kids how to code games with Python. You can also find me writing about code on the web.</p>
-        </div>
-
-        <div class="column">
-          <figure class="image">
-             <img src="assets/img/sarah-portfolio-image.png" alt="Sarah Bartley-Dye">
-          </figure>
-        </div>
-      </div>     
-    </section>
-
-    <section class="section" id="services">
-      <h1 class="title has-text-centered">Services</h1>
-      <div class="columns">
-        <div class="column">
-          <div class="card">
-            <div class="card-content">  
-              <div class="card-header">
-                <h4 class="has-text-centered">Web Design</h4>
-              </div>
-
-              <div class="content">
-                <p class="card-text">I create high quality designs that match a business's look and feel. I work with clients to get the branding just right from the first meeting to the final design comp.</p>
-              </div>              
+    <section class="hero is-info bg-image" id="banner">
+      <div class="container is-fluid hero-body">
+        <div class="is-12 hero-text">
+          <h2 class="has-text-centered hero_title">Join the Disney Codes Challenge!</h2>
+          <div class="columns hero_desc pt-3 ">
+            <div class="column is-10">
+              <p class="has-text-centered">Build a Disney projects every day for 23 minutes in 57 days.</p>
             </div>
-          </div>
-        </div>
-
-        <div class="column">
-          <div class="card">
-            <div class="card-content">
-              <div class="card-header">
-                <h4 class="has-text-centered">Web Development</h4>
-              </div>
-              
-              <div class="content">
-                <p class="card-text">I take a design comp and quickly convert it into a pixel perfect website. I can also take a client's existing site and give it an up to date makeover.</p>
-              </div>
+            <div class="column is-2">
+              <a class="button is-link is-medium" href="https://dev.to/theoriginalbpc/everything-you-need-to-know-about-disney-codes-challenge-3ojb">Learn More</a> 
             </div>
-          </div>
-        </div>
-
-        <div class="column">
-          <div class="card">
-            <div class="card-content">
-              <div class="card-header">
-                <h4 class="has-text-centered">Mentoring</h4>
-              </div>
-              
-              <div class="content">
-                <p class="card-text">I teach coding concepts to new developers and answer questions they have about learning to code. I help them create a plan to accomplish their coding goals.</p>
-              </div>              
-            </div>
-          </div>   
-        </div>
-      </div> 
-    </section>
-
-    <section class="section" id="portfolio">
-      <h1 class="title has-text-centered">Portfolio</h1>
-      <div class="columns">
-        <div class="column">
-          <div class="card">
-            <div class="card-header">
-              <h4>LOL Cat Clock</h4>
-            </div>
-            <figure class="image">
-              <img src="assets/img/skillcrush-lolcatclock-gimp.png" alt="LOL Cat Clock project" style="width:100%">
-            </figure>
-            <div class="card-content">              
-              <div class="content">
-                <p class="card-text">Interactive clock that show the current time and allows users to see different cat memes throughout
-                  different times of the day.</p>
-                <a class="button is-link" role="link" href="https://github.com/BritishPandaChick/lolcatclock" target="_blank">Code</a>
-                <a class="button is-link" role="link" href="https://britishpandachick.github.io/lolcatclock/">Project</a>
-              </div>
-            </div>
-          </div>             
-        </div>
-
-        <div class="column">
-          <div class="card">
-              <div class="card-header">
-              <h4>Recipe Cards</h4>
-            </div>
-
-            <figure class="image">
-              <img src="assets/img/skillcrush-recipe-cards-gimp.png" alt="Three recipe Cards">
-            </figure>
-        
-            <div class="card-content">
-              <div class="content">
-                <p class="card-text">Recipe card web page based PSD design comp.</p>
-                <a class="button is-link" role="link" href="https://github.com/BritishPandaChick/recipe-cards" target="_blank">Code</a>
-                <a class="button is-link" role="link" href="https://britishpandachick.github.io/recipe-cards/">Project</a>
-              </div>                
-            </div>              
-          </div>
-        </div>
-
-        <div class="column">
-          <div class="card">
-               <div class="card-header">
-              <h4>Rogue Pickings</h4>
-            </div>
-
-            <figure class="image">
-              <img src="assets/img/skillcrush-rogue-pickings-gimp.png" alt="Rogue Pickings" style="width:100%">
-            </figure>
-
-            <div class="card-content">
-              <div class="content">
-                <p class="card-text">Web page based PSD design comp.</p>
-                <a class="button is-link" role="link" href="https://github.com/BritishPandaChick/rogue-pickings"
-                target="_blank">Code</a>
-                <a class="button is-link" role="link" href="https://britishpandachick.github.io/rogue-pickings/">Project</a>
-              </div>
-            </div>              
           </div>
         </div>
       </div>
     </section>
 
+    <section class="section" id="career-compass">
+      <div class="container mt-4 pt-4">
+        <div class="columns">
+          <div class="column is-7">
+            <h3 class="has-text-centered">Hello, world!</h3>
+            <p>I'm Sarah. I am a software developer from Akron, Ohio. I design and build web applications. I teach kids how to code games with Python. You can also find me writing about code on the web.</p>
+          </div>
+
+          <div class="column is-5">
+            <figure class="image">
+              <img src="assets/img/sarah-portfolio-image.png" alt="Sarah Bartley-Dye">
+            </figure>
+          </div>
+        </div>  
+      </div>   
+    </section>
+
+    <section class="section" id="services">
+      <div class="container mt-4 pt-4">
+        <h1 class="has-text-centered">Services</h1>
+        <div class="columns">
+          <div class="column is-14 mt-4">
+            <div class="card servicesText">
+              <div class="card-content">
+                <i class="fas servicesIcon fa-regular fa-pen-nib"></i>  
+                <h4 class="card-title mt-3">Web Design</h4>
+                <p class="card-text mt-3">I create high quality designs that match a business's look and feel. I work with clients to get the branding just right from the first meeting to the final design comp.</p>
+              </div>              
+            </div>
+          </div>
+
+          <div class="column is-14 mt-4">
+            <div class="card servicesText">
+              <div class="card-content">
+                <i class="fas servicesIcon fa-solid fa-code"></i>
+                <h4 class="card-title mt-3">Web Development</h4>
+                <p class="card-text mt-3">I take a design comp and quickly convert it into a pixel perfect website. I can also take a client's existing site and give it an up to date makeover.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-14 mt-4">
+            <div class="card servicesText">
+              <div class="card-content">
+                <i class="fas servicesIcon fa-solid fa-chalkboard"></i>
+                <h4 class="card-title mt-3">Mentoring</h4>            
+                <p class="card-text mt-3">I teach coding concepts to new developers and answer questions they have about learning to code. I help them create a plan to accomplish their coding goals.</p>            
+              </div>
+            </div>   
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="portfolio">
+      <div class="container mt-3">
+        <h1 class="has-text-centered">Portfolio</h1>
+        <div class="columns">
+          <div class="column is-4 mt-4">
+            <div class="card portfolioContent">
+              <figure class="image card-img-top">
+                <img src="assets/img/skillcrush-lolcatclock-gimp.png" alt="LOL Cat Clock project" style="width:100%">
+              </figure>
+
+              <div class="card-content">
+                <h4 class="card-title">LOL Cat Clock</h4>
+                <p class="card-text">Interactive clock that show the current time and allows users to see different cat memes throughout
+                  different times of the day.</p>
+                <div class="grid gap-2 mx-auto">
+                  <a class="button is-link" role="link" href="https://github.com/BritishPandaChick/lolcatclock" target="_blank">Code</a>
+                  <a class="button is-link" role="link" href="https://britishpandachick.github.io/lolcatclock/">Project</a>
+                </div>
+              </div>
+            </div>
+          </div>  
+
+          <div class="column is-4 mt-4">
+            <div class="card portfolioContent">
+              <figure class="image">
+                <img src="assets/img/skillcrush-recipe-cards-gimp.png" alt="Three recipe Cards">
+              </figure>
+              <div class="card-content">
+                <h4 class="card-title">Recipe Cards</h4>
+                <p class="card-text">Recipe card web page based PSD design comp.</p>
+                <div class="grid gap-2 mx-auto">
+                  <a class="button is-link" role="link" href="https://github.com/BritishPandaChick/recipe-cards" target="_blank">Code</a>
+                  <a class="button is-link" role="link" href="https://britishpandachick.github.io/recipe-cards/">Project</a>
+                </div>
+              </div>              
+            </div>
+          </div>
+
+          <div class="column is-4 mt-4">
+            <div class="card portfolioContent">
+              <figure class="image">
+                <img src="assets/img/skillcrush-rogue-pickings-gimp.png" alt="Rogue Pickings" style="width:100%">
+              </figure>
+              <div class="card-content">
+                <h4 class="card-title">Rogue Pickings</h4>
+                <p class="card-text">Web page based PSD design comp.</p>
+                <div class="grid gap-2 mx-auto">
+                  <a class="button is-link" role="link" href="https://github.com/BritishPandaChick/rogue-pickings"
+                          target="_blank">Code</a>
+                  <a class="button is-link" role="link" href="https://britishpandachick.github.io/rogue-pickings/">Project</a>
+                </div>
+              </div>              
+            </div>
+          </div>
+        </div>
+      </di>
+    </section>
+
     <section class="section" id="extras">
-      <p class="has-text-centered">For more projects, go to <a href="https://github.com/BritishPandaChick"
+      <div class="container mt-3">
+        <p class="has-text-centered">For more projects, go to <a href="https://github.com/BritishPandaChick"
             target="_blank">Github</a> and the <a href="https://britishpandachick.github.io/projects">Projects</a> page.</p>
-      <p class="has-text-centered">Read more at <a href="https://dev.to/theoriginalbpc" target="_blank">DEV</a></p>
+        <p class="has-text-centered">Read more at <a href="https://dev.to/theoriginalbpc" target="_blank">DEV</a></p>
+      </div>   
     </section>
   
     <section class="section" id="contact">
-      <h1 class="title has-text-centered">Contact Me</h1>
-      <div class="columns">
-        <div class="column">
-          <div style="overflow:hidden;resize:none;max-width:100%;width:500px;height:500px;">
-            <div id="display-google-map" style="height:100%; width:100%;max-width:100%;">
-              <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Akron,+OH+44319,+USA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+      <div class="container mt-3 contactContent">
+        <h1 class="has-text-centered">Contact Me</h1>
+        <div class="columns mt-3">
+          <div class="column is-6 mt-4">
+            <div style="overflow:hidden;resize:none;max-width:100%;width:500px;height:500px;">
+              <div id="display-google-map" style="height:100%; width:100%;max-width:100%;">
+                <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Akron,+OH+44319,+USA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+              </div>
+              <a class="googl-ehtml" rel="nofollow" href="https://kbj9qpmy.com/hrn" id="enable-map-info">InMotion Hosting</a>
+              <style>
+                #display-google-map img{
+                  max-height:none;
+                  max-width:none!important;
+                  background:none!important;}
+              </style>
             </div>
-            <a class="googl-ehtml" rel="nofollow" href="https://kbj9qpmy.com/hrn" id="enable-map-info">InMotion Hosting</a>
-            <style>
-              #display-google-map img{
-                max-height:none;
-                max-width:none!important;
-                background:none!important;}
-            </style>
           </div>
-        </div>
 
-        <div class="column">
-          <h2>Interested in working with me?</h2>
-          <p>Let's schedule a time to chat on Zoom!</p>
+          <div class="column is-6 mt-4">
+            <h2 class="has-text-centered">Interested in working with me?</h2>
+            <p>Let's schedule a time to chat on Zoom!</p>
 
-          <span class="icon-text">
-            <span class="icon">
-              <i class="far fa-envelope"></i>
+            <span class="icon-text">
+              <span class="icon">
+                <i class="far fa-envelope"></i>
+              </span>
+              <span>britishpandachick@gmail.com</span>
             </span>
-            <span>britishpandachick@gmail.com</span>
-          </span>
-        </div>
+            <br/>
+            <h3 class="pt-3">Follow Me</h3>
+            <div class="social-icons">
+              <span class="icon is-large">
+                <a href="http://www.facebook.com/sarahbartleybpc" target="_blank"><i class="fab fa-facebook"></i></a>
+              </span>
 
-        <div class="column">
-          <h3>Follow Me</h3>
-          <span class="icon is-large">
-            <a href="http://www.facebook.com/sarahbartleybpc" target="_blank"><i class="fab fa-facebook"></i></a>
-          </span>
+              <span class="icon is-large">
+                <a href="https://twitter.com/TheOriginalBPC" target="_blank"><i class="fab fa-twitter"></i></a>
+              </span>
 
-          <span class="icon is-large">
-            <a href="https://twitter.com/TheOriginalBPC" target="_blank"><i class="fab fa-twitter"></i></a>
-          </span>
+              <span class="icon is-large">
+                <a href="https://www.linkedin.com/in/sarahbartleydye" target="_blank"><i class="fab fa-linkedin"></i></a>
+              </span>
 
-          <span class="icon is-large">
-            <a href="https://www.linkedin.com/in/sarahbartleydye" target="_blank"><i class="fab fa-linkedin"></i></a>
-          </span>
+              <span class="icon is-large">
+                <a href="https://www.instagram.com/britishpandachick" target="_blank"><i class="fab fa-instagram"></i></a>
+              </span>
 
-          <span class="icon is-large">
-            <a href="https://www.instagram.com/britishpandachick" target="_blank"><i class="fab fa-instagram"></i></a>
-          </span>
+              <span class="icon is-large">
+                <a href="http://www.pinterest.com/theoriginalbpc" target="_blank"><i class="fab fa-pinterest"></i></a>
+              </span>
 
-          <span class="icon is-large">
-            <a href="http://www.pinterest.com/theoriginalbpc" target="_blank"><i class="fab fa-pinterest"></i></a>
-          </span>
-
-          <span class="icon is-large">
-            <a href="https://github.com/BritishPandaChick" target="_blank"><i class="fab fa-github"></i></a>
-          </span>
+              <span class="icon is-large">
+                <a href="https://github.com/BritishPandaChick" target="_blank"><i class="fab fa-github"></i></a>
+              </span>
+            </div>
+          </div>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="footer is-info" id="footer">
-    <div class="content has-text-centered">
-      <p>&copy; 2018-2025, Sarah Bartley Dye | Made with <a href="https://bulma.io/" target="_blank">Bulma</a>.</p>
+  <footer class="footer" id="footer">
+    <div class="container is-fluid">
+      <div class="content has-text-centered">
+        <p>&copy; 2018-2025, Sarah Bartley Dye | Made with <a href="https://bulma.io/" target="_blank">Bulma</a>.</p>
+      </div>
     </div>
   </footer>
 
