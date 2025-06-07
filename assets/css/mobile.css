@@ -1,6 +1,6 @@
 /* ==== Basic Styles ==== */
 body {
-  background-color: #fdfcfb;
+  background-color: #EDF2F7;
   width: 100%;
   margin: 0 auto;
 }
@@ -11,16 +11,16 @@ h1, h2, h3, h4, h5, h6 {
 
 p, a, li {
   font-family: 'Josefin Slab', serif;
-  color: #333;
+  color: #51555B;
 }
 
 a {
-  color: #558976;
+  color: #48523D;
   text-decoration: none;
 }
 
 a:hover {
-  color: #9dac38;
+  color: #B5C6B8;
 }
 
 /* ==== Header ==== */
@@ -35,6 +35,7 @@ a:hover {
 /* === Banner === */
 .bg-image {
   height: 100vh;
+  margin-top: 25px;
 }
 
 .hero-text {
@@ -54,14 +55,23 @@ a:hover {
 }
 
 /*=== Career Compass ===*/
+#career-compass h3 {
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+}
+
 #career-compass p {
   font-size: 1.3rem;
-  color: #333;
+  color: #51555B;
 }
 
 /*=== Services ===*/
+#services h1 {
+  font-size: 1.5rem;
+}
+
 #services p {
-  color: #333;
+  color: #51555B;
 }
 
 .servicesText .card {
@@ -84,14 +94,18 @@ a:hover {
 }
 
 #services .card:hover, .servicesIcon {
-  color: #9dac38;
+  color: #8FA2CA;
 }
 
 .servicesText:hover {
-  border: 1px solid #9dac38;
+  border: 1px solid #B5C6B8;
 }
 
 /* === Portfolio === */
+#portfolio h1 {
+  font-size: 1.5rem;
+}
+
 #portfolio .card-title {
   font-family: 'Roboto Condensed', sans-serif;
   text-align: center;
@@ -99,33 +113,37 @@ a:hover {
 
 #portfolio .card-text {
   font-size: 1.3rem;
-  color: #333;
+  color: #51555B;
 }
 
 /* === Extras section ===*/
 .extras p {
   font-size: 1.3rem;
-  color: #333;
+  color: #51555B;
 }
 
 .extras a {
-  color: #558976;
+  color: #48523D;
   text-decoration: none;
 }
 
 .extras a:hover {
-  color: #9dac38;
+  color: #B5C6B8;
 }
 
 /* === Contact ===*/ 
 #contact {
-  border: 2px solid #558976;
+  border: 2px solid #8FA2CA;
   padding-bottom: 15px;
+}
+
+#contact h1 {
+  font-size: 1.5rem;
 }
 
 #contact p {
   font-size: 1.3rem;
-  color: #333;
+  color: #51555B;
 }
 
 .social-icons {
@@ -134,28 +152,28 @@ a:hover {
 }
 
 .fa-facebook:hover, .fa-instagram:hover, .fa-twitter:hover, .fa-linkedin:hover, .fa-pinterest:hover, .fa-github:hover {
-  color: #9dac38;
+  color: #B5C6B8;
 }
 
 .fab {
-  color: #385001;
+  color: #8FA2CA;
 }
 
 /*=== Footer ===*/
 #footer {
-  background-color: #385001;
+  background-color: #8FA2CA;
   padding: 5px 0;
 }
 
 #footer p {
-  color: #f6f2ea;
+  color: #51555B;
   font-size: 15px;
 }
 
 #footer a {
-  color:#f6f2ea;
+  color:#48523D;
 }
 
 #footer a:hover {
-  color: #9dac38;
+  color: #B5C6B8;
 }

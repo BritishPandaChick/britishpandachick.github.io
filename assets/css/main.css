@@ -24,15 +24,17 @@ a:hover {
 }
 
 /* ==== Header ==== */
-.navbar-brand {
-  color: #385001;
+.navbar-brand a {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+#navbarMain a {
+  font-family: 'Josefin Slab', serif;
+}
+
 /* === Banner === */
-.bgimage {
+.bg-image {
   height: 100vh;
-  background-color: #385001;
 }
 
 .hero-text {
@@ -45,21 +47,28 @@ a:hover {
 
 .hero_title {
   font-size: 4.5rem;
-  color: #f6f2ea;
 }
 
 .hero_desc p {
   font-size: 2rem;
-  color: #f6f2ea;
 }
 
 /*=== Career Compass ===*/
+#career-compass h3 {
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+}
+
 #career-compass p {
   color: #333;
   font-size: 1.3rem;
 }
 
 /*=== Services ===*/
+#services h1 {
+  font-size: 2rem;
+}
+
 #services p {
   color: #333;
 }
@@ -92,6 +101,10 @@ a:hover {
 }
 
 /* === Portfolio === */ 
+#portfolio h1 {
+  font-size: 2rem;
+}
+
 #portfolio .card-title {
   font-family: 'Roboto Condensed', sans-serif;
   text-align: center;
@@ -102,12 +115,7 @@ a:hover {
   color: #333;
 }
 
-#portfolio .btn {
-  color: #f6f2ea;
-  font-family: 'Arial', sans-serif;
-  font-weight: bold;
-}
-
+/* === Extras Section ===*/
 .extras p {
   font-size: 1.3rem;
   color: #333;
@@ -126,6 +134,10 @@ a:hover {
 #contact {
   border: 2px solid #385001;
   padding-bottom: 15px;
+}
+
+#contact h1 {
+  font-size: 2rem;
 }
 
 #contact p {
@@ -155,4 +167,12 @@ a:hover {
 #footer p {
   color: #f6f2ea;
   font-size: 16px;
+}
+
+#footer a {
+  color:#f6f2ea;
+}
+
+#footer a:hover {
+  color: #9dac38;
 }
