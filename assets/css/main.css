@@ -115,19 +115,19 @@ a:hover {
   color: #51555B;
 }
 
-/* === Extras Section ===*/
-.extras p {
+/* === Writing === */ 
+#writing h3 {
+  font-size: 2rem;
+}
+
+#writing .card-title {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+}
+
+#writing .card-text {
   font-size: 1.3rem;
   color: #51555B;
-}
-
-.extras a {
-  color: #48523D;
-  text-decoration: none;
-}
-
-.extras a:hover {
-  color: #B5C6B8;
 }
 
 /* === Contact ===*/ 
