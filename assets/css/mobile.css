@@ -12,6 +12,7 @@ h1, h2, h3, h4, h5, h6 {
 p, a, li {
   font-family: 'Josefin Slab', serif;
   color: #51555B;
+  font-size: 20px;
 }
 
 a {
@@ -116,19 +117,19 @@ a:hover {
   color: #51555B;
 }
 
-/* === Extras section ===*/
-.extras p {
+/* === Writing === */
+#writing h1 {
+  font-size: 1.5rem;
+}
+
+#writing .card-title {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+}
+
+#writing .card-text {
   font-size: 1.3rem;
   color: #51555B;
-}
-
-.extras a {
-  color: #48523D;
-  text-decoration: none;
-}
-
-.extras a:hover {
-  color: #B5C6B8;
 }
 
 /* === Contact ===*/ 
