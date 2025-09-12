@@ -32,7 +32,7 @@ a:hover {
   font-family: 'Josefin Slab', serif;
 }
 
-/* === Banner === */
+/* === Banner === 
 .bg-image {
   height: 100vh;
   margin-top: 25px;
@@ -52,10 +52,10 @@ a:hover {
 
 .hero_desc p {
   font-size: 1.4rem;
-}
+} */
 
 /*=== Career Compass ===*/
-#career-compass h3 {
+#career-compass h1 {
   font-size: 1.5rem;
   padding-bottom: 10px;
 }
@@ -66,13 +66,13 @@ a:hover {
 }
 
 /*=== Services ===*/
-#services h1 {
+#services h2 {
   font-size: 1.5rem;
 }
 
-#services p {
+/* #services p {
   color: #51555B;
-}
+} */
 
 .servicesText .card {
   height: 280px;
@@ -102,7 +102,7 @@ a:hover {
 }
 
 /* === Portfolio === */
-#portfolio h1 {
+#portfolio h2 {
   font-size: 1.5rem;
 }
 
@@ -137,13 +137,13 @@ a:hover {
   padding-bottom: 15px;
 }
 
-#contact h1 {
+#contact h2 {
   font-size: 1.5rem;
 }
 
 #contact p {
   font-size: 1.3rem;
-  color: #51555B;
+  /* color: #51555B; */
 }
 
 .social-icons {
