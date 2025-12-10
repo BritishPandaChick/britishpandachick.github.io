@@ -32,10 +32,28 @@ a:hover {
   font-size: 1.3rem;
 }
 
+/* == Header == */
+header .navbar {
+  background-color: #03263a;
+}
+
+header .navbar-brand .navbar-item {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+header .navbar-menu .navbar-item {
+  color: #fff;
+}
+
+header .navbar .navbar-item:hover {
+  background-color: #2670a3;
+  color: #768cb9;
+}
+
 /*=== Career Compass ===*/
 #career-compass h1 {
   font-size: 1.5rem;
-  padding-bottom: 10px;
 }
 
 /* === Portfolio === */ 
@@ -43,15 +61,40 @@ a:hover {
   font-size: 2rem;
 }
 
-#portfolio .card-title {
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
+#portfolio p {
+  line-height: 35px;
+  padding-bottom: 15px;
+}
+
+#portfolio .button {
+  background-color: #034372;
+  color: #fff;
+}
+
+#portfolio .button:hover {
+  background-color: #2670a3;
+  color:#768cb9;
 }
 
 /* === Writing === */ 
 #writing h3 {
   font-size: 2rem;
   padding-bottom: 10px;
+}
+
+#writing p {
+  line-height: 35px;
+  padding-bottom: 15px;
+}
+
+#writing .button {
+  background-color: #034372;
+  color: #fff;
+}
+
+#writing .button:hover {
+  background-color: #2670a3;
+  color:#768cb9;
 }
 
 /* === Contact ===*/ 
