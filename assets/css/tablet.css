@@ -1,6 +1,5 @@
 /* ==== Basic Styles ==== */
 body {
-  background-color: #EDF2F7;
   width: 100%;
   margin: 0 auto;
 }
@@ -12,6 +11,7 @@ h1, h2, h3, h4, h5, h6 {
 p, a, li {
   font-family: 'Josefin Slab', serif;
   color: #333;
+  line-height: 35px;
 }
 
 a {
@@ -33,23 +33,27 @@ a:hover {
 }
 
 /* ==== Header ==== */
-/* .navbar-brand a {
-  font-family: 'Roboto Condensed', sans-serif;
+header .navbar {
+  background-color: #03263a;
 }
 
-#navbarMain a {
-  font-family: 'Josefin Slab', serif;
-} 
-*/
+header .navbar-brand .navbar-item {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+header .navbar-menu .navbar-item {
+  color: #fff;
+}
+
+header .navbar .navbar-item:hover {
+  background-color: #2670a3;
+  color: #768cb9;
+}
 
 /*=== Career Compass ===*/
 #career-compass h1 {
   font-size: 1.5rem;
-  padding-bottom: 10px;
-}
-
-#career-compass p {
-  font-size: 1.3rem;
 }
 
 /* === Portfolio === */ 
@@ -59,26 +63,42 @@ a:hover {
 
 #portfolio p { 
   font-size: 1.3rem;
+  line-height: 35px;
+}
+
+#portfolio .button {
+  background-color: #034372;
+  color: #fff;
+}
+
+#portfolio .button:hover {
+  background-color: #2670a3;
+  color:#768cb9;
 }
 
 /* === Writing === */ 
 #writing h3 {
   font-size: 1.5rem;
+  padding-bottom: 15px;
 }
 
-#writing .card-title {
-  font-family: 'Roboto Condensed', sans-serif;
-  text-align: center;
+#writing p {
+  line-height: 35px;
+  padding-bottom: 15px;
 }
 
-#writing .card-text {
-  font-size: 1.3rem;
-  color: #51555B;
+#writing .button {
+  background-color: #034372;
+  color: #fff;
+}
+
+#writing .button:hover {
+  background-color: #2670a3;
+  color:#768cb9;
 }
 
 /* === Contact ===*/ 
 #contact {
-  border: 2px solid #8FA2CA;
   padding-bottom: 15px;
 }
 
@@ -88,7 +108,6 @@ a:hover {
 
 #contact p {
   font-size: 1.3rem;
-  /* color: #51555B; */
 }
 
 .social-icons {
@@ -101,24 +120,24 @@ a:hover {
 }
 
 .fab {
-  color: #8FA2CA;
+  color: #03263a;
 }
 
 /*=== Footer ===*/
 #footer {
-  background-color: #8FA2CA;
-  padding: 5px 0;
+  background-color: #03263a;
+  padding-bottom: 5px;
 }
 
 #footer p {
-  color: #51555B;
-  font-size: 16px;
+  color: #fff;
+  font-size: 1rem;
 }
 
 #footer a {
-  color:#48523D;
+  color:#fff;
 }
 
 #footer a:hover {
-  color: #B5C6B8;
+  color: #768cb9;
 }
