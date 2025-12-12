@@ -48,7 +48,7 @@ header .navbar-menu .navbar-item {
 
 header .navbar .navbar-item:hover {
   background-color: #2670a3;
-  color: #768cb9;
+  color: #034372;
 }
 
 /*=== Career Compass ===*/
@@ -73,7 +73,7 @@ header .navbar .navbar-item:hover {
 
 #portfolio .button:hover {
   background-color: #2670a3;
-  color:#768cb9;
+  color:#034372;
 }
 
 /* === Writing === */ 
@@ -94,7 +94,7 @@ header .navbar .navbar-item:hover {
 
 #writing .button:hover {
   background-color: #2670a3;
-  color:#768cb9;
+  color:#034372;
 }
 
 /* === Contact ===*/ 

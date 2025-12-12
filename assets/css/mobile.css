@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p, a, li {
   font-family: 'Josefin Slab', serif;
-  color: #333;
+  color: #03263a;
   line-height: 35px;
 }
 
@@ -20,7 +20,7 @@ a {
 }
 
 a:hover {
-  color: #2670a3;
+  color: #768cb9;
 }
 
 .card-title {
@@ -48,7 +48,7 @@ header .navbar-menu .navbar-item {
 
 header .navbar .navbar-item:hover {
   background-color: #2670a3;
-  color: #768cb9;
+  color: #034372;
 }
 
 /*=== Career Compass ===*/
@@ -73,7 +73,7 @@ header .navbar .navbar-item:hover {
 
 #portfolio .button:hover {
   background-color: #2670a3;
-  color:#768cb9;
+  color:#034372;
 }
 
 /* === Writing === */
