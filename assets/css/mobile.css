@@ -51,57 +51,78 @@ header .navbar .navbar-item:hover {
   color: #034372;
 }
 
-/*=== Career Compass ===*/
-#career-compass h1 {
+/*=== Hero ===*/
+#hero h1 {
   font-size: 1.5rem;
 }
 
-/* === Portfolio === */
-#portfolio h2 {
+#hero h2 {
   font-size: 1.5rem;
+  padding: 15px 0;
 }
 
-#portfolio p {
+#hero p {
   font-size: 1.3rem;
   padding-bottom: 15px;
 }
 
-#portfolio .button {
-  background-color: #034372;
+#hero .button {
+  background-color: #03263a;
   color: #fff;
+
 }
 
-#portfolio .button:hover {
+#hero .button:hover {
   background-color: #2670a3;
   color:#034372;
 }
 
-/* === Writing === */
-#writing h3 {
+/* === About === */ 
+#about h3 {
   font-size: 1.5rem;
-  padding: 10px;
-}
-
-#writing p {
-  line-height: 35px;
   padding-bottom: 15px;
 }
 
-#writing .button {
-  background-color: #034372;
-  color: #fff;
+#about p {
+  font-size: 1.3rem;
 }
 
-#writing .button:hover {
-  background-color: #2670a3;
-  color:#034372;
+/* === Skills === */
+#skills h3 {
+  font-size: 1.5rem;
+  padding-bottom: 15px;
+}
+
+#skills p {
+  font-size: 1.3rem;
+}
+
+/* === Portfolio === */
+#projects h3 {
+  font-size: 1.5rem;
+}
+
+#projects h4 {
+  font-size: 1.5rem;
+  padding-bottom: 15px;
+}
+
+#projects p {
+  font-size: 1.3rem;
+  padding-bottom: 15px;
+}
+
+/* === Experience === */
+#experience h3 {
+  font-size: 1.5rem;
+  padding-bottom: 15px;
+}
+
+#experience p {
+  font-size: 1.3rem;
 }
 
 /* === Contact ===*/ 
-#contact {
-  padding-bottom: 15px;
-}
-
 #contact h2 {
   font-size: 1.5rem;
 }
@@ -115,7 +136,7 @@ header .navbar .navbar-item:hover {
   cursor: pointer;
 }
 
-.fa-facebook:hover, .fa-instagram:hover, .fa-twitter:hover, .fa-linkedin:hover, .fa-pinterest:hover, .fa-github:hover {
+.fa-linkedin:hover, .fa-github:hover {
   color: #768cb9;
 }
 
