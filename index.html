@@ -1,228 +1,302 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Sarah Bartley</title>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- Description, Keywords, and Author -->
-  <meta name="description" content="Sarah Bartley" />
-  <meta name="keywords" content="Sarah Dye, Sarah Bartley, Sarah Bartley Dye, full-stack web development, coding" />
-  <meta name="author" content="Sarah Bartley" />
-
-  <!-- Stylesheets -->
-  <link href="assets/css/normalize.css" rel="stylesheet">
-  <link href="assets/css/mobile.css" media="screen and (max-width: 640px)" rel="stylesheet"> -->
-  <link href="assets/css/tablet.css" media="screen and (min-width: 641px) and (max-width: 1024px)" rel="stylesheet">
-  <link href="assets/css/main.css" media="screen and (min-width: 1025px)" rel="stylesheet">
-
-  <!-- Font Awesome -->
-  <script src="https://kit.fontawesome.com/0b53956d39.js" crossorigin="anonymous"></script>
-
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-  <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-  
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="assets/img/portfolio-favicon.png">
-</head>
-
-<body>
-  <header>
-    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
-      <div class="navbar-brand">
-        <a class="navbar-item" href="https://britishpandachick.github.io/">
-          Sarah Bartley
-        </a>
-
-        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
-
-        <div class="navbar-menu is-active" id="navMenu">
-          <div class="navbar-start">
-            <a class="navbar-item" href="#about">About</a>
-            <a class="navbar-item" href="#skills">Skills</a>
-            <a class="navbar-item" href="#Projects">Projects</a>
-            <a class="navbar-item" href="#Experience">Experience</a>
-            <a class="navbar-item" href="#contact">Contact</a>
+  <head>
+    <title>Portfolio Website - Sarah</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Linking CSS Files-->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!-- bootstrap CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Font Awesome -->
+    <link href="assets/font-awesome-6.3/css/all.min.css" rel="stylesheet">
+    <script src="assets/font-awesome-6.3/js/all.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+        <div class="container">
+          <a class="navbar-brand" href="#">Sarah Bartley</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+    
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+    
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+    
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+    
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
           </div>
         </div>
-      </div>
-    </nav>
-  </header>
+      </nav>
+    </header>
+    
+    <main>
+      <section class="bgimage" id="home">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+              <h2 class="hero_title">Hello World! I'm Sarah.</h2>
+              <p class="hero_desc">I am a fullstack web developer in Canton, Ohio</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-  <main>
-    <section class="section" id="hero">
-      <div class="hero-body">
+      <section id="about">
         <div class="container mt-4 pt-4">
-          <h1 class="title">Sarah Bartley</h1>
-          <h2 class="subtitle">Full-stack Developer & Technical Educator</h2>
-          <p>I’m a full-stack developer and technical educator who pairs strong skills in JavaScript and Python with a passion for building accessible, responsive web experiences and mentoring others through clear, practical guidance.</p>
-          <div class = "grid gap-2 mx-auto">
-            <a class="button" role="link" href="https://britishpandachick.github.io/projects">View Projects</a>
-            <a class="button" role="link" href="sarah-bartley-resume-june2026.pdf">Download Resume</a>
+          <h1 class="text-center">About Me</h1>
+          <div class="row mt-4">
+            <div class="col-lg-4">
+              <img src="assets/img/covid-hair.jpg" class="imageAboutPage" alt="">
+            </div>
+
+            <div class="col-lg-8">
+              <p>“About a month,” said Elizabeth; and then, unwilling to let the subject drop, added, “He is a man of very large property in Derbyshire, I understand.”</p>
+              <div class="row-mt-3">
+                <div class="col-md-6">
+                  <ul>
+                    <li>Name: Sarah Bartley</li>
+                    <li>Age: 37</li>
+                    <li>Occupation: Fullstack Web Developer</li>
+                  </ul>
+                </div>
+  
+                <div class="col-md-6">
+                  <ul>
+                    <li>Name: Sarah Bartley</li>
+                    <li>Age: 37</li>
+                    <li>Occupation: Fullstack Web Developer</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="row mt-3">
+                <p>“About a month,” said Elizabeth; and then, unwilling to let the subject drop, added, “He is a man of very large property in Derbyshire, I understand.”</p>
+              </div>
+            </div>         
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="section" id="about">
-      <div class="container mt-4 pt-4">
-        <h3 class="has-text-centered">About</h3>
-        <div class="columns">
-          <div class="column is-7">
-            <p>Sarah Bartley is a full-stack developer and technical educator specializing in JavaScript, Python, and modern web technologies. She builds accessible, responsive web applications while teaching and mentoring aspiring developers through clear, practical instruction. Her work bridges software engineering and education to create meaningful learning and digital experiences.</p>
-            <br>
-            <p>Technologies specialize in: JavaScript, Python, Ruby, PHP, Responsive Web Design, HTML, CSS, WordPress, Git & GitHub</p>
-          </div>
+      <section id="services">
+        <div class="container">
+          <h1 class="text-center">Services</h1>
+          <div class="row">
+            <div class="col-lg-4 mt-4">
+              <div class="card servicesText">
+                <div class="card-body">
+                  <i class="fas servicesIcon fa-clock"></i>
+                  <h4 class="card-title mt-3">Website Development</h4>
+                  <p class="card-text mt-3">“About a month,” said Elizabeth; and then, unwilling to let the subject drop, added, “He is a man of very large property in Derbyshire, I understand.”</p>
+                </div>
+              </div>
+            </div>
 
-          <div class="column is-5">
-            <figure class="image">
-              <img src="assets/img/sarah-professional-pic.png" alt="Sarah Bartley">
-            </figure>
-          </div>
-        </div>
-      </div>
-    </section>
+            <div class="col-lg-4 mt-4">
+              <div class="card servicesText">
+                <div class="card-body">
+                  <i class="fas servicesIcon fa-clock"></i>
+                  <h4 class="card-title mt-3">Website Development</h4>
+                  <p class="card-text mt-3">“About a month,” said Elizabeth; and then, unwilling to let the subject drop, added, “He is a man of very large property in Derbyshire, I understand.”</p>
+                </div>
+              </div>
+            </div>
 
-    <section class="section" id="skills">
-      <div class="container mt-3">
-        <h3 class="has-text-centered">Skills</h3>
-        <p>Frontend:
-          HTML | CSS | JavaScript | React.js 
-        </p>
-        <hr>
-        <p>Backend:
-          Python | Ruby | PHP | Node.js
-        </p>
-        <hr>
-        <p>Design:
-          Responsive Web Design | UX Design | Web Accessibilty
-        </p>
-        <hr>
-        <p>Tools:
-          Git | GitHub | WordPress | Adobe Creative Suite
-        </p>
-      </div>
-    </section>
-
-   <section class="section" id="projects">
-      <div class="container mt-4 pt-4">
-        <h3 class="has-text-centered">Projects</h3>
-        <div class="columns">
-          <div class="column is-4 mt-4">
-            <div class="card">
-              <figure class="image card-img-top">
-                <img src="assets/img/skillcrush-lolcatclock-gimp.png" alt="LOL Cat Clock project" style="width:100%">
-              </figure>
-              <div class="card-content">
-                <h4 class="card-title">LOL Cat Clock</h4>
-                <div class="card-text">
-                  <p>Interactive clock that shows the current time and allows users to see different cat memes throughout different times of the day.</p>
-                  <br>
-                  <p>JavaScript, HTML, CSS</p>
-                  <a href="https://britishpandachick.github.io/lolcatclock/">Live Demo</a> | <a href="https://github.com/BritishPandaChick/lolcatclock" target="_blank">GitHub</a></p>
-                </div>               
+            <div class="col-lg-4 mt-4">
+              <div class="card servicesText">
+                <div class="card-body">
+                  <i class="fas servicesIcon fa-clock"></i>
+                  <h4 class="card-title mt-3">Website Development</h4>
+                  <p class="card-text mt-3">“About a month,” said Elizabeth; and then, unwilling to let the subject drop, added, “He is a man of very large property in Derbyshire, I understand.”</p>
+                </div>
               </div>
             </div>
           </div>
-
-          <div class="column is-4 mt-4">
-            <div class="card">
-              <figure class="image card-img-top">
-                <img src="assets/img/skillcrush-election-map-gimp.png" alt="Election Map" style="width: 100%">
-              </figure>
-
-              <div class="card-content">
-                <h4 class="card-title">Election Map</h4>
-                <div class="card-text">
-                  <p>Map that shows users what candidates won certain states and shows the winner of the election</p>
-                  <br>
-                  <p>JavaScript, HTML, CSS</p>
-                  <p><a href="https://britishpandachick.github.io/election-map/">Live Demo</a> | <a href="https://github.com/BritishPandaChick/election-ma" target="_blank">GitHub</a></p>
-                </div>    
+          
+          <div class="row">
+            <div class="col-lg-4 mt-4">
+              <div class="card servicesText">
+                <div class="card-body">
+                  <i class="fas servicesIcon fa-clock"></i>
+                  <h4 class="card-title mt-3">SEO</h4>
+                  <p class="card-text mt-3">“About a month,” said Elizabeth; and then, unwilling to let the subject drop, added, “He is a man of very large property in Derbyshire, I understand.”</p>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="column is-4 mt-4">
-            <div class="card">
-              <figure class="image card-img-top">
-                <img src="assets/img/fcc-tribute-page-2022.png" alt="Tribute Page" style="width: 100%">
-              </figure>
+            <div class="col-lg-4 mt-4">
+              <div class="card servicesText">
+                <div class="card-body">
+                  <i class="fas servicesIcon fa-clock"></i>
+                  <h4 class="card-title mt-3">DevOps</h4>
+                  <p class="card-text mt-3">“About a month,” said Elizabeth; and then, unwilling to let the subject drop, added, “He is a man of very large property in Derbyshire, I understand.”</p>
+                </div>
+              </div>
+            </div>
 
-              <div class="card-content">
-                <h4 class="card-title">Tribute Page</h4>
-                <div class="card-text">
-                  <p>Simple, responsive webpage created to honor an influential figure and highlight their life, achievements, and impact.</p>
-                  <br>
-                  <p>HTML, CSS, Bootstrap, Responsive Web Design</p>
-                  <p><a href="https://britishpandachick.github.io/tribute-page/">Live Demo</a> | <a href="https://github.com/BritishPandaChick/tribute-page"
-                  target="_blank">GitHub</a></p>
+            <div class="col-lg-4 mt-4">
+              <div class="card servicesText">
+                <div class="card-body">
+                  <i class="fas servicesIcon fa-clock"></i>
+                  <h4 class="card-title mt-3">QA</h4>
+                  <p class="card-text mt-3">“About a month,” said Elizabeth; and then, unwilling to let the subject drop, added, “He is a man of very large property in Derbyshire, I understand.”</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-   <section class="section" id="experience">
-      <div class="container mt-4 pt-4">
-        <h3 class="has-text-centered">Experience</h3>
-        <p>2022 - 2026<br>Online Coding Instructor<br>Coding with Kids</p>
-        <hr>
-        <p>2025<br>Speaker</br>Code & Coffee Conference</p>
-        <hr>
-        <p>2022<br>Speaker<br>DEV Discuss Podcast</p>
-        <hr>
-        <p>2021<br>Speaker<br>Girl Develop It</p>
-        <hr>
-        <p>2020<br>Speaker<br>Bloom Institute of Technology</p>
-        <hr>
-        <p>2015 - 2023<br>Full-Stack Developer</br>Self-Employed</p>
-        <hr>
-        <p>2019 - 2022<br>Moderator</br>Elphas Can Code</p>
-        <hr>
-        <p>2018<br>Speaker<br>Moms Can Code Virtual Summit</p>
-        <hr>
-        <p>2018<br>Speaker<br>Skillcrush Code Your Way to $1K: Q&A with Alumni</p>
-      </div>
-    </section>
+      <section id="portfolio">
+        <div class="container mt-3">
+          <h1 class="text-center">Portfolio</h1>
+          <div class="row">
+            <div class="col-lg-4 mt-4">
+              <div class="card">
+                <img class="card-img-top" src="assets/img/portfolio-placeholder.png" alt="Card image" style="width:100%">
+                <div class="card-body">
+                  <h4 class="card-title">YouTube Clone</h4>
+                  <p class="card-text">“About a month,” said Elizabeth; and then, unwilling to let the subject drop, added, “He is a man of very large property in Derbyshire, I understand.”</p>
+                  <div class="text-center">
+                    <a href="#" class="btn btn-success">Link</a>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-    <section class="section" id="contact">
-      <div class="container mt-4 pt-4">
-        <h3 class="has-text-centered">Contact</h3>
-        <p>Email: sbartley1080@gmail.com</p>
-        <div class="social-icons">
-          <span class="icon is large">
-            <a href="https://www.linkedin.com/in/sarahbartleydye" target="_blank"><i class="fab fa-linkedin"></i></a>
-          </span>
+            <div class="col-lg-4 mt-4">
+              <div class="card portfolioContent">
+                <img class="card-img-top" src="assets/img/portfolio-placeholder.png" alt="Card Image" style="width:100%">
+                <div class="card-body">
+                  <h4 class="card-title">Quiz App</h4>
+                  <p class="card-text">“About a month,” said Elizabeth; and then, unwilling to let the subject drop, added, “He is a man of very large property in Derbyshire, I understand.”</p>
+                  <div class="text-center">
+                    <a href="#" class="btn btn-success">Link</a>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-          <span class="icon is-large">
-            <a href="https://github.com/BritishPandaChick" target="_blank"><i class="fab fa-github"></i></a>
-          </span>
+            <div class="col-lg-4 mt-4">
+              <div class="card portfolioContent">
+                <img class="card-img-top" src="assets/img/portfolio-placeholder.png" alt="Card Image" style="width:100%">
+                <div class="card-body">
+                  <h4 class="card-title">Product Landing Page</h4>
+                  <p class="card-text">“About a month,” said Elizabeth; and then, unwilling to let the subject drop, added, “He is a man of very large property in Derbyshire, I understand.”</p>
+                  <div class="text-center">
+                    <a href="#" class="btn btn-success">Link</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-lg-4 mt-4">
+              <div class="card portfolioContent">
+                <img class="card-img-top" src="assets/img/portfolio-placeholder.png" alt="Card Image" style="width:100%">
+                <div class="card-body">
+                  <h4 class="card-title">Messaging Service</h4>
+                  <p class="card-text">“About a month,” said Elizabeth; and then, unwilling to let the subject drop, added, “He is a man of very large property in Derbyshire, I understand.”</p>
+                  <div class="text-center">
+                    <a href="#" class="btn btn-success">Link</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 mt-4">
+              <div class="card portfolioContent">
+                <img class="card-img-top" src="assets/img/portfolio-placeholder.png" alt="Card Image" style="width:100%">
+                <div class="card-body">
+                  <h4 class="card-title">Twitter Clone</h4>
+                  <p class="card-text">“About a month,” said Elizabeth; and then, unwilling to let the subject drop, added, “He is a man of very large property in Derbyshire, I understand.”</p>
+                  <div class="text-center">
+                    <a href="#" class="btn btn-success">Link</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 mt-4">
+              <div class="card portfolioContent">
+                <img class="card-img-top" src="assets/img/portfolio-placeholder.png" alt="Card Image" style="width:100%">
+                <div class="card-body">
+                  <h4 class="card-title">Blog App</h4>
+                  <p class="card-text">“About a month,” said Elizabeth; and then, unwilling to let the subject drop, added, “He is a man of very large property in Derbyshire, I understand.”</p>
+                  <div class="text-center">
+                    <a href="#" class="btn btn-success">Link</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="container mt-3 contactContent">
+          <h1 class="text-center">Contact Me</h1>
+
+          <div class="row mt-4">
+            <div class="col-lg-6">
+              <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px">
+                <div id="my-map-display" style="height:100%; width:100%;max-width:100%;">
+                  <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Canton,+OH,+USA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+                </div>
+
+                <a class="the-googlemap-enabler" href="https://kbj9qpmy.com/hrn" id="make-map-data">InMotion Hosting</a>
+                <style>
+                  #my-map-display .text-marker{}.map-generator{max-width: 100%; max-height: 100%; background: none;}
+                </style>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <form>
+                <input type="text" class="form-control form-control-lg" placeholder="Name">
+                <input type="email" class="form-control mt-3" placeholder="Email">
+                <input type="text" class="form-control mt-3" placeholder="Subject">
+                <div class="mb-3 mt-3">
+                  <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+                </div>
+              </form>
+              <button type="button" class="btn btn-success mt-3">Contact Me</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="footer">
+      <div class="container-fluid">
+        <div class="social-icons mt-4">
+          <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.twitch.tv/" target="_blank"><i class="fab fa-twitch"></i></a>
         </div>
       </div>
-    </section>
-
-  <footer class="footer" id="footer">
-    <div class="content has-text-centered">
-      <p>&copy; 2018-2026, Sarah Bartley | Made with <a href="https://bulma.io/" target="_blank">Bulma</a>.</p>
-    </div>
-  </footer>
-
-  <!-- JS File -->
-  <script type="text/javascript" src="assets/js/script.js"></script>
-</body>
+    </footer>
+    <!-- load JavaScript after loading all html content -->
+    <script src="assets/js/script.js"></script>
+  </body>
 </html>
