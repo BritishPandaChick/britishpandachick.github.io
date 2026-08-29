@@ -1,7 +1,7 @@
 # Sarah Bartley Portfolio Website
 My personal portfolio website.
 
-## Dependencies
+## Tech Stack
 * HTML
 * CSS
 * JavaScript 
@@ -10,11 +10,7 @@ My personal portfolio website.
 ## Instructions
 Go to [http://britishpandachick.github.io](http://britishpandachick.github.io) to see my full portfolio.
 
-## Contributing
-I will not be accepting any pull requests.
-
-## Acknowledgements 
-* Sass 
+## Acknowledgements  
 * Pixabay 
 * Skillcrush
 * Google Fonts 
