@@ -5,7 +5,7 @@ My personal portfolio website.
 * HTML
 * CSS
 * JavaScript 
-* Bootstrap 5
+* Bootstrap 
 
 ## Instructions
 Go to [http://britishpandachick.github.io](http://britishpandachick.github.io) to see my full portfolio.
