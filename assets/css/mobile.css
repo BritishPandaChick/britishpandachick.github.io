@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p, a, li {
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Open Sans', sans-serif;
   color: #333;
   line-height: 35px;
 }
@@ -39,13 +39,13 @@ header .navbar-brand {
 }
 
 #home p {
-  font-size: 16px;
+  font-size: 15px;
   padding-bottom: 15px;
 }
 
 #home ul li {
   color: #2670a3;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 #hero ul li:hover {
@@ -54,7 +54,7 @@ header .navbar-brand {
 
 /* === Projects === */
 #projects h3 {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 #projects h4 {
@@ -63,27 +63,27 @@ header .navbar-brand {
 }
 
 #projects p {
-  font-size: 16px;
+  font-size: 15px;
   padding-bottom: 15px;
 }
 
 /* === About === */ 
 #about h3 {
-  font-size: 20px;
+  font-size: 18px;
   padding-bottom: 15px;
 }
 
 #about p {
-  font-size: 16px;
+  font-size: 15px;
 }
 
 /* === Contact ===*/ 
 #contact h3 {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 #contact p {
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .social-icons {
@@ -106,7 +106,7 @@ header .navbar-brand {
 
 #footer p {
   color: #fff;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 #footer a {
@@ -114,12 +114,5 @@ header .navbar-brand {
 }
 
 #footer a:hover {
-  color: #768cb9
+  color: #768cb9;
 }
-
-/* Portfolio Branding 
-#2670a3
-#034372
-#768cb9
-#03263a
-*/
