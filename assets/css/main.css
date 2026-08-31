@@ -10,8 +10,9 @@ h1, h2, h3, h4, h5, h6 {
 
 p, a, li {
   font-family: 'Josefin Slab', serif;
-  color: #03263a;
+  color: #333;
   line-height: 35px;
+  font-size: 1.3rem;
 }
 
 a {
@@ -23,78 +24,27 @@ a:hover {
   color: #768cb9;
 }
 
-.card-title {
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
+#about, #portfolio, #contact {
+  margin-top: 4rem;
+  padding-top: 4rem;
 }
 
-.card-text {
-  font-size: 1.3rem;
-}
-
-/* == Header == */
-header .navbar {
-  background-color: #03263a;
-}
-
-header .navbar-brand .navbar-item {
-  font-family: 'Montserrat', sans-serif;
-  color: #fff;
-}
-
-header .navbar-menu .navbar-item {
-  color: #fff;
-}
-
-header .navbar .navbar-item:hover {
+/* == Navigation == */
+nav {
   background-color: #2670a3;
-  color: #034372;
 }
 
-/*=== Hero ===*/
-#hero h1 {
+/*=== Home ===*/
+.career-compass {
+  height: 100vh;
+}
+
+.hero-title {
+  font-size: 4.5rem;
+}
+
+.hero-desc {
   font-size: 2rem;
-}
-
-#hero h2 {
-  font-size: 2rem;
-  padding: 15px 0;
-}
-
-#hero p {
-  font-size: 1.5rem;
-  padding-bottom: 15px;
-}
-
-#hero .button {
-  background-color: #03263a;
-  color: #fff;
-
-}
-
-#hero .button:hover {
-  background-color: #2670a3;
-  color:#034372;
-}
-
-/* === About === */ 
-#about h3 {
-  font-size: 2rem;
-  padding-bottom: 15px;
-}
-
-#about p {
-  font-size: 1.5rem;
-}
-
-/* === Skills === */
-#skills h3 {
-  font-size: 2rem;
-  padding-bottom: 15px;
-}
-
-#skills p {
-  font-size: 1.5rem;
 }
 
 /* === Projects === */ 
@@ -107,13 +57,13 @@ header .navbar .navbar-item:hover {
   padding-bottom: 15px;
 }
 
-/* === Experience === */
-#experience h3 {
+/* === About === */ 
+#about h3 {
   font-size: 2rem;
   padding-bottom: 15px;
 }
 
-#experience p {
+#about p {
   font-size: 1.5rem;
 }
 
