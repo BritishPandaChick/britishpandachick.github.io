@@ -12,7 +12,6 @@ p, a, li {
   font-family: 'Josefin Slab', serif;
   color: #333;
   line-height: 35px;
-  font-size: 1.3rem;
 }
 
 a {
@@ -24,60 +23,70 @@ a:hover {
   color: #768cb9;
 }
 
-#about, #portfolio, #contact {
-  margin-top: 4rem;
-  padding-top: 4rem;
+/* ==== Header ==== */
+header .navbar {
+  background-color: #03263a;
 }
 
-/* == Navigation == */
-nav {
-  background-color: #2670a3;
+header .navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
 }
 
 /*=== Home ===*/
-.career-compass {
-  height: 100vh;
+#home h2 {
+  font-size: 32px;
 }
 
-.hero-title {
-  font-size: 4.5rem;
+#home p {
+  font-size: 20px;
+  padding-bottom: 15px;
 }
 
-.hero-desc {
-  font-size: 2rem;
+#home ul li {
+  color: #2670a3;
+  font-size: 20px;
 }
 
-/* === Projects === */ 
-#portfolio h3 {
-  font-size: 2rem;
+#hero ul li:hover {
+  color:#034372;
 }
 
-#portfolio p {
-  font-size: 1.5rem;
+/* === Projects === */
+#projects h3 {
+  font-size: 24px;
+}
+
+#projects h4 {
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+
+#projects p {
+  font-size: 20px;
   padding-bottom: 15px;
 }
 
 /* === About === */ 
 #about h3 {
-  font-size: 2rem;
+  font-size: 24px;
   padding-bottom: 15px;
 }
 
 #about p {
-  font-size: 1.5rem;
+  font-size: 20px;
 }
 
 /* === Contact ===*/ 
 #contact h3 {
-  font-size: 2rem;
+  font-size: 24px;
 }
 
 #contact p {
-  font-size: 1.5rem;
+  font-size: 20px;
 }
 
 .social-icons {
-  font-size: 36px;
   cursor: pointer;
 }
 
@@ -92,12 +101,12 @@ nav {
 /*=== Footer ===*/
 #footer {
   background-color: #03263a;
-  padding-bottom: 5px;
+  padding: 5px 0;
 }
 
 #footer p {
   color: #fff;
-  font-size: 1rem;
+  font-size: 16px;
 }
 
 #footer a {
@@ -105,7 +114,7 @@ nav {
 }
 
 #footer a:hover {
-  color: #768cb9;
+  color: #768cb9
 }
 
 /* Portfolio Branding 
