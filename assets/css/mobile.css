@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p, a, li {
   font-family: 'Josefin Slab', serif;
-  color: #03263a;
+  color: #333;
   line-height: 35px;
 }
 
@@ -23,116 +23,70 @@ a:hover {
   color: #768cb9;
 }
 
-.card-title {
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-}
-
-.card-text {
-  font-size: 1.3rem;
-}
-
 /* ==== Header ==== */
 header .navbar {
   background-color: #03263a;
 }
 
-header .navbar-brand .navbar-item {
+header .navbar-brand {
   font-family: 'Montserrat', sans-serif;
   color: #fff;
 }
 
-header .navbar-menu .navbar-item {
-  color: #fff;
+/*=== Home ===*/
+#home h2 {
+  font-size: 24px;
 }
 
-header .navbar .navbar-item:hover {
-  background-color: #2670a3;
-  color: #034372;
-}
-
-/*=== Hero ===*/
-#hero h1 {
-  font-size: 1.5rem;
-}
-
-#hero h2 {
-  font-size: 1.5rem;
-  padding: 15px 0;
-}
-
-#hero p {
-  font-size: 1.3rem;
+#home p {
+  font-size: 16px;
   padding-bottom: 15px;
 }
 
-#hero .button {
-  background-color: #03263a;
-  color: #fff;
-
+#home ul li {
+  color: #2670a3;
+  font-size: 16px;
 }
 
-#hero .button:hover {
-  background-color: #2670a3;
+#hero ul li:hover {
   color:#034372;
-}
-
-/* === About === */ 
-#about h3 {
-  font-size: 1.5rem;
-  padding-bottom: 15px;
-}
-
-#about p {
-  font-size: 1.3rem;
-}
-
-/* === Skills === */
-#skills h3 {
-  font-size: 1.5rem;
-  padding-bottom: 15px;
-}
-
-#skills p {
-  font-size: 1.3rem;
 }
 
 /* === Projects === */
 #projects h3 {
-  font-size: 1.5rem;
+  font-size: 20px;
 }
 
 #projects h4 {
-  font-size: 1.5rem;
+  font-size: 18px;
   padding-bottom: 15px;
 }
 
 #projects p {
-  font-size: 1.3rem;
+  font-size: 16px;
   padding-bottom: 15px;
 }
 
-/* === Experience === */
-#experience h3 {
-  font-size: 1.5rem;
+/* === About === */ 
+#about h3 {
+  font-size: 20px;
   padding-bottom: 15px;
 }
 
-#experience p {
-  font-size: 1.3rem;
+#about p {
+  font-size: 16px;
 }
 
 /* === Contact ===*/ 
 #contact h3 {
-  font-size: 1.5rem;
+  font-size: 20px;
 }
 
 #contact p {
-  font-size: 1.3rem;
+  font-size: 16px;
 }
 
 .social-icons {
-  font-size: 36px;
   cursor: pointer;
 }
 
@@ -152,7 +106,7 @@ header .navbar .navbar-item:hover {
 
 #footer p {
   color: #fff;
-  font-size: 1rem;
+  font-size: 16px;
 }
 
 #footer a {
